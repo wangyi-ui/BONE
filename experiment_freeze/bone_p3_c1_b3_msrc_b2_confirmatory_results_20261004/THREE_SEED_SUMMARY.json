@@ -1,0 +1,104 @@
+{
+  "all_runs_complete": true,
+  "arms": [
+    "BASE",
+    "OURS_B1",
+    "OURS_B2"
+  ],
+  "dataset": "MSRC",
+  "metrics": {
+    "ACC": {
+      "B1": {
+        "mean": 0.834920634920635,
+        "std_population": 0.009784784131696795
+      },
+      "B1_minus_BASE": {
+        "mean": -0.0015873015873016187,
+        "std_population": 0.0175323190749004
+      },
+      "B2": {
+        "mean": 0.8317460317460318,
+        "std_population": 0.01365448455086131
+      },
+      "B2_gt_B1_positive_seed_count": 0,
+      "B2_gt_BASE_positive_seed_count": 1,
+      "B2_minus_B1": {
+        "mean": -0.0031746031746031633,
+        "std_population": 0.004489566864676476
+      },
+      "B2_minus_BASE": {
+        "mean": -0.004761904761904782,
+        "std_population": 0.014018668041790232
+      },
+      "BASE": {
+        "mean": 0.8365079365079365,
+        "std_population": 0.02730896910172262
+      }
+    },
+    "ARI": {
+      "B1": {
+        "mean": 0.6984131317314152,
+        "std_population": 0.016617571979264112
+      },
+      "B1_minus_BASE": {
+        "mean": -0.006292875962337112,
+        "std_population": 0.027273233806082865
+      },
+      "B2": {
+        "mean": 0.6952004765555874,
+        "std_population": 0.020524353157899133
+      },
+      "B2_gt_B1_positive_seed_count": 0,
+      "B2_gt_BASE_positive_seed_count": 2,
+      "B2_minus_B1": {
+        "mean": -0.0032126551758278796,
+        "std_population": 0.004433228593740678
+      },
+      "B2_minus_BASE": {
+        "mean": -0.009505531138164991,
+        "std_population": 0.024239904568570295
+      },
+      "BASE": {
+        "mean": 0.7047060076937525,
+        "std_population": 0.03542921264397065
+      }
+    },
+    "NMI": {
+      "B1": {
+        "mean": 0.7561111606724449,
+        "std_population": 0.016215573596714446
+      },
+      "B1_minus_BASE": {
+        "mean": -0.008622749374352997,
+        "std_population": 0.026867121594528996
+      },
+      "B2": {
+        "mean": 0.7509579550660419,
+        "std_population": 0.019111574816658254
+      },
+      "B2_gt_B1_positive_seed_count": 1,
+      "B2_gt_BASE_positive_seed_count": 0,
+      "B2_minus_B1": {
+        "mean": -0.005153205606402977,
+        "std_population": 0.009916002892462323
+      },
+      "B2_minus_BASE": {
+        "mean": -0.013775954980755975,
+        "std_population": 0.018261971448385577
+      },
+      "BASE": {
+        "mean": 0.7647339100467979,
+        "std_population": 0.025296603973533317
+      }
+    }
+  },
+  "parameter_retuning_allowed": false,
+  "population_std_ddof": 0,
+  "run_count": 9,
+  "seeds": [
+    60,
+    70,
+    90
+  ],
+  "status": "REPORTING_ONLY"
+}

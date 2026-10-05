@@ -1,0 +1,43 @@
+The first 12-cell completion audit failed on confirmatory cells
+because it compared JSON dictionary key ORDER:
+
+tuple(initial_state_sha256.keys()) == expected_arms
+
+The confirmatory dictionaries contain the exact same four arm keys
+but their serialized key order is:
+
+CURRENT
+MEAN_BUDGET
+SHUFFLE_BUDGET
+TRUE_BUDGET
+
+whereas the protocol arm execution order is:
+
+CURRENT
+TRUE_BUDGET
+MEAN_BUDGET
+SHUFFLE_BUDGET
+
+Dictionary key order is not a scientific invariant.
+
+The correct audit compares the arm KEY SET:
+
+set(initial_state_sha256.keys()) == set(expected_arms)
+
+The same set-based contract is applied to semantic-step and
+native-order dictionaries.
+
+The ordered audit["arms"] and BRANCHES_COMPLETE["arms"] lists
+remain required to exactly match the frozen protocol order.
+
+Classification:
+
+COMPLETION_AUDIT_DICT_KEY_ORDER_FALSE_POSITIVE
+
+No experiment was rerun.
+
+No model source was modified.
+
+No GT was read.
+
+No ACC/NMI/ARI was computed.

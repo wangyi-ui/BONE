@@ -1,0 +1,22 @@
+PARENT FORMAL PROTOCOL:
+
+experiment_freeze/
+bone_p3_c0_cross_dataset_formal_protocol_20261001
+
+PARENT ENGINEERING VALIDATION:
+
+experiment_freeze/
+bone_p3_b1_caltech_engineering_smoke_pass_20261001
+
+FORMAL RESULT ROOT:
+
+outputs/bone_p3/p3_c0_formal/caltech_5v
+
+SEEDS:
+
+20
+30
+50
+
+No formal result was selected or discarded based
+on BASE-vs-OURS performance.

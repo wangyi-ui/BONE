@@ -1,0 +1,73 @@
+P3-C3-A0 UCAB IMPLEMENTED FORM
+
+1. Frozen semantic direction
+
+T_rel = WHAT
+
+
+2. Relative action validity
+
+m_i = sum_s U_is
+
+if m_i > 0:
+
+alpha_is = U_is / m_i
+
+else:
+
+alpha_is = 0
+
+
+3. Absolute utility-conditioned action budget
+
+B_i =
+1 -
+exp(
+    mean_s log(1-U_is)
+)
+
+implemented stably in float64 log-domain.
+
+
+4. UCAB semantic objective
+
+ell_bar_i =
+(1/V)
+sum_v
+sum_s
+alpha_is * ell^v_is
+
+L_UCAB =
+(1/N_q)
+sum_i
+B_i * ell_bar_i
+
+
+5. Critical non-normalization rule
+
+L_UCAB MUST NOT divide by:
+
+sum_i B_i
+
+or:
+
+sum_i,s U_is
+
+
+6. CURRENT
+
+CURRENT uses the exact frozen legacy semantic epoch.
+
+No rewritten CURRENT implementation is used for formal execution.
+
+
+7. Unified interpretation
+
+T_rel:
+WHAT semantic relation should be encouraged.
+
+alpha(U):
+WHICH complementary actions are relatively trustworthy.
+
+B(U):
+HOW MUCH semantic intervention this sample should receive.

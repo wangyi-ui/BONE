@@ -1,0 +1,17 @@
+{
+  "AUC_U_DERANGEMENT": 0.5404094827586208,
+  "AUC_U_TRUE": 0.7343141685205784,
+  "Delta_AUC_U": 0.19390468576195763,
+  "NULL_SEED": 20,
+  "REL_AUC": 0.9311624593147917,
+  "REL_GAP": 0.5637902244925499,
+  "REL_MEAN_DIFF": 0.0623156800866127,
+  "REL_MEAN_SAME": 0.6261059045791626,
+  "adjacent_shift_same_fraction": 0.9666666666666667,
+  "derangement_same_class_fraction": 0.14795918367346939,
+  "fixed_point_count": 0,
+  "null_control_version": "global_derangement_v2",
+  "permutation_sha256": "e97d91e550d9c3f2d9c7c85a922b72d47cb3b0223cf2e04dee3e90bc2951a155",
+  "random_same_class_reference": 0.14285714285714285,
+  "verdict": "PASS"
+}

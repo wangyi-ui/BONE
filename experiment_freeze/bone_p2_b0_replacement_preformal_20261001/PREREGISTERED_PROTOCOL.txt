@@ -1,0 +1,174 @@
+BONE-P2-B0 Native-Consistency Replacement Diagnostic
+=====================================================
+
+STATUS:
+PRE-FORMAL FROZEN
+
+DATASET:
+MSRC
+
+TRAINING SEED:
+20
+
+CORRUPTION SEED:
+20
+
+INITIAL MODEL:
+outputs/bone_p2/p2_a0_msrc_seed20/carrier_model_state.pt
+
+INITIAL MODEL SHA256:
+4cd943984c4d31d5655767706241695b6ad3cd3825c62d986a3e05e21eafd42f
+
+SCIENTIFIC QUESTION:
+
+Does native BONE unconditional inter-view consistency overlap
+or conflict with utility-conditioned semantic relation action?
+
+FOUR CONDITIONS:
+
+NATIVE
+= frozen P2-A1 seed20 BASE
+= no Phase A
+= native inter-view + native regularization
+
+ADDON_TRUE_U
+= frozen P2-A1 seed20 TRUE_U
+= TRUE_U Phase A
+= native inter-view + native regularization
+
+REG_ONLY
+= no Phase A
+= Phase B only:
+  model.reg * con_reg_loss(assign_matrices)
+
+REPLACE_TRUE_U
+= exact P2-A1 TRUE_U Phase A
+= Phase B only:
+  model.reg * con_reg_loss(assign_matrices)
+
+ONLY NEWLY TRAINED ARMS:
+REG_ONLY
+REPLACE_TRUE_U
+
+NATIVE and ADDON_TRUE_U MUST NOT be retrained.
+
+REPLACEMENT CONTRACT:
+
+con_inter_view call count:
+REG_ONLY = 0
+REPLACE_TRUE_U = 0
+
+Native BONE implementation remains unchanged.
+
+REPLACE_TRUE_U Phase A:
+
+T_rel determines WHAT.
+U_cycle determines WHETHER.
+
+U/T frozen.
+
+semantic Adam lr = 1e-4
+
+one semantic optimizer.step per epoch
+
+20 refinement epochs
+
+Phase A -> Phase B
+
+REG_ONLY / REPLACE Phase B:
+
+L_phaseB =
+model.reg * con_reg_loss(assign_matrices)
+
+No new lambda.
+
+No con_inter_view.
+
+PARENT AUTHORITATIVE CONTROLS:
+
+NATIVE / BASE:
+ACC    = 0.7476190476190476
+NMI    = 0.6986215725375967
+Purity = 0.7761904761904762
+
+ADDON_TRUE_U:
+ACC    = 0.7571428571428571
+NMI    = 0.7026061011820387
+Purity = 0.780952380952381
+
+PRIMARY P2-B0 GATE:
+
+Delta_REPLACE_ADDON_ACC =
+ACC(REPLACE_TRUE_U) - ACC(ADDON_TRUE_U)
+
+Delta_REPLACE_REG_ACC =
+ACC(REPLACE_TRUE_U) - ACC(REG_ONLY)
+
+Interaction_ACC =
+[
+ ACC(REPLACE_TRUE_U)
+ -
+ ACC(REG_ONLY)
+]
+-
+[
+ ACC(ADDON_TRUE_U)
+ -
+ ACC(NATIVE)
+]
+
+P2_B0_REPLACEMENT_GO iff:
+
+Delta_REPLACE_ADDON_ACC >= 0.01
+
+AND
+
+Delta_REPLACE_REG_ACC >= 0.01
+
+AND
+
+Interaction_ACC > 0
+
+AND
+
+(
+ Delta_REPLACE_ADDON_NMI > 0
+ OR
+ Delta_REPLACE_ADDON_Purity > 0
+)
+
+FAIL-CLOSED:
+
+If:
+Delta_REPLACE_ADDON_ACC <= 0
+
+then:
+P2_B0_REPLACEMENT_FAIL_CLOSED
+
+Otherwise:
+P2_B0_REPLACEMENT_INCONCLUSIVE
+
+IMPORTANT INTERPRETATION:
+
+If REG_ONLY > NATIVE,
+removal-only contributes benefit and replacement gain
+must not be attributed entirely to U/T.
+
+If REPLACE_TRUE_U <= REG_ONLY,
+there is no evidence that U/T adds value in replacement form.
+
+If REPLACE_TRUE_U <= ADDON_TRUE_U,
+there is no evidence that removing native inter-view consistency
+improves the already validated add-on architecture.
+
+NO POST-HOC:
+No gate modification.
+No LR tuning.
+No epoch tuning.
+No U threshold.
+No U_tilde.
+No top-k.
+No memory.
+No pseudo-label.
+No feature/fusion gating.
+No new module.

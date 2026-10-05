@@ -1,0 +1,12 @@
+FAILED_ATTEMPT_COUNT=1
+DATASET=ALOI
+TRAINING_SEED=20
+FAILURE=FORMAL_RUNNER_QUERY_UTILITY_WIRING_BUG
+PARTIAL_OUTPUT=/root/autodl-tmp/BONE/outputs/bone_p3/p3_c3_a0_ucab/dataset_validation/aloi/seed20
+
+ARTIFACTS:
+479a88bc70b535b1476c9edff6fc4d464917268ae7214e44c573e527c0a55f7a  /root/autodl-tmp/BONE/outputs/bone_p3/p3_c3_a0_ucab/dataset_validation/aloi/seed20/RUN_CONFIG.json
+b048c42df14fdf7b8140f885b297bd953bb6c76603d773f9eeffc92b247e74b3  /root/autodl-tmp/BONE/outputs/bone_p3/p3_c3_a0_ucab/dataset_validation/aloi/seed20/carrier/carrier_model_state.pt
+
+LOG:
+e976f46d6d7b1a9636ef4d324337e107ff2e26370eb7bc3270c8fd273dfda326  /root/autodl-tmp/BONE/logs/bone_p3/p3_c3_a0_ucab/dataset_validation/aloi_seed20_20261005_001122.log

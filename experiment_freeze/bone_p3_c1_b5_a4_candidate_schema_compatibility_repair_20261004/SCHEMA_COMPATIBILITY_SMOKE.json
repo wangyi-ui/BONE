@@ -1,0 +1,42 @@
+{
+  "CCV_SGD_MOMENTUM_1e-3": {
+    "SCHEMA_COMPATIBILITY_SMOKE": "PASS",
+    "SGD_CONSTRUCTION_SMOKE": "PASS",
+    "MODEL_LOAD_SMOKE": "PASS",
+    "MODEL_STATE_PARITY": true,
+    "frozen_evaluator_runtime_path": "formal_candidate_evaluator_r2._evaluate_with_runner",
+    "frozen_evaluator_runtime_branch_count": 4,
+    "b1_candidate_config_constructed": false,
+    "optimizer_class": "SGD",
+    "lr": 0.001,
+    "momentum": 0.9,
+    "weight_decay": 0.0,
+    "nesterov": false,
+    "U_cycle_detached": true,
+    "T_rel_detached": true,
+    "OPTIMIZER_STEP_EXECUTED": false,
+    "CANDIDATE_ARTIFACT_CREATED": false,
+    "FULL_GT_USED": false,
+    "FORMAL_METRICS_READ": false
+  },
+  "ALOI_SGD_MOMENTUM_1e-3": {
+    "SCHEMA_COMPATIBILITY_SMOKE": "PASS",
+    "SGD_CONSTRUCTION_SMOKE": "PASS",
+    "MODEL_LOAD_SMOKE": "PASS",
+    "MODEL_STATE_PARITY": true,
+    "frozen_evaluator_runtime_path": "formal_candidate_evaluator_r2._evaluate_with_runner",
+    "frozen_evaluator_runtime_branch_count": 4,
+    "b1_candidate_config_constructed": false,
+    "optimizer_class": "SGD",
+    "lr": 0.001,
+    "momentum": 0.9,
+    "weight_decay": 0.0,
+    "nesterov": false,
+    "U_cycle_detached": true,
+    "T_rel_detached": true,
+    "OPTIMIZER_STEP_EXECUTED": false,
+    "CANDIDATE_ARTIFACT_CREATED": false,
+    "FULL_GT_USED": false,
+    "FORMAL_METRICS_READ": false
+  }
+}

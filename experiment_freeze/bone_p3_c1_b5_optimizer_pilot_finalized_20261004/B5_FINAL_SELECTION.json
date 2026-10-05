@@ -1,0 +1,65 @@
+{
+  "ACC_used_for_selection": false,
+  "ARI_used_for_selection": false,
+  "NMI_used_for_selection": false,
+  "candidate_pool": {
+    "ALOI": 9,
+    "AdamW_real": 6,
+    "Adam_reused": 6,
+    "CCV": 9,
+    "SGD_MOMENTUM_real": 6,
+    "total": 18
+  },
+  "formal_metrics_read": false,
+  "full_gt_used": false,
+  "optimizer_family_changed_from_B1": false,
+  "selection_basis": "PRE_GT_J_ONLY",
+  "selection_rule": [
+    "max round(mean_delta_J, 12)",
+    "max round(worst_delta_J, 12)",
+    "max positive_count",
+    "optimizer priority Adam > AdamW > SGD_MOMENTUM",
+    "smaller LR within same optimizer"
+  ],
+  "status": "P3_C1_B5_OPTIMIZER_PILOT_FINAL_SELECTION",
+  "winners": {
+    "ALOI": {
+      "DeltaJ": {
+        "11A": -0.08771575028914436,
+        "11B": 0.011877078159037158,
+        "37A": 0.2972514665195989,
+        "37B": 0.027576409414716174
+      },
+      "candidate": {
+        "dataset": "ALOI",
+        "optimizer_name": "Adam",
+        "semantic_exposure": 1,
+        "semantic_lr": 0.0001
+      },
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "mean_delta_J": 0.062247300951051965,
+      "positive_count": 3,
+      "worst_delta_J": -0.08771575028914436
+    },
+    "CCV": {
+      "DeltaJ": {
+        "11A": 0.22417085876863418,
+        "11B": -0.26563430612575956,
+        "37A": -0.10432485080798537,
+        "37B": 0.3057970315335932
+      },
+      "candidate": {
+        "dataset": "CCV",
+        "optimizer_name": "Adam",
+        "semantic_exposure": 3,
+        "semantic_lr": 1e-05
+      },
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "mean_delta_J": 0.04000218334212062,
+      "positive_count": 2,
+      "worst_delta_J": -0.26563430612575956
+    }
+  }
+}

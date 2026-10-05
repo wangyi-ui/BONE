@@ -1,0 +1,49 @@
+{
+  "ENGINEERING_ONLY": false,
+  "FORMAL_RESULT": true,
+  "GT_loaded_before_seal": false,
+  "base_native_epochs": 20,
+  "carrier_state_sha256": "641d3af0ab11049aea5a72c904df2bc40ff81c28c223a775f532220e0c93c949",
+  "dataset": "HandWrite",
+  "full_gt_used_for_hyperparameter_selection": false,
+  "full_gt_used_for_model_selection": false,
+  "full_gt_used_for_training": false,
+  "initial_BASE_state_sha256": "641d3af0ab11049aea5a72c904df2bc40ff81c28c223a775f532220e0c93c949",
+  "initial_OURS_state_sha256": "641d3af0ab11049aea5a72c904df2bc40ff81c28c223a775f532220e0c93c949",
+  "native_hashes": {
+    "method/amv.py": "68f3edcd55e32456a5bcdbcbbc48329f19c5652dee1fc27420e2865f7068e5dc",
+    "method/bone.py": "d13ba6ba91362210f9a614f7353e9de688ff1815f075916b457df6c767a14092"
+  },
+  "native_lr": 0.01,
+  "native_order_hashes": [
+    "455edafe016f88f669d52292be301a3dde993f95a08e6527b4eac91ec66f733e",
+    "8e77f4ceb73867a234c97ef2edce566405948e2809823da8fdffa624eb90da07",
+    "f83308b894e1d6cbd77d5a54b46928ff29e22780d09f7d6ed62b180018b02d90",
+    "2c151e0c800f27b1922cbcd94c03e5733e3138895d158c38aee0a064c140f71f",
+    "c76b1976d1de8cf14dbc4f33322106156e0f7bac900773ec9f589a35ced63675",
+    "e4e1a25a20a050580789800fb6baa23d50fa8248e147b5c7eafcd1e64798a6ed",
+    "844e4c85c88891531d0435bd8b9ca31dfebbaca52b57634dc5a2975af5e639ff",
+    "58f1f04ce887920bf2ca820f239eca7ea1cd9afdf9c3768e8452e18722f92774",
+    "d2cd582881bc43804aa8904fabc0a5f64883e3928a7f89cec380df6229f0f45c",
+    "67035e360d45f2318dc4fbf4f524238eaef93ad9cedd6a36b467e7f8192192f2",
+    "9263c9b6fb7d9b9ee7b19dd1ffbd41471d4a84ebb823558753a7c07bcd591bf6",
+    "bfb5029ce8c55e1916c46142c40b033fd14719d4a39e7e7727bd9a61ccc2b48a",
+    "023a8100c9afbf7341d74ae980741208977e5176befbdf222f3387b026fec502",
+    "0b5662e7b8d231e081c478bf1c4478c3901c4c85a60f408d956dfddd05b6590d",
+    "d15a0416ca2af3d2a8515feffa12d646086472413a1070f98ef3468bfc0296d0",
+    "a01d7f9a03f8a4aeb7c271995bb9efa0803a55a4f1f5635d551bdf87838f013a",
+    "66e5db0c3af87a94f5cefb1c06942ab32b364126825b049912b356e3381a4bdf",
+    "ce53754a9374dc1a4f4aae50e086da8f351c4abe22a4109a771d4c3a26ca145e",
+    "33a7e1a27e3c2df3d7bc175868ee830b28a1e2a02c2472c9e975aacc2a6a1fb3",
+    "30c2c4f41fd8e1a296d0722a2da891784563d2250f13de21d3c030ce0eb19958"
+  ],
+  "ours_native_phase_b_epochs": 20,
+  "ours_semantic_epochs": 20,
+  "parent_hashes": {
+    "p3_a3_split": "e0557ad41e63e1b4b4541c77ea5c8adc078db0123c8df144a52fc717395528eb",
+    "p3_a4_mask": "54bf4a0fab6134cd4795b7fab95ca882f5b80194446c4ba6ad7d2fb96c7dc92e"
+  },
+  "semantic_lr": 0.0001,
+  "semantic_schedule_sha256": "a55f31946f62427e2b274aaaa6538f00bf9fd5a0722f6a9e941c39fd80a1037f",
+  "training_seed": 30
+}

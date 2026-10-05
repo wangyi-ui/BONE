@@ -1,0 +1,87 @@
+BONE P3-C0 MNIST-USPS Formal Results
+====================================
+
+STATUS:
+
+FROZEN / FORMAL RESULTS COMPLETE
+
+DATASET:
+
+MNIST-USPS
+
+TRAINING SEEDS:
+
+20
+30
+50
+
+FORMAL SCHEDULE:
+
+100 native epochs shared carrier
+
+BASE:
++20 native BONE epochs
+
+OURS:
+20 alternating refinement epochs
+
+Phase A:
+utility-conditioned semantic purification
+
+Phase B:
+untouched native BONE structural consolidation
+
+Sparse labels determine WHAT;
+U_cycle determines WHETHER.
+
+GT ISOLATION:
+
+Full GT was not used before pre-GT seal.
+
+REPORTING RULE:
+
+All fixed seeds are retained.
+
+Negative, zero, and positive deltas are preserved.
+
+No performance value was used for method selection,
+hyperparameter selection, or freeze eligibility.
+
+THREE-SEED SUMMARY:
+
+ACC:
+BASE mean = 0.9794
+OURS mean = 0.9780666666666668
+mean delta = -0.0013333333333333346
+positive seeds = 1/3
+
+NMI:
+BASE mean = 0.9447414811445456
+OURS mean = 0.9421924163162395
+mean delta = -0.002549064828306228
+positive seeds = 1/3
+
+Purity:
+BASE mean = 0.9794
+OURS mean = 0.9780666666666668
+mean delta = -0.0013333333333333346
+positive seeds = 1/3
+
+ARI:
+BASE mean = 0.9548206148036731
+OURS mean = 0.9519615924105612
+mean delta = -0.002859022393111902
+positive seeds = 1/3
+
+INTERPRETATION:
+
+Small mean degradation under the frozen protocol
+in a very high-baseline regime.
+
+This is descriptive only and was not used as a
+performance selection gate.
+
+PAPER USE:
+
+This frozen three-seed mean/std summary is the
+MNIST-USPS formal paper-result candidate.

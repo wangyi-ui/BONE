@@ -1,0 +1,167 @@
+BONE-P3-A3
+Cross-Dataset Deterministic Sparse-Label Protocol
+=================================================
+
+STATUS:
+FROZEN
+
+SUPERVISION BUDGET:
+
+Exactly 2 labels per class.
+
+L = 2*K.
+
+Do NOT describe this globally as 1% labels.
+
+ROW-ID SEMANTICS:
+
+RAW_FILE_ROW_ID
+
+TRAINING MUST NOT reinterpret sparse IDs as
+post-shuffle minibatch positions.
+
+--------------------------------------------------
+MSRC
+--------------------------------------------------
+
+split_mode = LEGACY_FROZEN
+
+IDs:
+
+17
+20
+30
+42
+60
+81
+96
+107
+139
+142
+153
+175
+182
+201
+
+Targets:
+
+0 0
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+
+Historical split provenance is partial.
+The split itself is immutable.
+
+--------------------------------------------------
+OTHER READY DATASETS
+--------------------------------------------------
+
+split_mode = P3_A3_HASH_STRATIFIED_V1
+
+Namespace:
+
+BONE_P3_A3_V1
+
+For each dataset d and raw row i:
+
+payload =
+"BONE_P3_A3_V1|{dataset_name}|{row_id}"
+
+score =
+SHA256(payload UTF-8)
+
+Within each canonical class:
+
+sort by:
+(sha256_digest, raw_row_id)
+
+select first 2 rows.
+
+No RNG.
+No split seed.
+Independent of:
+training seed
+corruption seed
+DataLoader seed
+features
+model predictions
+U_cycle
+T_rel
+
+--------------------------------------------------
+CURRENT READY DATASETS
+--------------------------------------------------
+
+MNIST-USPS:
+K=10
+L=20
+L/N=0.004
+
+BDGP:
+K=5
+L=10
+L/N=0.004
+
+Caltech-5V:
+K=7
+L=14
+L/N=0.01
+
+HandWrite:
+K=10
+L=20
+L/N=0.01
+
+COIL20:
+K=20
+L=40
+L/N=0.027777777777...
+
+MSRC:
+K=7
+L=14
+L/N=0.066666666666...
+
+ALOI:
+K=100
+L=200
+L/N=0.018518518518...
+
+ALOI MUST use actual K=100.
+
+--------------------------------------------------
+BLOCKED
+--------------------------------------------------
+
+CCV:
+BLOCKED_MISSING_DATA
+
+YouTubeFace50:
+not primary formal dataset and currently missing data
+
+--------------------------------------------------
+GT BOUNDARY
+--------------------------------------------------
+
+Full GT may be read only by the offline
+sparse-split materializer.
+
+After split freeze:
+
+training receives only:
+
+labeled_ids
+labeled_targets
+
+Full GT is post-seal evaluation only.
+
+--------------------------------------------------
+NEXT
+--------------------------------------------------
+
+P3-A4:
+Cross-Dataset Weak-Quality Corruption Portability Protocol.

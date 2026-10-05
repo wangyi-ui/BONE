@@ -1,0 +1,139 @@
+{
+  "stage": "BONE-P2-A1B",
+  "status": "P2_A1B_MULTI_SEED_PASS",
+  "training_seeds": [
+    20,
+    30,
+    50
+  ],
+  "corruption_seed": 20,
+  "rows": [
+    {
+      "seed": 20,
+      "P2_A0": {
+        "AUC_U_TRUE": 0.7343141685205784,
+        "AUC_U_DERANGEMENT": 0.5404094827586208,
+        "Delta_AUC_U": 0.19390468576195763,
+        "REL_AUC": 0.9311624593147917,
+        "REL_GAP": 0.5637902244925499,
+        "verdict": "PASS"
+      },
+      "P2_A1": {
+        "verdict": "P2_A1_INCONCLUSIVE",
+        "BASE": {
+          "ACC": 0.7476190476190476,
+          "NMI": 0.6986215725375967,
+          "Purity": 0.7761904761904762
+        },
+        "TRUE_UNIFORM": {
+          "ACC": 0.7238095238095238,
+          "NMI": 0.6795195130612897,
+          "Purity": 0.7571428571428571
+        },
+        "TRUE_U": {
+          "ACC": 0.7571428571428571,
+          "NMI": 0.7026061011820387,
+          "Purity": 0.780952380952381
+        },
+        "SHUFFLE_REL": {
+          "ACC": 0.7476190476190476,
+          "NMI": 0.6940710725720963,
+          "Purity": 0.7761904761904762
+        },
+        "Delta_TRUE_BASE_ACC": 0.00952380952380949,
+        "Delta_TRUE_BASE_NMI": 0.003984528644441987,
+        "Delta_TRUE_BASE_PURITY": 0.004761904761904745,
+        "Delta_TRUE_UNIFORM_ACC": 0.033333333333333326,
+        "Delta_TRUE_SHUFFLE_ACC": 0.00952380952380949
+      }
+    },
+    {
+      "seed": 30,
+      "P2_A0": {
+        "AUC_U_TRUE": 0.7481820556174137,
+        "AUC_U_DERANGEMENT": 0.5171416003409075,
+        "Delta_AUC_U": 0.23104045527650618,
+        "REL_AUC": 0.9336149000416493,
+        "REL_GAP": 0.45273954421281815,
+        "verdict": "PASS"
+      },
+      "P2_A1": {
+        "verdict": "P2_A1_GO",
+        "BASE": {
+          "ACC": 0.7095238095238096,
+          "NMI": 0.6186544645343223,
+          "Purity": 0.7095238095238096
+        },
+        "TRUE_UNIFORM": {
+          "ACC": 0.7095238095238096,
+          "NMI": 0.6425700766060053,
+          "Purity": 0.7095238095238096
+        },
+        "TRUE_U": {
+          "ACC": 0.7238095238095238,
+          "NMI": 0.6487197254204665,
+          "Purity": 0.7238095238095238
+        },
+        "SHUFFLE_REL": {
+          "ACC": 0.7095238095238096,
+          "NMI": 0.6189246006514879,
+          "Purity": 0.7095238095238096
+        },
+        "Delta_TRUE_BASE_ACC": 0.014285714285714235,
+        "Delta_TRUE_BASE_NMI": 0.03006526088614425,
+        "Delta_TRUE_BASE_PURITY": 0.014285714285714235,
+        "Delta_TRUE_UNIFORM_ACC": 0.014285714285714235,
+        "Delta_TRUE_SHUFFLE_ACC": 0.014285714285714235
+      }
+    },
+    {
+      "seed": 50,
+      "P2_A0": {
+        "AUC_U_TRUE": 0.6273134967090256,
+        "AUC_U_DERANGEMENT": 0.5034501296230145,
+        "Delta_AUC_U": 0.12386336708601109,
+        "REL_AUC": 0.9497732908356086,
+        "REL_GAP": 0.577095627784729,
+        "verdict": "PASS"
+      },
+      "P2_A1": {
+        "verdict": "P2_A1_INCONCLUSIVE",
+        "BASE": {
+          "ACC": 0.861904761904762,
+          "NMI": 0.7837504479448585,
+          "Purity": 0.861904761904762
+        },
+        "TRUE_UNIFORM": {
+          "ACC": 0.8666666666666667,
+          "NMI": 0.7871793502332559,
+          "Purity": 0.8666666666666667
+        },
+        "TRUE_U": {
+          "ACC": 0.8761904761904762,
+          "NMI": 0.7945188891181028,
+          "Purity": 0.8761904761904762
+        },
+        "SHUFFLE_REL": {
+          "ACC": 0.8666666666666667,
+          "NMI": 0.7875214576577902,
+          "Purity": 0.8666666666666667
+        },
+        "Delta_TRUE_BASE_ACC": 0.014285714285714235,
+        "Delta_TRUE_BASE_NMI": 0.01076844117324427,
+        "Delta_TRUE_BASE_PURITY": 0.014285714285714235,
+        "Delta_TRUE_UNIFORM_ACC": 0.00952380952380949,
+        "Delta_TRUE_SHUFFLE_ACC": 0.00952380952380949
+      }
+    }
+  ],
+  "multi_seed": {
+    "positive_TRUE_U_minus_BASE_count": 3,
+    "positive_TRUE_U_minus_TRUE_UNIFORM_count": 3,
+    "positive_TRUE_U_minus_SHUFFLE_REL_count": 3,
+    "mean_Delta_ACC_TRUE_U_minus_BASE": 0.012698412698412653,
+    "mean_Delta_ACC_TRUE_U_minus_TRUE_UNIFORM": 0.019047619047619018,
+    "mean_Delta_ACC_TRUE_U_minus_SHUFFLE_REL": 0.011111111111111072,
+    "mean_Delta_NMI_TRUE_U_minus_BASE": 0.01493941023461017,
+    "mean_Delta_Purity_TRUE_U_minus_BASE": 0.011111111111111072
+  }
+}

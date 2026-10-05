@@ -1,0 +1,151 @@
+{
+  "CURRENT_NORMALIZED_ACTION_SCALE_explanation": "1.0 because global D=sum(U) cancels common U scale; it is a normalized loss coefficient, not retained evidence mass.",
+  "MASS_RETENTION_FACTOR_definition": "sum_{i,s} U_is/(Nq*S), using the outer U action population in the actual loss before global normalization.",
+  "dataset_count": 8,
+  "descriptive_spearman": [
+    {
+      "descriptive_only": true,
+      "n": 24,
+      "p_value": 0.0003372057269209726,
+      "rho": -0.6704347826086956,
+      "x": "MASS_RETENTION_FACTOR",
+      "y": "query_flip_rate"
+    },
+    {
+      "descriptive_only": true,
+      "n": 24,
+      "p_value": 4.331339732162825e-05,
+      "rho": -0.7347826086956522,
+      "x": "MASS_RETENTION_FACTOR",
+      "y": "abstained_flip_rate"
+    },
+    {
+      "descriptive_only": true,
+      "n": 24,
+      "p_value": 0.00012214433051770484,
+      "rho": 0.7043478260869565,
+      "x": "MASS_RETENTION_FACTOR",
+      "y": "agreement_ari_query"
+    },
+    {
+      "descriptive_only": true,
+      "n": 24,
+      "p_value": 0.07045361689375704,
+      "rho": -0.3756521739130434,
+      "x": "utility_coverage",
+      "y": "query_flip_rate"
+    }
+  ],
+  "pair_count": 24,
+  "seeds": [
+    20,
+    30,
+    50
+  ],
+  "three_seed_means": [
+    {
+      "AGR_ARI": 0.6261133758809333,
+      "AGR_NMI": 0.7636009650231405,
+      "DATASET": "ALOI",
+      "FLIP_ALL": 0.22899371069182392,
+      "FLIP_ZERO": 0.4483242110968413,
+      "FLIP_ZERO_SHARE": 0.7785430124264433,
+      "MASS_RETENTION": 0.3024168556366327,
+      "MEAN_U": 0.3024168556366327,
+      "OCC_TV": 0.07194968553459119,
+      "U_COVER": 0.6018867924528303,
+      "WEIGHT_MASS": 19233.712018489838
+    },
+    {
+      "AGR_ARI": 0.9848791565883968,
+      "AGR_NMI": 0.9770063326343376,
+      "DATASET": "BDGP",
+      "FLIP_ALL": 0.006157965194109772,
+      "FLIP_ZERO": 0.04709222460130958,
+      "FLIP_ZERO_SHARE": 0.6944444444444445,
+      "MASS_RETENTION": 0.8970728519929939,
+      "MEAN_U": 0.8970728519929939,
+      "OCC_TV": 0.0033467202141900985,
+      "U_COVER": 0.9174029451137885,
+      "WEIGHT_MASS": 4467.42280292511
+    },
+    {
+      "AGR_ARI": 0.9267688801172064,
+      "AGR_NMI": 0.9128310294517686,
+      "DATASET": "CALTECH_5V",
+      "FLIP_ALL": 0.03318903318903319,
+      "FLIP_ZERO": 0.37641025641025644,
+      "FLIP_ZERO_SHARE": 0.19583155042076736,
+      "MASS_RETENTION": 0.8100531451938071,
+      "MEAN_U": 0.8100531451938071,
+      "OCC_TV": 0.009860509860509863,
+      "U_COVER": 0.9824434824434825,
+      "WEIGHT_MASS": 22454.67318477233
+    },
+    {
+      "AGR_ARI": 0.6991292669626605,
+      "AGR_NMI": 0.7322724719976191,
+      "DATASET": "CCV",
+      "FLIP_ALL": 0.17842467448883612,
+      "FLIP_ZERO": 0.38587883209203083,
+      "FLIP_ZERO_SHARE": 0.5606569591506522,
+      "MASS_RETENTION": 0.458031074437481,
+      "MEAN_U": 0.458031074437481,
+      "OCC_TV": 0.04505173523441755,
+      "U_COVER": 0.7412248131095599,
+      "WEIGHT_MASS": 18503.53934512536
+    },
+    {
+      "AGR_ARI": 0.9411589902365076,
+      "AGR_NMI": 0.9624914155990894,
+      "DATASET": "COIL20",
+      "FLIP_ALL": 0.03333333333333333,
+      "FLIP_ZERO": 0.24017042404723563,
+      "FLIP_ZERO_SHARE": 0.15549082503891692,
+      "MASS_RETENTION": 0.9205174521415952,
+      "MEAN_U": 0.9205174521415952,
+      "OCC_TV": 0.018809523809523807,
+      "U_COVER": 0.9804761904761904,
+      "WEIGHT_MASS": 7732.3465979894
+    },
+    {
+      "AGR_ARI": 0.9663229462632258,
+      "AGR_NMI": 0.9626844736726587,
+      "DATASET": "HANDWRITE",
+      "FLIP_ALL": 0.015151515151515152,
+      "FLIP_ZERO": 0.3176159352629941,
+      "FLIP_ZERO_SHARE": 0.2235736137099409,
+      "MASS_RETENTION": 0.7995371172168239,
+      "MEAN_U": 0.7995371172168239,
+      "OCC_TV": 0.007912457912457907,
+      "U_COVER": 0.9893939393939394,
+      "WEIGHT_MASS": 31661.669841786224
+    },
+    {
+      "AGR_ARI": 0.97430967012685,
+      "AGR_NMI": 0.9673844640370515,
+      "DATASET": "MNIST_USPS",
+      "FLIP_ALL": 0.011646586345381528,
+      "FLIP_ZERO": 0.10048570247575223,
+      "FLIP_ZERO_SHARE": 0.6692460317460317,
+      "MASS_RETENTION": 0.9089397623915589,
+      "MEAN_U": 0.9089397623915589,
+      "OCC_TV": 0.005220883534136546,
+      "U_COVER": 0.9230254350736278,
+      "WEIGHT_MASS": 9053.040033419928
+    },
+    {
+      "AGR_ARI": 0.9363239953663226,
+      "AGR_NMI": 0.9393435705375307,
+      "DATASET": "MSRC",
+      "FLIP_ALL": 0.027210884353741496,
+      "FLIP_ZERO": 0.25,
+      "FLIP_ZERO_SHARE": 0.4226190476190476,
+      "MASS_RETENTION": 0.8550657710723595,
+      "MEAN_U": 0.8550657710723595,
+      "OCC_TV": 0.013605442176870748,
+      "U_COVER": 0.9778911564625851,
+      "WEIGHT_MASS": 1005.5573467810949
+    }
+  ]
+}

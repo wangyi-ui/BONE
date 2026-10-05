@@ -1,0 +1,7 @@
+COMMAND=PYTHONPATH=/root/autodl-tmp/BONE /root/autodl-tmp/conda_envs/bone/bin/python -m pytest -q tests/test_p3_c1_b5_a4_candidate_schema_compatibility.py tests/test_p3_c1_b5_a3_frozen_evaluator_api_wiring.py tests/test_p3_c1_b5_a2_training_wiring.py tests/test_p3_c1_b5_a1_authorization.py tests/test_p3_c1_b5_optimizer_pilot.py
+TEST_COUNT=70
+TEST_STATUS=PASS
+TESTS_DO_NOT_EXECUTE_OPTIMIZER_STEP=true
+TESTS_DO_NOT_RUN_FULL_CANDIDATE=true
+TESTS_DO_NOT_CREATE_CANDIDATE_ARTIFACT=true
+TESTS_DO_NOT_PRODUCE_SELECTION_EVIDENCE=true

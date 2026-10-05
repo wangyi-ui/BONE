@@ -1,0 +1,12 @@
+{
+  "final_prediction_parity": true,
+  "epoch_count": 20,
+  "global_inter_conflict_count": 0,
+  "high_gt_low_epoch_count": 9,
+  "mean_high_minus_low": 0.008395618782378734,
+  "low_conflict_rate": 0.0,
+  "high_conflict_rate": 0.0,
+  "low_minus_high_conflict_rate": 0.0,
+  "metrics_sha256": "e9a772009a28dbfcd94a1c9154b01d29357083fd6158341424b06e58bf93752c",
+  "verdict": "P2_C0_NO_ARBITRATION_EVIDENCE"
+}

@@ -1,0 +1,49 @@
+{
+  "ENGINEERING_ONLY": false,
+  "FORMAL_RESULT": true,
+  "GT_loaded_before_seal": false,
+  "base_native_epochs": 20,
+  "carrier_state_sha256": "bd3547bf02670e8f0055268f4859e036fff04c1371d82cea09b15d770db029e7",
+  "dataset": "BDGP",
+  "full_gt_used_for_hyperparameter_selection": false,
+  "full_gt_used_for_model_selection": false,
+  "full_gt_used_for_training": false,
+  "initial_BASE_state_sha256": "bd3547bf02670e8f0055268f4859e036fff04c1371d82cea09b15d770db029e7",
+  "initial_OURS_state_sha256": "bd3547bf02670e8f0055268f4859e036fff04c1371d82cea09b15d770db029e7",
+  "native_hashes": {
+    "method/amv.py": "68f3edcd55e32456a5bcdbcbbc48329f19c5652dee1fc27420e2865f7068e5dc",
+    "method/bone.py": "d13ba6ba91362210f9a614f7353e9de688ff1815f075916b457df6c767a14092"
+  },
+  "native_lr": 0.01,
+  "native_order_hashes": [
+    "08f5c7e145bf5a8d06dda52af707c9f43ecfa4165629fddfcd0491946df01447",
+    "fd9a45a938a03c7f80cc24e80a0debb724d4820820846b34fd753f4e2e53a968",
+    "1396692a1edeacb25320435e6fceb5bb66f4e5f9f1ba3b201b4a4ee5f217fd18",
+    "febd003eb8ad549a9376c26712387bb09a88eeb7aaa34651d39a1953719c1647",
+    "828cc7348ef55a68fdb96e20891af87775c7acc860ab7c274e2d0bcf03978475",
+    "37064358cfedb4e4abc639deae478354545f1a7bea059ada5b97e628bb73f9b4",
+    "28dcfb8a1d8ae3a7900325902b654f054d5b80cb89bb67924ad54de6536e8e23",
+    "801575f83830099bf810d585069f628bf7fa0242350487f8e4457455c9957ed4",
+    "89acd7479c42f0b57d7e5ac23f3cb3e8f7adecbb1c0e4b77092f83b0db8339e1",
+    "fee6af4a0f0a215d1275cb482920dbed5a5590f2fd4dec3a8e605ded47587875",
+    "c967e2e80f021b9368d7599fab163de73084413f9f64ad22f134375f1feeb453",
+    "e1a1516612ec2ecf09a40181eda174561517d595ed00e85eb199c8253da27dd6",
+    "05368b59fd89f13a017f76d20149c4021c59a7c8231845ad8fb3de5e13f5a808",
+    "26d46f39af662aaf585131e91d1ccf78240db20ef8e3a2aea0bb68341555d8b9",
+    "02b6cba79c449143bf4c318cf01b03437bd514c1a8bc5c530512a4376f4cb0a4",
+    "52f83ea17ea6a996a86fcaf6dca124a28c2496d6f58536b27f46efbfde27278c",
+    "593a74d1d285b1854b2da2fd05a1d24dc05168f14edb6be73aa952c79e790bd0",
+    "98a71c80667313bbdd5f43b4cfb8cecc59ef94281ec67938bbf22a26cf96391b",
+    "ed758b81a1782f1a84f5fa96f26bdaa1f038d7b98723dadd44fd973884ed1ffa",
+    "a868a5032ac579ed16b02a4908891d3160e42d06a4a97bed37a06e43b14a1017"
+  ],
+  "ours_native_phase_b_epochs": 20,
+  "ours_semantic_epochs": 20,
+  "parent_hashes": {
+    "p3_a3_split": "c17e4e699f4244356b601b850328b8a01c1443d77a08ce8646e81f990a981756",
+    "p3_a4_mask": "b552d27d0f79547edbd53622d80d476bf781ea253b1d23649f2964949345a580"
+  },
+  "semantic_lr": 0.0001,
+  "semantic_schedule_sha256": "26f80991a7e71a16315d2a1f31fde452f4a23f429b6a98ad760d0705543c3223",
+  "training_seed": 30
+}

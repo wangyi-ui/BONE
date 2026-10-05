@@ -1,0 +1,42 @@
+P3-C1-B1-A2 PREREGISTERED UPPER-LR BOUNDARY EXTENSION TEST RESULTS
+
+NEW_EXTENSION_TESTS
+command=/root/autodl-tmp/conda_envs/bone/bin/python -m pytest -q experiments/utility_relation/p3_c1_b1_optuna/test_boundary_extension_protocol.py experiments/utility_relation/p3_c1_b1_optuna/test_boundary_extension_runner.py experiments/utility_relation/p3_c1_b1_optuna/test_boundary_extension_candidate_reuse.py experiments/utility_relation/p3_c1_b1_optuna/test_boundary_extension_finalizer.py experiments/utility_relation/p3_c1_b1_optuna/test_boundary_extension_no_gt.py experiments/utility_relation/p3_c1_b1_optuna/test_boundary_extension_parent_integrity.py
+result=32 passed in 3.97s
+status=PASS
+
+APPLICABLE_REGRESSION
+command=/root/autodl-tmp/conda_envs/bone/bin/python -m pytest -q experiments/utility_relation/p3_c1_b1_optuna --deselect experiments/utility_relation/p3_c1_b1_optuna/test_formal_carrier_no_gt.py::test_real_formal_output_namespace_is_not_created_by_tests --deselect experiments/utility_relation/p3_c1_b1_optuna/test_no_training_side_effects.py::test_only_explicit_implementation_files_are_present
+result=271 passed, 2 deselected in 31.94s
+status=PASS
+
+DESELECTIONS
+test_formal_carrier_no_gt.py::test_real_formal_output_namespace_is_not_created_by_tests=historical phase-only assertion that predates the existing formal artifact namespace
+test_no_training_side_effects.py::test_only_explicit_implementation_files_are_present=historical phase-only source allowlist that predates this explicitly authorized append-only extension implementation
+
+COVERAGE
+exact_grid=PASS
+identical_eight_dataset_grid=PASS
+no_lower_extension=PASS
+no_lr_above_1e3=PASS
+no_second_extension=PASS
+a2_context_route=PASS
+aloi_ccv_a2_route=PASS
+a2_feasibility_exact=PASS
+base_cache_reuse=PASS
+original_25_not_rerun=PASS
+exact_five_study=PASS
+resume_2_to_5=PASS
+duplicate_prevention=PASS
+exact_25_plus_5_finalizer=PASS
+frozen_rounded_lexicographic_selection=PASS
+all_tie_breaks=PASS
+no_gt=PASS
+no_acc_nmi_ari_selection=PASS
+parent_integrity=PASS
+
+REAL_TRAINING_RUN=false
+REAL_EXTENSION_CANDIDATES_RUN=0
+GPU_USED=false
+FORMAL_SEEDS_20_30_50_RUN=false
+FULL_GT_USED=false

@@ -1,0 +1,20 @@
+{
+  "a1_freeze_unchanged": true,
+  "a2_freeze_unchanged": true,
+  "b1_b2_frozen_source_modified": false,
+  "b5_preregistration_unchanged": true,
+  "failed_invocation_artifact_count": 0,
+  "formal_metrics_read": false,
+  "full_gt_used": false,
+  "gt_firewall_changed": false,
+  "j_definition_changed": false,
+  "method_amv_unchanged": true,
+  "method_bone_unchanged": true,
+  "model_loading_path_parity": true,
+  "optimizer_grid_changed": false,
+  "scientific_protocol_changed": false,
+  "search_space_changed": false,
+  "selection_rule_changed": false,
+  "semantic_exposure_changed": false,
+  "valid_real_candidate_count": 0
+}

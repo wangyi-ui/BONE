@@ -1,0 +1,99 @@
+{
+  "acc_used_for_selection": false,
+  "ari_used_for_selection": false,
+  "datasets": [
+    {
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/handwrite/candidates/lr_1.0000000000000001e-05__es_1/candidate_evaluation.json",
+      "dataset": "HandWrite",
+      "mean_delta_j": 0.07686128676769527,
+      "positive_count": 2,
+      "semantic_exposure": 1,
+      "semantic_lr": 1e-05,
+      "source": "MAIN_GRID",
+      "worst_delta_j": -0.09958668416640282
+    },
+    {
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/bdgp/candidates/lr_0.00029999999999999997__es_5/candidate_evaluation.json",
+      "dataset": "BDGP",
+      "mean_delta_j": 0.009533779138711534,
+      "positive_count": 4,
+      "semantic_exposure": 5,
+      "semantic_lr": 0.0003,
+      "source": "MAIN_GRID",
+      "worst_delta_j": 9.039811343924953e-08
+    },
+    {
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/msrc/boundary_extension_upper_1e3/candidates/lr_0.001__es_1/candidate_evaluation.json",
+      "dataset": "MSRC",
+      "mean_delta_j": 0.055705761915557594,
+      "positive_count": 3,
+      "semantic_exposure": 1,
+      "semantic_lr": 0.001,
+      "source": "UPPER_BOUNDARY_EXTENSION",
+      "worst_delta_j": -0.0019383226363951511
+    },
+    {
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/coil20/candidates/lr_1.0000000000000001e-05__es_5/candidate_evaluation.json",
+      "dataset": "COIL20",
+      "mean_delta_j": 0.2499107806680763,
+      "positive_count": 4,
+      "semantic_exposure": 5,
+      "semantic_lr": 1e-05,
+      "source": "MAIN_GRID",
+      "worst_delta_j": 0.07278148210618218
+    },
+    {
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/caltech_5v/boundary_extension_upper_1e3/candidates/lr_0.001__es_5/candidate_evaluation.json",
+      "dataset": "Caltech-5V",
+      "mean_delta_j": 0.0952722154839632,
+      "positive_count": 4,
+      "semantic_exposure": 5,
+      "semantic_lr": 0.001,
+      "source": "UPPER_BOUNDARY_EXTENSION",
+      "worst_delta_j": 0.01576490133940678
+    },
+    {
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/mnist_usps/candidates/lr_0.0001__es_5/candidate_evaluation.json",
+      "dataset": "MNIST-USPS",
+      "mean_delta_j": 0.026437594103880857,
+      "positive_count": 3,
+      "semantic_exposure": 5,
+      "semantic_lr": 0.0001,
+      "source": "MAIN_GRID",
+      "worst_delta_j": -0.007921157486273867
+    },
+    {
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.0001__es_1/candidate_evaluation.json",
+      "dataset": "ALOI",
+      "mean_delta_j": 0.062247300951051965,
+      "positive_count": 3,
+      "semantic_exposure": 1,
+      "semantic_lr": 0.0001,
+      "source": "MAIN_GRID",
+      "worst_delta_j": -0.08771575028914436
+    },
+    {
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/ccv/candidates/lr_1.0000000000000001e-05__es_3/candidate_evaluation.json",
+      "dataset": "CCV",
+      "mean_delta_j": 0.04000218334212062,
+      "positive_count": 2,
+      "semantic_exposure": 3,
+      "semantic_lr": 1e-05,
+      "source": "MAIN_GRID",
+      "worst_delta_j": -0.26563430612575956
+    }
+  ],
+  "full_gt_used_for_selection": false,
+  "nmi_used_for_selection": false,
+  "second_boundary_extension_allowed": false,
+  "selection_pool_per_dataset": 30,
+  "selection_rule": [
+    "maximum round(mean_delta_j,12)",
+    "maximum round(worst_delta_j,12)",
+    "maximum positive_count",
+    "smaller semantic_exposure",
+    "smaller semantic_lr"
+  ],
+  "stage": "P3-C1-B1-A2",
+  "status": "FINAL_HYPERPARAMETERS_FROZEN"
+}

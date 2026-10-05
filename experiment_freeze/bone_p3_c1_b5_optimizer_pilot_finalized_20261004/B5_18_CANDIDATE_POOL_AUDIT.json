@@ -1,0 +1,3020 @@
+{
+  "candidate_count": 18,
+  "candidates": [
+    {
+      "branches": {
+        "11A": {
+          "DeltaJ": -0.27627285896287,
+          "J_BASE": 1.4561139255002538,
+          "J_OURS": 1.1798410665373837,
+          "abstained_count": 40,
+          "coverage": 0.6,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "native_epochs": 20,
+          "semantic_steps": 1,
+          "supported_count": 60
+        },
+        "11B": {
+          "DeltaJ": -0.06010990244399772,
+          "J_BASE": 1.3693885605586962,
+          "J_OURS": 1.3092786581146985,
+          "abstained_count": 45,
+          "coverage": 0.55,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "native_epochs": 20,
+          "semantic_steps": 1,
+          "supported_count": 55
+        },
+        "37A": {
+          "DeltaJ": 0.18917566284468545,
+          "J_BASE": 1.5606646655833896,
+          "J_OURS": 1.749840328428075,
+          "abstained_count": 35,
+          "coverage": 0.65,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "native_epochs": 20,
+          "semantic_steps": 1,
+          "supported_count": 65
+        },
+        "37B": {
+          "DeltaJ": -0.09020443855821547,
+          "J_BASE": 1.3253135719953095,
+          "J_OURS": 1.235109133437094,
+          "abstained_count": 47,
+          "coverage": 0.53,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "native_epochs": 20,
+          "semantic_steps": 1,
+          "supported_count": 53
+        }
+      },
+      "dataset": "ALOI",
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "mean_delta_J": -0.05935288428009944,
+      "optimizer_name": "Adam",
+      "origin": "STRICT_REUSE_B1_B2",
+      "positive_count": 1,
+      "semantic_exposure": 1,
+      "semantic_lr": 3e-05,
+      "source_path": "outputs/bone_p3/p3_c1_b2_targeted_local_refinement/aloi/lr_3.0000000000000001e-05__es_1.json",
+      "source_sha256": "62be0e76a44b65d3586ceb4d8e91133165b4861c21032b0cf2780a906da205b5",
+      "worst_delta_J": -0.27627285896287
+    },
+    {
+      "branches": {
+        "11A": {
+          "DeltaJ": -0.08771575028914436,
+          "J_BASE": 1.4561139255002538,
+          "J_OURS": 1.3683981752111094,
+          "abstained_count": 40,
+          "coverage": 0.6,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "native_epochs": 20,
+          "semantic_steps": 1,
+          "supported_count": 60
+        },
+        "11B": {
+          "DeltaJ": 0.011877078159037158,
+          "J_BASE": 1.3693885605586962,
+          "J_OURS": 1.3812656387177333,
+          "abstained_count": 45,
+          "coverage": 0.55,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "native_epochs": 20,
+          "semantic_steps": 1,
+          "supported_count": 55
+        },
+        "37A": {
+          "DeltaJ": 0.2972514665195989,
+          "J_BASE": 1.5606646655833896,
+          "J_OURS": 1.8579161321029884,
+          "abstained_count": 35,
+          "coverage": 0.65,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "native_epochs": 20,
+          "semantic_steps": 1,
+          "supported_count": 65
+        },
+        "37B": {
+          "DeltaJ": 0.027576409414716174,
+          "J_BASE": 1.3253135719953095,
+          "J_OURS": 1.3528899814100257,
+          "abstained_count": 47,
+          "coverage": 0.53,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "native_epochs": 20,
+          "semantic_steps": 1,
+          "supported_count": 53
+        }
+      },
+      "dataset": "ALOI",
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "mean_delta_J": 0.062247300951051965,
+      "optimizer_name": "Adam",
+      "origin": "STRICT_REUSE_B1_B2",
+      "positive_count": 3,
+      "semantic_exposure": 1,
+      "semantic_lr": 0.0001,
+      "source_path": "outputs/bone_p3/p3_c1_b2_targeted_local_refinement/aloi/lr_0.0001__es_1.json",
+      "source_sha256": "ad85a389e188677f0de1f00eace2afbedb966de05f793d50d6a5cac6dd6bfcae",
+      "worst_delta_J": -0.08771575028914436
+    },
+    {
+      "branches": {
+        "11A": {
+          "DeltaJ": 0.05345272844200699,
+          "J_BASE": 1.4561139255002538,
+          "J_OURS": 1.5095666539422607,
+          "abstained_count": 40,
+          "coverage": 0.6,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "native_epochs": 20,
+          "semantic_steps": 1,
+          "supported_count": 60
+        },
+        "11B": {
+          "DeltaJ": -0.06064742600293438,
+          "J_BASE": 1.3693885605586962,
+          "J_OURS": 1.3087411345557618,
+          "abstained_count": 45,
+          "coverage": 0.55,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "native_epochs": 20,
+          "semantic_steps": 1,
+          "supported_count": 55
+        },
+        "37A": {
+          "DeltaJ": 0.27718276408291476,
+          "J_BASE": 1.5606646655833896,
+          "J_OURS": 1.8378474296663043,
+          "abstained_count": 35,
+          "coverage": 0.65,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "native_epochs": 20,
+          "semantic_steps": 1,
+          "supported_count": 65
+        },
+        "37B": {
+          "DeltaJ": -0.20257736788257374,
+          "J_BASE": 1.3253135719953095,
+          "J_OURS": 1.1227362041127358,
+          "abstained_count": 47,
+          "coverage": 0.53,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "native_epochs": 20,
+          "semantic_steps": 1,
+          "supported_count": 53
+        }
+      },
+      "dataset": "ALOI",
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "mean_delta_J": 0.016852674659853406,
+      "optimizer_name": "Adam",
+      "origin": "STRICT_REUSE_B1_B2",
+      "positive_count": 2,
+      "semantic_exposure": 1,
+      "semantic_lr": 0.0003,
+      "source_path": "outputs/bone_p3/p3_c1_b2_targeted_local_refinement/aloi/lr_0.00029999999999999997__es_1.json",
+      "source_sha256": "0e6aa240b1526bc1b753387a180c826a09b002462962b1a41d5e0154f151ca1d",
+      "worst_delta_J": -0.20257736788257374
+    },
+    {
+      "branches": {
+        "11A": {
+          "DeltaJ": -0.27627285896287,
+          "J_BASE": 1.4561139255002538,
+          "J_OURS": 1.1798410665373837,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 40,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "e88c499096096c4b4b92001b8860d4a3119da98e4ce093d322c1ae1aa93b294c",
+          "carrier_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "coverage": 0.6,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "loaded_initial_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 3e-05,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 60
+        },
+        "11B": {
+          "DeltaJ": -0.06010990244399772,
+          "J_BASE": 1.3693885605586962,
+          "J_OURS": 1.3092786581146985,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 45,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "e88c499096096c4b4b92001b8860d4a3119da98e4ce093d322c1ae1aa93b294c",
+          "carrier_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "coverage": 0.55,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "loaded_initial_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 3e-05,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 55
+        },
+        "37A": {
+          "DeltaJ": 0.18917566284468545,
+          "J_BASE": 1.5606646655833896,
+          "J_OURS": 1.749840328428075,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 35,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "cd53ed095be45a3e316eca903787be5f989ea3191a2523d13a528a9304b9ca81",
+          "carrier_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "coverage": 0.65,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "loaded_initial_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 3e-05,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 65
+        },
+        "37B": {
+          "DeltaJ": -0.09020443855821547,
+          "J_BASE": 1.3253135719953095,
+          "J_OURS": 1.235109133437094,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 47,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "cd53ed095be45a3e316eca903787be5f989ea3191a2523d13a528a9304b9ca81",
+          "carrier_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "coverage": 0.53,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "loaded_initial_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 3e-05,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 53
+        }
+      },
+      "dataset": "ALOI",
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "mean_delta_J": -0.05935288428009944,
+      "optimizer_name": "AdamW",
+      "origin": "B5_REAL_TRAINING",
+      "positive_count": 1,
+      "semantic_exposure": 1,
+      "semantic_lr": 3e-05,
+      "source_path": "outputs/bone_p3/p3_c1_b5_optimizer_pilot/aloi/adamw/lr_3e-5.json",
+      "source_sha256": "c0a8d753b5fcdcc27e329c5adc01e2279fb9ea942ef208e784c838a799cb020c",
+      "worst_delta_J": -0.27627285896287
+    },
+    {
+      "branches": {
+        "11A": {
+          "DeltaJ": -0.08771575028914436,
+          "J_BASE": 1.4561139255002538,
+          "J_OURS": 1.3683981752111094,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 40,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "e88c499096096c4b4b92001b8860d4a3119da98e4ce093d322c1ae1aa93b294c",
+          "carrier_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "coverage": 0.6,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "loaded_initial_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.0001,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 60
+        },
+        "11B": {
+          "DeltaJ": 0.011877078159037158,
+          "J_BASE": 1.3693885605586962,
+          "J_OURS": 1.3812656387177333,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 45,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "e88c499096096c4b4b92001b8860d4a3119da98e4ce093d322c1ae1aa93b294c",
+          "carrier_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "coverage": 0.55,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "loaded_initial_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.0001,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 55
+        },
+        "37A": {
+          "DeltaJ": 0.2972514665195989,
+          "J_BASE": 1.5606646655833896,
+          "J_OURS": 1.8579161321029884,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 35,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "cd53ed095be45a3e316eca903787be5f989ea3191a2523d13a528a9304b9ca81",
+          "carrier_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "coverage": 0.65,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "loaded_initial_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.0001,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 65
+        },
+        "37B": {
+          "DeltaJ": 0.027576409414716174,
+          "J_BASE": 1.3253135719953095,
+          "J_OURS": 1.3528899814100257,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 47,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "cd53ed095be45a3e316eca903787be5f989ea3191a2523d13a528a9304b9ca81",
+          "carrier_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "coverage": 0.53,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "loaded_initial_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.0001,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 53
+        }
+      },
+      "dataset": "ALOI",
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "mean_delta_J": 0.062247300951051965,
+      "optimizer_name": "AdamW",
+      "origin": "B5_REAL_TRAINING",
+      "positive_count": 3,
+      "semantic_exposure": 1,
+      "semantic_lr": 0.0001,
+      "source_path": "outputs/bone_p3/p3_c1_b5_optimizer_pilot/aloi/adamw/lr_1e-4.json",
+      "source_sha256": "ec72e30927c29f7a91fd7668b30aa92686e217113d23192f7801d390e3c93516",
+      "worst_delta_J": -0.08771575028914436
+    },
+    {
+      "branches": {
+        "11A": {
+          "DeltaJ": -0.3050467339280818,
+          "J_BASE": 1.4561139255002538,
+          "J_OURS": 1.151067191572172,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 40,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "e88c499096096c4b4b92001b8860d4a3119da98e4ce093d322c1ae1aa93b294c",
+          "carrier_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "coverage": 0.6,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "loaded_initial_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.0003,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 60
+        },
+        "11B": {
+          "DeltaJ": 0.04545523693532694,
+          "J_BASE": 1.3693885605586962,
+          "J_OURS": 1.4148437974940231,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 45,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "e88c499096096c4b4b92001b8860d4a3119da98e4ce093d322c1ae1aa93b294c",
+          "carrier_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "coverage": 0.55,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "loaded_initial_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.0003,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 55
+        },
+        "37A": {
+          "DeltaJ": -0.024660854632565066,
+          "J_BASE": 1.5606646655833896,
+          "J_OURS": 1.5360038109508245,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 35,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "cd53ed095be45a3e316eca903787be5f989ea3191a2523d13a528a9304b9ca81",
+          "carrier_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "coverage": 0.65,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "loaded_initial_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.0003,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 65
+        },
+        "37B": {
+          "DeltaJ": -0.15363589805591937,
+          "J_BASE": 1.3253135719953095,
+          "J_OURS": 1.1716776739393902,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 47,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "cd53ed095be45a3e316eca903787be5f989ea3191a2523d13a528a9304b9ca81",
+          "carrier_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "coverage": 0.53,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "loaded_initial_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.0003,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 53
+        }
+      },
+      "dataset": "ALOI",
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "mean_delta_J": -0.10947206242030982,
+      "optimizer_name": "AdamW",
+      "origin": "B5_REAL_TRAINING",
+      "positive_count": 1,
+      "semantic_exposure": 1,
+      "semantic_lr": 0.0003,
+      "source_path": "outputs/bone_p3/p3_c1_b5_optimizer_pilot/aloi/adamw/lr_3e-4.json",
+      "source_sha256": "602c41e9121751177ab29edf90cd419f12c38a06ea27936b1ec40282ed96facd",
+      "worst_delta_J": -0.3050467339280818
+    },
+    {
+      "branches": {
+        "11A": {
+          "DeltaJ": -0.18073322901864208,
+          "J_BASE": 1.4561139255002538,
+          "J_OURS": 1.2753806964816117,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 40,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "e88c499096096c4b4b92001b8860d4a3119da98e4ce093d322c1ae1aa93b294c",
+          "carrier_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "coverage": 0.6,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "loaded_initial_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.001,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 60
+        },
+        "11B": {
+          "DeltaJ": 0.03814899432320584,
+          "J_BASE": 1.3693885605586962,
+          "J_OURS": 1.407537554881902,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 45,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "e88c499096096c4b4b92001b8860d4a3119da98e4ce093d322c1ae1aa93b294c",
+          "carrier_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "coverage": 0.55,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "loaded_initial_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.001,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 55
+        },
+        "37A": {
+          "DeltaJ": -0.0029251798442566646,
+          "J_BASE": 1.5606646655833896,
+          "J_OURS": 1.557739485739133,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 35,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "cd53ed095be45a3e316eca903787be5f989ea3191a2523d13a528a9304b9ca81",
+          "carrier_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "coverage": 0.65,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "loaded_initial_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.001,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 65
+        },
+        "37B": {
+          "DeltaJ": 0.0832800587564515,
+          "J_BASE": 1.3253135719953095,
+          "J_OURS": 1.408593630751761,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 47,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "cd53ed095be45a3e316eca903787be5f989ea3191a2523d13a528a9304b9ca81",
+          "carrier_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "coverage": 0.53,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "loaded_initial_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.001,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 53
+        }
+      },
+      "dataset": "ALOI",
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "mean_delta_J": -0.01555733894581035,
+      "optimizer_name": "SGD_MOMENTUM",
+      "origin": "B5_REAL_TRAINING",
+      "positive_count": 2,
+      "semantic_exposure": 1,
+      "semantic_lr": 0.001,
+      "source_path": "outputs/bone_p3/p3_c1_b5_optimizer_pilot/aloi/sgd_momentum/lr_1e-3.json",
+      "source_sha256": "4d0a8c825bd2f339b432fb9e6b8db1ffedcb6b61d82bcc2c2682c449efbeedc6",
+      "worst_delta_J": -0.18073322901864208
+    },
+    {
+      "branches": {
+        "11A": {
+          "DeltaJ": -0.4004731194924456,
+          "J_BASE": 1.4561139255002538,
+          "J_OURS": 1.0556408060078082,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 40,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "e88c499096096c4b4b92001b8860d4a3119da98e4ce093d322c1ae1aa93b294c",
+          "carrier_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "coverage": 0.6,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "loaded_initial_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.003,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 60
+        },
+        "11B": {
+          "DeltaJ": 0.08268027494993557,
+          "J_BASE": 1.3693885605586962,
+          "J_OURS": 1.4520688355086318,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 45,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "e88c499096096c4b4b92001b8860d4a3119da98e4ce093d322c1ae1aa93b294c",
+          "carrier_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "coverage": 0.55,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "loaded_initial_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.003,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 55
+        },
+        "37A": {
+          "DeltaJ": 0.042013491922253454,
+          "J_BASE": 1.5606646655833896,
+          "J_OURS": 1.602678157505643,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 35,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "cd53ed095be45a3e316eca903787be5f989ea3191a2523d13a528a9304b9ca81",
+          "carrier_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "coverage": 0.65,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "loaded_initial_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.003,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 65
+        },
+        "37B": {
+          "DeltaJ": -0.000513523202042121,
+          "J_BASE": 1.3253135719953095,
+          "J_OURS": 1.3248000487932674,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 47,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "cd53ed095be45a3e316eca903787be5f989ea3191a2523d13a528a9304b9ca81",
+          "carrier_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "coverage": 0.53,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "loaded_initial_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.003,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 53
+        }
+      },
+      "dataset": "ALOI",
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "mean_delta_J": -0.06907321895557467,
+      "optimizer_name": "SGD_MOMENTUM",
+      "origin": "B5_REAL_TRAINING",
+      "positive_count": 2,
+      "semantic_exposure": 1,
+      "semantic_lr": 0.003,
+      "source_path": "outputs/bone_p3/p3_c1_b5_optimizer_pilot/aloi/sgd_momentum/lr_3e-3.json",
+      "source_sha256": "8259ff23b27d759bc9ccc21fad8b97d32a65c26732d468dae66845cd66c1080b",
+      "worst_delta_J": -0.4004731194924456
+    },
+    {
+      "branches": {
+        "11A": {
+          "DeltaJ": -0.20403758914670944,
+          "J_BASE": 1.4561139255002538,
+          "J_OURS": 1.2520763363535443,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 40,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "e88c499096096c4b4b92001b8860d4a3119da98e4ce093d322c1ae1aa93b294c",
+          "carrier_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "coverage": 0.6,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "loaded_initial_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.01,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 60
+        },
+        "11B": {
+          "DeltaJ": 0.06641988173303592,
+          "J_BASE": 1.3693885605586962,
+          "J_OURS": 1.435808442291732,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 45,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "e88c499096096c4b4b92001b8860d4a3119da98e4ce093d322c1ae1aa93b294c",
+          "carrier_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "coverage": 0.55,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "loaded_initial_model_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.01,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 55
+        },
+        "37A": {
+          "DeltaJ": 0.15467904208026617,
+          "J_BASE": 1.5606646655833896,
+          "J_OURS": 1.7153437076636557,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 35,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "cd53ed095be45a3e316eca903787be5f989ea3191a2523d13a528a9304b9ca81",
+          "carrier_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "coverage": 0.65,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "loaded_initial_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.01,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 65
+        },
+        "37B": {
+          "DeltaJ": 0.09760761829715103,
+          "J_BASE": 1.3253135719953095,
+          "J_OURS": 1.4229211902924606,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 47,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "cd53ed095be45a3e316eca903787be5f989ea3191a2523d13a528a9304b9ca81",
+          "carrier_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "coverage": 0.53,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "loaded_initial_model_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.01,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 1,
+          "semantic_steps": 1,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 53
+        }
+      },
+      "dataset": "ALOI",
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "mean_delta_J": 0.02866723824093592,
+      "optimizer_name": "SGD_MOMENTUM",
+      "origin": "B5_REAL_TRAINING",
+      "positive_count": 3,
+      "semantic_exposure": 1,
+      "semantic_lr": 0.01,
+      "source_path": "outputs/bone_p3/p3_c1_b5_optimizer_pilot/aloi/sgd_momentum/lr_1e-2.json",
+      "source_sha256": "d5871d560d11246443b60b8a9530e72fc83df9077f40139424a432ef039b2590",
+      "worst_delta_J": -0.20403758914670944
+    },
+    {
+      "branches": {
+        "11A": {
+          "DeltaJ": 0.10057852010754775,
+          "J_BASE": -1.6268681308553248,
+          "J_OURS": -1.526289610747777,
+          "abstained_count": 4,
+          "coverage": 0.8,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "native_epochs": 20,
+          "semantic_steps": 3,
+          "supported_count": 16
+        },
+        "11B": {
+          "DeltaJ": -0.4641179904469297,
+          "J_BASE": -1.183344198257449,
+          "J_OURS": -1.6474621887043788,
+          "abstained_count": 7,
+          "coverage": 0.65,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "native_epochs": 20,
+          "semantic_steps": 3,
+          "supported_count": 13
+        },
+        "37A": {
+          "DeltaJ": -0.31905799805643975,
+          "J_BASE": -0.5850215054069107,
+          "J_OURS": -0.9040795034633504,
+          "abstained_count": 5,
+          "coverage": 0.75,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "native_epochs": 20,
+          "semantic_steps": 3,
+          "supported_count": 15
+        },
+        "37B": {
+          "DeltaJ": 0.028480705498464265,
+          "J_BASE": -0.7952511767332349,
+          "J_OURS": -0.7667704712347706,
+          "abstained_count": 10,
+          "coverage": 0.5,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "native_epochs": 20,
+          "semantic_steps": 3,
+          "supported_count": 10
+        }
+      },
+      "dataset": "CCV",
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "mean_delta_J": -0.16352919072433936,
+      "optimizer_name": "Adam",
+      "origin": "STRICT_REUSE_B1_B2",
+      "positive_count": 2,
+      "semantic_exposure": 3,
+      "semantic_lr": 3e-06,
+      "source_path": "outputs/bone_p3/p3_c1_b2_targeted_local_refinement/ccv/lr_3.0000000000000001e-06__es_3.json",
+      "source_sha256": "e9c2826c9411b46bf466a21d180c041f483f7f640b048583c87c2ef89da0edf2",
+      "worst_delta_J": -0.4641179904469297
+    },
+    {
+      "branches": {
+        "11A": {
+          "DeltaJ": 0.22417085876863418,
+          "J_BASE": -1.6268681308553248,
+          "J_OURS": -1.4026972720866906,
+          "abstained_count": 4,
+          "coverage": 0.8,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "native_epochs": 20,
+          "semantic_steps": 3,
+          "supported_count": 16
+        },
+        "11B": {
+          "DeltaJ": -0.26563430612575956,
+          "J_BASE": -1.183344198257449,
+          "J_OURS": -1.4489785043832086,
+          "abstained_count": 7,
+          "coverage": 0.65,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "native_epochs": 20,
+          "semantic_steps": 3,
+          "supported_count": 13
+        },
+        "37A": {
+          "DeltaJ": -0.10432485080798537,
+          "J_BASE": -0.5850215054069107,
+          "J_OURS": -0.689346356214896,
+          "abstained_count": 5,
+          "coverage": 0.75,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "native_epochs": 20,
+          "semantic_steps": 3,
+          "supported_count": 15
+        },
+        "37B": {
+          "DeltaJ": 0.3057970315335932,
+          "J_BASE": -0.7952511767332349,
+          "J_OURS": -0.48945414519964164,
+          "abstained_count": 10,
+          "coverage": 0.5,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "native_epochs": 20,
+          "semantic_steps": 3,
+          "supported_count": 10
+        }
+      },
+      "dataset": "CCV",
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "mean_delta_J": 0.04000218334212062,
+      "optimizer_name": "Adam",
+      "origin": "STRICT_REUSE_B1_B2",
+      "positive_count": 2,
+      "semantic_exposure": 3,
+      "semantic_lr": 1e-05,
+      "source_path": "outputs/bone_p3/p3_c1_b2_targeted_local_refinement/ccv/lr_1.0000000000000001e-05__es_3.json",
+      "source_sha256": "2f5d167c2cee91703efe1d91e7ee276e473cd9dd7f47986870844a15abbf1abc",
+      "worst_delta_J": -0.26563430612575956
+    },
+    {
+      "branches": {
+        "11A": {
+          "DeltaJ": -0.08805857260642691,
+          "J_BASE": -1.6268681308553248,
+          "J_OURS": -1.7149267034617517,
+          "abstained_count": 4,
+          "coverage": 0.8,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "native_epochs": 20,
+          "semantic_steps": 3,
+          "supported_count": 16
+        },
+        "11B": {
+          "DeltaJ": -0.1360579534458506,
+          "J_BASE": -1.183344198257449,
+          "J_OURS": -1.3194021517032997,
+          "abstained_count": 7,
+          "coverage": 0.65,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "native_epochs": 20,
+          "semantic_steps": 3,
+          "supported_count": 13
+        },
+        "37A": {
+          "DeltaJ": -0.31559829134147055,
+          "J_BASE": -0.5850215054069107,
+          "J_OURS": -0.9006197967483812,
+          "abstained_count": 5,
+          "coverage": 0.75,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "native_epochs": 20,
+          "semantic_steps": 3,
+          "supported_count": 15
+        },
+        "37B": {
+          "DeltaJ": -0.05255887725180841,
+          "J_BASE": -0.7952511767332349,
+          "J_OURS": -0.8478100539850433,
+          "abstained_count": 10,
+          "coverage": 0.5,
+          "full_gt_loaded": false,
+          "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "native_epochs": 20,
+          "semantic_steps": 3,
+          "supported_count": 10
+        }
+      },
+      "dataset": "CCV",
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "mean_delta_J": -0.14806842366138911,
+      "optimizer_name": "Adam",
+      "origin": "STRICT_REUSE_B1_B2",
+      "positive_count": 0,
+      "semantic_exposure": 3,
+      "semantic_lr": 3e-05,
+      "source_path": "outputs/bone_p3/p3_c1_b2_targeted_local_refinement/ccv/lr_3.0000000000000001e-05__es_3.json",
+      "source_sha256": "49201d448147ed5893685c014629280fe2e329a36cdf18cf31cbee8b4ba3ec4a",
+      "worst_delta_J": -0.31559829134147055
+    },
+    {
+      "branches": {
+        "11A": {
+          "DeltaJ": 0.10057852010754775,
+          "J_BASE": -1.6268681308553248,
+          "J_OURS": -1.526289610747777,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 4,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "db2ecf56e1be68a8dcfb469861d1e227e86c3775e3eb48b2932f28c1bf150107",
+          "carrier_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "coverage": 0.8,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "loaded_initial_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 3e-06,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 16
+        },
+        "11B": {
+          "DeltaJ": -0.4641179904469297,
+          "J_BASE": -1.183344198257449,
+          "J_OURS": -1.6474621887043788,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 7,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "db2ecf56e1be68a8dcfb469861d1e227e86c3775e3eb48b2932f28c1bf150107",
+          "carrier_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "coverage": 0.65,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "loaded_initial_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 3e-06,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 13
+        },
+        "37A": {
+          "DeltaJ": -0.31905799805643975,
+          "J_BASE": -0.5850215054069107,
+          "J_OURS": -0.9040795034633504,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 5,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "29da908d560c9fb4ab35b28405db192d90c428751ebc65fe6ea0f377a92a1032",
+          "carrier_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "coverage": 0.75,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "loaded_initial_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 3e-06,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 15
+        },
+        "37B": {
+          "DeltaJ": 0.028480705498464265,
+          "J_BASE": -0.7952511767332349,
+          "J_OURS": -0.7667704712347706,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 10,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "29da908d560c9fb4ab35b28405db192d90c428751ebc65fe6ea0f377a92a1032",
+          "carrier_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "coverage": 0.5,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "loaded_initial_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 3e-06,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 10
+        }
+      },
+      "dataset": "CCV",
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "mean_delta_J": -0.16352919072433936,
+      "optimizer_name": "AdamW",
+      "origin": "B5_REAL_TRAINING",
+      "positive_count": 2,
+      "semantic_exposure": 3,
+      "semantic_lr": 3e-06,
+      "source_path": "outputs/bone_p3/p3_c1_b5_optimizer_pilot/ccv/adamw/lr_3e-6.json",
+      "source_sha256": "5ae178ff2554d6fadaa8db1c9b67a2502be4376b906146a086b1c1243462b6f5",
+      "worst_delta_J": -0.4641179904469297
+    },
+    {
+      "branches": {
+        "11A": {
+          "DeltaJ": 0.22417085876863418,
+          "J_BASE": -1.6268681308553248,
+          "J_OURS": -1.4026972720866906,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 4,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "db2ecf56e1be68a8dcfb469861d1e227e86c3775e3eb48b2932f28c1bf150107",
+          "carrier_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "coverage": 0.8,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "loaded_initial_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 1e-05,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 16
+        },
+        "11B": {
+          "DeltaJ": -0.26563430612575956,
+          "J_BASE": -1.183344198257449,
+          "J_OURS": -1.4489785043832086,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 7,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "db2ecf56e1be68a8dcfb469861d1e227e86c3775e3eb48b2932f28c1bf150107",
+          "carrier_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "coverage": 0.65,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "loaded_initial_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 1e-05,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 13
+        },
+        "37A": {
+          "DeltaJ": -0.10432485080798537,
+          "J_BASE": -0.5850215054069107,
+          "J_OURS": -0.689346356214896,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 5,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "29da908d560c9fb4ab35b28405db192d90c428751ebc65fe6ea0f377a92a1032",
+          "carrier_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "coverage": 0.75,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "loaded_initial_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 1e-05,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 15
+        },
+        "37B": {
+          "DeltaJ": 0.3057970315335932,
+          "J_BASE": -0.7952511767332349,
+          "J_OURS": -0.48945414519964164,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 10,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "29da908d560c9fb4ab35b28405db192d90c428751ebc65fe6ea0f377a92a1032",
+          "carrier_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "coverage": 0.5,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "loaded_initial_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 1e-05,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 10
+        }
+      },
+      "dataset": "CCV",
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "mean_delta_J": 0.04000218334212062,
+      "optimizer_name": "AdamW",
+      "origin": "B5_REAL_TRAINING",
+      "positive_count": 2,
+      "semantic_exposure": 3,
+      "semantic_lr": 1e-05,
+      "source_path": "outputs/bone_p3/p3_c1_b5_optimizer_pilot/ccv/adamw/lr_1e-5.json",
+      "source_sha256": "4c6e415cdf3c7d06319c48620d874747326ba133c8312362259ddc29737de259",
+      "worst_delta_J": -0.26563430612575956
+    },
+    {
+      "branches": {
+        "11A": {
+          "DeltaJ": -0.08805857260642691,
+          "J_BASE": -1.6268681308553248,
+          "J_OURS": -1.7149267034617517,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 4,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "db2ecf56e1be68a8dcfb469861d1e227e86c3775e3eb48b2932f28c1bf150107",
+          "carrier_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "coverage": 0.8,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "loaded_initial_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 3e-05,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 16
+        },
+        "11B": {
+          "DeltaJ": -0.1360579534458506,
+          "J_BASE": -1.183344198257449,
+          "J_OURS": -1.3194021517032997,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 7,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "db2ecf56e1be68a8dcfb469861d1e227e86c3775e3eb48b2932f28c1bf150107",
+          "carrier_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "coverage": 0.65,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "loaded_initial_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 3e-05,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 13
+        },
+        "37A": {
+          "DeltaJ": -0.31559829134147055,
+          "J_BASE": -0.5850215054069107,
+          "J_OURS": -0.9006197967483812,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 5,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "29da908d560c9fb4ab35b28405db192d90c428751ebc65fe6ea0f377a92a1032",
+          "carrier_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "coverage": 0.75,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "loaded_initial_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 3e-05,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 15
+        },
+        "37B": {
+          "DeltaJ": -0.05255887725180841,
+          "J_BASE": -0.7952511767332349,
+          "J_OURS": -0.8478100539850433,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 10,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "29da908d560c9fb4ab35b28405db192d90c428751ebc65fe6ea0f377a92a1032",
+          "carrier_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "coverage": 0.5,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "loaded_initial_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 3e-05,
+              "momentum": null,
+              "nesterov": null,
+              "optimizer_class": "AdamW",
+              "optimizer_name": "AdamW",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0001
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 10
+        }
+      },
+      "dataset": "CCV",
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "mean_delta_J": -0.14806842366138911,
+      "optimizer_name": "AdamW",
+      "origin": "B5_REAL_TRAINING",
+      "positive_count": 0,
+      "semantic_exposure": 3,
+      "semantic_lr": 3e-05,
+      "source_path": "outputs/bone_p3/p3_c1_b5_optimizer_pilot/ccv/adamw/lr_3e-5.json",
+      "source_sha256": "26ca01c7c7bde35cd9195738ef710379c73b299edb4ed95c72f1a66ed197712b",
+      "worst_delta_J": -0.31559829134147055
+    },
+    {
+      "branches": {
+        "11A": {
+          "DeltaJ": 0.17402448773458068,
+          "J_BASE": -1.6268681308553248,
+          "J_OURS": -1.452843643120744,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 4,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "db2ecf56e1be68a8dcfb469861d1e227e86c3775e3eb48b2932f28c1bf150107",
+          "carrier_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "coverage": 0.8,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "loaded_initial_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.001,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 16
+        },
+        "11B": {
+          "DeltaJ": -0.2291885658391024,
+          "J_BASE": -1.183344198257449,
+          "J_OURS": -1.4125327640965515,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 7,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "db2ecf56e1be68a8dcfb469861d1e227e86c3775e3eb48b2932f28c1bf150107",
+          "carrier_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "coverage": 0.65,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "loaded_initial_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.001,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 13
+        },
+        "37A": {
+          "DeltaJ": -0.3399675906847799,
+          "J_BASE": -0.5850215054069107,
+          "J_OURS": -0.9249890960916906,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 5,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "29da908d560c9fb4ab35b28405db192d90c428751ebc65fe6ea0f377a92a1032",
+          "carrier_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "coverage": 0.75,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "loaded_initial_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.001,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 15
+        },
+        "37B": {
+          "DeltaJ": 0.31249562368530986,
+          "J_BASE": -0.7952511767332349,
+          "J_OURS": -0.482755553047925,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 10,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "29da908d560c9fb4ab35b28405db192d90c428751ebc65fe6ea0f377a92a1032",
+          "carrier_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "coverage": 0.5,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "loaded_initial_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.001,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 10
+        }
+      },
+      "dataset": "CCV",
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "mean_delta_J": -0.020659011275997938,
+      "optimizer_name": "SGD_MOMENTUM",
+      "origin": "B5_REAL_TRAINING",
+      "positive_count": 2,
+      "semantic_exposure": 3,
+      "semantic_lr": 0.001,
+      "source_path": "outputs/bone_p3/p3_c1_b5_optimizer_pilot/ccv/sgd_momentum/lr_1e-3.json",
+      "source_sha256": "685c52c80b3ab0c5fd01f3f81a55d349cd2dc493d7709ef53ce653c8cfc4be9f",
+      "worst_delta_J": -0.3399675906847799
+    },
+    {
+      "branches": {
+        "11A": {
+          "DeltaJ": 0.12915613966593797,
+          "J_BASE": -1.6268681308553248,
+          "J_OURS": -1.4977119911893868,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 4,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "db2ecf56e1be68a8dcfb469861d1e227e86c3775e3eb48b2932f28c1bf150107",
+          "carrier_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "coverage": 0.8,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "loaded_initial_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.003,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 16
+        },
+        "11B": {
+          "DeltaJ": -0.34782365711527574,
+          "J_BASE": -1.183344198257449,
+          "J_OURS": -1.5311678553727248,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 7,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "db2ecf56e1be68a8dcfb469861d1e227e86c3775e3eb48b2932f28c1bf150107",
+          "carrier_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "coverage": 0.65,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "loaded_initial_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.003,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 13
+        },
+        "37A": {
+          "DeltaJ": -0.4588456444542849,
+          "J_BASE": -0.5850215054069107,
+          "J_OURS": -1.0438671498611956,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 5,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "29da908d560c9fb4ab35b28405db192d90c428751ebc65fe6ea0f377a92a1032",
+          "carrier_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "coverage": 0.75,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "loaded_initial_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.003,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 15
+        },
+        "37B": {
+          "DeltaJ": 0.18892924668560873,
+          "J_BASE": -0.7952511767332349,
+          "J_OURS": -0.6063219300476261,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 10,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "29da908d560c9fb4ab35b28405db192d90c428751ebc65fe6ea0f377a92a1032",
+          "carrier_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "coverage": 0.5,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "loaded_initial_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.003,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 10
+        }
+      },
+      "dataset": "CCV",
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "mean_delta_J": -0.12214597880450348,
+      "optimizer_name": "SGD_MOMENTUM",
+      "origin": "B5_REAL_TRAINING",
+      "positive_count": 2,
+      "semantic_exposure": 3,
+      "semantic_lr": 0.003,
+      "source_path": "outputs/bone_p3/p3_c1_b5_optimizer_pilot/ccv/sgd_momentum/lr_3e-3.json",
+      "source_sha256": "7419f4ac55a1ae00c590096a82d0700f426be6f5d119362159552e7d5307dc67",
+      "worst_delta_J": -0.4588456444542849
+    },
+    {
+      "branches": {
+        "11A": {
+          "DeltaJ": 0.021994159432741966,
+          "J_BASE": -1.6268681308553248,
+          "J_OURS": -1.6048739714225828,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 4,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "db2ecf56e1be68a8dcfb469861d1e227e86c3775e3eb48b2932f28c1bf150107",
+          "carrier_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "coverage": 0.8,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "loaded_initial_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.01,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 16
+        },
+        "11B": {
+          "DeltaJ": -0.7032578642549965,
+          "J_BASE": -1.183344198257449,
+          "J_OURS": -1.8866020625124456,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 7,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "db2ecf56e1be68a8dcfb469861d1e227e86c3775e3eb48b2932f28c1bf150107",
+          "carrier_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "coverage": 0.65,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "loaded_initial_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.01,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 13
+        },
+        "37A": {
+          "DeltaJ": -0.18661183493177202,
+          "J_BASE": -0.5850215054069107,
+          "J_OURS": -0.7716333403386827,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 5,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "29da908d560c9fb4ab35b28405db192d90c428751ebc65fe6ea0f377a92a1032",
+          "carrier_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "coverage": 0.75,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "loaded_initial_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.01,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 15
+        },
+        "37B": {
+          "DeltaJ": -0.13149993045680863,
+          "J_BASE": -0.7952511767332349,
+          "J_OURS": -0.9267511071900435,
+          "T_rel_detached": true,
+          "U_cycle_detached": true,
+          "abstained_count": 10,
+          "anchor_posterior_detached": true,
+          "carrier_model_state_file_sha256": "29da908d560c9fb4ab35b28405db192d90c428751ebc65fe6ea0f377a92a1032",
+          "carrier_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "coverage": 0.5,
+          "formal_metrics_read": false,
+          "full_gt_used": false,
+          "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "loaded_initial_model_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+          "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+          "model_state_exact_parity": true,
+          "native_epochs": 20,
+          "native_to_next_semantic_grad_leak": false,
+          "optimizer_audit": {
+            "native": {
+              "betas": [
+                0.9,
+                0.999
+              ],
+              "eps": 1e-08,
+              "lr": 0.01,
+              "native_optimizer_unchanged": true,
+              "optimizer_class": "Adam",
+              "weight_decay": 0.0
+            },
+            "optimizer_state_independent": true,
+            "semantic": {
+              "betas": null,
+              "eps": null,
+              "lr": 0.01,
+              "momentum": 0.9,
+              "nesterov": false,
+              "optimizer_class": "SGD",
+              "optimizer_name": "SGD_MOMENTUM",
+              "optimizer_state_entry_count_before_first_step": 0,
+              "weight_decay": 0.0
+            }
+          },
+          "semantic_optimizer_step_count_total": 3,
+          "semantic_steps": 3,
+          "semantic_to_native_grad_leak": false,
+          "supported_count": 10
+        }
+      },
+      "dataset": "CCV",
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "mean_delta_J": -0.2498438675527088,
+      "optimizer_name": "SGD_MOMENTUM",
+      "origin": "B5_REAL_TRAINING",
+      "positive_count": 1,
+      "semantic_exposure": 3,
+      "semantic_lr": 0.01,
+      "source_path": "outputs/bone_p3/p3_c1_b5_optimizer_pilot/ccv/sgd_momentum/lr_1e-2.json",
+      "source_sha256": "d9969556be9b39569f17d4a02eb04a9dbf9ebe6b1a032e1098bf73dad2ed1728",
+      "worst_delta_J": -0.7032578642549965
+    }
+  ],
+  "dataset_counts": {
+    "ALOI": 9,
+    "CCV": 9
+  },
+  "errors": [],
+  "formal_metrics_read": false,
+  "full_gt_used": false,
+  "optimizer_counts": {
+    "AdamW_new": 6,
+    "Adam_reused": 6,
+    "SGD_MOMENTUM_new": 6
+  },
+  "reuse_preflight_path": "experiment_freeze/bone_p3_c1_b5_optimizer_pilot_preregistered_20261004/CANDIDATE_REUSE_PREFLIGHT.json",
+  "status": "PASS",
+  "unique_candidate_count": 18
+}

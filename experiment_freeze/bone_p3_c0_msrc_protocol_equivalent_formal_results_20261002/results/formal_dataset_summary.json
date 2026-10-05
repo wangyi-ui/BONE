@@ -1,0 +1,84 @@
+{
+  "aggregation": "mean/std population over fixed seeds; no selection gate",
+  "dataset": "MSRC",
+  "seeds": [
+    20,
+    30,
+    50
+  ],
+  "source_protocol": "BONE_P2_A1B",
+  "reporting_protocol": "P3_C0_COMPATIBLE_PROTOCOL_EQUIVALENT",
+  "protocol_equivalence": {
+    "status": "PASS",
+    "retraining_performed": false,
+    "historical_predictions_reused": true,
+    "ARI_added_post_seal": true,
+    "OURS_alias": "TRUE_U"
+  },
+  "metrics": {
+    "ACC": {
+      "BASE": {
+        "mean": 0.773015873015873,
+        "std": 0.06474945414086077
+      },
+      "OURS": {
+        "mean": 0.7857142857142857,
+        "std": 0.06540761199376673
+      },
+      "delta_OURS_minus_BASE": {
+        "mean": 0.012698412698412653,
+        "std": 0.002244783432338238,
+        "positive_delta_seed_count": 3,
+        "out_of": 3
+      }
+    },
+    "NMI": {
+      "BASE": {
+        "mean": 0.7003421616722592,
+        "std": 0.06741113288273558
+      },
+      "OURS": {
+        "mean": 0.7152815719068694,
+        "std": 0.060193298089319766
+      },
+      "delta_OURS_minus_BASE": {
+        "mean": 0.01493941023461017,
+        "std": 0.011048344845842918,
+        "positive_delta_seed_count": 3,
+        "out_of": 3
+      }
+    },
+    "Purity": {
+      "BASE": {
+        "mean": 0.7825396825396825,
+        "std": 0.06237105620440794
+      },
+      "OURS": {
+        "mean": 0.7936507936507936,
+        "std": 0.0628539361054709
+      },
+      "delta_OURS_minus_BASE": {
+        "mean": 0.011111111111111072,
+        "std": 0.004489566864676476,
+        "positive_delta_seed_count": 3,
+        "out_of": 3
+      }
+    },
+    "ARI": {
+      "BASE": {
+        "mean": 0.6284877221784813,
+        "std": 0.08909274228174827
+      },
+      "OURS": {
+        "mean": 0.6485941984277681,
+        "std": 0.08319678341048356
+      },
+      "delta_OURS_minus_BASE": {
+        "mean": 0.020106476249286853,
+        "std": 0.011263479179019127,
+        "positive_delta_seed_count": 3,
+        "out_of": 3
+      }
+    }
+  }
+}

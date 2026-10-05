@@ -1,0 +1,252 @@
+{
+  "ALL_24_SCHEMA_PREFLIGHT_PASS": true,
+  "FORMAL_METRICS_READ": false,
+  "FULL_GT_READ": false,
+  "INTENDED_PAIR_COUNT": 24,
+  "MODEL_TRAINING_RUN": false,
+  "RESOLVABLE_PAIR_COUNT": 24,
+  "STATUS": "PASS",
+  "UNRESOLVED_PAIR_COUNT": 0,
+  "records": [
+    {
+      "N": 2000,
+      "Nq": 1980,
+      "S": 20,
+      "dataset": "HandWrite",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/handwrite/seed20",
+      "training_seed": 20
+    },
+    {
+      "N": 2000,
+      "Nq": 1980,
+      "S": 20,
+      "dataset": "HandWrite",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/handwrite/seed30",
+      "training_seed": 30
+    },
+    {
+      "N": 2000,
+      "Nq": 1980,
+      "S": 20,
+      "dataset": "HandWrite",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/handwrite/seed50",
+      "training_seed": 50
+    },
+    {
+      "N": 2500,
+      "Nq": 2490,
+      "S": 2,
+      "dataset": "BDGP",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/bdgp/seed20",
+      "training_seed": 20
+    },
+    {
+      "N": 2500,
+      "Nq": 2490,
+      "S": 2,
+      "dataset": "BDGP",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/bdgp/seed30",
+      "training_seed": 30
+    },
+    {
+      "N": 2500,
+      "Nq": 2490,
+      "S": 2,
+      "dataset": "BDGP",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/bdgp/seed50",
+      "training_seed": 50
+    },
+    {
+      "N": 210,
+      "Nq": 196,
+      "S": 6,
+      "dataset": "MSRC",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/msrc/seed20",
+      "training_seed": 20
+    },
+    {
+      "N": 210,
+      "Nq": 196,
+      "S": 6,
+      "dataset": "MSRC",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/msrc/seed30",
+      "training_seed": 30
+    },
+    {
+      "N": 210,
+      "Nq": 196,
+      "S": 6,
+      "dataset": "MSRC",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/msrc/seed50",
+      "training_seed": 50
+    },
+    {
+      "N": 1440,
+      "Nq": 1400,
+      "S": 6,
+      "dataset": "COIL20",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/coil20/seed20",
+      "training_seed": 20
+    },
+    {
+      "N": 1440,
+      "Nq": 1400,
+      "S": 6,
+      "dataset": "COIL20",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/coil20/seed30",
+      "training_seed": 30
+    },
+    {
+      "N": 1440,
+      "Nq": 1400,
+      "S": 6,
+      "dataset": "COIL20",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/coil20/seed50",
+      "training_seed": 50
+    },
+    {
+      "N": 1400,
+      "Nq": 1386,
+      "S": 20,
+      "dataset": "Caltech-5V",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/caltech_5v/seed20",
+      "training_seed": 20
+    },
+    {
+      "N": 1400,
+      "Nq": 1386,
+      "S": 20,
+      "dataset": "Caltech-5V",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/caltech_5v/seed30",
+      "training_seed": 30
+    },
+    {
+      "N": 1400,
+      "Nq": 1386,
+      "S": 20,
+      "dataset": "Caltech-5V",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/caltech_5v/seed50",
+      "training_seed": 50
+    },
+    {
+      "N": 5000,
+      "Nq": 4980,
+      "S": 2,
+      "dataset": "MNIST-USPS",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/mnist_usps/seed20",
+      "training_seed": 20
+    },
+    {
+      "N": 5000,
+      "Nq": 4980,
+      "S": 2,
+      "dataset": "MNIST-USPS",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/mnist_usps/seed30",
+      "training_seed": 30
+    },
+    {
+      "N": 5000,
+      "Nq": 4980,
+      "S": 2,
+      "dataset": "MNIST-USPS",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/mnist_usps/seed50",
+      "training_seed": 50
+    },
+    {
+      "N": 10800,
+      "Nq": 10600,
+      "S": 6,
+      "dataset": "ALOI",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/aloi/seed20",
+      "training_seed": 20
+    },
+    {
+      "N": 10800,
+      "Nq": 10600,
+      "S": 6,
+      "dataset": "ALOI",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/aloi/seed30",
+      "training_seed": 30
+    },
+    {
+      "N": 10800,
+      "Nq": 10600,
+      "S": 6,
+      "dataset": "ALOI",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/aloi/seed50",
+      "training_seed": 50
+    },
+    {
+      "N": 6773,
+      "Nq": 6733,
+      "S": 6,
+      "dataset": "CCV",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/ccv/seed20",
+      "training_seed": 20
+    },
+    {
+      "N": 6773,
+      "Nq": 6733,
+      "S": 6,
+      "dataset": "CCV",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/ccv/seed30",
+      "training_seed": 30
+    },
+    {
+      "N": 6773,
+      "Nq": 6733,
+      "S": 6,
+      "dataset": "CCV",
+      "resolvable": true,
+      "sample_id_alignment_pass": true,
+      "source_run_root": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_c1_b1_final_formal/ccv/seed50",
+      "training_seed": 50
+    }
+  ]
+}

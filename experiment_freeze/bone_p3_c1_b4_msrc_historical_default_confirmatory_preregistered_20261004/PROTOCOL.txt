@@ -1,0 +1,9 @@
+P3-C1-B4 MSRC Historical-Default New-Seed Confirmatory
+
+Historical source: P2-A1B pre-formal frozen protocol dated 20261001, preceding B1/B2/B3.
+Dataset: MSRC only. Seeds: 100,110,130. Arms: BASE, OURS_HISTORICAL_DEFAULT.
+Historical-default: semantic Adam lr=1e-4; 20 active semantic epochs; exactly one semantic optimizer.step per epoch.
+Current P3 carrier: 100 native epochs. Refinement: 20 epochs. BASE is native-only; historical arm is semantic then native each epoch.
+No parameter search, optimizer search, retuning, B1/B2 result selection, GT training access, or post-hoc gate change.
+Primary gate: CONFIRMED iff mean Delta_ACC > 0 and mean Delta_NMI > 0 and mean Delta_ARI > 0; otherwise NOT_CONFIRMED.
+REAL_CONFIRMATORY_RUN=false

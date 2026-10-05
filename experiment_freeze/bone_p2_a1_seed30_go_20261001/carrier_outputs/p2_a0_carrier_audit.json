@@ -1,0 +1,129 @@
+{
+  "K": 7,
+  "L": 14,
+  "N": 210,
+  "Nu": 196,
+  "S": 6,
+  "V": 4,
+  "corruption_seed": 20,
+  "labels_outside_labeled_ids_used_before_seal": false,
+  "nan_inf_audit": {
+    "anchor_signature": true,
+    "class_signature": true,
+    "closure": true,
+    "conf_gen": true,
+    "generator_subsets": true,
+    "labeled_ids": true,
+    "labeled_targets": true,
+    "p_gen": true,
+    "p_ver": true,
+    "pi": true,
+    "q_views": true,
+    "sample_ids": true,
+    "support_ver": true,
+    "t_rel": true,
+    "u_cycle": true,
+    "u_cycle_all": true,
+    "unlabeled_ids": true,
+    "verifier_subsets": true,
+    "y_gen": true
+  },
+  "parent_corruption_artifact_sha256": "2b05b7b5adfe872c60475fe8d3d9f4959229a57ffb1eb50ff29adb015f38db87",
+  "pi_normalization_max_error": 2.384185791015625e-07,
+  "post_corruption_standardization": false,
+  "q_extraction_parity": true,
+  "sparse_split_parity": true,
+  "target_snr_db": 2.5,
+  "tensor_shapes": {
+    "anchor_signature": [
+      14,
+      7
+    ],
+    "class_signature": [
+      7,
+      7
+    ],
+    "closure": [
+      210,
+      6
+    ],
+    "conf_gen": [
+      210,
+      6
+    ],
+    "generator_subsets": [
+      6,
+      2
+    ],
+    "labeled_ids": [
+      14
+    ],
+    "labeled_targets": [
+      14
+    ],
+    "p_gen": [
+      210,
+      6,
+      7
+    ],
+    "p_ver": [
+      210,
+      6,
+      7
+    ],
+    "pi": [
+      196,
+      6,
+      7
+    ],
+    "q_views": [
+      210,
+      4,
+      7
+    ],
+    "sample_ids": [
+      210
+    ],
+    "support_ver": [
+      210,
+      6
+    ],
+    "t_rel": [
+      196,
+      14,
+      6
+    ],
+    "u_cycle": [
+      196,
+      6
+    ],
+    "u_cycle_all": [
+      210,
+      6
+    ],
+    "unlabeled_ids": [
+      196
+    ],
+    "verifier_subsets": [
+      6,
+      2
+    ],
+    "y_gen": [
+      210,
+      6
+    ]
+  },
+  "training_seed": 30,
+  "u_max": 0.9999929070472717,
+  "u_mean": 0.8471506834030151,
+  "u_min": 0.0,
+  "u_nonzero_fraction": 0.9336734693877551,
+  "utility_mass_per_action": [
+    165.7009735107422,
+    165.77626037597656,
+    166.6474151611328,
+    166.6474151611328,
+    165.77626037597656,
+    165.7009735107422
+  ]
+}

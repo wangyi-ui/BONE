@@ -1,0 +1,24 @@
+{
+  "dataset_count": 8,
+  "full_gt_used_for_selection": false,
+  "hyperparameter_selection_role": "EXPERIMENTAL_PROTOCOL_NOT_CORE_METHOD",
+  "macro_mean_delta": {
+    "ACC": 0.0013199093913065438,
+    "ARI": 0.0009493240745435371,
+    "NMI": 0.0006520850678554819
+  },
+  "positive_dataset_counts": {
+    "ACC": 5,
+    "ARI": 4,
+    "NMI": 4
+  },
+  "retuning_after_formal_gt_allowed": false,
+  "run_count": 24,
+  "seeds": [
+    20,
+    30,
+    50
+  ],
+  "stage": "P3-C1-B1-FINAL-FORMAL",
+  "status": "FROZEN"
+}

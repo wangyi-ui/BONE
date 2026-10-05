@@ -1,0 +1,75 @@
+{
+  "aggregation": "mean/std population over fixed seeds; no selection gate",
+  "dataset": "MNIST-USPS",
+  "metrics": {
+    "ACC": {
+      "BASE": {
+        "mean": 0.9794,
+        "std": 0.0016083117442419873
+      },
+      "OURS": {
+        "mean": 0.9780666666666668,
+        "std": 0.001746106780494499
+      },
+      "delta_OURS_minus_BASE": {
+        "mean": -0.0013333333333333346,
+        "out_of": 3,
+        "positive_delta_seed_count": 1,
+        "std": 0.0013695092389449772
+      }
+    },
+    "ARI": {
+      "BASE": {
+        "mean": 0.9548206148036731,
+        "std": 0.0034781408648142526
+      },
+      "OURS": {
+        "mean": 0.9519615924105612,
+        "std": 0.0037950568664369133
+      },
+      "delta_OURS_minus_BASE": {
+        "mean": -0.002859022393111902,
+        "out_of": 3,
+        "positive_delta_seed_count": 1,
+        "std": 0.003010375286627101
+      }
+    },
+    "NMI": {
+      "BASE": {
+        "mean": 0.9447414811445456,
+        "std": 0.003892529558128083
+      },
+      "OURS": {
+        "mean": 0.9421924163162395,
+        "std": 0.004023241445693019
+      },
+      "delta_OURS_minus_BASE": {
+        "mean": -0.002549064828306228,
+        "out_of": 3,
+        "positive_delta_seed_count": 1,
+        "std": 0.00415292856756611
+      }
+    },
+    "Purity": {
+      "BASE": {
+        "mean": 0.9794,
+        "std": 0.0016083117442419873
+      },
+      "OURS": {
+        "mean": 0.9780666666666668,
+        "std": 0.001746106780494499
+      },
+      "delta_OURS_minus_BASE": {
+        "mean": -0.0013333333333333346,
+        "out_of": 3,
+        "positive_delta_seed_count": 1,
+        "std": 0.0013695092389449772
+      }
+    }
+  },
+  "seeds": [
+    20,
+    30,
+    50
+  ]
+}

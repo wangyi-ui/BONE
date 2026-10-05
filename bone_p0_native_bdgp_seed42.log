@@ -1,0 +1,48 @@
+======================================================================
+BONE-P0 NATIVE BDGP REPRODUCTION
+======================================================================
+seed       = 42
+epoch      = 100
+batch_size = 512
+n_anchor   = 2
+layer      = 2
+lambda     = 0.1
+lr         = 0.01
+device     = cpu
+
+========== DATASET ==========
+m([1750, 79]), n(2500), v(2), k(5)
+n = 2500
+v = 2
+k = 5
+m_list = [1750, 79]
+
+========== AMV INITIALIZATION ==========
+Using entire dataset (2500 samples) to init
+Inited with 100 iters, time cost: 9.947s
+Init by pre-computed anchors
+Total number of parameters in the model: 18785
+
+========== TRAINING ==========
+Epoch 020, ACC: 0.9876, NMI: 0.9574, Purity: 0.9876
+Epoch 040, ACC: 0.9884, NMI: 0.9595, Purity: 0.9884
+Epoch 060, ACC: 0.9908, NMI: 0.9677, Purity: 0.9908
+Epoch 080, ACC: 0.9912, NMI: 0.9704, Purity: 0.9912
+Epoch 100, ACC: 0.9924, NMI: 0.9726, Purity: 0.9924
+
+======================================================================
+BONE-P0 BDGP FINAL
+======================================================================
+FINAL_ACC=0.992400
+FINAL_NMI=0.972571
+FINAL_PURITY=0.992400
+
+OFFICIAL_REFERENCE
+ACC=0.9924
+NMI=0.9728
+PURITY=0.9924
+
+DELTA
+DELTA_ACC=+0.000000
+DELTA_NMI=-0.000229
+DELTA_PURITY=+0.000000

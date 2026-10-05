@@ -1,0 +1,92 @@
+BONE P3-C0 CCV Formal Results
+=============================
+
+STATUS:
+
+FROZEN / FORMAL RESULTS COMPLETE
+
+DATASET:
+
+CCV
+
+TRAINING SEEDS:
+
+20
+30
+50
+
+FORMAL SCHEDULE:
+
+100 native epochs shared carrier
+
+BASE:
++20 native BONE epochs
+
+OURS:
+20 alternating refinement epochs
+
+Phase A:
+utility-conditioned semantic purification
+
+Phase B:
+untouched native BONE structural consolidation
+
+Sparse labels determine WHAT;
+U_cycle determines WHETHER.
+
+GT ISOLATION:
+
+Full GT was not used before pre-GT seal.
+
+REPORTING RULE:
+
+All fixed seeds are retained.
+
+Negative, zero, and positive deltas are preserved.
+
+No performance value was used for method selection,
+hyperparameter selection, or freeze eligibility.
+
+THREE-SEED SUMMARY:
+
+ACC:
+BASE mean = 0.2816575618878882
+OURS mean = 0.28052561641813084
+mean delta = -0.0011319454697573856
+positive seeds = 1/3
+
+NMI:
+BASE mean = 0.2637822925438807
+OURS mean = 0.2618309174187228
+mean delta = -0.0019513751251578986
+positive seeds = 1/3
+
+Purity:
+BASE mean = 0.3111865741424283
+OURS mean = 0.3117279393670948
+mean delta = 0.000541365224666542
+positive seeds = 3/3
+
+ARI:
+BASE mean = 0.12699572874715137
+OURS mean = 0.12436521721879112
+mean delta = -0.0026305115283602417
+positive seeds = 0/3
+
+INTERPRETATION:
+
+CCV shows small mixed effects under the frozen protocol.
+
+Purity improves consistently across all three seeds.
+
+ACC and NMI show small negative mean deltas.
+
+ARI is negative across all three seeds.
+
+This interpretation is descriptive only and was
+not used as a performance-selection gate.
+
+PAPER USE:
+
+This frozen three-seed mean/std summary is the
+CCV formal paper-result candidate.

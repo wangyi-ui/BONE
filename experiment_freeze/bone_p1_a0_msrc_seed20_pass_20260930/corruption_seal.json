@@ -1,0 +1,10 @@
+{
+  "sha256": {
+    "bone_p1_msrc_corruption.npz": "2b05b7b5adfe872c60475fe8d3d9f4959229a57ffb1eb50ff29adb015f38db87",
+    "bone_p1_msrc_protocol.py": "198b368a65271d034657d9ca075a9725880609e771d3a0866d4d72f27b42676a",
+    "corruption_audit.json": "abd067bb4555a0017462ed111f74d614c0b4494d8a1c8fba0593d9ca3c53dcbd",
+    "materialize_bone_p1_msrc_corruption.py": "d8e764e30e6742c7b66b04a7f16864b55ce7feee291893025b04ab6521dbc524",
+    "method/amv.py": "68f3edcd55e32456a5bcdbcbbc48329f19c5652dee1fc27420e2865f7068e5dc",
+    "method/bone.py": "d13ba6ba91362210f9a614f7353e9de688ff1815f075916b457df6c767a14092"
+  }
+}

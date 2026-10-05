@@ -1,0 +1,58 @@
+BONE-P2-A0
+==========
+
+STATUS:
+SCIENTIFIC PASS
+
+DATASET:
+MSRC
+
+WEAK-QUALITY:
+SNR = 2.5 dB
+exactly 2/4 corrupted views per sample
+corruption seed = 20
+
+TRAINING SEED:
+20
+
+CARRIER:
+q_views       = [210,4,7]
+U_cycle       = [196,6]
+T_rel         = [196,14,6]
+
+AUTHORITATIVE V2 RESULTS:
+AUC_U_TRUE          = 0.7343141685205784
+AUC_U_DERANGEMENT   = 0.5404094827586208
+Delta_AUC_U         = 0.19390468576195763
+
+REL_AUC              = 0.9311624593147917
+REL_GAP              = 0.5637902244925499
+REL_MEAN_SAME        = 0.6261059045791626
+REL_MEAN_DIFF        = 0.0623156800866127
+
+NULL:
+global_derangement_v2
+NULL_SEED = 20
+fixed_point_count = 0
+derangement_same_class_fraction = 0.14795918367346939
+random_same_class_reference = 0.14285714285714285
+
+OLD V1 NULL:
+NON-AUTHORITATIVE
+Reason:
+canonical MSRC rows are class-block ordered and +1 shift retained
+203/210 = 96.6667% same-class correspondence.
+
+FINAL SCIENTIFIC INTERPRETATION:
+Sparse semantic relations T_rel provide WHAT.
+Frozen U_cycle provides WHETHER / action validity.
+
+NEXT:
+BONE-P2-A1 Utility-Conditioned Relation Action Pilot.
+
+DO NOT REVIVE:
+U_tilde
+direct feature/fusion gating
+pseudo-label expansion
+memory
+additive native + semantic loss

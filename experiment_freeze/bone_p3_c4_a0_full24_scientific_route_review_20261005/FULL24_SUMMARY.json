@@ -1,0 +1,75 @@
+{
+  "RELATIVE_U_ALIGNMENT_SUPPORTED": false,
+  "ROUTE": "REVISIT_U_CYCLE_RELIABILITY",
+  "SEMANTIC_DIRECTION_COUPLING_SUPPORTED": true,
+  "SHARPENING_ROUTE_AUTHORIZED": false,
+  "T_REL_U_COUPLING_SUSPECT": false,
+  "cell_count": 24,
+  "dataset_mean": {
+    "DeltaAlignment_Q5_Q1": {
+      "ALOI": -0.002007501923814753,
+      "BDGP": -0.3179918403813116,
+      "CCV": 0.009468315643268754,
+      "COIL20": -0.04562069490449531,
+      "Caltech-5V": -0.044531638534690644,
+      "HandWrite": 0.020294782808826784,
+      "MNIST-USPS": -0.3610213512180109,
+      "MSRC": 0.09340183456554363
+    },
+    "Delta_TRUE_SHUFFLE": {
+      "ALOI": 0.0014175814857467345,
+      "BDGP": 0.0,
+      "CCV": 0.00358834375221029,
+      "COIL20": 0.0018667229544392834,
+      "Caltech-5V": -0.0003947874133450602,
+      "HandWrite": 0.027841660438364318,
+      "MNIST-USPS": 0.0,
+      "MSRC": -0.005072668306665353
+    },
+    "Delta_TRUE_UNIFORM": {
+      "ALOI": -0.005206632341837267,
+      "BDGP": -0.0010528147391061782,
+      "CCV": 0.0020494509820445234,
+      "COIL20": -0.005141505848345908,
+      "Caltech-5V": -0.004177914648360616,
+      "HandWrite": 0.0496876622731964,
+      "MNIST-USPS": -7.751712306706497e-05,
+      "MSRC": 0.012661404801456408
+    },
+    "Spearman_U_semantic_margin": {
+      "ALOI": 0.5500861645134248,
+      "BDGP": 0.38803411888361133,
+      "CCV": 0.1633117218105862,
+      "COIL20": 0.2809985494852258,
+      "Caltech-5V": 0.3708463253629313,
+      "HandWrite": 0.5411138299048899,
+      "MNIST-USPS": 0.29080931526028814,
+      "MSRC": 0.5868375044413773
+    },
+    "Spearman_quintile_alignment": {
+      "ALOI": -0.26666666666666666,
+      "BDGP": -0.9333333333333332,
+      "CCV": 0.06666666666666667,
+      "COIL20": -0.36666666666666664,
+      "Caltech-5V": -0.5333333333333333,
+      "HandWrite": 0.06666666666666667,
+      "MNIST-USPS": -0.9333333333333331,
+      "MSRC": 0.36666666666666664
+    }
+  },
+  "gamma_prohibited": true,
+  "macro_mean": {
+    "DeltaAlignment_Q5_Q1": -0.0810010117430855,
+    "Delta_TRUE_SHUFFLE": 0.003655856613843777,
+    "Delta_TRUE_UNIFORM": 0.006092766669497537,
+    "Spearman_U_semantic_margin": 0.39650469120779186,
+    "Spearman_quintile_alignment": -0.3166666666666666
+  },
+  "positive_cell_count": {
+    "DeltaAlignment_Q5_Q1": 9,
+    "Delta_TRUE_SHUFFLE": 12,
+    "Delta_TRUE_UNIFORM": 11,
+    "Spearman_U_semantic_margin": 23,
+    "Spearman_quintile_alignment": 7
+  }
+}

@@ -1,0 +1,12 @@
+P3-C4-A0 engineering smoke verifies only real-data CUDA wiring.
+
+The CCV seed20 diagnostic values were observed during engineering
+validation. They must not be used to modify the method, route gates,
+hyperparameters, utility definition, semantic relation definition,
+or summarizer thresholds.
+
+The predefined 8-dataset x 3-seed diagnostic must be completed before
+any scientific route decision is made.
+
+This smoke is not a clustering-performance experiment and contains no
+ACC/NMI/ARI or full-GT evaluation.

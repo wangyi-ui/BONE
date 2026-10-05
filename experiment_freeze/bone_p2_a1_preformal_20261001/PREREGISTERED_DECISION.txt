@@ -1,0 +1,79 @@
+BONE-P2-A1 Utility-Conditioned Relation Action Pilot
+====================================================
+
+DATASET:
+MSRC
+
+TRAINING SEED:
+20
+
+PARENT:
+BONE-P2-A0 Scientific PASS
+
+INITIAL MODEL:
+outputs/bone_p2/p2_a0_msrc_seed20/carrier_model_state.pt
+
+FROZEN CARRIER:
+U_cycle = [196,6]
+T_rel   = [196,14,6]
+
+ARMS:
+BASE
+TRUE_UNIFORM
+TRUE_U
+SHUFFLE_REL
+
+TRAINING:
+20 refinement epochs
+
+PHASE ORDER:
+Phase A semantic relation refinement
+then
+Phase B native BONE consolidation
+
+SEMANTIC CONTRACT:
+- one semantic optimizer step per epoch
+- Adam lr=1e-4
+- U/T frozen
+- anchor detach
+- query gradient enabled
+- no additive native+semantic loss
+
+CONTROL CONTRACT:
+TRUE_UNIFORM:
+  true T_rel + uniform U
+
+TRUE_U:
+  true T_rel + true U_cycle
+
+SHUFFLE_REL:
+  frozen query-axis derangement of T_rel + true U_cycle
+
+DERANGEMENT SHA256:
+e97d91e550d9c3f2d9c7c85a922b72d47cb3b0223cf2e04dee3e90bc2951a155
+
+GO GATE:
+ACC(TRUE_U)-ACC(BASE) >= 0.01
+AND
+ACC(TRUE_U)-ACC(TRUE_UNIFORM) >= 0.01
+AND
+ACC(TRUE_U)-ACC(SHUFFLE_REL) >= 0.01
+AND
+(
+  NMI(TRUE_U)-NMI(BASE) > 0
+  OR
+  Purity(TRUE_U)-Purity(BASE) > 0
+)
+
+FAIL-CLOSED:
+ACC(TRUE_U)-ACC(BASE) <= 0
+
+OTHERWISE:
+INCONCLUSIVE
+
+NO POST-HOC:
+- no threshold changes
+- no learning-rate tuning
+- no U recalibration
+- no T recalibration
+- no new module

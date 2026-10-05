@@ -1,0 +1,13 @@
+P3-C2-A0 CPU SYNTHETIC TESTS
+Command: PYTHONPATH=. pytest -q tests/test_p3_c2_a0_utility_structural_drift.py
+Result: 8 passed in 0.96s
+
+Coverage: explicit sample-ID alignment, duplicate/missing IDs fail-closed, pure cluster permutation, true assignment change, rectangular Hungarian mapping, exact M>0/M==0 support, negative/non-finite utility rejection, zero/all-flip-safe primitives, deterministic tied quartiles, constant Spearman, occupancy TV/entropy, hard no-GT/no-metrics/no-training import guard, and exact 8x3 preflight contract.
+
+READ-ONLY SCHEMA PREFLIGHT
+Result: 24/24 resolvable; 0 unresolved; all explicit ID alignments pass.
+FULL_GT_READ=false
+FORMAL_METRICS_READ=false
+MODEL_TRAINING_RUN=false
+REAL_DIAGNOSTIC_RUN=false
+

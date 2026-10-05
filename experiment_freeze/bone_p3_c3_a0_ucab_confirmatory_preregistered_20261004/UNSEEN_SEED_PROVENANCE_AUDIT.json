@@ -1,0 +1,91 @@
+{
+  "all_confirmatory_dataset_seed_pairs_unseen_clean": true,
+  "audit": "UNSEEN_CONFIRMATORY_SEED_PROVENANCE",
+  "candidate_confirmatory_seeds": [
+    140,
+    150,
+    170
+  ],
+  "confirmatory_seed_role": "Primary unseen confirmatory evidence used for the preregistered scientific pass/fail gate.",
+  "datasets": [
+    "ALOI",
+    "CCV"
+  ],
+  "execution_hits": {
+    "ALOI": {
+      "140": [],
+      "150": [],
+      "170": []
+    },
+    "CCV": {
+      "140": [],
+      "150": [],
+      "170": []
+    }
+  },
+  "gt_hits": {
+    "ALOI": {
+      "140": [],
+      "150": [],
+      "170": []
+    },
+    "CCV": {
+      "140": [],
+      "150": [],
+      "170": []
+    }
+  },
+  "gt_metric_values_read_by_this_audit": false,
+  "historical_paired_seed_role": "Matched descriptive/paired comparison against previous CURRENT results. These seeds are not claimed as unseen confirmatory evidence.",
+  "historical_paired_seeds": [
+    20,
+    30,
+    50
+  ],
+  "rows": [
+    {
+      "dataset": "ALOI",
+      "execution_evidence_count": 0,
+      "gt_result_evidence_count": 0,
+      "seed": 140,
+      "unseen_clean": true
+    },
+    {
+      "dataset": "ALOI",
+      "execution_evidence_count": 0,
+      "gt_result_evidence_count": 0,
+      "seed": 150,
+      "unseen_clean": true
+    },
+    {
+      "dataset": "ALOI",
+      "execution_evidence_count": 0,
+      "gt_result_evidence_count": 0,
+      "seed": 170,
+      "unseen_clean": true
+    },
+    {
+      "dataset": "CCV",
+      "execution_evidence_count": 0,
+      "gt_result_evidence_count": 0,
+      "seed": 140,
+      "unseen_clean": true
+    },
+    {
+      "dataset": "CCV",
+      "execution_evidence_count": 0,
+      "gt_result_evidence_count": 0,
+      "seed": 150,
+      "unseen_clean": true
+    },
+    {
+      "dataset": "CCV",
+      "execution_evidence_count": 0,
+      "gt_result_evidence_count": 0,
+      "seed": 170,
+      "unseen_clean": true
+    }
+  ],
+  "stage": "P3-C3-A0",
+  "training_executed_by_this_audit": false
+}

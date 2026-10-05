@@ -1,0 +1,99 @@
+P3-A0 Cross-Dataset Action-Space Portability Audit
+===================================================
+
+Scope
+-----
+Static source/data-shape audit only. No training, GPU experiment, protocol
+freeze, action-space implementation, P2 artifact modification, or native BONE
+change was performed.
+
+Source-derived BONE dataset support
+-----------------------------------
+dataset         id                  N       V   K    runtime view dims                         E_native batch anchor layer
+MNIST-USPS      D_MNIST_USPS        5000    2   10   (784, 784)                               100      512   4      2
+BDGP            D_BDGP              2500    2   5    (1750, 79)                               100      512   2      2
+CCV             D_CCV               6773    3   20   (5000, 5000, 4000)                       100      512   3      2
+Caltech-5V      D_Caltech5V          1400    5   7    (40, 254, 1984, 512, 928)                100      128   4      3
+HandWrite       D_HandWrite          2000    6   10   (216, 76, 64, 6, 240, 47)                100      128   4      3
+COIL20          D_COIL20             1440    3   20   (1024, 3304, 6750)                       100      128   1      4
+MSRC            D_MSRC                210    4   7    (24, 512, 256, 254)                      100      128   3      5
+YouTubeFace50   D_YouTubeFace50   126054    4   50   (944, 576, 512, 640)                     100      512   1      2
+ALOI            D_ALOI             10800    4   108  (77, 13, 64, 125)                        100      512   2      2
+
+All ordinary-script rows use Adam(lr=0.01), with no explicit weight_decay
+(Adam default 0.0), BONE lamb=0.1, BONE defaults temperature=1/reg=1/cosine,
+and AMV max_iter=100. The README states no pretraining; the scripts run AMV
+anchor initialization before BONE. Metrics are ACC, NMI, and Purity.
+
+Seeds and data availability
+----------------------------
+test_cmvsc.py sets global seed 42 and uses it for set_seed, AMV, DataLoader,
+and BONE; MVDataset.shuffle() defaults to 42. This applies to its seven active
+rows and the commented CCV row if enabled. test_cmvsc_large.py is different:
+AMV/DataLoader use 44, it does not call set_seed, BONE seed is omitted (its
+constructor default is 1), and shuffle defaults to 42. Therefore a single
+YouTubeFace50 default training seed is NOT_FOUND. All data paths resolve from
+the current working directory as data/<dataset-id>.mat. CCV.mat and
+YouTubeFace50.mat are absent in this checkout. Caltech-5V's dataset_info dims
+(40,254,928,512,1984) disagree with the present file's X1..X5 loader order;
+the table reports the latter runtime order without changing either source.
+
+Candidate balanced ordered complementary action rule
+----------------------------------------------------
+V=2: generator sizes {1},     S=2,  |G|=[1,1], |H|=[1,1]
+V=3: generator sizes {1,2},   S=6,  |G|=[1,2], |H|=[1,2]
+V=4: generator sizes {2},     S=6,  |G|=[2,2], |H|=[2,2]
+V=5: generator sizes {2,3},   S=20, |G|=[2,3], |H|=[2,3]
+V=6: generator sizes {3},     S=20, |G|=[3,3], |H|=[3,3]
+
+For every enumerated action, G intersect H is empty, G union H is all views,
+the action is unique, and its reverse H -> G is present. Ordering is generator
+size ascending and then lexicographic generator tuple order. Consequently,
+the per-dataset S values are MNIST-USPS=2, BDGP=2, CCV=6, Caltech-5V=20,
+HandWrite=20, COIL20=6, MSRC=6, YouTubeFace50=6, and ALOI=6. Maximum S=20
+(Caltech-5V and HandWrite); there is no action-count explosion among supported
+view counts.
+
+MSRC backward compatibility
+---------------------------
+The proposed V=4 order is exactly:
+(0,1), (0,2), (0,3), (1,2), (1,3), (2,3).
+Its complements are exactly:
+(2,3), (1,3), (1,2), (0,3), (0,2), (0,1).
+The same arrays were read from
+outputs/bone_p2/p2_a0_msrc_seed20/p2_a0_carrier_pre_gt.npz.
+MSRC_ACTION_ORDER_PARITY = true.
+
+Float32 tensor estimates (decimal MB; L=2K)
+---------------------------------------------
+dataset         U_cycle [N,S]   p_gen [N,S,K]   p_ver [N,S,K]   T_rel [N-L,L,S]  total
+MNIST-USPS      0.040000        0.400000        0.400000        0.796800         1.636800
+BDGP            0.020000        0.100000        0.100000        0.199200         0.419200
+CCV             0.162552        3.251040        3.251040        6.463680         13.128312
+Caltech-5V      0.112000        0.784000        0.784000        1.552320         3.232320
+HandWrite       0.160000        1.600000        1.600000        3.168000         6.528000
+COIL20          0.034560        0.691200        0.691200        1.344000         2.760960
+MSRC            0.005040        0.035280        0.035280        0.065856         0.141456
+YouTubeFace50   3.025296        151.264800      151.264800      302.289600       607.844496
+ALOI            0.259200        27.993600       27.993600       54.867456        111.113856
+
+Thus exhaustive enumeration is action-count feasible (S <= 20). The repository
+does not provide a runtime memory budget, so end-to-end feasibility is
+NOT_FOUND; the four named tensors alone reach 607.844496 MB for YouTubeFace50.
+
+Epoch audit and textual-only proposed matched protocol
+------------------------------------------------------
+Every source-derived E_native is 100. Proposed text only:
+Official BONE: E_native.
+Matched BASE: E_native + 20 native continuation.
+OURS: E_native carrier + 20 alternating refinement epochs.
+
+Files inspected
+---------------
+readme.md; test_cmvsc.py; test_cmvsc_large.py; utils/data_util.py;
+utils/MVDataset.py; utils/data_loader.py; utils/seed_util.py;
+utils/method_util.py; utils/cl_loss.py; method/bone.py; method/amv.py;
+P2-A0 protocol/materializer; existing seed20 carrier NPZ; and the seven
+present .mat files (ALOI, BDGP, COIL20, Caltech-5V, HandWrite, MNIST-USPS,
+MSRC). No config/configure files or shell scripts were present in the audited
+tree.

@@ -1,0 +1,67 @@
+BONE-P3-A3-A0
+Sparse-Label Split Provenance Audit
+===================================
+
+FINAL STATUS:
+PARTIAL_PROVENANCE
+
+MSRC FROZEN IDS:
+
+17
+20
+30
+42
+60
+81
+96
+107
+139
+142
+153
+175
+182
+201
+
+TARGETS:
+
+0 0
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+
+ROW-ID SEMANTICS:
+
+RAW_FILE_ROW_ID /
+P1_CANONICAL_PARENT_ARTIFACT_ROW_ID
+
+PROVEN FACTS:
+
+- P1 row_ids = arange(210)
+- P1 does not use native shuffle for this artifact
+- P2 validates labels at frozen LABELED_IDS
+- raw MSRC labels, P1 labels and P2 targets agree
+- historical parent/carrier artifacts are sealed
+
+NOT RECOVERED:
+
+- original split generator
+- RNG type
+- split seed
+- original selection rule
+
+SCIENTIFIC DECISION:
+
+MSRC remains a LEGACY FROZEN SPLIT.
+
+Do not search for a seed that reproduces it.
+Do not reinterpret training/corruption/native-shuffle seed
+as the sparse-label split seed.
+
+For new datasets, define a new preregistered
+cross-dataset deterministic sparse-label protocol.
+
+The new universal protocol must not alter the
+historical MSRC split.

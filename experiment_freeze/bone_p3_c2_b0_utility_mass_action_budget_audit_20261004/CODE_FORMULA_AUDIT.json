@@ -1,0 +1,75 @@
+{
+  "ABSOLUTE_UTILITY_MASS_CANCELLED": true,
+  "GRADIENT_MASS_SCALE_INVARIANT": true,
+  "UTILITY_MASS_SCALE_INVARIANT": true,
+  "batch_and_masks": {
+    "action_normalization": "D=sum over all Nq*S U values, not per-batch",
+    "anchor_mask": "none; all L anchors used",
+    "optimizer": "one optimizer.step after all query batches",
+    "query_selection": "order slices query rows; all selected rows contribute",
+    "relation_mask": "none",
+    "utility_mask": "implicit U=0 gives zero outer contribution",
+    "view_normalization": "divide by V"
+  },
+  "code_path": [
+    "p3_c1_b1_final_formal/run_final_formal.py::_materialize_or_resume_branches",
+    "run_bone_p3_c0_cross_dataset_formal.py::_semantic_epoch"
+  ],
+  "diagnostic_only": true,
+  "formal_uses_reused_c0_semantic_epoch": true,
+  "formula": {
+    "batch": "ell_b=[sum_v sum_{i in b,s} U_is(P_is^(v)+N_is^(v))]/[V*D]",
+    "epoch": "L=sum_b ell_b=[sum_v sum_{i,s} U_is(P_is^(v)+N_is^(v))]/[V*D]",
+    "negative": "N_is^(v)=-(1/(4*(K-1))) sum_l (1-T_ils) log(1-safe(r_il^(v)))",
+    "positive": "P_is^(v)=-(1/4) sum_l T_ils log(safe(r_il^(v)))",
+    "relation": "r_il^(v)=q_i^(v) dot stopgrad(a_l^(v)); safe=clamp(r, eps, 1-eps)",
+    "scale": "L(cU)=L(U) and dL/dz is unchanged for c>0, because both numerator and D scale by c."
+  },
+  "inputs": {
+    "Pi": "used upstream to construct T_rel; not directly read by _semantic_epoch",
+    "T_rel": "[Nq,L,S], positive soft relation target; complement (1-T_rel) is negative target",
+    "U_cycle": "query_U_cycle [Nq,S], outer action evidence weight; denominator D=sum_{i,s} U_is"
+  },
+  "reduction_audit": [
+    {
+      "denominator": "4 inside P; V*D outside",
+      "detach": "anchor posterior detached",
+      "mask": "none",
+      "numerator": "sum_{i in B,s} U_is P_is",
+      "raw_element_shape": "[B,S] after anchor sum",
+      "reductions": "sum anchors, sum actions/query, average views",
+      "term": "positive_relation_loss",
+      "weight_shape": "U[B,S] outer; T[B,L,S] within target"
+    },
+    {
+      "denominator": "4*(K-1) inside N; V*D outside",
+      "detach": "anchor posterior detached",
+      "mask": "none",
+      "numerator": "sum_{i in B,s} U_is N_is",
+      "raw_element_shape": "[B,S] after anchor sum",
+      "reductions": "sum anchors, sum actions/query, average views",
+      "term": "negative_relation_loss",
+      "weight_shape": "U[B,S] outer; (1-T)[B,L,S] within target"
+    }
+  ],
+  "synthetic_cpu_scale_audit": {
+    "GRADIENT_MASS_SCALE_INVARIANT": true,
+    "UTILITY_MASS_SCALE_INVARIANT": true,
+    "device": "cpu",
+    "fixed_logits": true,
+    "results": {
+      "0.1": {
+        "gradient_l2": 0.05694259001754651,
+        "loss": 0.36591784625370294
+      },
+      "0.5": {
+        "gradient_l2": 0.05694259001754651,
+        "loss": 0.36591784625370294
+      },
+      "1.0": {
+        "gradient_l2": 0.05694259001754651,
+        "loss": 0.36591784625370294
+      }
+    }
+  }
+}

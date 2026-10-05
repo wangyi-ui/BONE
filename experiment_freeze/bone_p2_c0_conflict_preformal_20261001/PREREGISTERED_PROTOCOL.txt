@@ -1,0 +1,204 @@
+BONE-P2-C0
+Utility-Conditioned Structural-Semantic Conflict Diagnostic
+============================================================
+
+STATUS:
+PRE-FORMAL FROZEN
+
+DATASET:
+MSRC
+
+TRAINING SEED:
+20
+
+CORRUPTION SEED:
+20
+
+PARENT ARCHITECTURE:
+P2-A1B alternating architecture
+
+Phase A:
+T_rel determines WHAT
+U_cycle determines WHETHER
+
+Phase B:
+native BONE structural consolidation
+
+PARENT FACTS:
+
+P2-A0 U/T validity:
+3/3 seeds PASS
+
+P2-A1B causal training:
+MULTI-SEED PASS
+
+P2-B0 native-consistency replacement:
+FAIL-CLOSED
+
+Therefore C0 does NOT test replacement.
+
+C0 tests whether semantic and structural updates
+show systematic gradient conflict and whether frozen U_cycle
+predicts their compatibility.
+
+------------------------------------------------------------
+TRAJECTORY
+------------------------------------------------------------
+
+Replay exact seed20 TRUE_U:
+
+20 refinement epochs.
+
+Final predictions MUST be np.array_equal to frozen
+P2-A1 seed20 TRUE_U final predictions.
+
+If trajectory parity fails:
+FAIL-CLOSED.
+
+------------------------------------------------------------
+GLOBAL GRADIENTS
+------------------------------------------------------------
+
+At each epoch-start state compute:
+
+g_sem_true
+g_inter
+g_reg
+g_native
+
+where:
+
+g_sem_true =
+gradient of exact TRUE_U semantic objective
+
+g_inter =
+gradient of native BONE con_inter_view
+
+g_reg =
+gradient of model.reg * con_reg_loss
+
+g_native =
+gradient of
+con_inter_view + model.reg * con_reg_loss
+
+Main global diagnostic:
+
+cos_sem_inter =
+cos(g_sem_true, g_inter)
+
+Also report:
+
+cos_sem_native
+cos_sem_reg
+
+No optimizer.step is allowed inside probes.
+
+------------------------------------------------------------
+UTILITY BINS
+------------------------------------------------------------
+
+Use frozen U_cycle only.
+
+No GT.
+
+U == 0:
+ZERO
+
+U > 0:
+stable deterministic sort by
+(U value, flattened query-action index)
+
+split positive-U actions into:
+LOW
+MID
+HIGH
+
+Membership frozen before epoch 1.
+
+Bin-specific semantic probes do NOT multiply
+by U magnitude.
+
+Main utility compatibility comparison:
+
+rho_LOW
+rho_HIGH
+
+where:
+
+rho_b =
+cos(g_sem_bin_b, g_inter)
+
+------------------------------------------------------------
+20-EPOCH GATE
+------------------------------------------------------------
+
+P2_C0_SUPPORTS_ARBITRATION iff ALL hold:
+
+A.
+sum(cos_sem_inter < 0) >= 5
+
+B.
+rho_HIGH > rho_LOW
+for at least 15/20 epochs
+
+C.
+mean(rho_HIGH - rho_LOW) >= 0.05
+
+D.
+mean(rho_LOW < 0)
+-
+mean(rho_HIGH < 0)
+>= 0.15
+
+P2_C0_NO_ARBITRATION_EVIDENCE if:
+
+sum(cos_sem_inter < 0) < 2
+
+OR
+
+mean(rho_HIGH-rho_LOW) <= 0
+
+Otherwise:
+
+P2_C0_INCONCLUSIVE
+
+No post-hoc gate changes.
+
+------------------------------------------------------------
+INTERPRETATION
+------------------------------------------------------------
+
+If SUPPORTS_ARBITRATION:
+
+Only then may P2-C1 minimal conflict arbitration
+be designed.
+
+C0 itself performs NO gradient projection.
+
+If NO_ARBITRATION_EVIDENCE:
+
+Close conflict-arbitration route.
+Final authoritative method = P2-A1B.
+
+If INCONCLUSIVE:
+
+Do not add arbitration yet.
+Freeze result.
+
+------------------------------------------------------------
+PROHIBITED
+------------------------------------------------------------
+
+No GT
+No projection
+No PCGrad
+No GradNorm
+No new loss
+No new network module
+No new hyperparameter
+No U threshold
+No top-k
+No U_tilde
+No memory
+No pseudo-label expansion
+No modification of native BONE

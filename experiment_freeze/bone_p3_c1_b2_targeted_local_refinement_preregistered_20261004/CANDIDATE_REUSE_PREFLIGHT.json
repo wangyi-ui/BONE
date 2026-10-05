@@ -1,0 +1,2834 @@
+{
+  "b1_selected": {
+    "ALOI": {
+      "semantic_exposure": 1,
+      "semantic_lr": 0.0001
+    },
+    "CCV": {
+      "semantic_exposure": 3,
+      "semantic_lr": 1e-05
+    },
+    "MSRC": {
+      "semantic_exposure": 1,
+      "semantic_lr": 0.001
+    }
+  },
+  "boundary_extension_allowed": false,
+  "branches": [
+    "11A",
+    "11B",
+    "37A",
+    "37B"
+  ],
+  "candidate_reuse_requires": [
+    "exact dataset/config",
+    "carrier state and pre-GT hashes",
+    "corruption and sparse realization through frozen carrier provenance",
+    "A2 context/protocol fingerprint",
+    "A2 objective",
+    "frozen semantic source dependency manifest",
+    "four branch schedule and state hashes"
+  ],
+  "datasets": {
+    "ALOI": {
+      "candidate_count": 30,
+      "dataset": "ALOI",
+      "entries": [
+        {
+          "provenance": {
+            "audit_sha256": "6cc28d3549bc18bdcc2a208131345126d7d426089549f6278b3aa73e2d865fe3",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_3.0000000000000001e-05__es_1/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "95e999bffb932848491c074889e2db270a700075dc69733773c8f64796378218",
+              "37": "005231f2364742a223f2528a0d6109c6cdf0c42528d355de62f6c0faa716e9fd"
+            },
+            "carrier_state_sha256": {
+              "11": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+              "37": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=3.0000000000000001e-05;semantic_exposure=1",
+              "dataset": "ALOI",
+              "delta_j_seed11_foldA": -0.27627285896287,
+              "delta_j_seed11_foldB": -0.06010990244399772,
+              "delta_j_seed37_foldA": 0.18917566284468545,
+              "delta_j_seed37_foldB": -0.09020443855821547,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": -0.27627285896287,
+                  "J_BASE": 1.4561139255002538,
+                  "J_OURS": 1.1798410665373837,
+                  "abstained_count": 40,
+                  "coverage": 0.6,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 60
+                },
+                "seed11_foldB": {
+                  "DeltaJ": -0.06010990244399772,
+                  "J_BASE": 1.3693885605586962,
+                  "J_OURS": 1.3092786581146985,
+                  "abstained_count": 45,
+                  "coverage": 0.55,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 55
+                },
+                "seed37_foldA": {
+                  "DeltaJ": 0.18917566284468545,
+                  "J_BASE": 1.5606646655833896,
+                  "J_OURS": 1.749840328428075,
+                  "abstained_count": 35,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 65
+                },
+                "seed37_foldB": {
+                  "DeltaJ": -0.09020443855821547,
+                  "J_BASE": 1.3253135719953095,
+                  "J_OURS": 1.235109133437094,
+                  "abstained_count": 47,
+                  "coverage": 0.53,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 53
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": -0.05935288428009944,
+              "positive_count": 1,
+              "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5",
+              "semantic_exposure": 1,
+              "semantic_lr": 3e-05,
+              "worst_delta_j": -0.27627285896287
+            },
+            "evaluation_sha256": "d363da50773ce45182d6a92576af16b78ffeeabecda1cd07c679ab86323d888c",
+            "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5"
+          },
+          "reusable": true,
+          "semantic_exposure": 1,
+          "semantic_lr": 3e-05
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 2,
+          "semantic_lr": 3e-05
+        },
+        {
+          "provenance": {
+            "audit_sha256": "aa47d3100464e7a1e6832767263154956993f20204c699e6acd900143f92fe6c",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_3.0000000000000001e-05__es_3/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "95e999bffb932848491c074889e2db270a700075dc69733773c8f64796378218",
+              "37": "005231f2364742a223f2528a0d6109c6cdf0c42528d355de62f6c0faa716e9fd"
+            },
+            "carrier_state_sha256": {
+              "11": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+              "37": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=3.0000000000000001e-05;semantic_exposure=3",
+              "dataset": "ALOI",
+              "delta_j_seed11_foldA": -0.2074012647373702,
+              "delta_j_seed11_foldB": -0.04933257802452218,
+              "delta_j_seed37_foldA": -0.16766803656918738,
+              "delta_j_seed37_foldB": 0.049295893746638786,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": -0.2074012647373702,
+                  "J_BASE": 1.4561139255002538,
+                  "J_OURS": 1.2487126607628836,
+                  "abstained_count": 40,
+                  "coverage": 0.6,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 60
+                },
+                "seed11_foldB": {
+                  "DeltaJ": -0.04933257802452218,
+                  "J_BASE": 1.3693885605586962,
+                  "J_OURS": 1.320055982534174,
+                  "abstained_count": 45,
+                  "coverage": 0.55,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 55
+                },
+                "seed37_foldA": {
+                  "DeltaJ": -0.16766803656918738,
+                  "J_BASE": 1.5606646655833896,
+                  "J_OURS": 1.3929966290142022,
+                  "abstained_count": 35,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 65
+                },
+                "seed37_foldB": {
+                  "DeltaJ": 0.049295893746638786,
+                  "J_BASE": 1.3253135719953095,
+                  "J_OURS": 1.3746094657419483,
+                  "abstained_count": 47,
+                  "coverage": 0.53,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 53
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": -0.09377649639611024,
+              "positive_count": 1,
+              "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5",
+              "semantic_exposure": 3,
+              "semantic_lr": 3e-05,
+              "worst_delta_j": -0.2074012647373702
+            },
+            "evaluation_sha256": "fd7def362e7978866555a1f268cb9b1e63e31f02b0cf16776fd5c4ad3ab5a01d",
+            "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5"
+          },
+          "reusable": true,
+          "semantic_exposure": 3,
+          "semantic_lr": 3e-05
+        },
+        {
+          "provenance": {
+            "audit_sha256": "ca9b86469e8e335a8231229fd6334df3fc915b5f82a683ff8d3bf2fa5b7ae03f",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_3.0000000000000001e-05__es_5/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "95e999bffb932848491c074889e2db270a700075dc69733773c8f64796378218",
+              "37": "005231f2364742a223f2528a0d6109c6cdf0c42528d355de62f6c0faa716e9fd"
+            },
+            "carrier_state_sha256": {
+              "11": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+              "37": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=3.0000000000000001e-05;semantic_exposure=5",
+              "dataset": "ALOI",
+              "delta_j_seed11_foldA": 0.010571643876344572,
+              "delta_j_seed11_foldB": -0.21060043396342953,
+              "delta_j_seed37_foldA": 0.09844243290699439,
+              "delta_j_seed37_foldB": -0.10018431897501134,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": 0.010571643876344572,
+                  "J_BASE": 1.4561139255002538,
+                  "J_OURS": 1.4666855693765983,
+                  "abstained_count": 40,
+                  "coverage": 0.6,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 60
+                },
+                "seed11_foldB": {
+                  "DeltaJ": -0.21060043396342953,
+                  "J_BASE": 1.3693885605586962,
+                  "J_OURS": 1.1587881265952666,
+                  "abstained_count": 45,
+                  "coverage": 0.55,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 55
+                },
+                "seed37_foldA": {
+                  "DeltaJ": 0.09844243290699439,
+                  "J_BASE": 1.5606646655833896,
+                  "J_OURS": 1.659107098490384,
+                  "abstained_count": 35,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 65
+                },
+                "seed37_foldB": {
+                  "DeltaJ": -0.10018431897501134,
+                  "J_BASE": 1.3253135719953095,
+                  "J_OURS": 1.2251292530202982,
+                  "abstained_count": 47,
+                  "coverage": 0.53,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 53
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": -0.05044266903877548,
+              "positive_count": 2,
+              "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5",
+              "semantic_exposure": 5,
+              "semantic_lr": 3e-05,
+              "worst_delta_j": -0.21060043396342953
+            },
+            "evaluation_sha256": "1f25175b13fd51322af77f9c3dc50147b7f01725764b0b1c269381139f5c1165",
+            "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5"
+          },
+          "reusable": true,
+          "semantic_exposure": 5,
+          "semantic_lr": 3e-05
+        },
+        {
+          "provenance": {
+            "audit_sha256": "76cfbdfdbe9a659deeb4d3c1ae8e14d57edb71de8089560e65acd3f189ab4ec8",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_3.0000000000000001e-05__es_10/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "95e999bffb932848491c074889e2db270a700075dc69733773c8f64796378218",
+              "37": "005231f2364742a223f2528a0d6109c6cdf0c42528d355de62f6c0faa716e9fd"
+            },
+            "carrier_state_sha256": {
+              "11": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+              "37": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=3.0000000000000001e-05;semantic_exposure=10",
+              "dataset": "ALOI",
+              "delta_j_seed11_foldA": -0.10202019208759383,
+              "delta_j_seed11_foldB": 0.037911749679642615,
+              "delta_j_seed37_foldA": -0.13280809998642895,
+              "delta_j_seed37_foldB": -0.03243706289352599,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": -0.10202019208759383,
+                  "J_BASE": 1.4561139255002538,
+                  "J_OURS": 1.35409373341266,
+                  "abstained_count": 40,
+                  "coverage": 0.6,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 10,
+                  "supported_count": 60
+                },
+                "seed11_foldB": {
+                  "DeltaJ": 0.037911749679642615,
+                  "J_BASE": 1.3693885605586962,
+                  "J_OURS": 1.4073003102383388,
+                  "abstained_count": 45,
+                  "coverage": 0.55,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 10,
+                  "supported_count": 55
+                },
+                "seed37_foldA": {
+                  "DeltaJ": -0.13280809998642895,
+                  "J_BASE": 1.5606646655833896,
+                  "J_OURS": 1.4278565655969606,
+                  "abstained_count": 35,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 10,
+                  "supported_count": 65
+                },
+                "seed37_foldB": {
+                  "DeltaJ": -0.03243706289352599,
+                  "J_BASE": 1.3253135719953095,
+                  "J_OURS": 1.2928765091017835,
+                  "abstained_count": 47,
+                  "coverage": 0.53,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 10,
+                  "supported_count": 53
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": -0.05733840132197654,
+              "positive_count": 1,
+              "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5",
+              "semantic_exposure": 10,
+              "semantic_lr": 3e-05,
+              "worst_delta_j": -0.13280809998642895
+            },
+            "evaluation_sha256": "f4a56de2782872354018d11aa9e77beac38f8643f25628ea54f13e9486930450",
+            "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5"
+          },
+          "reusable": true,
+          "semantic_exposure": 10,
+          "semantic_lr": 3e-05
+        },
+        {
+          "provenance": {
+            "audit_sha256": "b3977c37c8c08f3502827bf8df96c6f566ac208491706d014ff4fdd314e83467",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_3.0000000000000001e-05__es_20/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "95e999bffb932848491c074889e2db270a700075dc69733773c8f64796378218",
+              "37": "005231f2364742a223f2528a0d6109c6cdf0c42528d355de62f6c0faa716e9fd"
+            },
+            "carrier_state_sha256": {
+              "11": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+              "37": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=3.0000000000000001e-05;semantic_exposure=20",
+              "dataset": "ALOI",
+              "delta_j_seed11_foldA": -0.39444219997059116,
+              "delta_j_seed11_foldB": -0.11762819715042583,
+              "delta_j_seed37_foldA": 0.1088445187132252,
+              "delta_j_seed37_foldB": -0.0984344359607634,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": -0.39444219997059116,
+                  "J_BASE": 1.4561139255002538,
+                  "J_OURS": 1.0616717255296626,
+                  "abstained_count": 40,
+                  "coverage": 0.6,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 20,
+                  "supported_count": 60
+                },
+                "seed11_foldB": {
+                  "DeltaJ": -0.11762819715042583,
+                  "J_BASE": 1.3693885605586962,
+                  "J_OURS": 1.2517603634082703,
+                  "abstained_count": 45,
+                  "coverage": 0.55,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 20,
+                  "supported_count": 55
+                },
+                "seed37_foldA": {
+                  "DeltaJ": 0.1088445187132252,
+                  "J_BASE": 1.5606646655833896,
+                  "J_OURS": 1.6695091842966148,
+                  "abstained_count": 35,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 20,
+                  "supported_count": 65
+                },
+                "seed37_foldB": {
+                  "DeltaJ": -0.0984344359607634,
+                  "J_BASE": 1.3253135719953095,
+                  "J_OURS": 1.2268791360345461,
+                  "abstained_count": 47,
+                  "coverage": 0.53,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 20,
+                  "supported_count": 53
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": -0.1254150785921388,
+              "positive_count": 1,
+              "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5",
+              "semantic_exposure": 20,
+              "semantic_lr": 3e-05,
+              "worst_delta_j": -0.39444219997059116
+            },
+            "evaluation_sha256": "cd0633d5e8860b36482790af0cb8ef8ed03f7ea0d2734dd58f457693e2115614",
+            "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5"
+          },
+          "reusable": true,
+          "semantic_exposure": 20,
+          "semantic_lr": 3e-05
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 1,
+          "semantic_lr": 5e-05
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 2,
+          "semantic_lr": 5e-05
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 3,
+          "semantic_lr": 5e-05
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 5,
+          "semantic_lr": 5e-05
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 10,
+          "semantic_lr": 5e-05
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 20,
+          "semantic_lr": 5e-05
+        },
+        {
+          "provenance": {
+            "audit_sha256": "5fe3166acbee7384b725fda54ef36a20e0aa5919a6ab64de6decf27c995574f1",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.0001__es_1/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "95e999bffb932848491c074889e2db270a700075dc69733773c8f64796378218",
+              "37": "005231f2364742a223f2528a0d6109c6cdf0c42528d355de62f6c0faa716e9fd"
+            },
+            "carrier_state_sha256": {
+              "11": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+              "37": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=0.0001;semantic_exposure=1",
+              "dataset": "ALOI",
+              "delta_j_seed11_foldA": -0.08771575028914436,
+              "delta_j_seed11_foldB": 0.011877078159037158,
+              "delta_j_seed37_foldA": 0.2972514665195989,
+              "delta_j_seed37_foldB": 0.027576409414716174,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": -0.08771575028914436,
+                  "J_BASE": 1.4561139255002538,
+                  "J_OURS": 1.3683981752111094,
+                  "abstained_count": 40,
+                  "coverage": 0.6,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 60
+                },
+                "seed11_foldB": {
+                  "DeltaJ": 0.011877078159037158,
+                  "J_BASE": 1.3693885605586962,
+                  "J_OURS": 1.3812656387177333,
+                  "abstained_count": 45,
+                  "coverage": 0.55,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 55
+                },
+                "seed37_foldA": {
+                  "DeltaJ": 0.2972514665195989,
+                  "J_BASE": 1.5606646655833896,
+                  "J_OURS": 1.8579161321029884,
+                  "abstained_count": 35,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 65
+                },
+                "seed37_foldB": {
+                  "DeltaJ": 0.027576409414716174,
+                  "J_BASE": 1.3253135719953095,
+                  "J_OURS": 1.3528899814100257,
+                  "abstained_count": 47,
+                  "coverage": 0.53,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 53
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": 0.062247300951051965,
+              "positive_count": 3,
+              "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5",
+              "semantic_exposure": 1,
+              "semantic_lr": 0.0001,
+              "worst_delta_j": -0.08771575028914436
+            },
+            "evaluation_sha256": "78c665a9494e56478abded0b8ad00ab14d408ca363eab72ba4f8f40623019c98",
+            "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5"
+          },
+          "reusable": true,
+          "semantic_exposure": 1,
+          "semantic_lr": 0.0001
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 2,
+          "semantic_lr": 0.0001
+        },
+        {
+          "provenance": {
+            "audit_sha256": "ef84aa278aa8b073f31602b406dfec7256a0b8bbbacd72460d1adeeea3a0418f",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.0001__es_3/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "95e999bffb932848491c074889e2db270a700075dc69733773c8f64796378218",
+              "37": "005231f2364742a223f2528a0d6109c6cdf0c42528d355de62f6c0faa716e9fd"
+            },
+            "carrier_state_sha256": {
+              "11": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+              "37": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=0.0001;semantic_exposure=3",
+              "dataset": "ALOI",
+              "delta_j_seed11_foldA": -0.16676594319991622,
+              "delta_j_seed11_foldB": -0.010505249077044754,
+              "delta_j_seed37_foldA": -0.009396754218019776,
+              "delta_j_seed37_foldB": -0.09562776168827636,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": -0.16676594319991622,
+                  "J_BASE": 1.4561139255002538,
+                  "J_OURS": 1.2893479823003375,
+                  "abstained_count": 40,
+                  "coverage": 0.6,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 60
+                },
+                "seed11_foldB": {
+                  "DeltaJ": -0.010505249077044754,
+                  "J_BASE": 1.3693885605586962,
+                  "J_OURS": 1.3588833114816514,
+                  "abstained_count": 45,
+                  "coverage": 0.55,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 55
+                },
+                "seed37_foldA": {
+                  "DeltaJ": -0.009396754218019776,
+                  "J_BASE": 1.5606646655833896,
+                  "J_OURS": 1.5512679113653698,
+                  "abstained_count": 35,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 65
+                },
+                "seed37_foldB": {
+                  "DeltaJ": -0.09562776168827636,
+                  "J_BASE": 1.3253135719953095,
+                  "J_OURS": 1.2296858103070332,
+                  "abstained_count": 47,
+                  "coverage": 0.53,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 53
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": -0.07057392704581428,
+              "positive_count": 0,
+              "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5",
+              "semantic_exposure": 3,
+              "semantic_lr": 0.0001,
+              "worst_delta_j": -0.16676594319991622
+            },
+            "evaluation_sha256": "e7adcea76dd802b279f11d3cb9682ca01444f4b4f9dd3b2d7033d4ea8c06443d",
+            "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5"
+          },
+          "reusable": true,
+          "semantic_exposure": 3,
+          "semantic_lr": 0.0001
+        },
+        {
+          "provenance": {
+            "audit_sha256": "c38fb65e59797c8084b78d5db7ca9661295da4f000567ea164c5623e61314b21",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.0001__es_5/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "95e999bffb932848491c074889e2db270a700075dc69733773c8f64796378218",
+              "37": "005231f2364742a223f2528a0d6109c6cdf0c42528d355de62f6c0faa716e9fd"
+            },
+            "carrier_state_sha256": {
+              "11": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+              "37": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=0.0001;semantic_exposure=5",
+              "dataset": "ALOI",
+              "delta_j_seed11_foldA": -0.19438694556859626,
+              "delta_j_seed11_foldB": 0.010931263321897644,
+              "delta_j_seed37_foldA": 0.03459743305766416,
+              "delta_j_seed37_foldB": -0.2842188162962671,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": -0.19438694556859626,
+                  "J_BASE": 1.4561139255002538,
+                  "J_OURS": 1.2617269799316575,
+                  "abstained_count": 40,
+                  "coverage": 0.6,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 60
+                },
+                "seed11_foldB": {
+                  "DeltaJ": 0.010931263321897644,
+                  "J_BASE": 1.3693885605586962,
+                  "J_OURS": 1.3803198238805938,
+                  "abstained_count": 45,
+                  "coverage": 0.55,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 55
+                },
+                "seed37_foldA": {
+                  "DeltaJ": 0.03459743305766416,
+                  "J_BASE": 1.5606646655833896,
+                  "J_OURS": 1.5952620986410537,
+                  "abstained_count": 35,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 65
+                },
+                "seed37_foldB": {
+                  "DeltaJ": -0.2842188162962671,
+                  "J_BASE": 1.3253135719953095,
+                  "J_OURS": 1.0410947556990424,
+                  "abstained_count": 47,
+                  "coverage": 0.53,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 53
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": -0.10826926637132539,
+              "positive_count": 2,
+              "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5",
+              "semantic_exposure": 5,
+              "semantic_lr": 0.0001,
+              "worst_delta_j": -0.2842188162962671
+            },
+            "evaluation_sha256": "e5f53fa64a51f33156ab59aeba90ac8f846efc289a239ab7477df66dfe9eb311",
+            "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5"
+          },
+          "reusable": true,
+          "semantic_exposure": 5,
+          "semantic_lr": 0.0001
+        },
+        {
+          "provenance": {
+            "audit_sha256": "74ff3537672f8ab2d23f324321d974f90ace32d2e078a25218d4aa0ac6452deb",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.0001__es_10/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "95e999bffb932848491c074889e2db270a700075dc69733773c8f64796378218",
+              "37": "005231f2364742a223f2528a0d6109c6cdf0c42528d355de62f6c0faa716e9fd"
+            },
+            "carrier_state_sha256": {
+              "11": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+              "37": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=0.0001;semantic_exposure=10",
+              "dataset": "ALOI",
+              "delta_j_seed11_foldA": -0.23665154120711307,
+              "delta_j_seed11_foldB": 0.19369726439153778,
+              "delta_j_seed37_foldA": 0.06606105166033327,
+              "delta_j_seed37_foldB": 0.09958473099037723,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": -0.23665154120711307,
+                  "J_BASE": 1.4561139255002538,
+                  "J_OURS": 1.2194623842931407,
+                  "abstained_count": 40,
+                  "coverage": 0.6,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 10,
+                  "supported_count": 60
+                },
+                "seed11_foldB": {
+                  "DeltaJ": 0.19369726439153778,
+                  "J_BASE": 1.3693885605586962,
+                  "J_OURS": 1.563085824950234,
+                  "abstained_count": 45,
+                  "coverage": 0.55,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 10,
+                  "supported_count": 55
+                },
+                "seed37_foldA": {
+                  "DeltaJ": 0.06606105166033327,
+                  "J_BASE": 1.5606646655833896,
+                  "J_OURS": 1.6267257172437228,
+                  "abstained_count": 35,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 10,
+                  "supported_count": 65
+                },
+                "seed37_foldB": {
+                  "DeltaJ": 0.09958473099037723,
+                  "J_BASE": 1.3253135719953095,
+                  "J_OURS": 1.4248983029856868,
+                  "abstained_count": 47,
+                  "coverage": 0.53,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 10,
+                  "supported_count": 53
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": 0.030672876458783804,
+              "positive_count": 3,
+              "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5",
+              "semantic_exposure": 10,
+              "semantic_lr": 0.0001,
+              "worst_delta_j": -0.23665154120711307
+            },
+            "evaluation_sha256": "74d0d065451c83551fd74ad50d07ed813d96da4bd8d81368e8062468dbd56c8b",
+            "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5"
+          },
+          "reusable": true,
+          "semantic_exposure": 10,
+          "semantic_lr": 0.0001
+        },
+        {
+          "provenance": {
+            "audit_sha256": "7258a4be217ca0f1af074b7599bfd12aa559b4cadcde4c8097f7ecab4101731d",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.0001__es_20/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "95e999bffb932848491c074889e2db270a700075dc69733773c8f64796378218",
+              "37": "005231f2364742a223f2528a0d6109c6cdf0c42528d355de62f6c0faa716e9fd"
+            },
+            "carrier_state_sha256": {
+              "11": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+              "37": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=0.0001;semantic_exposure=20",
+              "dataset": "ALOI",
+              "delta_j_seed11_foldA": -0.2153416805734112,
+              "delta_j_seed11_foldB": -0.08817800150546296,
+              "delta_j_seed37_foldA": 0.01140167018391991,
+              "delta_j_seed37_foldB": -0.28414014869143345,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": -0.2153416805734112,
+                  "J_BASE": 1.4561139255002538,
+                  "J_OURS": 1.2407722449268426,
+                  "abstained_count": 40,
+                  "coverage": 0.6,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 20,
+                  "supported_count": 60
+                },
+                "seed11_foldB": {
+                  "DeltaJ": -0.08817800150546296,
+                  "J_BASE": 1.3693885605586962,
+                  "J_OURS": 1.2812105590532332,
+                  "abstained_count": 45,
+                  "coverage": 0.55,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 20,
+                  "supported_count": 55
+                },
+                "seed37_foldA": {
+                  "DeltaJ": 0.01140167018391991,
+                  "J_BASE": 1.5606646655833896,
+                  "J_OURS": 1.5720663357673095,
+                  "abstained_count": 35,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 20,
+                  "supported_count": 65
+                },
+                "seed37_foldB": {
+                  "DeltaJ": -0.28414014869143345,
+                  "J_BASE": 1.3253135719953095,
+                  "J_OURS": 1.041173423303876,
+                  "abstained_count": 47,
+                  "coverage": 0.53,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 20,
+                  "supported_count": 53
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": -0.14406454014659692,
+              "positive_count": 1,
+              "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5",
+              "semantic_exposure": 20,
+              "semantic_lr": 0.0001,
+              "worst_delta_j": -0.28414014869143345
+            },
+            "evaluation_sha256": "eeb8a37afc73b01a8c296ff5615d13740d7b084a847fea91ecb9e8cf7226cf66",
+            "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5"
+          },
+          "reusable": true,
+          "semantic_exposure": 20,
+          "semantic_lr": 0.0001
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 1,
+          "semantic_lr": 0.0002
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 2,
+          "semantic_lr": 0.0002
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 3,
+          "semantic_lr": 0.0002
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 5,
+          "semantic_lr": 0.0002
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 10,
+          "semantic_lr": 0.0002
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 20,
+          "semantic_lr": 0.0002
+        },
+        {
+          "provenance": {
+            "audit_sha256": "4f57a8bd021d9a310d21ee95acff41f1b5db872f83ae9193b3289fad8af3710e",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.00029999999999999997__es_1/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "95e999bffb932848491c074889e2db270a700075dc69733773c8f64796378218",
+              "37": "005231f2364742a223f2528a0d6109c6cdf0c42528d355de62f6c0faa716e9fd"
+            },
+            "carrier_state_sha256": {
+              "11": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+              "37": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=0.00029999999999999997;semantic_exposure=1",
+              "dataset": "ALOI",
+              "delta_j_seed11_foldA": 0.05345272844200699,
+              "delta_j_seed11_foldB": -0.06064742600293438,
+              "delta_j_seed37_foldA": 0.27718276408291476,
+              "delta_j_seed37_foldB": -0.20257736788257374,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": 0.05345272844200699,
+                  "J_BASE": 1.4561139255002538,
+                  "J_OURS": 1.5095666539422607,
+                  "abstained_count": 40,
+                  "coverage": 0.6,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 60
+                },
+                "seed11_foldB": {
+                  "DeltaJ": -0.06064742600293438,
+                  "J_BASE": 1.3693885605586962,
+                  "J_OURS": 1.3087411345557618,
+                  "abstained_count": 45,
+                  "coverage": 0.55,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 55
+                },
+                "seed37_foldA": {
+                  "DeltaJ": 0.27718276408291476,
+                  "J_BASE": 1.5606646655833896,
+                  "J_OURS": 1.8378474296663043,
+                  "abstained_count": 35,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 65
+                },
+                "seed37_foldB": {
+                  "DeltaJ": -0.20257736788257374,
+                  "J_BASE": 1.3253135719953095,
+                  "J_OURS": 1.1227362041127358,
+                  "abstained_count": 47,
+                  "coverage": 0.53,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 53
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": 0.016852674659853406,
+              "positive_count": 2,
+              "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5",
+              "semantic_exposure": 1,
+              "semantic_lr": 0.0003,
+              "worst_delta_j": -0.20257736788257374
+            },
+            "evaluation_sha256": "26400d6941c863d341f5fdd7f0ac3cf259aec0e29dd0ecbec0c2ac8c3a8c3f40",
+            "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5"
+          },
+          "reusable": true,
+          "semantic_exposure": 1,
+          "semantic_lr": 0.0003
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 2,
+          "semantic_lr": 0.0003
+        },
+        {
+          "provenance": {
+            "audit_sha256": "a375b813e28ce1427cade0cd22b13a54cfe6551a5be4da75c1cab348ec2fbc24",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.00029999999999999997__es_3/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "95e999bffb932848491c074889e2db270a700075dc69733773c8f64796378218",
+              "37": "005231f2364742a223f2528a0d6109c6cdf0c42528d355de62f6c0faa716e9fd"
+            },
+            "carrier_state_sha256": {
+              "11": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+              "37": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=0.00029999999999999997;semantic_exposure=3",
+              "dataset": "ALOI",
+              "delta_j_seed11_foldA": -0.0675660346057807,
+              "delta_j_seed11_foldB": -0.055729629315695695,
+              "delta_j_seed37_foldA": -0.02322258711842551,
+              "delta_j_seed37_foldB": -0.2542428402231478,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": -0.0675660346057807,
+                  "J_BASE": 1.4561139255002538,
+                  "J_OURS": 1.388547890894473,
+                  "abstained_count": 40,
+                  "coverage": 0.6,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 60
+                },
+                "seed11_foldB": {
+                  "DeltaJ": -0.055729629315695695,
+                  "J_BASE": 1.3693885605586962,
+                  "J_OURS": 1.3136589312430005,
+                  "abstained_count": 45,
+                  "coverage": 0.55,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 55
+                },
+                "seed37_foldA": {
+                  "DeltaJ": -0.02322258711842551,
+                  "J_BASE": 1.5606646655833896,
+                  "J_OURS": 1.537442078464964,
+                  "abstained_count": 35,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 65
+                },
+                "seed37_foldB": {
+                  "DeltaJ": -0.2542428402231478,
+                  "J_BASE": 1.3253135719953095,
+                  "J_OURS": 1.0710707317721617,
+                  "abstained_count": 47,
+                  "coverage": 0.53,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 53
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": -0.10019027281576243,
+              "positive_count": 0,
+              "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5",
+              "semantic_exposure": 3,
+              "semantic_lr": 0.0003,
+              "worst_delta_j": -0.2542428402231478
+            },
+            "evaluation_sha256": "887ec765b591054f6acb7263ba843446dea553c331fe8892f25a95f234074501",
+            "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5"
+          },
+          "reusable": true,
+          "semantic_exposure": 3,
+          "semantic_lr": 0.0003
+        },
+        {
+          "provenance": {
+            "audit_sha256": "6814c4341dc3408d99df5d87702c743e96f155dbdf26a73125e4e57721016035",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.00029999999999999997__es_5/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "95e999bffb932848491c074889e2db270a700075dc69733773c8f64796378218",
+              "37": "005231f2364742a223f2528a0d6109c6cdf0c42528d355de62f6c0faa716e9fd"
+            },
+            "carrier_state_sha256": {
+              "11": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+              "37": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=0.00029999999999999997;semantic_exposure=5",
+              "dataset": "ALOI",
+              "delta_j_seed11_foldA": -0.14347531313311568,
+              "delta_j_seed11_foldB": -0.24935621770870542,
+              "delta_j_seed37_foldA": 0.08306493645975577,
+              "delta_j_seed37_foldB": -0.1764833720155694,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": -0.14347531313311568,
+                  "J_BASE": 1.4561139255002538,
+                  "J_OURS": 1.312638612367138,
+                  "abstained_count": 40,
+                  "coverage": 0.6,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 60
+                },
+                "seed11_foldB": {
+                  "DeltaJ": -0.24935621770870542,
+                  "J_BASE": 1.3693885605586962,
+                  "J_OURS": 1.1200323428499908,
+                  "abstained_count": 45,
+                  "coverage": 0.55,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 55
+                },
+                "seed37_foldA": {
+                  "DeltaJ": 0.08306493645975577,
+                  "J_BASE": 1.5606646655833896,
+                  "J_OURS": 1.6437296020431453,
+                  "abstained_count": 35,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 65
+                },
+                "seed37_foldB": {
+                  "DeltaJ": -0.1764833720155694,
+                  "J_BASE": 1.3253135719953095,
+                  "J_OURS": 1.1488301999797401,
+                  "abstained_count": 47,
+                  "coverage": 0.53,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 53
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": -0.12156249159940868,
+              "positive_count": 1,
+              "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5",
+              "semantic_exposure": 5,
+              "semantic_lr": 0.0003,
+              "worst_delta_j": -0.24935621770870542
+            },
+            "evaluation_sha256": "850cde72a0c0138f1c747f4a961f96cd37ecf999c695e0c111cd6aa40057ffef",
+            "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5"
+          },
+          "reusable": true,
+          "semantic_exposure": 5,
+          "semantic_lr": 0.0003
+        },
+        {
+          "provenance": {
+            "audit_sha256": "0405141d69ab0a90ef7e461269e5a370b43fc33632078969c30b082d26f78d9a",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.00029999999999999997__es_10/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "95e999bffb932848491c074889e2db270a700075dc69733773c8f64796378218",
+              "37": "005231f2364742a223f2528a0d6109c6cdf0c42528d355de62f6c0faa716e9fd"
+            },
+            "carrier_state_sha256": {
+              "11": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+              "37": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=0.00029999999999999997;semantic_exposure=10",
+              "dataset": "ALOI",
+              "delta_j_seed11_foldA": -0.3537310956393298,
+              "delta_j_seed11_foldB": 0.04735591070350931,
+              "delta_j_seed37_foldA": -0.03451372199196867,
+              "delta_j_seed37_foldB": -0.04383487975484912,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": -0.3537310956393298,
+                  "J_BASE": 1.4561139255002538,
+                  "J_OURS": 1.102382829860924,
+                  "abstained_count": 40,
+                  "coverage": 0.6,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 10,
+                  "supported_count": 60
+                },
+                "seed11_foldB": {
+                  "DeltaJ": 0.04735591070350931,
+                  "J_BASE": 1.3693885605586962,
+                  "J_OURS": 1.4167444712622055,
+                  "abstained_count": 45,
+                  "coverage": 0.55,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 10,
+                  "supported_count": 55
+                },
+                "seed37_foldA": {
+                  "DeltaJ": -0.03451372199196867,
+                  "J_BASE": 1.5606646655833896,
+                  "J_OURS": 1.526150943591421,
+                  "abstained_count": 35,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 10,
+                  "supported_count": 65
+                },
+                "seed37_foldB": {
+                  "DeltaJ": -0.04383487975484912,
+                  "J_BASE": 1.3253135719953095,
+                  "J_OURS": 1.2814786922404604,
+                  "abstained_count": 47,
+                  "coverage": 0.53,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 10,
+                  "supported_count": 53
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": -0.09618094667065957,
+              "positive_count": 1,
+              "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5",
+              "semantic_exposure": 10,
+              "semantic_lr": 0.0003,
+              "worst_delta_j": -0.3537310956393298
+            },
+            "evaluation_sha256": "1cdc6fe92273d541aeb69e58db86e8f05bbf3789dde966a20d2e932e5a125f56",
+            "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5"
+          },
+          "reusable": true,
+          "semantic_exposure": 10,
+          "semantic_lr": 0.0003
+        },
+        {
+          "provenance": {
+            "audit_sha256": "5c88da1289ad65b6bfe6b77ebabcb95de5a66a048e5027cde892e500f9c7c84b",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.00029999999999999997__es_20/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "95e999bffb932848491c074889e2db270a700075dc69733773c8f64796378218",
+              "37": "005231f2364742a223f2528a0d6109c6cdf0c42528d355de62f6c0faa716e9fd"
+            },
+            "carrier_state_sha256": {
+              "11": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+              "37": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=0.00029999999999999997;semantic_exposure=20",
+              "dataset": "ALOI",
+              "delta_j_seed11_foldA": -0.23748209619489868,
+              "delta_j_seed11_foldB": -0.15901897776378404,
+              "delta_j_seed37_foldA": -0.05125271686189614,
+              "delta_j_seed37_foldB": 0.01804584544584409,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": -0.23748209619489868,
+                  "J_BASE": 1.4561139255002538,
+                  "J_OURS": 1.218631829305355,
+                  "abstained_count": 40,
+                  "coverage": 0.6,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 20,
+                  "supported_count": 60
+                },
+                "seed11_foldB": {
+                  "DeltaJ": -0.15901897776378404,
+                  "J_BASE": 1.3693885605586962,
+                  "J_OURS": 1.2103695827949121,
+                  "abstained_count": 45,
+                  "coverage": 0.55,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "ed0810848864291695750c4b971dfeac7b26150e1c6a5516250d27bf3d862656",
+                  "native_epochs": 20,
+                  "semantic_steps": 20,
+                  "supported_count": 55
+                },
+                "seed37_foldA": {
+                  "DeltaJ": -0.05125271686189614,
+                  "J_BASE": 1.5606646655833896,
+                  "J_OURS": 1.5094119487214934,
+                  "abstained_count": 35,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 20,
+                  "supported_count": 65
+                },
+                "seed37_foldB": {
+                  "DeltaJ": 0.01804584544584409,
+                  "J_BASE": 1.3253135719953095,
+                  "J_OURS": 1.3433594174411536,
+                  "abstained_count": 47,
+                  "coverage": 0.53,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "77195e77ce9201c4174be0c561373506590e48498a8f323319fc83abdd646d54",
+                  "native_epochs": 20,
+                  "semantic_steps": 20,
+                  "supported_count": 53
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": -0.1074269863436837,
+              "positive_count": 1,
+              "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5",
+              "semantic_exposure": 20,
+              "semantic_lr": 0.0003,
+              "worst_delta_j": -0.23748209619489868
+            },
+            "evaluation_sha256": "00118e4d405813b3e34b61c92ccd1906531662bbc8f9cf1b4f7d8ea7593951b6",
+            "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5"
+          },
+          "reusable": true,
+          "semantic_exposure": 20,
+          "semantic_lr": 0.0003
+        }
+      ],
+      "new_count": 15,
+      "protocol_fingerprint": "819623c1c5bb5beffc1ff79797cae4fd2b08eb4c651da9e6546aac4d0bb3b1b5",
+      "reusable_count": 15
+    },
+    "CCV": {
+      "candidate_count": 25,
+      "dataset": "CCV",
+      "entries": [
+        {
+          "provenance": {
+            "audit_sha256": "c586bb6cb54039d329365d2180afa09aa42fe835dc0c810dee69dab0148aa5ad",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/ccv/candidates/lr_3.0000000000000001e-06__es_1/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "0364bbf9c7f888e70e338d8582fb01a9113ef9c78cbab6ef9c263633a98fd823",
+              "37": "e39ced3595fd4583170fbd53f33afe99945f13fa0467650573ece923ace4ed88"
+            },
+            "carrier_state_sha256": {
+              "11": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+              "37": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=3.0000000000000001e-06;semantic_exposure=1",
+              "dataset": "CCV",
+              "delta_j_seed11_foldA": -0.01733376281439236,
+              "delta_j_seed11_foldB": -0.31551177630288785,
+              "delta_j_seed37_foldA": -0.3490778589588953,
+              "delta_j_seed37_foldB": -0.13330791769816197,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": -0.01733376281439236,
+                  "J_BASE": -1.6268681308553248,
+                  "J_OURS": -1.6442018936697171,
+                  "abstained_count": 4,
+                  "coverage": 0.8,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 16
+                },
+                "seed11_foldB": {
+                  "DeltaJ": -0.31551177630288785,
+                  "J_BASE": -1.183344198257449,
+                  "J_OURS": -1.498855974560337,
+                  "abstained_count": 7,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 13
+                },
+                "seed37_foldA": {
+                  "DeltaJ": -0.3490778589588953,
+                  "J_BASE": -0.5850215054069107,
+                  "J_OURS": -0.934099364365806,
+                  "abstained_count": 5,
+                  "coverage": 0.75,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 15
+                },
+                "seed37_foldB": {
+                  "DeltaJ": -0.13330791769816197,
+                  "J_BASE": -0.7952511767332349,
+                  "J_OURS": -0.9285590944313968,
+                  "abstained_count": 10,
+                  "coverage": 0.5,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 10
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": -0.20380782894358437,
+              "positive_count": 0,
+              "protocol_fingerprint": "356c353afd9194607d8b4441a583b6fd95f075de1ce187bd0979c03d9410f60c",
+              "semantic_exposure": 1,
+              "semantic_lr": 3e-06,
+              "worst_delta_j": -0.3490778589588953
+            },
+            "evaluation_sha256": "b218420d8853b47e6934bdc2c78e8a29f461b1214a62c5f93a3e77df52b3462a",
+            "protocol_fingerprint": "356c353afd9194607d8b4441a583b6fd95f075de1ce187bd0979c03d9410f60c"
+          },
+          "reusable": true,
+          "semantic_exposure": 1,
+          "semantic_lr": 3e-06
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 2,
+          "semantic_lr": 3e-06
+        },
+        {
+          "provenance": {
+            "audit_sha256": "a2786c9e6c74d0a8ea0c296d05eee5bdc53b0bbe2806b7fa7a865ab24f4d6136",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/ccv/candidates/lr_3.0000000000000001e-06__es_3/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "0364bbf9c7f888e70e338d8582fb01a9113ef9c78cbab6ef9c263633a98fd823",
+              "37": "e39ced3595fd4583170fbd53f33afe99945f13fa0467650573ece923ace4ed88"
+            },
+            "carrier_state_sha256": {
+              "11": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+              "37": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=3.0000000000000001e-06;semantic_exposure=3",
+              "dataset": "CCV",
+              "delta_j_seed11_foldA": 0.10057852010754775,
+              "delta_j_seed11_foldB": -0.4641179904469297,
+              "delta_j_seed37_foldA": -0.31905799805643975,
+              "delta_j_seed37_foldB": 0.028480705498464265,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": 0.10057852010754775,
+                  "J_BASE": -1.6268681308553248,
+                  "J_OURS": -1.526289610747777,
+                  "abstained_count": 4,
+                  "coverage": 0.8,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 16
+                },
+                "seed11_foldB": {
+                  "DeltaJ": -0.4641179904469297,
+                  "J_BASE": -1.183344198257449,
+                  "J_OURS": -1.6474621887043788,
+                  "abstained_count": 7,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 13
+                },
+                "seed37_foldA": {
+                  "DeltaJ": -0.31905799805643975,
+                  "J_BASE": -0.5850215054069107,
+                  "J_OURS": -0.9040795034633504,
+                  "abstained_count": 5,
+                  "coverage": 0.75,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 15
+                },
+                "seed37_foldB": {
+                  "DeltaJ": 0.028480705498464265,
+                  "J_BASE": -0.7952511767332349,
+                  "J_OURS": -0.7667704712347706,
+                  "abstained_count": 10,
+                  "coverage": 0.5,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 10
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": -0.16352919072433936,
+              "positive_count": 2,
+              "protocol_fingerprint": "356c353afd9194607d8b4441a583b6fd95f075de1ce187bd0979c03d9410f60c",
+              "semantic_exposure": 3,
+              "semantic_lr": 3e-06,
+              "worst_delta_j": -0.4641179904469297
+            },
+            "evaluation_sha256": "7dbdbc969078c4bed3aa3a62423701796c1fdcfcc69c06215772a5cb0ee925b5",
+            "protocol_fingerprint": "356c353afd9194607d8b4441a583b6fd95f075de1ce187bd0979c03d9410f60c"
+          },
+          "reusable": true,
+          "semantic_exposure": 3,
+          "semantic_lr": 3e-06
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 4,
+          "semantic_lr": 3e-06
+        },
+        {
+          "provenance": {
+            "audit_sha256": "d13ca0b9310a71d21077c6e4d6e3afdd4194ab3141a7967adf5202aa4a17e572",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/ccv/candidates/lr_3.0000000000000001e-06__es_5/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "0364bbf9c7f888e70e338d8582fb01a9113ef9c78cbab6ef9c263633a98fd823",
+              "37": "e39ced3595fd4583170fbd53f33afe99945f13fa0467650573ece923ace4ed88"
+            },
+            "carrier_state_sha256": {
+              "11": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+              "37": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=3.0000000000000001e-06;semantic_exposure=5",
+              "dataset": "CCV",
+              "delta_j_seed11_foldA": -0.1022944405580728,
+              "delta_j_seed11_foldB": -0.5263465905141294,
+              "delta_j_seed37_foldA": -0.3793866172771695,
+              "delta_j_seed37_foldB": -0.0015814095843147413,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": -0.1022944405580728,
+                  "J_BASE": -1.6268681308553248,
+                  "J_OURS": -1.7291625714133976,
+                  "abstained_count": 4,
+                  "coverage": 0.8,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 16
+                },
+                "seed11_foldB": {
+                  "DeltaJ": -0.5263465905141294,
+                  "J_BASE": -1.183344198257449,
+                  "J_OURS": -1.7096907887715784,
+                  "abstained_count": 7,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 13
+                },
+                "seed37_foldA": {
+                  "DeltaJ": -0.3793866172771695,
+                  "J_BASE": -0.5850215054069107,
+                  "J_OURS": -0.9644081226840802,
+                  "abstained_count": 5,
+                  "coverage": 0.75,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 15
+                },
+                "seed37_foldB": {
+                  "DeltaJ": -0.0015814095843147413,
+                  "J_BASE": -0.7952511767332349,
+                  "J_OURS": -0.7968325863175496,
+                  "abstained_count": 10,
+                  "coverage": 0.5,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 10
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": -0.2524022644834216,
+              "positive_count": 0,
+              "protocol_fingerprint": "356c353afd9194607d8b4441a583b6fd95f075de1ce187bd0979c03d9410f60c",
+              "semantic_exposure": 5,
+              "semantic_lr": 3e-06,
+              "worst_delta_j": -0.5263465905141294
+            },
+            "evaluation_sha256": "ccae0ebd7c368b5a6fb1cf1244772f27edd22e78bc76d98436120414a619b9d4",
+            "protocol_fingerprint": "356c353afd9194607d8b4441a583b6fd95f075de1ce187bd0979c03d9410f60c"
+          },
+          "reusable": true,
+          "semantic_exposure": 5,
+          "semantic_lr": 3e-06
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 1,
+          "semantic_lr": 5e-06
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 2,
+          "semantic_lr": 5e-06
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 3,
+          "semantic_lr": 5e-06
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 4,
+          "semantic_lr": 5e-06
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 5,
+          "semantic_lr": 5e-06
+        },
+        {
+          "provenance": {
+            "audit_sha256": "8b40c6a624fb81bbd41087de16a2260eb865cd75ec14deeb54d054ed2397a383",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/ccv/candidates/lr_1.0000000000000001e-05__es_1/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "0364bbf9c7f888e70e338d8582fb01a9113ef9c78cbab6ef9c263633a98fd823",
+              "37": "e39ced3595fd4583170fbd53f33afe99945f13fa0467650573ece923ace4ed88"
+            },
+            "carrier_state_sha256": {
+              "11": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+              "37": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=1.0000000000000001e-05;semantic_exposure=1",
+              "dataset": "CCV",
+              "delta_j_seed11_foldA": 0.019075888138202046,
+              "delta_j_seed11_foldB": -0.38317571162806985,
+              "delta_j_seed37_foldA": -0.4845668177467658,
+              "delta_j_seed37_foldB": 0.13829330405291795,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": 0.019075888138202046,
+                  "J_BASE": -1.6268681308553248,
+                  "J_OURS": -1.6077922427171227,
+                  "abstained_count": 4,
+                  "coverage": 0.8,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 16
+                },
+                "seed11_foldB": {
+                  "DeltaJ": -0.38317571162806985,
+                  "J_BASE": -1.183344198257449,
+                  "J_OURS": -1.566519909885519,
+                  "abstained_count": 7,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 13
+                },
+                "seed37_foldA": {
+                  "DeltaJ": -0.4845668177467658,
+                  "J_BASE": -0.5850215054069107,
+                  "J_OURS": -1.0695883231536765,
+                  "abstained_count": 5,
+                  "coverage": 0.75,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 15
+                },
+                "seed37_foldB": {
+                  "DeltaJ": 0.13829330405291795,
+                  "J_BASE": -0.7952511767332349,
+                  "J_OURS": -0.6569578726803169,
+                  "abstained_count": 10,
+                  "coverage": 0.5,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 10
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": -0.1775933342959289,
+              "positive_count": 2,
+              "protocol_fingerprint": "356c353afd9194607d8b4441a583b6fd95f075de1ce187bd0979c03d9410f60c",
+              "semantic_exposure": 1,
+              "semantic_lr": 1e-05,
+              "worst_delta_j": -0.4845668177467658
+            },
+            "evaluation_sha256": "276d794dc7f8f3b56a1dcfec0e1306b27325a5874f9f1c5637c8c6103612eb13",
+            "protocol_fingerprint": "356c353afd9194607d8b4441a583b6fd95f075de1ce187bd0979c03d9410f60c"
+          },
+          "reusable": true,
+          "semantic_exposure": 1,
+          "semantic_lr": 1e-05
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 2,
+          "semantic_lr": 1e-05
+        },
+        {
+          "provenance": {
+            "audit_sha256": "c2267574769a1ce97941ed2a098a9488402c3a926791c071d3c185454e4ccf9e",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/ccv/candidates/lr_1.0000000000000001e-05__es_3/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "0364bbf9c7f888e70e338d8582fb01a9113ef9c78cbab6ef9c263633a98fd823",
+              "37": "e39ced3595fd4583170fbd53f33afe99945f13fa0467650573ece923ace4ed88"
+            },
+            "carrier_state_sha256": {
+              "11": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+              "37": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=1.0000000000000001e-05;semantic_exposure=3",
+              "dataset": "CCV",
+              "delta_j_seed11_foldA": 0.22417085876863418,
+              "delta_j_seed11_foldB": -0.26563430612575956,
+              "delta_j_seed37_foldA": -0.10432485080798537,
+              "delta_j_seed37_foldB": 0.3057970315335932,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": 0.22417085876863418,
+                  "J_BASE": -1.6268681308553248,
+                  "J_OURS": -1.4026972720866906,
+                  "abstained_count": 4,
+                  "coverage": 0.8,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 16
+                },
+                "seed11_foldB": {
+                  "DeltaJ": -0.26563430612575956,
+                  "J_BASE": -1.183344198257449,
+                  "J_OURS": -1.4489785043832086,
+                  "abstained_count": 7,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 13
+                },
+                "seed37_foldA": {
+                  "DeltaJ": -0.10432485080798537,
+                  "J_BASE": -0.5850215054069107,
+                  "J_OURS": -0.689346356214896,
+                  "abstained_count": 5,
+                  "coverage": 0.75,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 15
+                },
+                "seed37_foldB": {
+                  "DeltaJ": 0.3057970315335932,
+                  "J_BASE": -0.7952511767332349,
+                  "J_OURS": -0.48945414519964164,
+                  "abstained_count": 10,
+                  "coverage": 0.5,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 10
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": 0.04000218334212062,
+              "positive_count": 2,
+              "protocol_fingerprint": "356c353afd9194607d8b4441a583b6fd95f075de1ce187bd0979c03d9410f60c",
+              "semantic_exposure": 3,
+              "semantic_lr": 1e-05,
+              "worst_delta_j": -0.26563430612575956
+            },
+            "evaluation_sha256": "b848306df7300f15234edbde75678d81156d570c56e54f7b912c7548a804ed80",
+            "protocol_fingerprint": "356c353afd9194607d8b4441a583b6fd95f075de1ce187bd0979c03d9410f60c"
+          },
+          "reusable": true,
+          "semantic_exposure": 3,
+          "semantic_lr": 1e-05
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 4,
+          "semantic_lr": 1e-05
+        },
+        {
+          "provenance": {
+            "audit_sha256": "48276b9a61419c157f596ebf41f1ebd5c634814538145266dd44dc2b5b2b79eb",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/ccv/candidates/lr_1.0000000000000001e-05__es_5/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "0364bbf9c7f888e70e338d8582fb01a9113ef9c78cbab6ef9c263633a98fd823",
+              "37": "e39ced3595fd4583170fbd53f33afe99945f13fa0467650573ece923ace4ed88"
+            },
+            "carrier_state_sha256": {
+              "11": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+              "37": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=1.0000000000000001e-05;semantic_exposure=5",
+              "dataset": "CCV",
+              "delta_j_seed11_foldA": -0.3697143770331621,
+              "delta_j_seed11_foldB": -0.11071393943512864,
+              "delta_j_seed37_foldA": -0.16772055921856344,
+              "delta_j_seed37_foldB": 0.03820067358509549,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": -0.3697143770331621,
+                  "J_BASE": -1.6268681308553248,
+                  "J_OURS": -1.996582507888487,
+                  "abstained_count": 4,
+                  "coverage": 0.8,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 16
+                },
+                "seed11_foldB": {
+                  "DeltaJ": -0.11071393943512864,
+                  "J_BASE": -1.183344198257449,
+                  "J_OURS": -1.2940581376925777,
+                  "abstained_count": 7,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 13
+                },
+                "seed37_foldA": {
+                  "DeltaJ": -0.16772055921856344,
+                  "J_BASE": -0.5850215054069107,
+                  "J_OURS": -0.7527420646254741,
+                  "abstained_count": 5,
+                  "coverage": 0.75,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 15
+                },
+                "seed37_foldB": {
+                  "DeltaJ": 0.03820067358509549,
+                  "J_BASE": -0.7952511767332349,
+                  "J_OURS": -0.7570505031481394,
+                  "abstained_count": 10,
+                  "coverage": 0.5,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 10
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": -0.15248705052543968,
+              "positive_count": 1,
+              "protocol_fingerprint": "356c353afd9194607d8b4441a583b6fd95f075de1ce187bd0979c03d9410f60c",
+              "semantic_exposure": 5,
+              "semantic_lr": 1e-05,
+              "worst_delta_j": -0.3697143770331621
+            },
+            "evaluation_sha256": "b66291c0933bf52f91c2a4461d04f549b151b61c3b191530ff578af6cadbf954",
+            "protocol_fingerprint": "356c353afd9194607d8b4441a583b6fd95f075de1ce187bd0979c03d9410f60c"
+          },
+          "reusable": true,
+          "semantic_exposure": 5,
+          "semantic_lr": 1e-05
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 1,
+          "semantic_lr": 2e-05
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 2,
+          "semantic_lr": 2e-05
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 3,
+          "semantic_lr": 2e-05
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 4,
+          "semantic_lr": 2e-05
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 5,
+          "semantic_lr": 2e-05
+        },
+        {
+          "provenance": {
+            "audit_sha256": "e5e22e380c266f2bf1fdd22fd16f579a29c7035cecc89a25ec30370dad8d31bb",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/ccv/candidates/lr_3.0000000000000001e-05__es_1/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "0364bbf9c7f888e70e338d8582fb01a9113ef9c78cbab6ef9c263633a98fd823",
+              "37": "e39ced3595fd4583170fbd53f33afe99945f13fa0467650573ece923ace4ed88"
+            },
+            "carrier_state_sha256": {
+              "11": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+              "37": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=3.0000000000000001e-05;semantic_exposure=1",
+              "dataset": "CCV",
+              "delta_j_seed11_foldA": 0.14767591099307675,
+              "delta_j_seed11_foldB": 0.10319313115670403,
+              "delta_j_seed37_foldA": -0.24935683936684472,
+              "delta_j_seed37_foldB": 0.08293125150722513,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": 0.14767591099307675,
+                  "J_BASE": -1.6268681308553248,
+                  "J_OURS": -1.479192219862248,
+                  "abstained_count": 4,
+                  "coverage": 0.8,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 16
+                },
+                "seed11_foldB": {
+                  "DeltaJ": 0.10319313115670403,
+                  "J_BASE": -1.183344198257449,
+                  "J_OURS": -1.080151067100745,
+                  "abstained_count": 7,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 13
+                },
+                "seed37_foldA": {
+                  "DeltaJ": -0.24935683936684472,
+                  "J_BASE": -0.5850215054069107,
+                  "J_OURS": -0.8343783447737554,
+                  "abstained_count": 5,
+                  "coverage": 0.75,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 15
+                },
+                "seed37_foldB": {
+                  "DeltaJ": 0.08293125150722513,
+                  "J_BASE": -0.7952511767332349,
+                  "J_OURS": -0.7123199252260097,
+                  "abstained_count": 10,
+                  "coverage": 0.5,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 10
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": 0.0211108635725403,
+              "positive_count": 3,
+              "protocol_fingerprint": "356c353afd9194607d8b4441a583b6fd95f075de1ce187bd0979c03d9410f60c",
+              "semantic_exposure": 1,
+              "semantic_lr": 3e-05,
+              "worst_delta_j": -0.24935683936684472
+            },
+            "evaluation_sha256": "1366c1e28d1f1b1134f5fe77d9d57b46a9d15d4bc0d90f51e61daa2b2ff36de2",
+            "protocol_fingerprint": "356c353afd9194607d8b4441a583b6fd95f075de1ce187bd0979c03d9410f60c"
+          },
+          "reusable": true,
+          "semantic_exposure": 1,
+          "semantic_lr": 3e-05
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 2,
+          "semantic_lr": 3e-05
+        },
+        {
+          "provenance": {
+            "audit_sha256": "f8cbdea107ace27ed68cafd0cd2694f5d5928c36126bdfc40e28a4f33768d2ca",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/ccv/candidates/lr_3.0000000000000001e-05__es_3/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "0364bbf9c7f888e70e338d8582fb01a9113ef9c78cbab6ef9c263633a98fd823",
+              "37": "e39ced3595fd4583170fbd53f33afe99945f13fa0467650573ece923ace4ed88"
+            },
+            "carrier_state_sha256": {
+              "11": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+              "37": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=3.0000000000000001e-05;semantic_exposure=3",
+              "dataset": "CCV",
+              "delta_j_seed11_foldA": -0.08805857260642691,
+              "delta_j_seed11_foldB": -0.1360579534458506,
+              "delta_j_seed37_foldA": -0.31559829134147055,
+              "delta_j_seed37_foldB": -0.05255887725180841,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": -0.08805857260642691,
+                  "J_BASE": -1.6268681308553248,
+                  "J_OURS": -1.7149267034617517,
+                  "abstained_count": 4,
+                  "coverage": 0.8,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 16
+                },
+                "seed11_foldB": {
+                  "DeltaJ": -0.1360579534458506,
+                  "J_BASE": -1.183344198257449,
+                  "J_OURS": -1.3194021517032997,
+                  "abstained_count": 7,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 13
+                },
+                "seed37_foldA": {
+                  "DeltaJ": -0.31559829134147055,
+                  "J_BASE": -0.5850215054069107,
+                  "J_OURS": -0.9006197967483812,
+                  "abstained_count": 5,
+                  "coverage": 0.75,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 15
+                },
+                "seed37_foldB": {
+                  "DeltaJ": -0.05255887725180841,
+                  "J_BASE": -0.7952511767332349,
+                  "J_OURS": -0.8478100539850433,
+                  "abstained_count": 10,
+                  "coverage": 0.5,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 10
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": -0.14806842366138911,
+              "positive_count": 0,
+              "protocol_fingerprint": "356c353afd9194607d8b4441a583b6fd95f075de1ce187bd0979c03d9410f60c",
+              "semantic_exposure": 3,
+              "semantic_lr": 3e-05,
+              "worst_delta_j": -0.31559829134147055
+            },
+            "evaluation_sha256": "e394a98756e13b8403c644383ea084f45fe1d5d206116a709f4b83d6d376eb04",
+            "protocol_fingerprint": "356c353afd9194607d8b4441a583b6fd95f075de1ce187bd0979c03d9410f60c"
+          },
+          "reusable": true,
+          "semantic_exposure": 3,
+          "semantic_lr": 3e-05
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 4,
+          "semantic_lr": 3e-05
+        },
+        {
+          "provenance": {
+            "audit_sha256": "080a1228d0c472813014686205f9d6a7edad87c2b2299e5af683a82d950f3568",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/ccv/candidates/lr_3.0000000000000001e-05__es_5/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "0364bbf9c7f888e70e338d8582fb01a9113ef9c78cbab6ef9c263633a98fd823",
+              "37": "e39ced3595fd4583170fbd53f33afe99945f13fa0467650573ece923ace4ed88"
+            },
+            "carrier_state_sha256": {
+              "11": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+              "37": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=3.0000000000000001e-05;semantic_exposure=5",
+              "dataset": "CCV",
+              "delta_j_seed11_foldA": -0.01970378203579015,
+              "delta_j_seed11_foldB": -0.45249975894378736,
+              "delta_j_seed37_foldA": -0.3794662226891069,
+              "delta_j_seed37_foldB": -0.02475680532186253,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": -0.01970378203579015,
+                  "J_BASE": -1.6268681308553248,
+                  "J_OURS": -1.646571912891115,
+                  "abstained_count": 4,
+                  "coverage": 0.8,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 16
+                },
+                "seed11_foldB": {
+                  "DeltaJ": -0.45249975894378736,
+                  "J_BASE": -1.183344198257449,
+                  "J_OURS": -1.6358439572012364,
+                  "abstained_count": 7,
+                  "coverage": 0.65,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 13
+                },
+                "seed37_foldA": {
+                  "DeltaJ": -0.3794662226891069,
+                  "J_BASE": -0.5850215054069107,
+                  "J_OURS": -0.9644877280960176,
+                  "abstained_count": 5,
+                  "coverage": 0.75,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 15
+                },
+                "seed37_foldB": {
+                  "DeltaJ": -0.02475680532186253,
+                  "J_BASE": -0.7952511767332349,
+                  "J_OURS": -0.8200079820550974,
+                  "abstained_count": 10,
+                  "coverage": 0.5,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "00f440635bc80f510cd453b67dc3244f2a81b6269dea929fe36a281a1b9cd464",
+                  "native_epochs": 20,
+                  "semantic_steps": 5,
+                  "supported_count": 10
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": -0.21910664224763673,
+              "positive_count": 0,
+              "protocol_fingerprint": "356c353afd9194607d8b4441a583b6fd95f075de1ce187bd0979c03d9410f60c",
+              "semantic_exposure": 5,
+              "semantic_lr": 3e-05,
+              "worst_delta_j": -0.45249975894378736
+            },
+            "evaluation_sha256": "9ee4d117c2ec2a6020ac3cf84aeef6bde64a380506de4288c0aaca03164891cd",
+            "protocol_fingerprint": "356c353afd9194607d8b4441a583b6fd95f075de1ce187bd0979c03d9410f60c"
+          },
+          "reusable": true,
+          "semantic_exposure": 5,
+          "semantic_lr": 3e-05
+        }
+      ],
+      "new_count": 16,
+      "protocol_fingerprint": "356c353afd9194607d8b4441a583b6fd95f075de1ce187bd0979c03d9410f60c",
+      "reusable_count": 9
+    },
+    "MSRC": {
+      "candidate_count": 18,
+      "dataset": "MSRC",
+      "entries": [
+        {
+          "provenance": {
+            "audit_sha256": "e3f2eb01fe00b37ccaab953c751228d45d66607339612bcb24cd6bb368f6c92f",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/msrc/candidates/lr_0.00029999999999999997__es_1/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "b8c042127997f7604c466a435e726d0ac01b4db66f78a8fc3a4867f361b8c921",
+              "37": "e0b971ee49e997a240257fe3d02548619584ee3e6778309c220d8d77eafc6c77"
+            },
+            "carrier_state_sha256": {
+              "11": "381e61e6789090055f3809eed29c3f36b4f5bd8b7560befff0c280b61e88cc35",
+              "37": "a0c795ab09c224ac3e6c7d0775c2579bbd647ba57fc3f84706e16be7ba18e5bd"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=0.00029999999999999997;semantic_exposure=1",
+              "dataset": "MSRC",
+              "delta_j_seed11_foldA": 0.027652436114795176,
+              "delta_j_seed11_foldB": 0.006661784504061963,
+              "delta_j_seed37_foldA": 0.043361752631632555,
+              "delta_j_seed37_foldB": 0.0313222859564426,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": 0.027652436114795176,
+                  "J_BASE": 1.3168563078926359,
+                  "J_OURS": 1.344508744007431,
+                  "abstained_count": 1,
+                  "coverage": 0.8571428571428571,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "381e61e6789090055f3809eed29c3f36b4f5bd8b7560befff0c280b61e88cc35",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 6
+                },
+                "seed11_foldB": {
+                  "DeltaJ": 0.006661784504061963,
+                  "J_BASE": 1.4564056003472727,
+                  "J_OURS": 1.4630673848513347,
+                  "abstained_count": 0,
+                  "coverage": 1.0,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "381e61e6789090055f3809eed29c3f36b4f5bd8b7560befff0c280b61e88cc35",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 7
+                },
+                "seed37_foldA": {
+                  "DeltaJ": 0.043361752631632555,
+                  "J_BASE": 1.3737303981307225,
+                  "J_OURS": 1.417092150762355,
+                  "abstained_count": 0,
+                  "coverage": 1.0,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "a0c795ab09c224ac3e6c7d0775c2579bbd647ba57fc3f84706e16be7ba18e5bd",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 7
+                },
+                "seed37_foldB": {
+                  "DeltaJ": 0.0313222859564426,
+                  "J_BASE": 1.42979605124965,
+                  "J_OURS": 1.4611183372060925,
+                  "abstained_count": 0,
+                  "coverage": 1.0,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "a0c795ab09c224ac3e6c7d0775c2579bbd647ba57fc3f84706e16be7ba18e5bd",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 7
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": 0.027249564801733073,
+              "positive_count": 4,
+              "protocol_fingerprint": "8ad08cf2927142bace5a4d7b7f49249181b8cad42d45f9d4ceaf667617d3b01c",
+              "semantic_exposure": 1,
+              "semantic_lr": 0.0003,
+              "worst_delta_j": 0.006661784504061963
+            },
+            "evaluation_sha256": "12874877aa50be0f8d04facefa61a50257bf17970086bf07365be9226dd47f44",
+            "protocol_fingerprint": "8ad08cf2927142bace5a4d7b7f49249181b8cad42d45f9d4ceaf667617d3b01c"
+          },
+          "reusable": true,
+          "semantic_exposure": 1,
+          "semantic_lr": 0.0003
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 2,
+          "semantic_lr": 0.0003
+        },
+        {
+          "provenance": {
+            "audit_sha256": "184d420dd934c425ccbdc8fa685930a805766f0305936153bbf20817c0839f87",
+            "candidate_origin": "REUSED_B1",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/msrc/candidates/lr_0.00029999999999999997__es_3/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "b8c042127997f7604c466a435e726d0ac01b4db66f78a8fc3a4867f361b8c921",
+              "37": "e0b971ee49e997a240257fe3d02548619584ee3e6778309c220d8d77eafc6c77"
+            },
+            "carrier_state_sha256": {
+              "11": "381e61e6789090055f3809eed29c3f36b4f5bd8b7560befff0c280b61e88cc35",
+              "37": "a0c795ab09c224ac3e6c7d0775c2579bbd647ba57fc3f84706e16be7ba18e5bd"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=0.00029999999999999997;semantic_exposure=3",
+              "dataset": "MSRC",
+              "delta_j_seed11_foldA": 0.03347775307034273,
+              "delta_j_seed11_foldB": 0.019017102865900748,
+              "delta_j_seed37_foldA": 0.026629830041359437,
+              "delta_j_seed37_foldB": 0.04696783860111098,
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": 0.03347775307034273,
+                  "J_BASE": 1.3168563078926359,
+                  "J_OURS": 1.3503340609629786,
+                  "abstained_count": 1,
+                  "coverage": 0.8571428571428571,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "381e61e6789090055f3809eed29c3f36b4f5bd8b7560befff0c280b61e88cc35",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 6
+                },
+                "seed11_foldB": {
+                  "DeltaJ": 0.019017102865900748,
+                  "J_BASE": 1.4564056003472727,
+                  "J_OURS": 1.4754227032131735,
+                  "abstained_count": 0,
+                  "coverage": 1.0,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "381e61e6789090055f3809eed29c3f36b4f5bd8b7560befff0c280b61e88cc35",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 7
+                },
+                "seed37_foldA": {
+                  "DeltaJ": 0.026629830041359437,
+                  "J_BASE": 1.3737303981307225,
+                  "J_OURS": 1.400360228172082,
+                  "abstained_count": 0,
+                  "coverage": 1.0,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "a0c795ab09c224ac3e6c7d0775c2579bbd647ba57fc3f84706e16be7ba18e5bd",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 7
+                },
+                "seed37_foldB": {
+                  "DeltaJ": 0.04696783860111098,
+                  "J_BASE": 1.42979605124965,
+                  "J_OURS": 1.476763889850761,
+                  "abstained_count": 0,
+                  "coverage": 1.0,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "a0c795ab09c224ac3e6c7d0775c2579bbd647ba57fc3f84706e16be7ba18e5bd",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 7
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": 0.03152313114467847,
+              "positive_count": 4,
+              "protocol_fingerprint": "8ad08cf2927142bace5a4d7b7f49249181b8cad42d45f9d4ceaf667617d3b01c",
+              "semantic_exposure": 3,
+              "semantic_lr": 0.0003,
+              "worst_delta_j": 0.019017102865900748
+            },
+            "evaluation_sha256": "777eea1a967bf83d97f7f7daad7340d340a2e450aef2861de2dcfba2cd1b6c92",
+            "protocol_fingerprint": "8ad08cf2927142bace5a4d7b7f49249181b8cad42d45f9d4ceaf667617d3b01c"
+          },
+          "reusable": true,
+          "semantic_exposure": 3,
+          "semantic_lr": 0.0003
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 1,
+          "semantic_lr": 0.0005
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 2,
+          "semantic_lr": 0.0005
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 3,
+          "semantic_lr": 0.0005
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 1,
+          "semantic_lr": 0.0007
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 2,
+          "semantic_lr": 0.0007
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 3,
+          "semantic_lr": 0.0007
+        },
+        {
+          "provenance": {
+            "audit_sha256": "1f96aa2b3cfba5e46182c78ee126116db8f84170149d8d22b11fc4a765dd384e",
+            "candidate_origin": "REUSED_BOUNDARY_EXTENSION",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/msrc/boundary_extension_upper_1e3/candidates/lr_0.001__es_1/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "b8c042127997f7604c466a435e726d0ac01b4db66f78a8fc3a4867f361b8c921",
+              "37": "e0b971ee49e997a240257fe3d02548619584ee3e6778309c220d8d77eafc6c77"
+            },
+            "carrier_state_sha256": {
+              "11": "381e61e6789090055f3809eed29c3f36b4f5bd8b7560befff0c280b61e88cc35",
+              "37": "a0c795ab09c224ac3e6c7d0775c2579bbd647ba57fc3f84706e16be7ba18e5bd"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=0.001;semantic_exposure=1",
+              "dataset": "MSRC",
+              "delta_j_seed11_foldA": 0.029864867147070262,
+              "delta_j_seed11_foldB": 0.06830482825591888,
+              "delta_j_seed37_foldA": 0.12659167489563639,
+              "delta_j_seed37_foldB": -0.0019383226363951511,
+              "extension_id": "P3-C1-B1-A2-UPPER-LR-1E-3",
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": 0.029864867147070262,
+                  "J_BASE": 1.3168563078926359,
+                  "J_OURS": 1.3467211750397061,
+                  "abstained_count": 1,
+                  "coverage": 0.8571428571428571,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "381e61e6789090055f3809eed29c3f36b4f5bd8b7560befff0c280b61e88cc35",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 6
+                },
+                "seed11_foldB": {
+                  "DeltaJ": 0.06830482825591888,
+                  "J_BASE": 1.4564056003472727,
+                  "J_OURS": 1.5247104286031916,
+                  "abstained_count": 0,
+                  "coverage": 1.0,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "381e61e6789090055f3809eed29c3f36b4f5bd8b7560befff0c280b61e88cc35",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 7
+                },
+                "seed37_foldA": {
+                  "DeltaJ": 0.12659167489563639,
+                  "J_BASE": 1.3737303981307225,
+                  "J_OURS": 1.500322073026359,
+                  "abstained_count": 0,
+                  "coverage": 1.0,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "a0c795ab09c224ac3e6c7d0775c2579bbd647ba57fc3f84706e16be7ba18e5bd",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 7
+                },
+                "seed37_foldB": {
+                  "DeltaJ": -0.0019383226363951511,
+                  "J_BASE": 1.42979605124965,
+                  "J_OURS": 1.4278577286132548,
+                  "abstained_count": 0,
+                  "coverage": 1.0,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "a0c795ab09c224ac3e6c7d0775c2579bbd647ba57fc3f84706e16be7ba18e5bd",
+                  "native_epochs": 20,
+                  "semantic_steps": 1,
+                  "supported_count": 7
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": 0.055705761915557594,
+              "positive_count": 3,
+              "protocol_fingerprint": "8ad08cf2927142bace5a4d7b7f49249181b8cad42d45f9d4ceaf667617d3b01c",
+              "semantic_exposure": 1,
+              "semantic_lr": 0.001,
+              "worst_delta_j": -0.0019383226363951511
+            },
+            "evaluation_sha256": "22f50a7312d18074559388e3b86343569d819489422f025a64da7c84186352d0",
+            "protocol_fingerprint": "8ad08cf2927142bace5a4d7b7f49249181b8cad42d45f9d4ceaf667617d3b01c"
+          },
+          "reusable": true,
+          "semantic_exposure": 1,
+          "semantic_lr": 0.001
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 2,
+          "semantic_lr": 0.001
+        },
+        {
+          "provenance": {
+            "audit_sha256": "b4af80395e343051777bbbada6707e8eb5fef2d11632c52027c840379a3534bf",
+            "candidate_origin": "REUSED_BOUNDARY_EXTENSION",
+            "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/msrc/boundary_extension_upper_1e3/candidates/lr_0.001__es_3/candidate_evaluation.json",
+            "carrier_pre_gt_sha256": {
+              "11": "b8c042127997f7604c466a435e726d0ac01b4db66f78a8fc3a4867f361b8c921",
+              "37": "e0b971ee49e997a240257fe3d02548619584ee3e6778309c220d8d77eafc6c77"
+            },
+            "carrier_state_sha256": {
+              "11": "381e61e6789090055f3809eed29c3f36b4f5bd8b7560befff0c280b61e88cc35",
+              "37": "a0c795ab09c224ac3e6c7d0775c2579bbd647ba57fc3f84706e16be7ba18e5bd"
+            },
+            "evaluation": {
+              "candidate_key": "semantic_lr=0.001;semantic_exposure=3",
+              "dataset": "MSRC",
+              "delta_j_seed11_foldA": -0.07581854687111722,
+              "delta_j_seed11_foldB": 0.015068441280211564,
+              "delta_j_seed37_foldA": 0.011434485564740138,
+              "delta_j_seed37_foldB": 0.010985095745915885,
+              "extension_id": "P3-C1-B1-A2-UPPER-LR-1E-3",
+              "folds": {
+                "seed11_foldA": {
+                  "DeltaJ": -0.07581854687111722,
+                  "J_BASE": 1.3168563078926359,
+                  "J_OURS": 1.2410377610215186,
+                  "abstained_count": 1,
+                  "coverage": 0.8571428571428571,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "381e61e6789090055f3809eed29c3f36b4f5bd8b7560befff0c280b61e88cc35",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 6
+                },
+                "seed11_foldB": {
+                  "DeltaJ": 0.015068441280211564,
+                  "J_BASE": 1.4564056003472727,
+                  "J_OURS": 1.4714740416274843,
+                  "abstained_count": 0,
+                  "coverage": 1.0,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "381e61e6789090055f3809eed29c3f36b4f5bd8b7560befff0c280b61e88cc35",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 7
+                },
+                "seed37_foldA": {
+                  "DeltaJ": 0.011434485564740138,
+                  "J_BASE": 1.3737303981307225,
+                  "J_OURS": 1.3851648836954626,
+                  "abstained_count": 0,
+                  "coverage": 1.0,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "a0c795ab09c224ac3e6c7d0775c2579bbd647ba57fc3f84706e16be7ba18e5bd",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 7
+                },
+                "seed37_foldB": {
+                  "DeltaJ": 0.010985095745915885,
+                  "J_BASE": 1.42979605124965,
+                  "J_OURS": 1.4407811469955658,
+                  "abstained_count": 0,
+                  "coverage": 1.0,
+                  "full_gt_loaded": false,
+                  "initial_state_sha256": "a0c795ab09c224ac3e6c7d0775c2579bbd647ba57fc3f84706e16be7ba18e5bd",
+                  "native_epochs": 20,
+                  "semantic_steps": 3,
+                  "supported_count": 7
+                }
+              },
+              "full_gt_used": false,
+              "full_gt_used_for_selection": false,
+              "mean_delta_j": -0.009582631070062408,
+              "positive_count": 3,
+              "protocol_fingerprint": "8ad08cf2927142bace5a4d7b7f49249181b8cad42d45f9d4ceaf667617d3b01c",
+              "semantic_exposure": 3,
+              "semantic_lr": 0.001,
+              "worst_delta_j": -0.07581854687111722
+            },
+            "evaluation_sha256": "fe44875fe1916de0f3ce175d7b9d3465fb71ae637f7c2c89117854a64e9e6b99",
+            "protocol_fingerprint": "8ad08cf2927142bace5a4d7b7f49249181b8cad42d45f9d4ceaf667617d3b01c"
+          },
+          "reusable": true,
+          "semantic_exposure": 3,
+          "semantic_lr": 0.001
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 1,
+          "semantic_lr": 0.0015
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 2,
+          "semantic_lr": 0.0015
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 3,
+          "semantic_lr": 0.0015
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 1,
+          "semantic_lr": 0.002
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 2,
+          "semantic_lr": 0.002
+        },
+        {
+          "provenance": null,
+          "reusable": false,
+          "semantic_exposure": 3,
+          "semantic_lr": 0.002
+        }
+      ],
+      "new_count": 14,
+      "protocol_fingerprint": "8ad08cf2927142bace5a4d7b7f49249181b8cad42d45f9d4ceaf667617d3b01c",
+      "reusable_count": 4
+    }
+  },
+  "dev_seeds": [
+    11,
+    37
+  ],
+  "developmental_local_refinement": true,
+  "formal_metrics_read": false,
+  "frozen_dependencies": {
+    "experiments/utility_relation/p3_c1_b1_optuna/amendment_a1.py": "1c50a5fba969cc39846bdb5b1122b3ba5aa2c3a345165490a5ecf1f05f7cbaa0",
+    "experiments/utility_relation/p3_c1_b1_optuna/canonical_fold_order_r3.py": "98702c3c4af819a5229b9b05da576c81a67aa1bbcf9ce0fd9e67fab122e43caf",
+    "experiments/utility_relation/p3_c1_b1_optuna/formal_base_reference.py": "7aa051448519244e59892e221746f949cdb7e6899d8c537916a8ca74d11568da",
+    "experiments/utility_relation/p3_c1_b1_optuna/formal_candidate_evaluator.py": "8e27608a537d477071c0eb4372b550f9e006e6054eb1693dc774a1a0f04369cc",
+    "experiments/utility_relation/p3_c1_b1_optuna/formal_candidate_evaluator_r2.py": "ca3c09ee65f5f27105772bb0e21c7faa4929c7e031021efbeeb2a84c56af6711",
+    "experiments/utility_relation/p3_c1_b1_optuna/formal_tuning_bootstrap_r1.py": "b7a73bff6e01f667cd214cb83c4787915ff383f42ed756d8e4854d2ad1773fe2",
+    "experiments/utility_relation/p3_c1_b1_optuna/formal_tuning_context.py": "174e231ef5aab79cbac57614a53a1e0731f78d3f097c352d48f992ccf2c5ad7a",
+    "experiments/utility_relation/p3_c1_b1_optuna/formal_tuning_context_r3.py": "4a2d45cb6c64d23c7cd443425b3b794985a6adf97029750a696f6cf1b85b15de",
+    "experiments/utility_relation/p3_c1_b1_optuna/objective_a1.py": "f63e698fce2f970bfa800e2360287c76c1a4c38e71898324295709c4026bfe35",
+    "experiments/utility_relation/p3_c1_b1_optuna/optuna_driver.py": "72bc3d00dc6cf6c036505a691686e0ef8332efc0aa45f87d64f7e86fb712edcd",
+    "experiments/utility_relation/p3_c1_b1_optuna/protocol.py": "d78436123de23739fe65064c0a7d9640c472cb0f7f88bf92e6f4dfa69179212f",
+    "experiments/utility_relation/p3_c1_b1_optuna/run_formal_optuna_tuning.py": "d0f1c0a244fa2bf15d4ed6decedf77685ea862e400302876968963e3bc9a7eb2",
+    "experiments/utility_relation/p3_c1_b1_optuna/run_formal_optuna_tuning_r1.py": "451c43d71560fd233c673e039de603b6e1c982715e78e0c973b0e398e9141d62",
+    "experiments/utility_relation/p3_c1_b1_optuna/run_formal_optuna_tuning_r2.py": "5335624517e88b31dcf57733201a96a10f5daefc946c90cb12843f8b72bcd078",
+    "experiments/utility_relation/p3_c1_b1_optuna/run_formal_optuna_tuning_r3.py": "7d0db12a4b045911c4ab7390dfc74b8c23c0108628731e23b5dc836ac7b9989c",
+    "experiments/utility_relation/p3_c1_b1_optuna/sparse_cv.py": "d086ac3b88bfe4459d9c34b5327697ac6705071922afd83af8c619aa70983cc9",
+    "experiments/utility_relation/p3_c1_b1_optuna/study_schema.py": "99768fea522ef529372964371eb6ba148c24b2dd953be177e39f681cfacf323d",
+    "experiments/utility_relation/p3_c1_b1_optuna/trial_runner_a1.py": "654e1ce7554c5c01a672a7473e82a1fe732d171845c89e6a1ae09cc6a0a05b22"
+  },
+  "full_gt_used": false,
+  "grids": {
+    "ALOI": {
+      "semantic_exposure": [
+        1,
+        2,
+        3,
+        5,
+        10,
+        20
+      ],
+      "semantic_lr": [
+        3e-05,
+        5e-05,
+        0.0001,
+        0.0002,
+        0.0003
+      ]
+    },
+    "CCV": {
+      "semantic_exposure": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "semantic_lr": [
+        3e-06,
+        5e-06,
+        1e-05,
+        2e-05,
+        3e-05
+      ]
+    },
+    "MSRC": {
+      "semantic_exposure": [
+        1,
+        2,
+        3
+      ],
+      "semantic_lr": [
+        0.0003,
+        0.0005,
+        0.0007,
+        0.001,
+        0.0015,
+        0.002
+      ]
+    }
+  },
+  "new_candidates": 45,
+  "post_grid_extension_allowed": false,
+  "reusable_candidates": 28,
+  "selection_rule": [
+    "maximum round(mean_delta_J,12)",
+    "maximum round(worst_delta_J,12)",
+    "maximum positive_count",
+    "smaller semantic_exposure",
+    "smaller semantic_lr"
+  ],
+  "target_datasets": [
+    "CCV",
+    "MSRC",
+    "ALOI"
+  ],
+  "total_candidates": 73
+}

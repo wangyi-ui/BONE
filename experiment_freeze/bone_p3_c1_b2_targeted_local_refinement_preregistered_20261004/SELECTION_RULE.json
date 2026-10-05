@@ -1,0 +1,15 @@
+{
+  "round_decimals": 12,
+  "rule": [
+    "maximum round(mean_delta_J,12)",
+    "maximum round(worst_delta_J,12)",
+    "maximum positive_count",
+    "smaller semantic_exposure",
+    "smaller semantic_lr"
+  ],
+  "selection_inputs": [
+    "mean_delta_J",
+    "worst_delta_J",
+    "positive_count"
+  ]
+}

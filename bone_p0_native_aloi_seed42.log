@@ -1,0 +1,48 @@
+======================================================================
+BONE-P0 NATIVE ALOI REPRODUCTION
+======================================================================
+seed       = 42
+epoch      = 100
+batch_size = 512
+n_anchor   = 2
+layer      = 2
+lambda     = 0.1
+lr         = 0.01
+device     = cpu
+
+========== DATASET ==========
+m([77, 13, 64, 125]), n(10800), v(4), k(100)
+n = 10800
+v = 4
+k = 100
+m_list = [77, 13, 64, 125]
+
+========== AMV INITIALIZATION ==========
+Using entire dataset (10800 samples) to init
+Inited with 4 iters, time cost: 0.519s
+Init by pre-computed anchors
+Total number of parameters in the model: 397500
+
+========== TRAINING ==========
+Epoch 020, ACC: 0.7010, NMI: 0.8162, Purity: 0.7070
+Epoch 040, ACC: 0.7870, NMI: 0.8536, Purity: 0.7929
+Epoch 060, ACC: 0.8105, NMI: 0.8725, Purity: 0.8168
+Epoch 080, ACC: 0.8431, NMI: 0.8844, Purity: 0.8493
+Epoch 100, ACC: 0.8350, NMI: 0.8807, Purity: 0.8445
+
+======================================================================
+BONE-P0 ALOI FINAL
+======================================================================
+FINAL_ACC=0.835000
+FINAL_NMI=0.880667
+FINAL_PURITY=0.844537
+
+OFFICIAL_REFERENCE
+ACC=0.7836
+NMI=0.8563
+PURITY=0.7991
+
+DELTA
+DELTA_ACC=+0.051400
+DELTA_NMI=+0.024367
+DELTA_PURITY=+0.045437

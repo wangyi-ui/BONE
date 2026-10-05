@@ -1,0 +1,175 @@
+{
+  "ENGINEERING_ONLY": true,
+  "FORMAL_RESULT": false,
+  "GT_loaded_before_seal": false,
+  "artifacts": {
+    "carrier": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_b1_caltech_engineering_smoke_seed20/caltech_p3_b1_pre_gt_carrier.npz",
+    "model_state": "/root/autodl-tmp/BONE/outputs/bone_p3/p3_b1_caltech_engineering_smoke_seed20/caltech_p3_b1_carrier_model_state.pt"
+  },
+  "carrier": {
+    "action_count": 20,
+    "q_finite": true,
+    "query_chunk_size": 256,
+    "query_count": 1386,
+    "t_rel_finite": true,
+    "tensor_shapes": {
+      "Pi": [
+        1386,
+        20,
+        7
+      ],
+      "T_rel": [
+        1386,
+        14,
+        20
+      ],
+      "U_cycle": [
+        1400,
+        20
+      ],
+      "p_gen": [
+        1400,
+        20,
+        7
+      ],
+      "p_ver": [
+        1400,
+        20,
+        7
+      ],
+      "q_views": [
+        1400,
+        5,
+        7
+      ]
+    },
+    "u_cycle_finite": true
+  },
+  "corruption_audit": {
+    "L": 14,
+    "corruption_mask_path": "/root/autodl-tmp/BONE/outputs/bone_p3/corruptions/Caltech-5V_mask.npz",
+    "corruption_seed": 20,
+    "labels_per_class": 2,
+    "per_view_counts": [
+      700,
+      700,
+      700,
+      700,
+      700
+    ],
+    "post_corruption_restandardization": false,
+    "raw_id_semantics": "RAW_FILE_ROW_ID",
+    "row_histogram": {
+      "2": 700,
+      "3": 700
+    },
+    "snr_db": 2.5,
+    "sparse_split_path": "/root/autodl-tmp/BONE/outputs/bone_p3/sparse_splits/Caltech-5V_2perclass.npz",
+    "standardized_before_corruption": true
+  },
+  "dataset": {
+    "K": 7,
+    "N": 1400,
+    "V": 5,
+    "dims": [
+      40,
+      254,
+      1984,
+      512,
+      928
+    ],
+    "name": "Caltech-5V"
+  },
+  "device": {
+    "cuda_version": "12.8",
+    "name": "NVIDIA GeForce RTX 4090 D",
+    "peak_allocated_bytes": 42174976,
+    "peak_reserved_bytes": 50331648,
+    "requested": "cuda:0",
+    "torch_version": "2.9.1+cu128"
+  },
+  "full_gt_evaluation_performed": false,
+  "hashes": {
+    "caltech_data_source": "1258e543fef4dc046e1c3952023708e2b5b562a44129f737352b015f31fe6260",
+    "frozen_before_equals_after": true,
+    "native_after": {
+      "method/amv.py": "68f3edcd55e32456a5bcdbcbbc48329f19c5652dee1fc27420e2865f7068e5dc",
+      "method/bone.py": "d13ba6ba91362210f9a614f7353e9de688ff1815f075916b457df6c767a14092"
+    },
+    "native_before": {
+      "method/amv.py": "68f3edcd55e32456a5bcdbcbbc48329f19c5652dee1fc27420e2865f7068e5dc",
+      "method/bone.py": "d13ba6ba91362210f9a614f7353e9de688ff1815f075916b457df6c767a14092"
+    },
+    "p3_a1_protocol": "5564354b41f78917b1ad4f98ae8737fe997d3726902e5e2a97e1ec024e20d61a",
+    "p3_a3_split": "3ba6921e3e0baf8ab6a32669d9a1506e019f22ff781cd23eae13ce1f3495e0af",
+    "p3_a4_mask": "93ea34ac386d39f7e66a8edd232d2c797eb4a000574cabe14aa994fe78d57191",
+    "p3_b0_model_state": "f9b59ae054724fb34dec50bf3eaa41badfa43a320cb2f9de89a634c870584f69",
+    "p3_b0_source": "5a9f3c817d0e0ea07e311f0899fdb926cef993d0f3b7edbd65faf7f83dfabc27"
+  },
+  "sample_id_audit": {
+    "anchor_mapping_exact_once": true,
+    "anchor_rows": [
+      817,
+      17,
+      415,
+      461,
+      1077,
+      33,
+      15,
+      583,
+      1034,
+      467,
+      1032,
+      653,
+      1085,
+      185
+    ],
+    "audit_loader_drop_last": false,
+    "audit_loader_observed_ids": 1400,
+    "dataloader_feature_to_raw_id_mapping_exact": true,
+    "exact_raw_id_set_0_to_1399": true,
+    "unique_raw_ids": 1400
+  },
+  "status": "PASS",
+  "training": {
+    "all_losses_finite": true,
+    "dataloader": {
+      "batch_size": 128,
+      "drop_last": true,
+      "generator_seed": 20,
+      "num_workers": 0,
+      "shuffle": true
+    },
+    "epoch_audit": [
+      {
+        "batch_count": 10,
+        "completed": true,
+        "emitted_unique_ids": 1280,
+        "epoch": 1,
+        "loss_max": 4.578010082244873,
+        "loss_min": 4.1110148429870605,
+        "losses_finite": true,
+        "shuffled_ids_recoverable": true
+      },
+      {
+        "batch_count": 10,
+        "completed": true,
+        "emitted_unique_ids": 1280,
+        "epoch": 2,
+        "loss_max": 4.130717754364014,
+        "loss_min": 4.024116039276123,
+        "losses_finite": true,
+        "shuffled_ids_recoverable": true
+      }
+    ],
+    "native_config": {
+      "batch_size": 128,
+      "lamb": 0.1,
+      "layer": 3,
+      "lr": 0.01,
+      "n_anchor": 4
+    },
+    "native_epochs": 2,
+    "seed": 20
+  }
+}

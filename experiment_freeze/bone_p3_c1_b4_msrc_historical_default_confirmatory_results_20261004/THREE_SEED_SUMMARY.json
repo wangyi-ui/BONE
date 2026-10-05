@@ -1,0 +1,102 @@
+{
+  "HISTORICAL_DEFAULT_CONFIRMATION": "NOT_CONFIRMED",
+  "dataset": "MSRC",
+  "mean_deltas": {
+    "ACC": {
+      "mean": -0.004761904761904782,
+      "std_population": 0.003888078956798727
+    },
+    "ARI": {
+      "mean": 0.0007172712231704459,
+      "std_population": 0.011277677467120282
+    },
+    "NMI": {
+      "mean": 0.0007722994311792908,
+      "std_population": 0.01018695091455784
+    }
+  },
+  "parameter_retuning_allowed": false,
+  "per_seed": [
+    {
+      "BASE": {
+        "ACC": 0.8,
+        "ARI": 0.6453687521845508,
+        "NMI": 0.7130452103754368
+      },
+      "OURS_HISTORICAL_DEFAULT": {
+        "ACC": 0.7904761904761904,
+        "ARI": 0.6392555661026301,
+        "NMI": 0.7070694686323094
+      },
+      "dataset": "MSRC",
+      "delta_historical_default_minus_base": {
+        "ACC": -0.009523809523809601,
+        "ARI": -0.006113186081920685,
+        "NMI": -0.005975741743127427
+      },
+      "full_gt_access_phase": "POST_TRAINING_AFTER_PRE_GT_SEAL",
+      "metrics_used_for_parameter_selection": false,
+      "parameter_retuning_allowed": false,
+      "status": "REPORTING_ONLY",
+      "training_seed": 100
+    },
+    {
+      "BASE": {
+        "ACC": 0.8142857142857143,
+        "ARI": 0.6820637061216182,
+        "NMI": 0.7461691706346492
+      },
+      "OURS_HISTORICAL_DEFAULT": {
+        "ACC": 0.8142857142857143,
+        "ARI": 0.6986776984293747,
+        "NMI": 0.7613385985920257
+      },
+      "dataset": "MSRC",
+      "delta_historical_default_minus_base": {
+        "ACC": 0.0,
+        "ARI": 0.01661399230775651,
+        "NMI": 0.015169427957376524
+      },
+      "full_gt_access_phase": "POST_TRAINING_AFTER_PRE_GT_SEAL",
+      "metrics_used_for_parameter_selection": false,
+      "parameter_retuning_allowed": false,
+      "status": "REPORTING_ONLY",
+      "training_seed": 110
+    },
+    {
+      "BASE": {
+        "ACC": 0.7428571428571429,
+        "ARI": 0.5865826264793643,
+        "NMI": 0.6775883549093609
+      },
+      "OURS_HISTORICAL_DEFAULT": {
+        "ACC": 0.7380952380952381,
+        "ARI": 0.5782336339230398,
+        "NMI": 0.6707115669886496
+      },
+      "dataset": "MSRC",
+      "delta_historical_default_minus_base": {
+        "ACC": -0.004761904761904745,
+        "ARI": -0.008348992556324486,
+        "NMI": -0.006876787920711225
+      },
+      "full_gt_access_phase": "POST_TRAINING_AFTER_PRE_GT_SEAL",
+      "metrics_used_for_parameter_selection": false,
+      "parameter_retuning_allowed": false,
+      "status": "REPORTING_ONLY",
+      "training_seed": 130
+    }
+  ],
+  "positive_seed_counts": {
+    "ACC": 0,
+    "ARI": 1,
+    "NMI": 1
+  },
+  "primary_gate": "mean_ACC>0 AND mean_NMI>0 AND mean_ARI>0",
+  "seeds": [
+    100,
+    110,
+    130
+  ],
+  "status": "REPORTING_ONLY"
+}

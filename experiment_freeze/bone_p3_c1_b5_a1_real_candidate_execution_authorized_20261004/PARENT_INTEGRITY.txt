@@ -1,0 +1,14 @@
+{
+  "parent_b5_preregistration_pass": true,
+  "scientific_protocol_changed": false,
+  "search_space_changed": false,
+  "selection_rule_changed": false,
+  "optimizer_grid_changed": false,
+  "semantic_exposure_changed": false,
+  "j_definition_changed": false,
+  "gt_firewall_changed": false,
+  "old_preregistration_immutable": true,
+  "failed_attempt_produced_artifact": false,
+  "method_bone_unchanged": true,
+  "method_amv_unchanged": true
+}

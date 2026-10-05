@@ -1,0 +1,1 @@
+b10452e8fad8c57e48339a7485dbe7cebd2189b9df605a35eea59bab4c0d4d0c  /root/autodl-tmp/BONE/experiment_freeze/bone_p3_c3_a0_ucab_query_alignment_wiring_repair_20261005/FREEZE_MANIFEST.sha256

@@ -1,0 +1,34 @@
+{
+  "MODEL_LOAD_SMOKE": "PASS",
+  "T_rel_available": true,
+  "T_rel_detached": true,
+  "U_cycle_available": true,
+  "U_cycle_detached": true,
+  "candidate_artifact_created": false,
+  "candidate_evaluation_executed": false,
+  "carrier_model_state_file_sha256": "db2ecf56e1be68a8dcfb469861d1e227e86c3775e3eb48b2932f28c1bf150107",
+  "carrier_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+  "dataset": "CCV",
+  "dev_seed": 11,
+  "fold": "A",
+  "formal_metrics_read": false,
+  "full_gt_used": false,
+  "loaded_initial_model_state_sha256": "d285eca26b39639a319ac7ab3f9d25a7ca50fbe44867ae8135a8158734a3d212",
+  "model_loading_path": "formal_candidate_evaluator._load_model -> c0._new_model + c0._load_state + strict=True",
+  "model_state_exact_parity": true,
+  "optimizer": {
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "lr": 3e-06,
+    "momentum": null,
+    "nesterov": null,
+    "optimizer_class": "AdamW",
+    "optimizer_name": "AdamW",
+    "optimizer_state_entry_count_before_first_step": 0,
+    "weight_decay": 0.0001
+  },
+  "optimizer_step_executed": false
+}

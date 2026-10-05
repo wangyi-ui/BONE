@@ -1,0 +1,64 @@
+BONE-P2-A1 Seed30 Formal Pilot
+==============================
+
+STATUS:
+P2_A1_GO
+
+TRAINING SEED:
+30
+
+CORRUPTION SEED:
+20
+
+P2-A0 SEED30:
+SCIENTIFIC PASS
+
+P2-A1 METRICS:
+
+BASE
+ACC     = 0.7095238095238096
+NMI     = 0.6186544645343223
+Purity  = 0.7095238095238096
+
+TRUE_UNIFORM
+ACC     = 0.7095238095238096
+NMI     = 0.6425700766060053
+Purity  = 0.7095238095238096
+
+TRUE_U
+ACC     = 0.7238095238095238
+NMI     = 0.6487197254204665
+Purity  = 0.7238095238095238
+
+SHUFFLE_REL
+ACC     = 0.7095238095238096
+NMI     = 0.6189246006514879
+Purity  = 0.7095238095238096
+
+DELTA TRUE_U - BASE:
+ACC     = +0.014285714285714235
+NMI     = +0.03006526088614425
+Purity  = +0.014285714285714235
+
+DELTA TRUE_U - TRUE_UNIFORM:
+ACC     = +0.014285714285714235
+
+DELTA TRUE_U - SHUFFLE_REL:
+ACC     = +0.014285714285714235
+
+PREREGISTERED VERDICT:
+P2_A1_GO
+
+INTERPRETATION:
+T_rel supplies WHAT.
+U_cycle supplies WHETHER.
+Seed30 converts the frozen U/T carrier into positive clustering gain.
+
+ENGINEERING NOTE:
+The P2-A1 evaluator received a post-freeze compatibility patch.
+The patch only replaced seed20-hardcoded carrier verification with
+seed-specific fail-closed carrier hash and training-seed verification.
+No training result, prediction, U/T definition, loss, or scientific gate changed.
+
+NEXT:
+Seed50 P2-A0 carrier -> P2-A0 scientific gate -> P2-A1 only if PASS.

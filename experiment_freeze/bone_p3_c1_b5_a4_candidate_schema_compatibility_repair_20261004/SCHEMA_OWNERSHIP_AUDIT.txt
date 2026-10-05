@@ -1,0 +1,30 @@
+P3-C1-B5-A4 schema ownership audit
+
+ACTUAL_B1_SCHEMA_OWNER=
+experiments.utility_relation.p3_c1_b1_optuna.study_schema.CandidateConfig
+and validate_candidate_config.  CandidateConfig.__post_init__ calls that
+validator, which owns the B1 historical SEMANTIC_LR_GRID and rejects 1e-3.
+
+ACTUAL_B5_SCHEMA_OWNER=
+experiments.utility_relation.p3_c1_b5_optimizer_pilot.candidate_schema
+validate_b5_candidate / validate_real_training_candidate.  It owns only the
+preregistered B5 tuple (dataset, optimizer_name, semantic_lr,
+semantic_exposure), uses exact Decimal canonical identities, and marks Adam
+REUSE_ONLY.
+
+ACTUAL_RUNTIME_FIELDS_REQUIRED=
+formal_candidate_evaluator._evaluate_with_runner reads candidate.semantic_lr
+only in a branch runner and candidate.semantic_exposure for schedule checks.
+The B5 runner closes over optimizer_name; frozen evaluator branch dispatch does
+not check isinstance(candidate, B1 CandidateConfig).
+
+ACTUAL_LOWEST_REUSABLE_FROZEN_EVALUATOR_PATH=
+formal_candidate_evaluator_r2._evaluate_with_runner
+-> formal_candidate_evaluator._evaluate_with_runner
+-> trial_runner_a1.build_fold_semantics_a1
+-> supplied B5 branch runner.
+
+The public evaluate_candidate entry constructs B1 CandidateConfig and is not
+reused for B5.  No B1 source, validation registry, model loader, U/T logic,
+semantic loss, native consolidation, J calculation, or GT firewall was copied
+or modified.

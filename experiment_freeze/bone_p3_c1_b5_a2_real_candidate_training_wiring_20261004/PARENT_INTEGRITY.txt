@@ -1,0 +1,16 @@
+{
+  "parent_a1_authorization_pass": true,
+  "a1_freeze_immutable": true,
+  "b5_preregistration_immutable": true,
+  "scientific_protocol_changed": false,
+  "search_space_changed": false,
+  "selection_rule_changed": false,
+  "j_definition_changed": false,
+  "optimizer_grid_changed": false,
+  "semantic_exposure_changed": false,
+  "gt_firewall_changed": false,
+  "method_bone_unchanged": true,
+  "method_amv_unchanged": true,
+  "real_candidates_already_run": false,
+  "preflight_only_artifact_count": 0
+}

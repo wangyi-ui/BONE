@@ -1,0 +1,602 @@
+{
+  "candidate_configuration": {
+    "refinement_budget": 5,
+    "semantic_lr": 1e-05
+  },
+  "experiment": "P3-C1-B0_zero_retuning_transfer_validation",
+  "held_out_datasets": [
+    "Caltech-5V",
+    "BDGP",
+    "HandWrite",
+    "COIL20",
+    "MNIST-USPS",
+    "CCV"
+  ],
+  "held_out_retuning": false,
+  "results": {
+    "ALOI": {
+      "metrics": {
+        "ACC": {
+          "BASE_mean": 0.6883641975308642,
+          "BASE_std": 0.03266339228478054,
+          "OURS_mean": 0.7040123456790125,
+          "OURS_std": 0.029567289099052874,
+          "best_seed_delta": 0.020648148148148193,
+          "delta_mean": 0.01564814814814819,
+          "delta_std": 0.004802929299735069,
+          "negative_seed_count": 0,
+          "positive_seed_count": 3,
+          "seed20_delta": 0.020648148148148193,
+          "seed30_delta": 0.009166666666666656,
+          "seed50_delta": 0.017129629629629717,
+          "worst_seed_delta": 0.009166666666666656,
+          "zero_seed_count": 0
+        },
+        "ARI": {
+          "BASE_mean": 0.5515883901136476,
+          "BASE_std": 0.03352108130955324,
+          "OURS_mean": 0.5688567614947178,
+          "OURS_std": 0.03206762744613465,
+          "best_seed_delta": 0.0308381288700027,
+          "delta_mean": 0.01726837138107018,
+          "delta_std": 0.00960624505259781,
+          "negative_seed_count": 0,
+          "positive_seed_count": 3,
+          "seed20_delta": 0.0308381288700027,
+          "seed30_delta": 0.0110457890748904,
+          "seed50_delta": 0.009921196198317439,
+          "worst_seed_delta": 0.009921196198317439,
+          "zero_seed_count": 0
+        },
+        "NMI": {
+          "BASE_mean": 0.7449802739639216,
+          "BASE_std": 0.01907755697383936,
+          "OURS_mean": 0.7555308338565805,
+          "OURS_std": 0.019179821533309556,
+          "best_seed_delta": 0.017048944324157378,
+          "delta_mean": 0.010550559892658925,
+          "delta_std": 0.0047108969336169355,
+          "negative_seed_count": 0,
+          "positive_seed_count": 3,
+          "seed20_delta": 0.017048944324157378,
+          "seed30_delta": 0.00857301020297041,
+          "seed50_delta": 0.006029725150848986,
+          "worst_seed_delta": 0.006029725150848986,
+          "zero_seed_count": 0
+        },
+        "Purity": {
+          "BASE_mean": 0.697283950617284,
+          "BASE_std": 0.030801881535254837,
+          "OURS_mean": 0.7105555555555555,
+          "OURS_std": 0.027873395102671148,
+          "best_seed_delta": 0.018611111111111023,
+          "delta_mean": 0.013271604938271583,
+          "delta_std": 0.004767294780849053,
+          "negative_seed_count": 0,
+          "positive_seed_count": 3,
+          "seed20_delta": 0.018611111111111023,
+          "seed30_delta": 0.007037037037037064,
+          "seed50_delta": 0.01416666666666666,
+          "worst_seed_delta": 0.007037037037037064,
+          "zero_seed_count": 0
+        }
+      },
+      "p3_c0_lr1e4_budget20_delta_reference": {
+        "ACC": -0.013395061728395033,
+        "ARI": -0.019559348670909804,
+        "NMI": -0.011192482148150015,
+        "Purity": -0.013888888888888914
+      },
+      "refinement_budget": 5,
+      "role": "tuning",
+      "seeds": [
+        20,
+        30,
+        50
+      ],
+      "semantic_lr": 1e-05
+    },
+    "BDGP": {
+      "metrics": {
+        "ACC": {
+          "BASE_mean": 0.9422666666666667,
+          "BASE_std": 0.050838655459098166,
+          "OURS_mean": 0.9424,
+          "OURS_std": 0.050650172753900845,
+          "best_seed_delta": 0.00040000000000006697,
+          "delta_mean": 0.00013333333333335565,
+          "delta_std": 0.00018856180831644425,
+          "negative_seed_count": 0,
+          "positive_seed_count": 1,
+          "seed20_delta": 0.00040000000000006697,
+          "seed30_delta": 0.0,
+          "seed50_delta": 0.0,
+          "worst_seed_delta": 0.0,
+          "zero_seed_count": 2
+        },
+        "ARI": {
+          "BASE_mean": 0.8831761205083478,
+          "BASE_std": 0.08945397187649329,
+          "OURS_mean": 0.8833261671881977,
+          "OURS_std": 0.08924194148234028,
+          "best_seed_delta": 0.0004501400395496846,
+          "delta_mean": 0.00015004667984989487,
+          "delta_std": 0.00021219804963277513,
+          "negative_seed_count": 0,
+          "positive_seed_count": 1,
+          "seed20_delta": 0.0004501400395496846,
+          "seed30_delta": 0.0,
+          "seed50_delta": 0.0,
+          "worst_seed_delta": 0.0,
+          "zero_seed_count": 2
+        },
+        "NMI": {
+          "BASE_mean": 0.8778814369354954,
+          "BASE_std": 0.06611736269885725,
+          "OURS_mean": 0.8779651583165188,
+          "OURS_std": 0.06599926040670938,
+          "best_seed_delta": 0.00025116414307024826,
+          "delta_mean": 8.372138102341609e-05,
+          "delta_std": 0.0001183999125039205,
+          "negative_seed_count": 0,
+          "positive_seed_count": 1,
+          "seed20_delta": 0.00025116414307024826,
+          "seed30_delta": 0.0,
+          "seed50_delta": 0.0,
+          "worst_seed_delta": 0.0,
+          "zero_seed_count": 2
+        },
+        "Purity": {
+          "BASE_mean": 0.9422666666666667,
+          "BASE_std": 0.050838655459098166,
+          "OURS_mean": 0.9424,
+          "OURS_std": 0.050650172753900845,
+          "best_seed_delta": 0.00040000000000006697,
+          "delta_mean": 0.00013333333333335565,
+          "delta_std": 0.00018856180831644425,
+          "negative_seed_count": 0,
+          "positive_seed_count": 1,
+          "seed20_delta": 0.00040000000000006697,
+          "seed30_delta": 0.0,
+          "seed50_delta": 0.0,
+          "worst_seed_delta": 0.0,
+          "zero_seed_count": 2
+        }
+      },
+      "p3_c0_lr1e4_budget20_delta_reference": {
+        "ACC": 0.0020000000000000018,
+        "ARI": 0.0019116282545087089,
+        "NMI": 0.00020992375590977996,
+        "Purity": 0.0020000000000000018
+      },
+      "refinement_budget": 5,
+      "role": "held_out",
+      "seeds": [
+        20,
+        30,
+        50
+      ],
+      "semantic_lr": 1e-05
+    },
+    "CCV": {
+      "metrics": {
+        "ACC": {
+          "BASE_mean": 0.28106698164279736,
+          "BASE_std": 0.006148530020863796,
+          "OURS_mean": 0.27772036025394947,
+          "OURS_std": 0.005332964683885539,
+          "best_seed_delta": -0.0013288055514543151,
+          "delta_mean": -0.0033466213888478737,
+          "delta_std": 0.001526459217409387,
+          "negative_seed_count": 3,
+          "positive_seed_count": 0,
+          "seed20_delta": -0.005019932083271783,
+          "seed30_delta": -0.0013288055514543151,
+          "seed50_delta": -0.0036911265318175235,
+          "worst_seed_delta": -0.005019932083271783,
+          "zero_seed_count": 0
+        },
+        "ARI": {
+          "BASE_mean": 0.12383912131331683,
+          "BASE_std": 0.005409555654045861,
+          "OURS_mean": 0.12378237527374313,
+          "OURS_std": 0.0032029416542003718,
+          "best_seed_delta": 0.002931976276243628,
+          "delta_mean": -5.674603957371571e-05,
+          "delta_std": 0.0023417810415215052,
+          "negative_seed_count": 2,
+          "positive_seed_count": 1,
+          "seed20_delta": -0.002786648317334689,
+          "seed30_delta": 0.002931976276243628,
+          "seed50_delta": -0.00031556607763008615,
+          "worst_seed_delta": -0.002786648317334689,
+          "zero_seed_count": 0
+        },
+        "NMI": {
+          "BASE_mean": 0.26110915955816316,
+          "BASE_std": 0.0061693097362448225,
+          "OURS_mean": 0.2594005275350577,
+          "OURS_std": 0.0039786744301391706,
+          "best_seed_delta": -9.754747759932458e-05,
+          "delta_mean": -0.0017086320231054313,
+          "delta_std": 0.002252941823937402,
+          "negative_seed_count": 3,
+          "positive_seed_count": 0,
+          "seed20_delta": -0.004894704747983203,
+          "seed30_delta": -9.754747759932458e-05,
+          "seed50_delta": -0.00013364384373376614,
+          "worst_seed_delta": -0.004894704747983203,
+          "zero_seed_count": 0
+        },
+        "Purity": {
+          "BASE_mean": 0.3145331955312762,
+          "BASE_std": 0.006718886788047357,
+          "OURS_mean": 0.31281066981642797,
+          "OURS_std": 0.002262820794836894,
+          "best_seed_delta": 0.005315222205817205,
+          "delta_mean": -0.0017225257148481925,
+          "delta_std": 0.005235793558552397,
+          "negative_seed_count": 2,
+          "positive_seed_count": 1,
+          "seed20_delta": -0.0032481913479994184,
+          "seed30_delta": 0.005315222205817205,
+          "seed50_delta": -0.007234608002362364,
+          "worst_seed_delta": -0.007234608002362364,
+          "zero_seed_count": 0
+        }
+      },
+      "p3_c0_lr1e4_budget20_delta_reference": {
+        "ACC": -0.0011319454697573856,
+        "ARI": -0.0026305115283602417,
+        "NMI": -0.0019513751251578986,
+        "Purity": 0.000541365224666542
+      },
+      "refinement_budget": 5,
+      "role": "held_out",
+      "seeds": [
+        20,
+        30,
+        50
+      ],
+      "semantic_lr": 1e-05
+    },
+    "COIL20": {
+      "metrics": {
+        "ACC": {
+          "BASE_mean": 0.763425925925926,
+          "BASE_std": 0.019113699401243515,
+          "OURS_mean": 0.7601851851851852,
+          "OURS_std": 0.009357121727503599,
+          "best_seed_delta": 0.006249999999999978,
+          "delta_mean": -0.0032407407407407294,
+          "delta_std": 0.009760726223290713,
+          "negative_seed_count": 1,
+          "positive_seed_count": 2,
+          "seed20_delta": -0.016666666666666607,
+          "seed30_delta": 0.000694444444444442,
+          "seed50_delta": 0.006249999999999978,
+          "worst_seed_delta": -0.016666666666666607,
+          "zero_seed_count": 0
+        },
+        "ARI": {
+          "BASE_mean": 0.722322798041246,
+          "BASE_std": 0.028291201864283737,
+          "OURS_mean": 0.7146346560613273,
+          "OURS_std": 0.013508941413548149,
+          "best_seed_delta": 0.00969049383293552,
+          "delta_mean": -0.007688141979918702,
+          "delta_std": 0.01493599389849573,
+          "negative_seed_count": 2,
+          "positive_seed_count": 1,
+          "seed20_delta": -0.026775206448317213,
+          "seed30_delta": -0.005979713324374414,
+          "seed50_delta": 0.00969049383293552,
+          "worst_seed_delta": -0.026775206448317213,
+          "zero_seed_count": 0
+        },
+        "NMI": {
+          "BASE_mean": 0.8448861674101317,
+          "BASE_std": 0.012758941953901466,
+          "OURS_mean": 0.8402025333673082,
+          "OURS_std": 0.004934840190907646,
+          "best_seed_delta": 0.005928637908489187,
+          "delta_mean": -0.004683634042823459,
+          "delta_std": 0.008694257081452245,
+          "negative_seed_count": 2,
+          "positive_seed_count": 1,
+          "seed20_delta": -0.01536749466010201,
+          "seed30_delta": -0.004612045376857554,
+          "seed50_delta": 0.005928637908489187,
+          "worst_seed_delta": -0.01536749466010201,
+          "zero_seed_count": 0
+        },
+        "Purity": {
+          "BASE_mean": 0.7763888888888889,
+          "BASE_std": 0.017188961310867612,
+          "OURS_mean": 0.7710648148148147,
+          "OURS_std": 0.009644753081481335,
+          "best_seed_delta": 0.006944444444444531,
+          "delta_mean": -0.005324074074074055,
+          "delta_std": 0.010211456018570784,
+          "negative_seed_count": 2,
+          "positive_seed_count": 1,
+          "seed20_delta": -0.018055555555555602,
+          "seed30_delta": -0.004861111111111094,
+          "seed50_delta": 0.006944444444444531,
+          "worst_seed_delta": -0.018055555555555602,
+          "zero_seed_count": 0
+        }
+      },
+      "p3_c0_lr1e4_budget20_delta_reference": {
+        "ACC": -0.000694444444444442,
+        "ARI": 0.0017551213719068464,
+        "NMI": 0.0015538637430725366,
+        "Purity": -0.001388888888888884
+      },
+      "refinement_budget": 5,
+      "role": "held_out",
+      "seeds": [
+        20,
+        30,
+        50
+      ],
+      "semantic_lr": 1e-05
+    },
+    "Caltech-5V": {
+      "metrics": {
+        "ACC": {
+          "BASE_mean": 0.8180952380952381,
+          "BASE_std": 0.003417309546287473,
+          "OURS_mean": 0.8195238095238095,
+          "OURS_std": 0.0003367175148507148,
+          "best_seed_delta": 0.0050000000000000044,
+          "delta_mean": 0.0014285714285714457,
+          "delta_std": 0.003642156795423418,
+          "negative_seed_count": 1,
+          "positive_seed_count": 2,
+          "seed20_delta": 0.0050000000000000044,
+          "seed30_delta": 0.0028571428571428914,
+          "seed50_delta": -0.0035714285714285587,
+          "worst_seed_delta": -0.0035714285714285587,
+          "zero_seed_count": 0
+        },
+        "ARI": {
+          "BASE_mean": 0.7090429189315396,
+          "BASE_std": 0.0142388767993875,
+          "OURS_mean": 0.71026524724053,
+          "OURS_std": 0.015643172229056302,
+          "best_seed_delta": 0.011652587230342681,
+          "delta_mean": 0.0012223283089904207,
+          "delta_std": 0.007776788856047982,
+          "negative_seed_count": 2,
+          "positive_seed_count": 1,
+          "seed20_delta": 0.011652587230342681,
+          "seed30_delta": -0.0009720493425342536,
+          "seed50_delta": -0.007013552960837166,
+          "worst_seed_delta": -0.007013552960837166,
+          "zero_seed_count": 0
+        },
+        "NMI": {
+          "BASE_mean": 0.7514812329373742,
+          "BASE_std": 0.012382302331978807,
+          "OURS_mean": 0.7524469660830784,
+          "OURS_std": 0.012619743509807445,
+          "best_seed_delta": 0.009289380543773373,
+          "delta_mean": 0.0009657331457041026,
+          "delta_std": 0.0059446620306047495,
+          "negative_seed_count": 2,
+          "positive_seed_count": 1,
+          "seed20_delta": 0.009289380543773373,
+          "seed30_delta": -0.0021732609088482846,
+          "seed50_delta": -0.004218920197812781,
+          "worst_seed_delta": -0.004218920197812781,
+          "zero_seed_count": 0
+        },
+        "Purity": {
+          "BASE_mean": 0.8197619047619047,
+          "BASE_std": 0.003417309546287473,
+          "OURS_mean": 0.8207142857142857,
+          "OURS_std": 0.0015430334996209205,
+          "best_seed_delta": 0.0050000000000000044,
+          "delta_mean": 0.0009523809523809638,
+          "delta_std": 0.0035154340619603305,
+          "negative_seed_count": 1,
+          "positive_seed_count": 2,
+          "seed20_delta": 0.0050000000000000044,
+          "seed30_delta": 0.0014285714285714457,
+          "seed50_delta": -0.0035714285714285587,
+          "worst_seed_delta": -0.0035714285714285587,
+          "zero_seed_count": 0
+        }
+      },
+      "p3_c0_lr1e4_budget20_delta_reference": {
+        "ACC": 0.004523809523809523,
+        "ARI": 0.006583224413904021,
+        "NMI": 0.0051463690932362915,
+        "Purity": 0.003809523809523818
+      },
+      "refinement_budget": 5,
+      "role": "held_out",
+      "seeds": [
+        20,
+        30,
+        50
+      ],
+      "semantic_lr": 1e-05
+    },
+    "HandWrite": {
+      "metrics": {
+        "ACC": {
+          "BASE_mean": 0.9685,
+          "BASE_std": 0.0008164965809277268,
+          "OURS_mean": 0.9683333333333333,
+          "OURS_std": 0.00047140452079103207,
+          "best_seed_delta": 0.0014999999999999458,
+          "delta_mean": -0.00016666666666672233,
+          "delta_std": 0.0012472191289246482,
+          "negative_seed_count": 2,
+          "positive_seed_count": 1,
+          "seed20_delta": -0.0015000000000000568,
+          "seed30_delta": -0.000500000000000056,
+          "seed50_delta": 0.0014999999999999458,
+          "worst_seed_delta": -0.0015000000000000568,
+          "zero_seed_count": 0
+        },
+        "ARI": {
+          "BASE_mean": 0.9310002182758232,
+          "BASE_std": 0.001961629848530136,
+          "OURS_mean": 0.9307245627167985,
+          "OURS_std": 0.0010703596114588192,
+          "best_seed_delta": 0.003671396264709137,
+          "delta_mean": -0.0002756555590247937,
+          "delta_std": 0.002953638768084552,
+          "negative_seed_count": 2,
+          "positive_seed_count": 1,
+          "seed20_delta": -0.0034330562041583468,
+          "seed30_delta": -0.0010653067376251713,
+          "seed50_delta": 0.003671396264709137,
+          "worst_seed_delta": -0.0034330562041583468,
+          "zero_seed_count": 0
+        },
+        "NMI": {
+          "BASE_mean": 0.9257884344503818,
+          "BASE_std": 0.0028832206096437276,
+          "OURS_mean": 0.9267714892561317,
+          "OURS_std": 0.00258451935398741,
+          "best_seed_delta": 0.00682519534951731,
+          "delta_mean": 0.0009830548057497095,
+          "delta_std": 0.004664375455719018,
+          "negative_seed_count": 1,
+          "positive_seed_count": 2,
+          "seed20_delta": -0.004590682612238384,
+          "seed30_delta": 0.0007146516799702018,
+          "seed50_delta": 0.00682519534951731,
+          "worst_seed_delta": -0.004590682612238384,
+          "zero_seed_count": 0
+        },
+        "Purity": {
+          "BASE_mean": 0.9685,
+          "BASE_std": 0.0008164965809277268,
+          "OURS_mean": 0.9683333333333333,
+          "OURS_std": 0.00047140452079103207,
+          "best_seed_delta": 0.0014999999999999458,
+          "delta_mean": -0.00016666666666672233,
+          "delta_std": 0.0012472191289246482,
+          "negative_seed_count": 2,
+          "positive_seed_count": 1,
+          "seed20_delta": -0.0015000000000000568,
+          "seed30_delta": -0.000500000000000056,
+          "seed50_delta": 0.0014999999999999458,
+          "worst_seed_delta": -0.0015000000000000568,
+          "zero_seed_count": 0
+        }
+      },
+      "p3_c0_lr1e4_budget20_delta_reference": {
+        "ACC": 0.004166666666666652,
+        "ARI": 0.008848983512007321,
+        "NMI": 0.009583882699030174,
+        "Purity": 0.004166666666666652
+      },
+      "refinement_budget": 5,
+      "role": "held_out",
+      "seeds": [
+        20,
+        30,
+        50
+      ],
+      "semantic_lr": 1e-05
+    },
+    "MNIST-USPS": {
+      "metrics": {
+        "ACC": {
+          "BASE_mean": 0.9780666666666665,
+          "BASE_std": 0.0013888444437332944,
+          "OURS_mean": 0.9797333333333333,
+          "OURS_std": 0.002131248981752776,
+          "best_seed_delta": 0.0038000000000000256,
+          "delta_mean": 0.001666666666666668,
+          "delta_std": 0.0017987650084309683,
+          "negative_seed_count": 1,
+          "positive_seed_count": 2,
+          "seed20_delta": 0.0038000000000000256,
+          "seed30_delta": 0.0018000000000000238,
+          "seed50_delta": -0.0006000000000000449,
+          "worst_seed_delta": -0.0006000000000000449,
+          "zero_seed_count": 0
+        },
+        "ARI": {
+          "BASE_mean": 0.9519787623283645,
+          "BASE_std": 0.0030158382475765793,
+          "OURS_mean": 0.9555252108640563,
+          "OURS_std": 0.004624444792282432,
+          "best_seed_delta": 0.008167411259986657,
+          "delta_mean": 0.0035464485356918596,
+          "delta_std": 0.00389251280266117,
+          "negative_seed_count": 1,
+          "positive_seed_count": 2,
+          "seed20_delta": 0.008167411259986657,
+          "seed30_delta": 0.003826818675238486,
+          "seed50_delta": -0.0013548843281495637,
+          "worst_seed_delta": -0.0013548843281495637,
+          "zero_seed_count": 0
+        },
+        "NMI": {
+          "BASE_mean": 0.9419447950068306,
+          "BASE_std": 0.003165748687148554,
+          "OURS_mean": 0.9452845971711076,
+          "OURS_std": 0.005203818592859296,
+          "best_seed_delta": 0.007307794331761763,
+          "delta_mean": 0.003339802164276836,
+          "delta_std": 0.00347649712141265,
+          "negative_seed_count": 1,
+          "positive_seed_count": 2,
+          "seed20_delta": 0.007307794331761763,
+          "seed30_delta": 0.0038698321289016846,
+          "seed50_delta": -0.0011582199678329408,
+          "worst_seed_delta": -0.0011582199678329408,
+          "zero_seed_count": 0
+        },
+        "Purity": {
+          "BASE_mean": 0.9780666666666665,
+          "BASE_std": 0.0013888444437332944,
+          "OURS_mean": 0.9797333333333333,
+          "OURS_std": 0.002131248981752776,
+          "best_seed_delta": 0.0038000000000000256,
+          "delta_mean": 0.001666666666666668,
+          "delta_std": 0.0017987650084309683,
+          "negative_seed_count": 1,
+          "positive_seed_count": 2,
+          "seed20_delta": 0.0038000000000000256,
+          "seed30_delta": 0.0018000000000000238,
+          "seed50_delta": -0.0006000000000000449,
+          "worst_seed_delta": -0.0006000000000000449,
+          "zero_seed_count": 0
+        }
+      },
+      "p3_c0_lr1e4_budget20_delta_reference": {
+        "ACC": -0.0013333333333333346,
+        "ARI": -0.002859022393111902,
+        "NMI": -0.002549064828306228,
+        "Purity": -0.0013333333333333346
+      },
+      "refinement_budget": 5,
+      "role": "held_out",
+      "seeds": [
+        20,
+        30,
+        50
+      ],
+      "semantic_lr": 1e-05
+    }
+  },
+  "scientific_interpretation": {
+    "forbidden_interpretation": "Do not treat semantic_lr=1e-5 and budget=5 as a universally optimal configuration.",
+    "next_stage": "P3-C1-B1 dataset-specific semantic exposure selection under a shared search space and shared selection rule.",
+    "supported_observation": "The same U_cycle/T_rel mechanism exhibits dataset-dependent sensitivity to semantic intervention strength and duration.",
+    "universal_same_configuration_supported": false
+  },
+  "seed_count_total": 21,
+  "selection_provenance": "candidate selected from ALOI diagnostics only",
+  "status": "COMPLETE",
+  "tuning_dataset": "ALOI"
+}

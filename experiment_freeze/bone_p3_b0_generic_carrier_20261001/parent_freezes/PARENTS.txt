@@ -1,0 +1,17 @@
+P3-B0 frozen parents
+====================
+
+P3-A1:
+experiment_freeze/bone_p3_a1_action_space_protocol_20261001
+
+P3-A3:
+experiment_freeze/bone_p3_a3_sparse_label_protocol_20261001
+
+P3-A4:
+experiment_freeze/bone_p3_a4_corruption_protocol_20261001
+
+Historical P2 carrier:
+outputs/bone_p2/p2_a0_msrc_seed20/p2_a0_carrier_pre_gt.npz
+
+Historical P2 carrier SHA256:
+83ea7681491e7ab3e51285446075a3362a43d6122a1397d04a0e059bdc7841ea

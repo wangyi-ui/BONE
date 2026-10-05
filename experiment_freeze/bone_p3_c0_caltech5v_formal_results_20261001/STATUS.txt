@@ -1,0 +1,81 @@
+BONE P3-C0 Caltech-5V Formal Results
+====================================
+
+STATUS:
+
+FROZEN / FORMAL RESULTS COMPLETE
+
+DATASET:
+
+Caltech-5V
+
+N = 1400
+V = 5
+K = 7
+
+TRAINING SEEDS:
+
+20
+30
+50
+
+WEAK QUALITY:
+
+SNR = 2.5 dB
+corruption_seed = 20
+frozen P3-A4 realization
+
+WEAK QUANTITY:
+
+2 labels per class
+L = 14
+frozen P3-A3 split
+
+FORMAL SCHEDULE:
+
+100 native epochs shared carrier
+
+BASE:
++20 native BONE epochs
+
+OURS:
++20 alternating refinement epochs
+
+Each OURS epoch:
+
+Phase A:
+utility-conditioned semantic purification
+
+Phase B:
+native BONE structural consolidation
+
+GT ISOLATION:
+
+Full GT was not used before pre-GT seal.
+
+Formal evaluator loaded GT only after seal verification.
+
+FORMAL METRICS:
+
+ACC
+NMI
+Purity
+ARI
+
+REPORTING RULE:
+
+All seeds are retained.
+
+No performance-based PASS/FAIL gate is used.
+
+A negative delta on any seed or metric does not
+invalidate or remove that result.
+
+PAPER USE:
+
+The three-seed mean/std summary is the Caltech-5V
+formal paper-result candidate under frozen P3-C0.
+
+NEXT DATASET:
+
+BDGP

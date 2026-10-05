@@ -1,0 +1,10 @@
+{
+  "full_gt_used": false,
+  "rule": [
+    "maximize round(mean_delta_J,12)",
+    "maximize round(worst_delta_J,12)",
+    "maximize positive_count",
+    "tie: Adam then AdamW then SGD_MOMENTUM",
+    "same-family tie: smaller semantic_lr"
+  ]
+}

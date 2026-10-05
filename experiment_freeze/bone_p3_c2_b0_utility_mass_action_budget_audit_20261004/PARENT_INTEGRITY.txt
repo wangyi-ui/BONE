@@ -1,0 +1,20 @@
+{
+  "c2a0_freeze_files": [
+    "experiment_freeze/bone_p3_c2_a0_utility_structural_drift_preregistered_20261004/FREEZE_SHA256.txt",
+    "experiment_freeze/bone_p3_c2_a0_utility_structural_drift_results_20261004/DIAGNOSTIC_ARTIFACT_SHA256.txt"
+  ],
+  "parent_hashes": {
+    "experiments/utility_relation/bone_p3_b0_generic_carrier.py": "5a9f3c817d0e0ea07e311f0899fdb926cef993d0f3b7edbd65faf7f83dfabc27",
+    "experiments/utility_relation/p3_c1_b1_final_formal/final_formal_context.py": "77840c28319df9e4d07a548523903a859dfaf09a544e9a74cc17fc7411cf8e56",
+    "experiments/utility_relation/p3_c1_b1_final_formal/final_formal_protocol.py": "4e3d443bc9e5f21ddf92cb763832a6b3ed5bf5520a07b7113067288fd8847ffb",
+    "experiments/utility_relation/p3_c1_b1_final_formal/run_final_formal.py": "b6abc513f81ae08d00141ea897d2c8c209840677503715fd79ab3f237284a6bd",
+    "experiments/utility_relation/p3_c1_b1_optuna/amendment_a2.py": "b3237d057e11051909c721828c3efb3d123651f3f8b7e1961694ba9f03ee46c0",
+    "experiments/utility_relation/p3_c1_b1_optuna/canonical_fold_order_r3.py": "98702c3c4af819a5229b9b05da576c81a67aa1bbcf9ce0fd9e67fab122e43caf",
+    "experiments/utility_relation/run_bone_p3_c0_cross_dataset_formal.py": "330ac8999db35cae64092fcfeb0dc8dc900370996001a82d214a1eca90233f6b",
+    "method/amv.py": "68f3edcd55e32456a5bcdbcbbc48329f19c5652dee1fc27420e2865f7068e5dc",
+    "method/bone.py": "d13ba6ba91362210f9a614f7353e9de688ff1815f075916b457df6c767a14092",
+    "test_cmvsc.py": "fc836c5a8e053624eee7bcf200a592b3a064a9eec71e719012eb976dd1641d8d"
+  },
+  "parent_hashes_verified": true,
+  "parent_source_modification": false
+}

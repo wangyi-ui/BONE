@@ -1,0 +1,29 @@
+BONE-P1-A0 Weak-Quality Stress Test
+STATUS=PASS
+
+Dataset=MSRC
+TrainingSeed=20
+CorruptionSeed=20
+TargetSNR=2.5dB
+CorruptionPattern=exactly 2 of 4 views per sample
+CorruptedPairs=420
+PerViewCorrupted=105,105,105,105
+
+Decision:
+PASS
+
+Reason:
+delta_acc=0.042857142857142816 >= 0.03
+delta_nmi=0.06738271701444642 >= 0.01
+delta_purity=0.01904761904761909 >= 0.01
+
+Meaning:
+Native BONE degrades non-trivially under fixed weak-quality corruption.
+Purification headroom exists.
+
+No U_cycle
+No T_rel
+No sparse labels
+No pseudo labels
+No memory
+No modification to native BONE core

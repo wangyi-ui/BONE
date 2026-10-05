@@ -1,0 +1,135 @@
+{
+  "A_Q1": 0.07438481921100916,
+  "A_Q2": 0.040936486908263944,
+  "A_Q3": 0.018181256446366877,
+  "A_Q4": 0.0045517168448578685,
+  "A_Q5": 0.02835527225016108,
+  "A_SHUFFLE": 0.04829935122845444,
+  "A_TRUE": 0.05229656540419617,
+  "A_UNIFORM": 0.06303891623992822,
+  "DIAGNOSTIC_ONLY": true,
+  "DeltaAlignment_Q5_Q1": -0.04602954696084808,
+  "DeltaMargin_high_low": 0.149972358721526,
+  "Delta_TRUE_SHUFFLE": 0.003997214175741733,
+  "Delta_TRUE_UNIFORM": -0.010742350835732044,
+  "HIGH_U_LOW_MARGIN_CONFLICT_RATE": 0.152490297542044,
+  "Spearman_U_semantic_margin": 0.3636395580489945,
+  "Spearman_quintile_alignment": -0.7,
+  "U_mean": 0.4810505938661872,
+  "U_quantiles": {
+    "p10": 0.0,
+    "p25": 0.0,
+    "p50": 0.5955992341041565,
+    "p75": 0.8840211033821106,
+    "p90": 0.9890344917774201
+  },
+  "U_std": 0.4100398012607351,
+  "dataset": "CCV",
+  "detach_contract": {
+    "T_rel": true,
+    "U_cycle": true,
+    "anchor_posterior": true
+  },
+  "effective_action_number_mean": 4.775758881192746,
+  "effective_action_number_over_S_mean": 0.7959598135321243,
+  "entropy_mean": 0.8400709367846698,
+  "entropy_median": 0.996853051455168,
+  "formal_clustering_metrics_computed": false,
+  "frozen_source_hashes": {
+    "experiment_freeze/bone_p3_c3_a0_ucab_confirmatory_fail_closed_20261005/FREEZE_MANIFEST.sha256": "1612cc938c7618175b91ad1818b810fb12aaed7f519ef1f4f55ea01650ea06f0",
+    "experiments/utility_relation/p3_c3_a0_ucab/protocol.py": "a729a49266daa968c86da194729d683825c655ecdb7fb1fda8467c9509a31db1",
+    "experiments/utility_relation/p3_c3_a0_ucab/semantic_epoch.py": "5feb47cdf4ba02964c3e6baefdf3de11bb25b4c843ee8632d85f20e931152f20",
+    "experiments/utility_relation/run_bone_p3_c0_cross_dataset_formal.py": "330ac8999db35cae64092fcfeb0dc8dc900370996001a82d214a1eca90233f6b",
+    "method/amv.py": "68f3edcd55e32456a5bcdbcbbc48329f19c5652dee1fc27420e2865f7068e5dc",
+    "method/bone.py": "d13ba6ba91362210f9a614f7353e9de688ff1815f075916b457df6c767a14092"
+  },
+  "full_GT_loaded": false,
+  "invalid_zero_norm_count": {
+    "Q1": 0,
+    "Q2": 0,
+    "Q3": 0,
+    "Q4": 0,
+    "Q5": 0,
+    "SHUFFLE": 0,
+    "TRUE": 0,
+    "UNIFORM": 0
+  },
+  "mean_margin_highest_U_quintile": 0.20147310044065347,
+  "mean_margin_lowest_U_quintile": 0.051500741719127476,
+  "model_state_sha256_before_after": "8daaae4e9373e417480054d0ca6823fa57e230d58a3bec762d3b716dd339be35",
+  "native_grad_norm_statistics": {
+    "max": 0.7528125642290301,
+    "mean": 0.3715943364182396,
+    "min": 0.25988256554239475
+  },
+  "peak_memory_allocated_bytes": 447229952,
+  "peak_memory_reserved_bytes": 461373440,
+  "raw_query_id_sha256": "44a61f8fcd22bfbf54aa7658ea9807bcca1fb693f318ceea3ee65458032a7841",
+  "semantic_grad_norm_statistics": {
+    "Q1": {
+      "max": 0.9854924321670208,
+      "mean": 0.7940935699358059
+    },
+    "Q2": {
+      "max": 1.1457828217877126,
+      "mean": 0.6974192535996866
+    },
+    "Q3": {
+      "max": 0.939775590224517,
+      "mean": 0.6819417383501207
+    },
+    "Q4": {
+      "max": 1.0454448493301298,
+      "mean": 0.703111065465876
+    },
+    "Q5": {
+      "max": 1.31473742678823,
+      "mean": 0.6488005300173928
+    },
+    "SHUFFLE": {
+      "max": 0.009740201010735557,
+      "mean": 0.007626379527887698
+    },
+    "TRUE": {
+      "max": 0.009689579157181457,
+      "mean": 0.007583613678592277
+    },
+    "UNIFORM": {
+      "max": 0.009032674123062657,
+      "mean": 0.007508387372174646
+    }
+  },
+  "semantic_margin_mean": 0.1293854883578402,
+  "semantic_margin_median": 0.08272387087345123,
+  "stage": "P3-C4-A0",
+  "status": "VALID",
+  "support_fraction": 0.768602406059706,
+  "theta_sem": [
+    "anchor_list.0",
+    "anchor_list.1",
+    "anchor_list.2",
+    "fc_Z.0.0.weight",
+    "fc_Z.0.0.bias",
+    "fc_Z.0.1.weight",
+    "fc_Z.0.1.bias",
+    "fc_Z.1.0.weight",
+    "fc_Z.1.0.bias",
+    "fc_Z.1.1.weight",
+    "fc_Z.1.1.bias",
+    "fc_Z.2.0.weight",
+    "fc_Z.2.0.bias",
+    "fc_Z.2.1.weight",
+    "fc_Z.2.1.bias",
+    "label_fc.0.weight",
+    "label_fc.0.bias"
+  ],
+  "theta_sem_trace": "frozen CURRENT: optim.Adam(model.parameters())",
+  "top1_top2_margin_mean": 0.0,
+  "top1_top2_margin_median": 0.0,
+  "training_seed": 20,
+  "valid_batch_count": {
+    "SHUFFLE": 53,
+    "TRUE": 53,
+    "UNIFORM": 53
+  }
+}

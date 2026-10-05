@@ -1,0 +1,30 @@
+The first freeze attempt stopped before freeze creation because
+its static audit incorrectly required literal arm names such as
+CURRENT to appear directly in run_confirmatory.py.
+
+The implementation intentionally centralizes arm ownership in:
+
+validation_io.py
+
+run_confirmatory.py calls:
+
+io.arms_for_seed(training_seed)
+
+Authoritative definitions are:
+
+HISTORICAL_ARMS =
+(CURRENT, TRUE_BUDGET)
+
+CONFIRMATORY_ARMS =
+(CURRENT, TRUE_BUDGET, MEAN_BUDGET, SHUFFLE_BUDGET)
+
+Exact arm-contract tests passed.
+
+Classification:
+
+FREEZE_SCRIPT_STATIC_AUDIT_FALSE_POSITIVE
+
+No frozen source was modified.
+No formal GPU run occurred.
+No GT was read.
+No formal metric was computed.

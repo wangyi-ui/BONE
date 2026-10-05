@@ -1,0 +1,16 @@
+P3-C1-B1 PARENT INTEGRITY RECORD
+
+BEFORE_SNAPSHOT=2026-10-03
+AFTER_SNAPSHOT=2026-10-03
+REGISTERED_PARENT_FILE_COUNT=11
+NATIVE_EXACT_HASH_CHECK=PASS
+BEFORE_AFTER_EXACT_PARITY=PASS
+PARENT_SOURCES_MODIFIED=false
+
+The before and after SHA256 values are exactly the entries in
+parent_source_sha256.txt.  The read-only parent_integrity helper verifies this
+manifest fail-closed before future smoke, formal tuning, resume, and final
+selection work.  No parent source was opened for writing by this stage.
+
+B0_FINAL_SOURCE_MANIFEST=PASS
+B0_FREEZE_CORE_MANIFEST=PASS

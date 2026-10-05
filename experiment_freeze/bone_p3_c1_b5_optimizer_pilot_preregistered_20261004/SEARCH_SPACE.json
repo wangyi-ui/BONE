@@ -1,0 +1,125 @@
+{
+  "absolute_utility_mass_cancellation": "frozen_and_unresolved",
+  "candidates": [
+    {
+      "dataset": "CCV",
+      "optimizer_name": "Adam",
+      "semantic_exposure": 3,
+      "semantic_lr": 3e-06
+    },
+    {
+      "dataset": "CCV",
+      "optimizer_name": "Adam",
+      "semantic_exposure": 3,
+      "semantic_lr": 1e-05
+    },
+    {
+      "dataset": "CCV",
+      "optimizer_name": "Adam",
+      "semantic_exposure": 3,
+      "semantic_lr": 3e-05
+    },
+    {
+      "dataset": "CCV",
+      "optimizer_name": "AdamW",
+      "semantic_exposure": 3,
+      "semantic_lr": 3e-06
+    },
+    {
+      "dataset": "CCV",
+      "optimizer_name": "AdamW",
+      "semantic_exposure": 3,
+      "semantic_lr": 1e-05
+    },
+    {
+      "dataset": "CCV",
+      "optimizer_name": "AdamW",
+      "semantic_exposure": 3,
+      "semantic_lr": 3e-05
+    },
+    {
+      "dataset": "CCV",
+      "optimizer_name": "SGD_MOMENTUM",
+      "semantic_exposure": 3,
+      "semantic_lr": 0.001
+    },
+    {
+      "dataset": "CCV",
+      "optimizer_name": "SGD_MOMENTUM",
+      "semantic_exposure": 3,
+      "semantic_lr": 0.003
+    },
+    {
+      "dataset": "CCV",
+      "optimizer_name": "SGD_MOMENTUM",
+      "semantic_exposure": 3,
+      "semantic_lr": 0.01
+    },
+    {
+      "dataset": "ALOI",
+      "optimizer_name": "Adam",
+      "semantic_exposure": 1,
+      "semantic_lr": 3e-05
+    },
+    {
+      "dataset": "ALOI",
+      "optimizer_name": "Adam",
+      "semantic_exposure": 1,
+      "semantic_lr": 0.0001
+    },
+    {
+      "dataset": "ALOI",
+      "optimizer_name": "Adam",
+      "semantic_exposure": 1,
+      "semantic_lr": 0.0003
+    },
+    {
+      "dataset": "ALOI",
+      "optimizer_name": "AdamW",
+      "semantic_exposure": 1,
+      "semantic_lr": 3e-05
+    },
+    {
+      "dataset": "ALOI",
+      "optimizer_name": "AdamW",
+      "semantic_exposure": 1,
+      "semantic_lr": 0.0001
+    },
+    {
+      "dataset": "ALOI",
+      "optimizer_name": "AdamW",
+      "semantic_exposure": 1,
+      "semantic_lr": 0.0003
+    },
+    {
+      "dataset": "ALOI",
+      "optimizer_name": "SGD_MOMENTUM",
+      "semantic_exposure": 1,
+      "semantic_lr": 0.001
+    },
+    {
+      "dataset": "ALOI",
+      "optimizer_name": "SGD_MOMENTUM",
+      "semantic_exposure": 1,
+      "semantic_lr": 0.003
+    },
+    {
+      "dataset": "ALOI",
+      "optimizer_name": "SGD_MOMENTUM",
+      "semantic_exposure": 1,
+      "semantic_lr": 0.01
+    }
+  ],
+  "datasets": [
+    "CCV",
+    "ALOI"
+  ],
+  "dev_seeds": [
+    11,
+    37
+  ],
+  "folds": [
+    "A",
+    "B"
+  ]
+}

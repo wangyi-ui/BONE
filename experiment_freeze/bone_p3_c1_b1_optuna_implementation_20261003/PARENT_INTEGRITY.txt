@@ -1,0 +1,13 @@
+P3-C1-B1 IMPLEMENTATION PARENT INTEGRITY RECORD
+
+PREREGISTERED_B1_SOURCE_MANIFEST_BEFORE=PASS
+PREREGISTERED_B1_SOURCE_MANIFEST_AFTER=PASS
+PARENT_SOURCE_MANIFEST_BEFORE=PASS
+PARENT_SOURCE_MANIFEST_AFTER=PASS
+B0_FINAL_SOURCE_MANIFEST_AFTER=PASS
+B0_FREEZE_CORE_MANIFEST_AFTER=PASS
+PARENT_SOURCES_MODIFIED=false
+
+The implementation is append-only.  All frozen scientific protocol source
+files were verified byte-for-byte against their preregistration manifest.
+All parent source hashes were verified against the frozen parent manifest.

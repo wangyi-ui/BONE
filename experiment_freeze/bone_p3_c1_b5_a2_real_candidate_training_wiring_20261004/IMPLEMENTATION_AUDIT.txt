@@ -1,0 +1,18 @@
+P3-C1-B5-A2 execution-wiring amendment.
+
+The runner now requires both --execute and --authorize-real-candidate, verifies
+the immutable A1 authorization freeze, then delegates one authorized candidate
+to the frozen B1/B2 formal_tuning_context_a2 and formal candidate evaluator.
+The only injected scientific implementation dependency is the B5 semantic
+optimizer_factory. Native Adam construction, native LR, branch schedule,
+U_cycle/T_rel detachment, sparse-fold construction, coverage-aware J, and
+pre-GT aggregation remain delegated to the frozen B1/B2 primitives.
+
+Candidate completion is emitted only after all four branches (11A, 11B, 37A,
+37B) return, semantic step counts are positive, the required JSON is atomically
+persisted, and its canonical artifact hash verifies. The artifact schema
+contains no full-GT or formal-metric fields with true values. Adam candidates
+remain strict reuse-only. The finalizer now requires six verified Adam reuse
+records plus twelve verified real artifacts, with CCV=9/9 and ALOI=9/9.
+
+No real B5 candidate was run while creating this amendment.

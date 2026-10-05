@@ -1,0 +1,7 @@
+{
+  "historical_default_confirmation": "NOT_CONFIRMED",
+  "parent_integrity_verified": true,
+  "preregistration_verified": true,
+  "source_hash_status": true,
+  "verified": true
+}

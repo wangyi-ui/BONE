@@ -1,0 +1,88 @@
+BONE P3-B1 Caltech-5V Engineering Smoke
+========================================
+
+STATUS:
+
+FROZEN / ENGINEERING PASS
+
+ENGINEERING_ONLY = true
+FORMAL_RESULT = false
+
+GT_loaded_before_seal = false
+full_gt_evaluation_performed = false
+
+Dataset:
+
+Caltech-5V
+
+N = 1400
+V = 5
+K = 7
+
+Training:
+
+seed = 20
+native epochs = 2
+
+Corruption:
+
+SNR = 2.5 dB
+corruption_seed = 20
+
+row histogram:
+
+2 corrupted views -> 700 samples
+3 corrupted views -> 700 samples
+
+per-view corrupted count:
+
+700
+700
+700
+700
+700
+
+Sparse supervision:
+
+2 labels/class
+L = 14
+
+Carrier:
+
+S = 20
+query count = 1386
+
+q_views:
+[1400,5,7]
+
+p_gen:
+[1400,20,7]
+
+p_ver:
+[1400,20,7]
+
+U_cycle:
+[1400,20]
+
+Pi:
+[1386,20,7]
+
+T_rel:
+[1386,14,20]
+
+All carrier tensors finite.
+
+RAW_FILE_ROW_ID mapping passed.
+
+Native BONE hashes unchanged.
+
+SCIENTIFIC BOUNDARY:
+
+This is an engineering portability validation.
+
+This freeze does NOT establish a paper result.
+
+NEXT:
+
+Preregister the cross-dataset formal protocol before
+running formal BASE / OURS comparisons.

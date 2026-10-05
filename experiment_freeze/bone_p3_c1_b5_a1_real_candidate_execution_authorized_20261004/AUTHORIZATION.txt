@@ -1,0 +1,11 @@
+P3-C1-B5-A1 authorization amendment.
+
+This amendment changes only the execution gate in run_candidate.py. The frozen
+scientific protocol, search space, selection rule, optimizer definitions,
+semantic exposure, J objective, GT firewall, and candidate reuse policy are
+unchanged. Real execution requires both --execute and
+--authorize-real-candidate, and only the twelve preregistered AdamW/SGD
+candidates are authorized. Adam remains reuse-only.
+
+The single pre-authorization CCV/AdamW/3e-6 attempt produced no artifact.
+No candidate is run by this amendment creation.

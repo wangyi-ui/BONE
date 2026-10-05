@@ -1,0 +1,97 @@
+P3-C3-A0 UCAB FILE OWNERSHIP PLAN
+
+============================================================
+A. LEGACY / FROZEN FILES: READ-ONLY
+============================================================
+
+method/bone.py
+method/amv.py
+
+experiments/utility_relation/run_bone_p3_c0_cross_dataset_formal.py
+
+experiments/utility_relation/p3_c1_b1_optuna/
+
+experiments/utility_relation/p3_c1_b1_final_formal/
+
+experiments/utility_relation/p3_c1_b5_optimizer_pilot/
+
+experiments/utility_relation/p3_c2_b0_utility_mass_action_budget_audit.py
+
+No UCAB implementation may edit these files.
+
+
+============================================================
+B. NEW UCAB SOURCE DIRECTORY
+============================================================
+
+experiments/utility_relation/p3_c3_a0_ucab/
+
+Planned files:
+
+experiments/utility_relation/p3_c3_a0_ucab/__init__.py
+
+experiments/utility_relation/p3_c3_a0_ucab/protocol.py
+  - frozen constants
+  - arm definitions
+  - dataset configuration
+  - seed declarations after provenance audit
+  - hash/provenance helpers
+
+experiments/utility_relation/p3_c3_a0_ucab/budget.py
+  - TRUE budget B_i
+  - MEAN budget control
+  - SHUFFLE budget control
+  - zero-mass handling
+  - deterministic derangement
+  - NO training code
+
+experiments/utility_relation/p3_c3_a0_ucab/semantic_epoch.py
+  - UCAB semantic objective only
+  - tensor-shape annotations required
+  - exact detach contract
+  - CURRENT parity path
+  - exactly one semantic optimizer step per semantic epoch
+
+experiments/utility_relation/p3_c3_a0_ucab/audit.py
+  - CPU-only analytical audits
+  - identity/current parity audits
+  - budget properties
+  - scale/nonlinearity audits
+  - no GT
+
+experiments/utility_relation/p3_c3_a0_ucab/run_engineering_smoke.py
+  - later GPU smoke only
+  - no formal GT result interpretation
+
+experiments/utility_relation/p3_c3_a0_ucab/run_confirmatory.py
+  - NOT to be implemented/executed until formal unseen seeds are frozen
+
+experiments/utility_relation/p3_c3_a0_ucab/evaluate_confirmatory.py
+  - post-seal GT-only evaluator
+  - NOT to be implemented/executed until protocol freeze
+
+
+============================================================
+C. TEST LOCATION
+============================================================
+
+tests/test_p3_c3_a0_ucab.py
+
+
+============================================================
+D. OUTPUT LOCATIONS
+============================================================
+
+outputs/bone_p3/p3_c3_a0_ucab/
+
+logs/bone_p3/p3_c3_a0_ucab/
+
+experiment_freeze/bone_p3_c3_a0_ucab_*
+
+
+============================================================
+E. HARD RULE
+============================================================
+
+UCAB implementation must NEVER overwrite or silently modify
+legacy B1/B5/C2 outputs, freezes, or source files.

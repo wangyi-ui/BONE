@@ -1,0 +1,5 @@
+{
+  "verified": true,
+  "method_source_modified": false,
+  "frozen_dependency_manifest": "experiment_freeze/bone_p3_c1_b1_a2_coverage_aware_abstention_preregistered_20261003/frozen_dependency_sha256.txt"
+}

@@ -1,0 +1,95 @@
+BONE-P2-A1B Multi-Seed Adjudication
+===================================
+
+FINAL STATUS:
+P2_A1B_MULTI_SEED_PASS
+
+TRAINING SEEDS:
+20 / 30 / 50
+
+CORRUPTION SEED:
+20
+
+P2-A0 SCIENTIFIC VALIDITY:
+seed20 = PASS
+seed30 = PASS
+seed50 = PASS
+TOTAL = 3/3 PASS
+
+P2-A1 SINGLE-SEED:
+seed20 = INCONCLUSIVE
+seed30 = GO
+seed50 = INCONCLUSIVE
+
+MULTI-SEED PRIMARY:
+
+Delta ACC TRUE_U - BASE:
+seed20 = +0.00952380952380949
+seed30 = +0.014285714285714235
+seed50 = +0.014285714285714235
+
+positive = 3/3
+mean = +0.012698412698412653
+
+UTILITY SPECIFICITY:
+
+Delta ACC TRUE_U - TRUE_UNIFORM:
+seed20 = +0.033333333333333326
+seed30 = +0.014285714285714235
+seed50 = +0.00952380952380949
+
+positive = 3/3
+mean = +0.019047619047619018
+
+SEMANTIC SPECIFICITY:
+
+Delta ACC TRUE_U - SHUFFLE_REL:
+seed20 = +0.00952380952380949
+seed30 = +0.014285714285714235
+seed50 = +0.00952380952380949
+
+positive = 3/3
+mean = +0.011111111111111072
+
+SECONDARY:
+
+mean Delta NMI TRUE_U - BASE:
++0.01493941023461017
+
+mean Delta Purity TRUE_U - BASE:
++0.011111111111111072
+
+SCIENTIFIC INTERPRETATION:
+
+Sparse semantic relations T_rel provide WHAT.
+Frozen U_cycle provides WHETHER / action validity.
+
+TRUE_U beats paired BASE in ACC for 3/3 training seeds.
+
+TRUE_U beats TRUE_UNIFORM in ACC for 3/3 seeds,
+supporting utility-specific action validity.
+
+TRUE_U beats SHUFFLE_REL in ACC for 3/3 seeds,
+supporting semantic-correspondence specificity.
+
+IMPORTANT BASELINE BOUNDARY:
+
+P2-A1 did NOT modify native method/bone.py or method/amv.py.
+
+The current method is an alternating augmentation:
+Phase A = U/T semantic relation purification.
+Phase B = untouched native BONE consolidation.
+
+Therefore P2-A1 validates the portable U/T mechanism,
+but is NOT yet the final native-consistency-replacement architecture.
+
+NEXT:
+P2-B0 Native Consistency Replacement / Integration Diagnostic.
+
+NO POST-HOC:
+No tuning.
+No U thresholding.
+No U_tilde.
+No memory.
+No pseudo-label expansion.
+No new module.

@@ -1,0 +1,115 @@
+BONE P3-C0 BDGP Formal Results
+==============================
+
+STATUS:
+
+FROZEN / FORMAL RESULTS COMPLETE
+
+DATASET:
+
+BDGP
+
+N = 2500
+V = 2
+K = 5
+
+TRAINING SEEDS:
+
+20
+30
+50
+
+WEAK QUALITY:
+
+SNR = 2.5 dB
+corruption_seed = 20
+frozen P3-A4 realization
+
+WEAK QUANTITY:
+
+2 labels per class
+L = 10
+frozen P3-A3 split
+
+FORMAL SCHEDULE:
+
+100 native epochs shared carrier
+
+BASE:
+
++20 native BONE epochs
+
+OURS:
+
++20 alternating refinement epochs
+
+Each OURS epoch:
+
+Phase A:
+utility-conditioned semantic purification
+
+Phase B:
+untouched native BONE structural consolidation
+
+SCIENTIFIC PRINCIPLE:
+
+Sparse labels determine WHAT;
+U_cycle determines WHETHER.
+
+GT ISOLATION:
+
+Full GT was not used before pre-GT seal.
+
+Formal evaluator loaded GT only after
+seal verification.
+
+FORMAL METRICS:
+
+ACC
+NMI
+Purity
+ARI
+
+REPORTING RULE:
+
+All three seeds are retained.
+
+Performance is reporting-only.
+
+Negative per-seed deltas do not invalidate
+or remove a result.
+
+BDGP OBSERVED THREE-SEED SUMMARY:
+
+ACC:
+BASE mean  = 0.9418666666666667
+OURS mean  = 0.9438666666666666
+mean delta = +0.0020000000000000018
+positive seeds = 2/3
+
+NMI:
+BASE mean  = 0.8787473857520963
+OURS mean  = 0.8789573095080061
+mean delta = +0.00020992375590977996
+positive seeds = 2/3
+
+Purity:
+BASE mean  = 0.9418666666666667
+OURS mean  = 0.9438666666666666
+mean delta = +0.0020000000000000018
+positive seeds = 2/3
+
+ARI:
+BASE mean  = 0.8832656082226399
+OURS mean  = 0.8851772364771486
+mean delta = +0.0019116282545087089
+positive seeds = 2/3
+
+PAPER USE:
+
+This frozen three-seed mean/std summary is the
+BDGP formal paper-result candidate under P3-C0.
+
+NEXT DATASET:
+
+HandWrite

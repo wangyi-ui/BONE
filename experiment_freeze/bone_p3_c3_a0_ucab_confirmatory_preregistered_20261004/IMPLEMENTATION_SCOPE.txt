@@ -1,0 +1,56 @@
+P3-C3-A0 UCAB IMPLEMENTATION OWNERSHIP
+
+============================================================
+ONLY THESE NEW SOURCE LOCATIONS MAY BE USED
+============================================================
+
+experiments/utility_relation/p3_c3_a0_ucab/__init__.py
+experiments/utility_relation/p3_c3_a0_ucab/protocol.py
+experiments/utility_relation/p3_c3_a0_ucab/budget.py
+experiments/utility_relation/p3_c3_a0_ucab/semantic_epoch.py
+experiments/utility_relation/p3_c3_a0_ucab/audit.py
+experiments/utility_relation/p3_c3_a0_ucab/run_engineering_smoke.py
+experiments/utility_relation/p3_c3_a0_ucab/run_confirmatory.py
+experiments/utility_relation/p3_c3_a0_ucab/evaluate_confirmatory.py
+
+tests/test_p3_c3_a0_ucab.py
+
+
+============================================================
+LEGACY SOURCE IS READ-ONLY
+============================================================
+
+method/bone.py
+method/amv.py
+
+experiments/utility_relation/run_bone_p3_c0_cross_dataset_formal.py
+
+experiments/utility_relation/p3_c1_b1_optuna/
+experiments/utility_relation/p3_c1_b1_final_formal/
+experiments/utility_relation/p3_c1_b5_optimizer_pilot/
+
+experiments/utility_relation/p3_c2_b0_utility_mass_action_budget_audit.py
+
+
+============================================================
+NEW OUTPUT OWNERSHIP
+============================================================
+
+outputs/bone_p3/p3_c3_a0_ucab/
+
+logs/bone_p3/p3_c3_a0_ucab/
+
+experiment_freeze/bone_p3_c3_a0_ucab_*
+
+
+============================================================
+HARD PROHIBITION
+============================================================
+
+Never overwrite historical:
+
+outputs/bone_p3/p3_c1_*
+outputs/bone_p3/p3_c2_*
+
+experiment_freeze/bone_p3_c1_*
+experiment_freeze/bone_p3_c2_*

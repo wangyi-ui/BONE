@@ -1,0 +1,36 @@
+P3-C1-B0 CROSS-DATASET CANDIDATE VALIDATION
+
+TUNING DATASET:
+ALOI only.
+
+FROZEN CANDIDATE:
+semantic_lr = 1e-5
+refinement_budget = 5
+
+HELD-OUT VALIDATION DATASETS:
+Caltech-5V
+BDGP
+HandWrite
+COIL20
+MNIST-USPS
+CCV
+
+TRAINING SEEDS:
+20
+30
+50
+
+RULE:
+No dataset-specific retuning during this transfer-validation stage.
+
+BASE:
+same frozen carrier + 5 native epochs.
+
+OURS:
+same frozen carrier +
+5 alternating [semantic Phase A -> native Phase B] epochs.
+
+U_cycle and T_rel remain frozen.
+No scalar utility correction.
+No new action gate.
+Training runner never loads full GT.

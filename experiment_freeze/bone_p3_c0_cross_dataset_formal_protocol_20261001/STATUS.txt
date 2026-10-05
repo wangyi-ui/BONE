@@ -1,0 +1,114 @@
+BONE P3-C0 Cross-Dataset Formal Evaluation Protocol
+===================================================
+
+STATUS:
+
+FROZEN / READY FOR FORMAL EXECUTION
+
+SCIENTIFIC PRINCIPLE:
+
+Sparse labels determine WHAT;
+U_cycle determines WHETHER.
+
+FORMAL DATASETS:
+
+Caltech-5V
+BDGP
+HandWrite
+COIL20
+MNIST-USPS
+ALOI
+CCV
+
+MSRC:
+
+DO NOT automatically rerun.
+Historical P2-A1B result will receive a protocol-equivalence audit.
+
+TRAINING SEEDS:
+
+20
+30
+50
+
+WEAK-QUALITY:
+
+SNR = 2.5 dB
+corruption_seed = 20
+frozen P3-A4 masks
+
+WEAK-QUANTITY:
+
+2 labels per class
+frozen P3-A3 splits
+
+CARRIER:
+
+100 native BONE epochs
+
+BASE:
+
+same frozen carrier state
++
+20 native BONE epochs
+
+OURS:
+
+same frozen carrier state
++
+20 alternating refinement epochs
+
+Each OURS refinement epoch:
+
+Phase A:
+utility-conditioned semantic purification
+
+Phase B:
+untouched native BONE structural consolidation
+
+SEMANTIC OPTIMIZER:
+
+Adam
+lr = 1e-4
+
+NATIVE OPTIMIZER:
+
+Adam
+lr = 1e-2
+
+U_cycle / T_rel:
+
+frozen according to accepted P2-A1B/P3-B0 semantics
+
+FULL GT:
+
+FORBIDDEN before pre-GT seal
+
+FORMAL METRICS:
+
+ACC
+NMI
+Purity
+
+AUXILIARY:
+
+ARI
+
+PERFORMANCE:
+
+REPORTING ONLY
+
+OURS > BASE is NOT a validity gate.
+
+FORMAL RUN ORDER:
+
+One dataset at a time.
+Within a dataset:
+seed20 -> audit
+seed30 -> audit
+seed50 -> audit
+then summarize.
+
+FIRST FORMAL DATASET:
+
+Caltech-5V

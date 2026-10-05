@@ -1,0 +1,49 @@
+{
+  "ENGINEERING_ONLY": false,
+  "FORMAL_RESULT": true,
+  "GT_loaded_before_seal": false,
+  "base_native_epochs": 20,
+  "carrier_state_sha256": "8e9e38323659511fc769433835b03792c61319bca45ebfb43438c781a212a627",
+  "dataset": "Caltech-5V",
+  "full_gt_used_for_hyperparameter_selection": false,
+  "full_gt_used_for_model_selection": false,
+  "full_gt_used_for_training": false,
+  "initial_BASE_state_sha256": "8e9e38323659511fc769433835b03792c61319bca45ebfb43438c781a212a627",
+  "initial_OURS_state_sha256": "8e9e38323659511fc769433835b03792c61319bca45ebfb43438c781a212a627",
+  "native_hashes": {
+    "method/amv.py": "68f3edcd55e32456a5bcdbcbbc48329f19c5652dee1fc27420e2865f7068e5dc",
+    "method/bone.py": "d13ba6ba91362210f9a614f7353e9de688ff1815f075916b457df6c767a14092"
+  },
+  "native_lr": 0.01,
+  "native_order_hashes": [
+    "d34d4ad5af5f91b5860f2c2f51c15b9d57765d3d9a66908df35e94f711e32543",
+    "5f5e01f43c27c92e79a2145a4c372d85fcf0c81c944187a03863ea8c17a9f515",
+    "b44aca8c4cd1085a32b71ea65e70468d3a3748faf13a3155549320f7744baffb",
+    "7a88479ef08ebfba536e4fa21fad61b507e8c0445ca756397b4eddc3a95daaa5",
+    "0ada81fe3f8a9a0e4074274a580348a5ad9a5845e5e8a93fb4cbd0f320b25c74",
+    "5c0aa11d3b1bbdfdd462b2d05b6ffb950ef1559cef6b3180a7f7861b8e313632",
+    "8390fd7fda500503f71f9e27d8abd7bde6735615982e9a7e6955231846840c53",
+    "e31dfa0ac809fd665f1b67027b7905d5227e901768044aed8eccc963fcefd9b0",
+    "40ea0167442a0785fcbc8f09e604d3e530b1cfccd515eac77cd7a2d79d69c373",
+    "934059fa5d8d22d95bd205137162171082e643233fe29c5bf6d8270ecbb5e180",
+    "4c5933dfb8066f2a83bf786964c91421079a4dd09a561e30638ecf2a3135badd",
+    "d787fa12e9e73fa938ecbd88c39b329782737c1e96b6eadab4f078611ae05f27",
+    "dcf8795a6bae457fa305e69175b600dfb0d5fcf1933b2e3dea454aa5fa38d018",
+    "1b37ad24d6f9eece06710b3e732e8cc34b60a837b9e6f0cb7328d82e7689750c",
+    "bc1964903dd506fbe45fc61bdeaa371e2ca30852b8feef4bd8775172e5ec2146",
+    "01a7527ab40becde7ddc0cd2f6f223b37e91c3ed6b4e71b2317e701bb8be6210",
+    "d054b51a14114c032a758d61d6c35b8b393d4f95d0769202d09983f6159fa10a",
+    "b196ca002a7d5fb5d76003a4eb015a9114d32ffee4d8b168f762baddf2865ada",
+    "5bbcb7a17943df23216d879b4adb8f73ed2752109cbcdbd739f5588034924c1b",
+    "093f417e826c784241f4c3fc4ed8e69e425a78022a7cb61468358259bb3ebbc5"
+  ],
+  "ours_native_phase_b_epochs": 20,
+  "ours_semantic_epochs": 20,
+  "parent_hashes": {
+    "p3_a3_split": "3ba6921e3e0baf8ab6a32669d9a1506e019f22ff781cd23eae13ce1f3495e0af",
+    "p3_a4_mask": "93ea34ac386d39f7e66a8edd232d2c797eb4a000574cabe14aa994fe78d57191"
+  },
+  "semantic_lr": 0.0001,
+  "semantic_schedule_sha256": "2cfa80243282ea81c2f8090e78f3a7e16c9d5a77f7187616641bb29c421c62d0",
+  "training_seed": 20
+}

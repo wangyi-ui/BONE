@@ -1,0 +1,200 @@
+BONE-P3-A4
+Cross-Dataset Balanced Half-View Weak-Quality Corruption Protocol
+=================================================================
+
+STATUS:
+FROZEN
+
+MAIN WEAK-QUALITY SETTING:
+
+SNR = 2.5 dB
+
+corruption_seed = 20
+
+training seed is NOT part of corruption generation.
+
+All training seeds reuse the same frozen corruption realization.
+
+--------------------------------------------------
+CORRUPTION MASK
+--------------------------------------------------
+
+M in {0,1}^{N x V}
+
+M[i,v] = 1:
+sample i / view v is corrupted.
+
+Target corrupted sample-view ratio:
+
+rho = 0.5
+
+--------------------------------------------------
+EVEN V
+--------------------------------------------------
+
+For every sample:
+
+row_sum(M[i]) = V/2
+
+Therefore:
+
+V=2 -> 1 corrupted view
+V=4 -> 2 corrupted views
+V=6 -> 3 corrupted views
+
+--------------------------------------------------
+ODD V
+--------------------------------------------------
+
+For V=2m+1:
+
+row_sum(M[i]) in {m,m+1}
+
+Total corrupted cells:
+
+floor(N*V/2)
+
+Current even-N datasets therefore achieve exact
+50% total corruption.
+
+--------------------------------------------------
+BALANCE
+--------------------------------------------------
+
+Within each corruption cardinality:
+
+enumerate view subsets combinatorially.
+
+Pattern usage is balanced.
+
+Per-view corruption exposure is balanced.
+
+Current verified datasets:
+
+MNIST-USPS:
+N=5000
+V=2
+row sum=1
+per-view counts=(2500,2500)
+
+BDGP:
+N=2500
+V=2
+row sum=1
+per-view counts=(1250,1250)
+
+Caltech-5V:
+N=1400
+V=5
+700 rows with k=2
+700 rows with k=3
+per-view count=700
+
+HandWrite:
+N=2000
+V=6
+row sum=3
+per-view count=1000
+
+COIL20:
+N=1440
+V=3
+720 rows with k=1
+720 rows with k=2
+per-view count=720
+
+MSRC:
+LEGACY_FROZEN
+N=210
+V=4
+row sum=2
+six 2-view patterns each count=35
+per-view count=105
+
+ALOI:
+N=10800
+V=4
+row sum=2
+six patterns each count=1800
+per-view count=5400
+
+--------------------------------------------------
+ROW IDENTITY
+--------------------------------------------------
+
+Mask rows are defined in:
+
+RAW_FILE_ROW_ID semantics.
+
+Experiment-layer sample-id adapter must preserve
+the raw row identity through preprocessing/training.
+
+--------------------------------------------------
+PREPROCESSING BOUNDARY
+--------------------------------------------------
+
+native cast / transpose
+->
+native shared shuffle with explicit raw-ID mapping
+->
+per-view StandardScaler
+->
+weak-quality corruption
+->
+NO post-corruption re-standardization
+
+--------------------------------------------------
+NOISE
+--------------------------------------------------
+
+Historical P1 Gaussian SNR implementation remains authoritative.
+
+New P3-A4 code must preserve the same noise definition.
+
+This P3-A4 freeze contains mask protocol only;
+no large corrupted feature tensors were materialized.
+
+--------------------------------------------------
+SEED INDEPENDENCE
+--------------------------------------------------
+
+corruption_seed = 20
+
+training seeds:
+20 / 30 / 50
+
+must reuse exactly the same corruption mask/artifact.
+
+--------------------------------------------------
+NO LEAKAGE
+--------------------------------------------------
+
+Corruption mask selection does NOT use:
+
+GT labels
+sparse labels
+features
+U_cycle
+T_rel
+cluster predictions
+
+--------------------------------------------------
+BLOCKED
+--------------------------------------------------
+
+CCV:
+BLOCKED_MISSING_DATA
+
+YouTubeFace50:
+missing and not required for primary formal experiments
+
+--------------------------------------------------
+NEXT
+--------------------------------------------------
+
+P3-B0:
+Generic cross-dataset carrier
++
+experiment-layer sample-id adapter
++
+chunk-safe U/T construction.

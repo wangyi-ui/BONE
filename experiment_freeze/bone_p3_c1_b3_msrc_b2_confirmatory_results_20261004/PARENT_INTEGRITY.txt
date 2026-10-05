@@ -1,0 +1,10 @@
+{
+  "b2_parent_verified": true,
+  "final_formal_parent_verified": true,
+  "full_gt_used_for_training": false,
+  "gt_used_for_reporting_only": true,
+  "parameter_retuning_allowed": false,
+  "parent_source_modification": false,
+  "preregistration_verified": true,
+  "verified": true
+}

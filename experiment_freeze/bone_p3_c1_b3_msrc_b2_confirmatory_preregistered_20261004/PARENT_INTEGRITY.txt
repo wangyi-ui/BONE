@@ -1,0 +1,20 @@
+{
+  "b2_parent_freeze_sha256": {
+    "B2_FINAL_SELECTION.json": "ed33b56d870065cc76688037dd893f7e66ca00796ef029ae7fbd9fe845263bca",
+    "PARENT_INTEGRITY.txt": "49deb7318e6afffa9abf1b2ceca02a15028d25e3d6702e4605265438a3d81790",
+    "STATUS.txt": "a16db7bf30182097eb97169e7a63df972ad9d5b60dda0009a2867487fdb42a0b",
+    "artifact_sha256.txt": "8433153bea0fd43778f4d5a35e45138d86861c9c9e24a10ea487060768648952",
+    "parent_freeze_sha256.txt": "729fd46300ca90df96fa166d343f8a72438706ff9fa2e5445999e6a5ea4a6281",
+    "parent_source_sha256.txt": "06d78b81c3a3787d16527fb206fe450c0f354f86b8e073cfd46d6805a2b54dc5",
+    "source_sha256.txt": "0628244515a36a927851cafb5fc6c3893b00cb942d51c63cc7d154d85002040f"
+  },
+  "final_formal_parent_sha256": {
+    "experiments/utility_relation/p3_c1_b1_final_formal/__init__.py": "e3ccf091c93db36d65951581164f97498ff201ac85050c34a7a24cd1f97a00d4",
+    "experiments/utility_relation/p3_c1_b1_final_formal/evaluate_final_formal.py": "3cfc841b74589a96f7c237e7751cc200a53a3087590adb194e95979a3ad3cc71",
+    "experiments/utility_relation/p3_c1_b1_final_formal/final_formal_context.py": "77840c28319df9e4d07a548523903a859dfaf09a544e9a74cc17fc7411cf8e56",
+    "experiments/utility_relation/p3_c1_b1_final_formal/final_formal_protocol.py": "4e3d443bc9e5f21ddf92cb763832a6b3ed5bf5520a07b7113067288fd8847ffb",
+    "experiments/utility_relation/p3_c1_b1_final_formal/run_final_formal.py": "b6abc513f81ae08d00141ea897d2c8c209840677503715fd79ab3f237284a6bd"
+  },
+  "parent_source_modification": false,
+  "verified": true
+}

@@ -1,0 +1,75 @@
+{
+  "aggregation": "mean/std population over fixed seeds; no selection gate",
+  "dataset": "CCV",
+  "metrics": {
+    "ACC": {
+      "BASE": {
+        "mean": 0.2816575618878882,
+        "std": 0.006880252814528776
+      },
+      "OURS": {
+        "mean": 0.28052561641813084,
+        "std": 0.005757526393261766
+      },
+      "delta_OURS_minus_BASE": {
+        "mean": -0.0011319454697573856,
+        "out_of": 3,
+        "positive_delta_seed_count": 1,
+        "std": 0.0013549780892697478
+      }
+    },
+    "ARI": {
+      "BASE": {
+        "mean": 0.12699572874715137,
+        "std": 0.004562261168167203
+      },
+      "OURS": {
+        "mean": 0.12436521721879112,
+        "std": 0.007462860313352419
+      },
+      "delta_OURS_minus_BASE": {
+        "mean": -0.0026305115283602417,
+        "out_of": 3,
+        "positive_delta_seed_count": 0,
+        "std": 0.002957050609187739
+      }
+    },
+    "NMI": {
+      "BASE": {
+        "mean": 0.2637822925438807,
+        "std": 0.006163729918551746
+      },
+      "OURS": {
+        "mean": 0.2618309174187228,
+        "std": 0.00844556650790314
+      },
+      "delta_OURS_minus_BASE": {
+        "mean": -0.0019513751251578986,
+        "out_of": 3,
+        "positive_delta_seed_count": 1,
+        "std": 0.002485651411192654
+      }
+    },
+    "Purity": {
+      "BASE": {
+        "mean": 0.3111865741424283,
+        "std": 0.006469856825575971
+      },
+      "OURS": {
+        "mean": 0.3117279393670948,
+        "std": 0.006476591974173225
+      },
+      "delta_OURS_minus_BASE": {
+        "mean": 0.000541365224666542,
+        "out_of": 3,
+        "positive_delta_seed_count": 3,
+        "std": 0.00025094834950505545
+      }
+    }
+  },
+  "seeds": [
+    20,
+    30,
+    50
+  ]
+}

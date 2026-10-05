@@ -1,0 +1,36 @@
+BONE-P0 Native MSRC Reproduction
+STATUS=PASS
+
+Dataset=official BONE MSRC
+N=210
+V=4
+K=7
+Seed=42
+Epochs=100
+
+Epoch60:
+ACC=0.9381
+NMI=0.8809
+Purity=0.9381
+
+Epoch80:
+ACC=0.9381
+NMI=0.8809
+Purity=0.9381
+
+Final Epoch100:
+ACC=0.942857
+NMI=0.881955
+Purity=0.942857
+
+Official reference:
+ACC=0.9381
+NMI=0.8809
+Purity=0.9381
+
+DECISION=BONE native reproduction PASS.
+No U_cycle.
+No T_rel.
+No sparse-label supervision.
+No weak-quality corruption.
+No method modification.

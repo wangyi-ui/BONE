@@ -1,0 +1,27 @@
+{
+  "REAL_CANDIDATE_EVALUATION_CONSTRUCTED": true,
+  "candidate_evaluation_complete": true,
+  "carrier_epochs": 100,
+  "dataset": "Caltech-5V",
+  "delta_j_seed11_foldA": -0.21656791713400114,
+  "delta_j_seed11_foldB": 0.08451769549816235,
+  "delta_j_seed37_foldA": -0.09639528877310188,
+  "delta_j_seed37_foldB": 0.10591628675435927,
+  "dev_seeds_complete": [
+    11,
+    37
+  ],
+  "formal_tuning_run": false,
+  "full_gt_loaded": false,
+  "full_gt_used_for_selection": false,
+  "full_gt_used_for_training": false,
+  "full_gt_used_for_validation": false,
+  "mean_delta_j": -0.030632305913645352,
+  "optuna_study_created": false,
+  "positive_count": 2,
+  "refinement_horizon": 20,
+  "seed11_source": "frozen_gpu_bridge_smoke",
+  "semantic_exposure": 5,
+  "semantic_lr": 1e-05,
+  "worst_delta_j": -0.21656791713400114
+}

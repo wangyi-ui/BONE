@@ -1,0 +1,114 @@
+BONE P3-C0 COIL20 Formal Results
+================================
+
+STATUS:
+
+FROZEN / FORMAL RESULTS COMPLETE
+
+DATASET:
+
+COIL20
+
+N = 1440
+K = 20
+
+TRAINING SEEDS:
+
+20
+30
+50
+
+WEAK QUALITY:
+
+SNR = 2.5 dB
+corruption_seed = 20
+frozen P3-A4 realization
+
+WEAK QUANTITY:
+
+2 labels per class
+frozen P3-A3 split
+
+FORMAL SCHEDULE:
+
+100 native epochs shared carrier
+
+BASE:
+
++20 native BONE epochs
+
+OURS:
+
++20 alternating refinement epochs
+
+Each OURS epoch:
+
+Phase A:
+utility-conditioned semantic purification
+
+Phase B:
+untouched native BONE structural consolidation
+
+SCIENTIFIC PRINCIPLE:
+
+Sparse labels determine WHAT;
+U_cycle determines WHETHER.
+
+GT ISOLATION:
+
+Full GT was not used before pre-GT seal.
+
+Formal evaluator loaded GT only after
+seal verification.
+
+REPORTING RULE:
+
+All three seeds are retained.
+
+Performance is reporting-only.
+
+Negative, zero, and positive deltas are all
+preserved.
+
+No method selection or tuning was performed
+from COIL20 performance.
+
+COIL20 OBSERVED THREE-SEED SUMMARY:
+
+ACC:
+BASE mean  = 0.7604166666666666
+OURS mean  = 0.7597222222222223
+mean delta = -0.000694444444444442
+positive seeds = 0/3
+
+NMI:
+BASE mean  = 0.8434138196987209
+OURS mean  = 0.8449676834417934
+mean delta = +0.0015538637430725366
+positive seeds = 3/3
+
+Purity:
+BASE mean  = 0.7759259259259258
+OURS mean  = 0.774537037037037
+mean delta = -0.001388888888888884
+positive seeds = 1/3
+
+ARI:
+BASE mean  = 0.719724473777405
+OURS mean  = 0.7214795951493119
+mean delta = +0.0017551213719068464
+positive seeds = 3/3
+
+INTERPRETATION:
+
+Consistent structural gains on NMI and ARI,
+with mixed / near-neutral assignment-level
+effects on ACC and Purity.
+
+This interpretation is descriptive only and
+was not used as a method-selection gate.
+
+PAPER USE:
+
+This frozen three-seed mean/std summary is the
+COIL20 formal paper-result candidate under P3-C0.

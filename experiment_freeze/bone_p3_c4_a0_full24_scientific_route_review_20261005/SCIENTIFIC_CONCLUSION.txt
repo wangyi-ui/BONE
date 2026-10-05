@@ -1,0 +1,48 @@
+P3-C4-A0 SCIENTIFIC CONCLUSION
+
+The complete preregistered 8-dataset x 3-seed Utility--Action
+Alignment Diagnostic is complete.
+
+1. T_rel semantic direction is retained.
+
+   Spearman(U_cycle, semantic margin) is positive in 23/24 cells,
+   and the preregistered semantic-direction coupling gate passes.
+
+2. The current U_cycle is NOT supported as a sufficiently reliable
+   predictor of beneficial semantic action under subsequent native
+   structural consolidation.
+
+   RELATIVE_U_ALIGNMENT_SUPPORTED=false.
+
+3. Utility sharpening is NOT authorized.
+
+   SHARPENING_ROUTE_AUTHORIZED=false.
+   gamma_prohibited=true.
+
+   Therefore U^gamma, rank sharpening, or other post-hoc monotonic
+   remappings of the current utility ranking must not be introduced
+   at this stage.
+
+4. The current result does NOT reject T_rel and does NOT justify
+   returning to optimizer / learning-rate / exposure tuning.
+
+5. The scientifically authorized route is:
+
+   REVISIT_U_CYCLE_RELIABILITY
+
+6. The next stage is not a new performance-oriented method variant.
+
+   P3-C5-A0 must first decompose the existing reliability evidence
+   (closure, generator confidence, verifier support) and determine
+   which components, if any, predict action-level structural
+   compatibility.
+
+7. No new U formula is authorized before P3-C5-A0 is scientifically
+   defined and preregistered.
+
+Interpretive boundary:
+
+The current evidence suggests that U_cycle captures semantic
+confidence/reliability more consistently than actual action benefit.
+This motivates separating cross-view reliability from action utility,
+but does not yet authorize a specific replacement formula.

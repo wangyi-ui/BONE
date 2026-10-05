@@ -1,0 +1,48 @@
+======================================================================
+BONE-P0 NATIVE CALTECH-5V REPRODUCTION
+======================================================================
+seed       = 42
+epoch      = 100
+batch_size = 128
+n_anchor   = 4
+layer      = 3
+lambda     = 0.1
+lr         = 0.01
+device     = cpu
+
+========== DATASET ==========
+m([40, 254, 1984, 512, 928]), n(1400), v(5), k(7)
+n = 1400
+v = 5
+k = 7
+m_list = [40, 254, 1984, 512, 928]
+
+========== AMV INITIALIZATION ==========
+Using entire dataset (1400 samples) to init
+Inited with 100 iters, time cost: 7.890s
+Init by pre-computed anchors
+Total number of parameters in the model: 116487
+
+========== TRAINING ==========
+Epoch 020, ACC: 0.8864, NMI: 0.8039, Purity: 0.8864
+Epoch 040, ACC: 0.9021, NMI: 0.8253, Purity: 0.9021
+Epoch 060, ACC: 0.9007, NMI: 0.8206, Purity: 0.9007
+Epoch 080, ACC: 0.8993, NMI: 0.8198, Purity: 0.8993
+Epoch 100, ACC: 0.9000, NMI: 0.8202, Purity: 0.9000
+
+======================================================================
+BONE-P0 CALTECH-5V FINAL
+======================================================================
+FINAL_ACC=0.900000
+FINAL_NMI=0.820203
+FINAL_PURITY=0.900000
+
+OFFICIAL_REFERENCE
+ACC=0.9057
+NMI=0.8306
+PURITY=0.9057
+
+DELTA
+DELTA_ACC=-0.005700
+DELTA_NMI=-0.010397
+DELTA_PURITY=-0.005700

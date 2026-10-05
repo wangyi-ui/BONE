@@ -1,0 +1,295 @@
+{
+  "blocked": [
+    {
+      "dataset_name": "CCV",
+      "mask_materialized": false,
+      "reason": "dataset file is absent; no mask is guessed or generated",
+      "status": "BLOCKED_MISSING_DATA"
+    },
+    {
+      "dataset_name": "YouTubeFace50",
+      "mask_materialized": false,
+      "reason": "dataset file is absent; no mask is guessed or generated",
+      "status": "BLOCKED_MISSING_DATA"
+    }
+  ],
+  "mask_only": true,
+  "no_feature_corruption_materialized": true,
+  "no_gpu": true,
+  "no_training": true,
+  "protocol": "P3-A4 balanced half-view masks; MSRC uses the historical frozen P1 artifact",
+  "records": [
+    {
+      "N": 5000,
+      "V": 2,
+      "corruption_fraction": 0.5,
+      "corruption_seed": 20,
+      "dataset_name": "MNIST-USPS",
+      "historical_noise_formula_source": "experiments.weak_quality.materialize_bone_p1_msrc_corruption.corrupt_standardized_views: per-view RandomState(seed).normal, alpha=sqrt(sum(clean[mask]^2)/(sum(noise[mask]^2)*10**(snr_db/10))), corrupt[mask]=clean[mask]+alpha*noise[mask]",
+      "mask_mode": "P3_A4_SHA_BALANCED_HALF_VIEW_V1",
+      "mask_sha256": "e609b8468177c0d90761c2c026ff654391fdf415b59a649164630c47e124b9e4",
+      "npz_path": "outputs/bone_p3/corruptions/MNIST-USPS_mask.npz",
+      "npz_sha256": "409ac676ad247c8e099f404c2bd9d1d474463d50548a1178ec940144b9cc3f88",
+      "pattern_counts": {
+        "0": 2500,
+        "1": 2500
+      },
+      "per_view_counts": [
+        2500,
+        2500
+      ],
+      "preprocessing_insertion_point": "native cast/transpose -> native shared shuffle with explicit raw-ID mapping -> per-view StandardScaler -> corruption mask/noise -> no post-corruption standardization",
+      "raw_row_ids_sha256": "a3d44437f284b46e5d827df6101e63efe16f752040ad67db809c061bc367bde5",
+      "row_id_semantics": "RAW_FILE_ROW_ID",
+      "row_sum_histogram": {
+        "1": 5000
+      },
+      "snr_db": 2.5,
+      "source_dataset_sha256": "d21a4279c66a6f920a8bab1e894aef6cd4cac2301c6d778515a163c329346a32",
+      "total_corrupted_cells": 5000,
+      "training_seed_independent": true
+    },
+    {
+      "N": 2500,
+      "V": 2,
+      "corruption_fraction": 0.5,
+      "corruption_seed": 20,
+      "dataset_name": "BDGP",
+      "historical_noise_formula_source": "experiments.weak_quality.materialize_bone_p1_msrc_corruption.corrupt_standardized_views: per-view RandomState(seed).normal, alpha=sqrt(sum(clean[mask]^2)/(sum(noise[mask]^2)*10**(snr_db/10))), corrupt[mask]=clean[mask]+alpha*noise[mask]",
+      "mask_mode": "P3_A4_SHA_BALANCED_HALF_VIEW_V1",
+      "mask_sha256": "3210e72f4093aa6df460e99e102e1d28892ebb9a8eae0667bf82ecb0b31d1ae6",
+      "npz_path": "outputs/bone_p3/corruptions/BDGP_mask.npz",
+      "npz_sha256": "b552d27d0f79547edbd53622d80d476bf781ea253b1d23649f2964949345a580",
+      "pattern_counts": {
+        "0": 1250,
+        "1": 1250
+      },
+      "per_view_counts": [
+        1250,
+        1250
+      ],
+      "preprocessing_insertion_point": "native cast/transpose -> native shared shuffle with explicit raw-ID mapping -> per-view StandardScaler -> corruption mask/noise -> no post-corruption standardization",
+      "raw_row_ids_sha256": "dfda9e56518558aae6d120abcb2937f0dd540f02fce13e6c078405d6d31de8c1",
+      "row_id_semantics": "RAW_FILE_ROW_ID",
+      "row_sum_histogram": {
+        "1": 2500
+      },
+      "snr_db": 2.5,
+      "source_dataset_sha256": "36ac8fccb08e32014a8770eebf8ef60cc2dcd47569fa0296e03d62b9f746834b",
+      "total_corrupted_cells": 2500,
+      "training_seed_independent": true
+    },
+    {
+      "N": 1400,
+      "V": 5,
+      "corruption_fraction": 0.5,
+      "corruption_seed": 20,
+      "dataset_name": "Caltech-5V",
+      "historical_noise_formula_source": "experiments.weak_quality.materialize_bone_p1_msrc_corruption.corrupt_standardized_views: per-view RandomState(seed).normal, alpha=sqrt(sum(clean[mask]^2)/(sum(noise[mask]^2)*10**(snr_db/10))), corrupt[mask]=clean[mask]+alpha*noise[mask]",
+      "mask_mode": "P3_A4_SHA_BALANCED_HALF_VIEW_V1",
+      "mask_sha256": "b6969bb488c6bc6d023808e4805550d211049e9d61d8dc1e3b26a0e8488c418a",
+      "npz_path": "outputs/bone_p3/corruptions/Caltech-5V_mask.npz",
+      "npz_sha256": "93ea34ac386d39f7e66a8edd232d2c797eb4a000574cabe14aa994fe78d57191",
+      "pattern_counts": {
+        "0,1": 70,
+        "0,1,2": 70,
+        "0,1,3": 70,
+        "0,1,4": 70,
+        "0,2": 70,
+        "0,2,3": 70,
+        "0,2,4": 70,
+        "0,3": 70,
+        "0,3,4": 70,
+        "0,4": 70,
+        "1,2": 70,
+        "1,2,3": 70,
+        "1,2,4": 70,
+        "1,3": 70,
+        "1,3,4": 70,
+        "1,4": 70,
+        "2,3": 70,
+        "2,3,4": 70,
+        "2,4": 70,
+        "3,4": 70
+      },
+      "per_view_counts": [
+        700,
+        700,
+        700,
+        700,
+        700
+      ],
+      "preprocessing_insertion_point": "native cast/transpose -> native shared shuffle with explicit raw-ID mapping -> per-view StandardScaler -> corruption mask/noise -> no post-corruption standardization",
+      "raw_row_ids_sha256": "56fcfe3cda0b7846246ea0544731a191bb7c6fb4285a1932bf6c7bbb19723ec2",
+      "row_id_semantics": "RAW_FILE_ROW_ID",
+      "row_sum_histogram": {
+        "2": 700,
+        "3": 700
+      },
+      "snr_db": 2.5,
+      "source_dataset_sha256": "1258e543fef4dc046e1c3952023708e2b5b562a44129f737352b015f31fe6260",
+      "total_corrupted_cells": 3500,
+      "training_seed_independent": true
+    },
+    {
+      "N": 2000,
+      "V": 6,
+      "corruption_fraction": 0.5,
+      "corruption_seed": 20,
+      "dataset_name": "HandWrite",
+      "historical_noise_formula_source": "experiments.weak_quality.materialize_bone_p1_msrc_corruption.corrupt_standardized_views: per-view RandomState(seed).normal, alpha=sqrt(sum(clean[mask]^2)/(sum(noise[mask]^2)*10**(snr_db/10))), corrupt[mask]=clean[mask]+alpha*noise[mask]",
+      "mask_mode": "P3_A4_SHA_BALANCED_HALF_VIEW_V1",
+      "mask_sha256": "266871191af228027b8b0206003c077061da3a00b3efdca8aa74824e3c03fa55",
+      "npz_path": "outputs/bone_p3/corruptions/HandWrite_mask.npz",
+      "npz_sha256": "54bf4a0fab6134cd4795b7fab95ca882f5b80194446c4ba6ad7d2fb96c7dc92e",
+      "pattern_counts": {
+        "0,1,2": 100,
+        "0,1,3": 100,
+        "0,1,4": 100,
+        "0,1,5": 100,
+        "0,2,3": 100,
+        "0,2,4": 100,
+        "0,2,5": 100,
+        "0,3,4": 100,
+        "0,3,5": 100,
+        "0,4,5": 100,
+        "1,2,3": 100,
+        "1,2,4": 100,
+        "1,2,5": 100,
+        "1,3,4": 100,
+        "1,3,5": 100,
+        "1,4,5": 100,
+        "2,3,4": 100,
+        "2,3,5": 100,
+        "2,4,5": 100,
+        "3,4,5": 100
+      },
+      "per_view_counts": [
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "preprocessing_insertion_point": "native cast/transpose -> native shared shuffle with explicit raw-ID mapping -> per-view StandardScaler -> corruption mask/noise -> no post-corruption standardization",
+      "raw_row_ids_sha256": "55f385cf2332d9056aaed6f496e7bebd2df52c6a9547ce2144b309432d4b0290",
+      "row_id_semantics": "RAW_FILE_ROW_ID",
+      "row_sum_histogram": {
+        "3": 2000
+      },
+      "snr_db": 2.5,
+      "source_dataset_sha256": "49ea97691f0d5bc6bd6b8a07f1c6b97ab63beb841f9a3d44fb37d92f760af779",
+      "total_corrupted_cells": 6000,
+      "training_seed_independent": true
+    },
+    {
+      "N": 1440,
+      "V": 3,
+      "corruption_fraction": 0.5,
+      "corruption_seed": 20,
+      "dataset_name": "COIL20",
+      "historical_noise_formula_source": "experiments.weak_quality.materialize_bone_p1_msrc_corruption.corrupt_standardized_views: per-view RandomState(seed).normal, alpha=sqrt(sum(clean[mask]^2)/(sum(noise[mask]^2)*10**(snr_db/10))), corrupt[mask]=clean[mask]+alpha*noise[mask]",
+      "mask_mode": "P3_A4_SHA_BALANCED_HALF_VIEW_V1",
+      "mask_sha256": "5b58d29d0380a61e21432d8b2b385d9b5a69478d82cc0c54227df880cc7c74c3",
+      "npz_path": "outputs/bone_p3/corruptions/COIL20_mask.npz",
+      "npz_sha256": "f48566765c63d6613b3a8fb37174274bed17ae147cade27fa42178726b6e074d",
+      "pattern_counts": {
+        "0": 240,
+        "0,1": 240,
+        "0,2": 240,
+        "1": 240,
+        "1,2": 240,
+        "2": 240
+      },
+      "per_view_counts": [
+        720,
+        720,
+        720
+      ],
+      "preprocessing_insertion_point": "native cast/transpose -> native shared shuffle with explicit raw-ID mapping -> per-view StandardScaler -> corruption mask/noise -> no post-corruption standardization",
+      "raw_row_ids_sha256": "a5ce472bb8b5d6fd0f3596fc88673c9e49aeb0ae1dfe2a27473e7661d2ae23d7",
+      "row_id_semantics": "RAW_FILE_ROW_ID",
+      "row_sum_histogram": {
+        "1": 720,
+        "2": 720
+      },
+      "snr_db": 2.5,
+      "source_dataset_sha256": "4e7a675e99fdd9ff013000f6c5c473d67f53f1c9caab54f1d11319a10944ce5a",
+      "total_corrupted_cells": 2160,
+      "training_seed_independent": true
+    },
+    {
+      "N": 210,
+      "V": 4,
+      "corruption_fraction": 0.5,
+      "corruption_seed": 20,
+      "dataset_name": "MSRC",
+      "historical_noise_formula_source": "experiments.weak_quality.materialize_bone_p1_msrc_corruption.corrupt_standardized_views: per-view RandomState(seed).normal, alpha=sqrt(sum(clean[mask]^2)/(sum(noise[mask]^2)*10**(snr_db/10))), corrupt[mask]=clean[mask]+alpha*noise[mask]",
+      "mask_mode": "LEGACY_FROZEN",
+      "mask_sha256": "2844ad76bff1a8fac0973f8a5c7f994c772e55746a5a5f96efd0f45b52b01ed4",
+      "npz_path": "outputs/bone_p3/corruptions/MSRC_mask.npz",
+      "npz_sha256": "9dfb39b82b94bb6dbd56159b59d0a07b71315b26ca1e0443066dc664f64a7f66",
+      "pattern_counts": {
+        "0,1": 35,
+        "0,2": 35,
+        "0,3": 35,
+        "1,2": 35,
+        "1,3": 35,
+        "2,3": 35
+      },
+      "per_view_counts": [
+        105,
+        105,
+        105,
+        105
+      ],
+      "preprocessing_insertion_point": "native cast/transpose -> native shared shuffle with explicit raw-ID mapping -> per-view StandardScaler -> corruption mask/noise -> no post-corruption standardization",
+      "raw_row_ids_sha256": "4698e7cf925510c88263784a9478f0d35d4f7cb64144ca887a8d66fdd260dbb7",
+      "row_id_semantics": "RAW_FILE_ROW_ID",
+      "row_sum_histogram": {
+        "2": 210
+      },
+      "snr_db": 2.5,
+      "source_dataset_sha256": "2b05b7b5adfe872c60475fe8d3d9f4959229a57ffb1eb50ff29adb015f38db87",
+      "total_corrupted_cells": 420,
+      "training_seed_independent": true
+    },
+    {
+      "N": 10800,
+      "V": 4,
+      "corruption_fraction": 0.5,
+      "corruption_seed": 20,
+      "dataset_name": "ALOI",
+      "historical_noise_formula_source": "experiments.weak_quality.materialize_bone_p1_msrc_corruption.corrupt_standardized_views: per-view RandomState(seed).normal, alpha=sqrt(sum(clean[mask]^2)/(sum(noise[mask]^2)*10**(snr_db/10))), corrupt[mask]=clean[mask]+alpha*noise[mask]",
+      "mask_mode": "P3_A4_SHA_BALANCED_HALF_VIEW_V1",
+      "mask_sha256": "0de50f7611599f75d9b7c55029149df260773bef927797a4d223b5003b9aef6a",
+      "npz_path": "outputs/bone_p3/corruptions/ALOI_mask.npz",
+      "npz_sha256": "b36a9fed9473e1bdd07a99d524c4fd06f65215a4416c4d3f93ec331adce6a276",
+      "pattern_counts": {
+        "0,1": 1800,
+        "0,2": 1800,
+        "0,3": 1800,
+        "1,2": 1800,
+        "1,3": 1800,
+        "2,3": 1800
+      },
+      "per_view_counts": [
+        5400,
+        5400,
+        5400,
+        5400
+      ],
+      "preprocessing_insertion_point": "native cast/transpose -> native shared shuffle with explicit raw-ID mapping -> per-view StandardScaler -> corruption mask/noise -> no post-corruption standardization",
+      "raw_row_ids_sha256": "f3a00b27bb88f24e3b445f7ec48568a58d1dd4a0880e0ca67e9b032b0e2d36e6",
+      "row_id_semantics": "RAW_FILE_ROW_ID",
+      "row_sum_histogram": {
+        "2": 10800
+      },
+      "snr_db": 2.5,
+      "source_dataset_sha256": "7ff743f81083e03df963a881f5c042d1b0f9da218ea7c1fec42766aabab83265",
+      "total_corrupted_cells": 21600,
+      "training_seed_independent": true
+    }
+  ]
+}

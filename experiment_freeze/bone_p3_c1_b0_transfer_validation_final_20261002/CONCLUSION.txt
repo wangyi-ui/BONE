@@ -1,0 +1,53 @@
+P3-C1-B0 FINAL CONCLUSION
+
+STATUS:
+COMPLETE / FROZEN
+
+TUNING DATASET:
+ALOI
+
+FROZEN TRANSFER CANDIDATE:
+semantic_lr = 1e-5
+refinement_budget = 5
+
+HELD-OUT DATASETS:
+Caltech-5V
+BDGP
+HandWrite
+COIL20
+MNIST-USPS
+CCV
+
+TRAINING SEEDS:
+20, 30, 50
+
+TOTAL SEED-LEVEL RESULTS:
+21
+(ALOI 3 + held-out 18)
+
+SCIENTIFIC CONCLUSION:
+The ALOI-selected semantic_lr=1e-5 / refinement_budget=5
+configuration is NOT supported as a universally optimal
+cross-dataset configuration.
+
+The common U_cycle/T_rel semantic mechanism exhibits
+dataset-dependent sensitivity to semantic intervention
+strength and duration.
+
+THIS DOES NOT REOPEN:
+- scalar utility correction
+- direct feature/fusion gating
+- additive pseudo-label CE
+- static memory write
+- PCGrad / projection / state gating
+
+NEXT STAGE:
+P3-C1-B1 Dataset-Specific Semantic Exposure Selection.
+
+B1 MUST USE:
+- one shared preregistered search space;
+- one shared parameter-selection rule;
+- dataset-specific final parameters are permitted;
+- no ad-hoc per-dataset search-space changes.
+
+P3-C1-B0 is closed after this freeze.

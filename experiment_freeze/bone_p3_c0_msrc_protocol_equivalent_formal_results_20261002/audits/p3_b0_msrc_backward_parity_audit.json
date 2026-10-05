@@ -1,0 +1,81 @@
+{
+  "GT_loaded_before_seal": false,
+  "comparison": {
+    "Pi": {
+      "allclose_1e-7": true,
+      "exact": true,
+      "max_abs_diff": 0.0,
+      "shape_equal": true
+    },
+    "T_rel": {
+      "allclose_1e-7": true,
+      "exact": true,
+      "max_abs_diff": 0.0,
+      "shape_equal": true
+    },
+    "U_cycle": {
+      "allclose_1e-7": true,
+      "exact": true,
+      "max_abs_diff": 0.0,
+      "shape_equal": true
+    },
+    "anchor_sample_ids": {
+      "exact": true,
+      "shape_equal": true
+    },
+    "generator_actions": {
+      "exact": true,
+      "shape_equal": true
+    },
+    "labeled_ids": {
+      "exact": true,
+      "shape_equal": true
+    },
+    "labeled_targets": {
+      "exact": true,
+      "shape_equal": true
+    },
+    "p_gen": {
+      "allclose_1e-7": true,
+      "exact": true,
+      "max_abs_diff": 0.0,
+      "shape_equal": true
+    },
+    "p_ver": {
+      "allclose_1e-7": true,
+      "exact": true,
+      "max_abs_diff": 0.0,
+      "shape_equal": true
+    },
+    "query_U_cycle": {
+      "allclose_1e-7": true,
+      "exact": true,
+      "max_abs_diff": 0.0,
+      "shape_equal": true
+    },
+    "query_sample_ids": {
+      "exact": true,
+      "shape_equal": true
+    },
+    "sample_ids": {
+      "exact": true,
+      "shape_equal": true
+    },
+    "verifier_actions": {
+      "exact": true,
+      "shape_equal": true
+    }
+  },
+  "corruption_artifact_sha256": "9dfb39b82b94bb6dbd56159b59d0a07b71315b26ca1e0443066dc664f64a7f66",
+  "dataset": "MSRC",
+  "historical_mask_shape": [
+    210,
+    4
+  ],
+  "historical_p2_carrier_sha256": "83ea7681491e7ab3e51285446075a3362a43d6122a1397d04a0e059bdc7841ea",
+  "historical_raw_ids_exact": true,
+  "query_chunk_size": null,
+  "sample_id_semantics": "RAW_FILE_ROW_ID",
+  "sparse_split_sha256": "720d6d238b6f068ef78efbb97e87d91cc4ff4bb5fad48ce67734a4f04a98d144",
+  "status": "PASS"
+}

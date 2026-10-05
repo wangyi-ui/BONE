@@ -1,0 +1,88 @@
+{
+  "stage": "P3-A2-CCV-INCREMENTAL",
+  "dataset": "CCV",
+  "status": "READY_FOR_P3_B0",
+  "data_file": "data/CCV.mat",
+  "data_file_sha256": "4fc88d5c925f9a6c00bbcafc30349df15a32dac44464eb40ef767ca3569f244a",
+  "N": 6773,
+  "V": 3,
+  "K": 20,
+  "dims_native_mat": {
+    "X1": [
+      5000,
+      6773
+    ],
+    "X2": [
+      5000,
+      6773
+    ],
+    "X3": [
+      4000,
+      6773
+    ]
+  },
+  "dims_bone_after_loader_transpose": [
+    5000,
+    5000,
+    4000
+  ],
+  "label_shape": [
+    6773,
+    1
+  ],
+  "raw_label_values": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "class_counts": [
+    356,
+    293,
+    311,
+    346,
+    391,
+    351,
+    266,
+    328,
+    533,
+    294,
+    252,
+    304,
+    105,
+    206,
+    203,
+    707,
+    562,
+    372,
+    268,
+    325
+  ],
+  "min_class_count": 105,
+  "max_class_count": 707,
+  "sparse_2_per_class_feasible": true,
+  "future_sparse_label_count": 40,
+  "future_sparse_label_fraction": 0.0059058024509080174,
+  "p3_action_count": 6,
+  "action_space_input_parity": true,
+  "sample_id_semantics": "RAW_FILE_ROW_ID",
+  "gt_role": "AUDIT_ONLY_NOT_TRAINING",
+  "historical_p3_a2_status": "BLOCKED_MISSING_DATA",
+  "incremental_status": "READY_FOR_P3_B0"
+}

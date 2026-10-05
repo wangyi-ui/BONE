@@ -1,0 +1,48 @@
+======================================================================
+BONE-P0 NATIVE COIL20 REPRODUCTION
+======================================================================
+seed       = 42
+epoch      = 100
+batch_size = 128
+n_anchor   = 1
+layer      = 4
+lambda     = 0.1
+lr         = 0.01
+device     = cpu
+
+========== DATASET ==========
+m([1024, 3304, 6750]), n(1440), v(3), k(20)
+n = 1440
+v = 3
+k = 20
+m_list = [1024, 3304, 6750]
+
+========== AMV INITIALIZATION ==========
+Using entire dataset (1440 samples) to init
+Inited with 100 iters, time cost: 38.606s
+Init by pre-computed anchors
+Total number of parameters in the model: 227020
+
+========== TRAINING ==========
+Epoch 020, ACC: 0.7569, NMI: 0.8272, Purity: 0.7743
+Epoch 040, ACC: 0.7632, NMI: 0.8415, Purity: 0.7819
+Epoch 060, ACC: 0.7736, NMI: 0.8529, Purity: 0.7917
+Epoch 080, ACC: 0.7778, NMI: 0.8536, Purity: 0.7910
+Epoch 100, ACC: 0.7778, NMI: 0.8538, Purity: 0.7924
+
+======================================================================
+BONE-P0 COIL20 FINAL
+======================================================================
+FINAL_ACC=0.777778
+FINAL_NMI=0.853765
+FINAL_PURITY=0.792361
+
+OFFICIAL_REFERENCE
+ACC=0.7688
+NMI=0.8436
+PURITY=0.7896
+
+DELTA
+DELTA_ACC=+0.008978
+DELTA_NMI=+0.010165
+DELTA_PURITY=+0.002761

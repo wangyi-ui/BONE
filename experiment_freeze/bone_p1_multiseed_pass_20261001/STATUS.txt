@@ -1,0 +1,30 @@
+BONE-P1 Multi-Seed Weak-Quality Validation
+STATUS=PASS
+
+Dataset=MSRC
+TrainingSeeds=20,30,50
+CorruptionSeed=20
+TargetSNR=2.5dB
+CorruptionPattern=exactly 2/4 views per sample
+
+Delta ACC:
+seed20=0.042857142857142816
+seed30=0.09999999999999998
+seed50=0.11428571428571432
+mean=0.08571428571428570
+
+Delta NMI mean=0.10650904071544014
+Delta Purity mean=0.07777777777777780
+
+Positive Delta ACC seeds=3/3
+
+DECISION:
+Native BONE degrades consistently under the fixed weak-quality protocol.
+Weak-quality purification headroom is confirmed.
+
+No U_cycle
+No T_rel
+No sparse semantic action
+No pseudo-label
+No memory
+Native BONE core unchanged

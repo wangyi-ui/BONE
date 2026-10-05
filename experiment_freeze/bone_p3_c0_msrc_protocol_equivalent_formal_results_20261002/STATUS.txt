@@ -1,0 +1,136 @@
+BONE P3-C0-Compatible MSRC Formal Results
+=========================================
+
+STATUS:
+
+FROZEN / FORMAL RESULTS COMPLETE
+
+DATASET:
+
+MSRC
+
+N = 210
+V = 4
+K = 7
+
+SOURCE FORMAL PROTOCOL:
+
+BONE P2-A1B
+
+REPORTING STATUS:
+
+P3-C0 COMPATIBLE THROUGH EXACT
+PROTOCOL-EQUIVALENCE / BACKWARD-PARITY AUDIT
+
+IMPORTANT:
+
+MSRC was NOT retrained under the later P3-C0
+runner.
+
+Historical P2-A1B formal predictions were reused
+because the P3 generic carrier reproduced the
+historical MSRC semantics exactly.
+
+EXACT BACKWARD PARITY:
+
+U_cycle = exact
+T_rel = exact
+Pi = exact
+p_gen = exact
+p_ver = exact
+
+labeled_ids = exact
+labeled_targets = exact
+generator_actions = exact
+verifier_actions = exact
+RAW_FILE_ROW_ID semantics = exact
+
+TRAINING CONTRACT:
+
+100 native BONE carrier epochs
+
+native Adam lr = 0.01
+
+20 refinement epochs
+
+semantic Adam lr = 1e-4
+
+exactly one semantic optimizer.step
+per refinement epoch
+
+native Phase-B lr = 0.01
+
+Sparse labels determine WHAT;
+U_cycle determines WHETHER.
+
+WEAK QUALITY:
+
+SNR = 2.5 dB
+corruption_seed = 20
+historical MSRC exactly-2-of-4 realization
+
+WEAK QUANTITY:
+
+2 labels per class
+L = 14
+
+SEEDS:
+
+20
+30
+50
+
+GT ISOLATION:
+
+Full GT was not used before the pre-GT seals.
+
+ACC/NMI/Purity:
+
+Inherited exactly from the frozen historical
+P2-A1B post-seal formal evaluation.
+
+ARI:
+
+Added after seal from the exact same frozen
+final_predictions.npz.
+
+No retraining or model selection was performed.
+
+THREE-SEED SUMMARY:
+
+ACC:
+BASE mean = 0.773015873015873
+OURS mean = 0.7857142857142857
+mean delta = +0.012698412698412653
+positive seeds = 3/3
+
+NMI:
+BASE mean = 0.7003421616722592
+OURS mean = 0.7152815719068694
+mean delta = +0.01493941023461017
+positive seeds = 3/3
+
+Purity:
+BASE mean = 0.7825396825396825
+OURS mean = 0.7936507936507936
+mean delta = +0.011111111111111072
+positive seeds = 3/3
+
+ARI:
+BASE mean = 0.6284877221784813
+OURS mean = 0.6485941984277681
+mean delta = +0.020106476249286853
+positive seeds = 3/3
+
+REPORTING RULE:
+
+All fixed training seeds are retained.
+
+Performance is reporting-only.
+
+No performance value is used as a freeze gate.
+
+PAPER USE:
+
+This is the authoritative P3-compatible MSRC
+three-seed paper-result candidate.

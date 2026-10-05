@@ -1,0 +1,81 @@
+P3-C3-A0 QUERY-ALIGNMENT WIRING REPAIR
+
+ROOT CAUSE
+
+The generic carrier intentionally provides:
+
+U_cycle:
+[N, S]
+
+and:
+
+query_U_cycle:
+[N_q, S]
+
+where:
+
+query_U_cycle = U_cycle[query_rows]
+
+
+T_rel is query-level:
+
+T_rel:
+[N_q, A, S]
+
+
+The original UCAB formal-validation runner incorrectly supplied
+full U_cycle [N,S] to a semantic path whose T_rel and query_rows
+are query-level.
+
+This caused:
+
+T_REL_U_CYCLE_QUERY_ALIGNMENT_MISMATCH
+
+
+FROZEN LEGACY REFERENCE
+
+The frozen C0 formal implementation uses:
+
+payload["T_rel"]
+
+with:
+
+payload["query_U_cycle"]
+
+
+REPAIR
+
+The repaired runner retains:
+
+full U_cycle [N,S]
+
+for provenance validation.
+
+It validates that:
+
+query_U_cycle
+is exactly equal to
+U_cycle[query_rows].
+
+The semantic optimization path receives:
+
+query_U_cycle [N_q,S].
+
+
+SCIENTIFIC STATUS
+
+This changes no scientific mechanism.
+
+T_rel still determines WHAT.
+
+alpha(U) still determines relative WHICH.
+
+B(U) still determines absolute HOW MUCH.
+
+UCAB formula is unchanged.
+
+Semantic/native sequential optimization is unchanged.
+
+Hyperparameters are unchanged.
+
+Datasets, seeds and arms are unchanged.

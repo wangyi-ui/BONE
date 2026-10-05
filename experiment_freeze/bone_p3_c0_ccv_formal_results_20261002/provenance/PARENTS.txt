@@ -1,0 +1,23 @@
+BONE P3-C0 CCV Formal Result Provenance
+======================================
+
+PARENT FORMAL PROTOCOL:
+
+experiment_freeze/
+bone_p3_c0_cross_dataset_formal_protocol_20261001
+
+FORMAL RESULT ROOT:
+
+outputs/bone_p3/p3_c0_formal/ccv
+
+SEEDS:
+
+20
+30
+50
+
+All three seeds are retained.
+
+No result-driven tuning was performed.
+
+Negative formal results are preserved.

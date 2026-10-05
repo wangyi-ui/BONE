@@ -1,0 +1,28 @@
+{
+  "a2_feasibility_active": true,
+  "a2_status": "P3_C1_B1_A2_COVERAGE_AWARE_ABSTENTION_FROZEN",
+  "boundary_extension_required": true,
+  "candidates_per_dataset": 5,
+  "dataset_count": 8,
+  "final_hyperparameters_frozen": false,
+  "lower_boundary_hit_datasets": [],
+  "lower_boundary_triggered": false,
+  "main_grid_candidates_per_dataset": 25,
+  "main_grid_complete": true,
+  "next_stage": "PREREGISTERED_LR_BOUNDARY_EXTENSION",
+  "posthoc_search_space_change": false,
+  "preregistered_boundary_rule_executed": true,
+  "preregistered_search_space_extension_activated": true,
+  "scientific_protocol_changed": false,
+  "second_boundary_extension_allowed": false,
+  "total_extension_candidates": 40,
+  "trigger_datasets": [
+    "BDGP"
+  ],
+  "trigger_status_path": "experiment_freeze/bone_p3_c1_b1_a2_eight_dataset_main_grid_provisional_selection_20261004/STATUS.txt",
+  "a2_status_path": "experiment_freeze/bone_p3_c1_b1_a2_coverage_aware_abstention_preregistered_20261003/STATUS.txt",
+  "upper_boundary_hit_datasets": [
+    "BDGP"
+  ],
+  "upper_boundary_triggered": true
+}

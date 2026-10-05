@@ -1,0 +1,126 @@
+P3-C3-A0 UCAB DATASET VALIDATION PROTOCOL
+
+DATASETS
+ALOI
+CCV
+
+
+HISTORICAL PAIRED EVIDENCE
+
+Seeds:
+20
+30
+50
+
+Arms:
+CURRENT
+TRUE_BUDGET
+
+Role:
+descriptive matched paired evidence only.
+
+
+UNSEEN CONFIRMATORY EVIDENCE
+
+Seeds:
+140
+150
+170
+
+Arms:
+CURRENT
+TRUE_BUDGET
+MEAN_BUDGET
+SHUFFLE_BUDGET
+
+Role:
+primary confirmatory pass/fail evidence.
+
+
+SEMANTIC CONFIGURATION
+
+ALOI:
+optimizer = Adam
+semantic_lr = 1e-4
+semantic_exposure = 1
+
+CCV:
+optimizer = Adam
+semantic_lr = 1e-5
+semantic_exposure = 3
+
+
+TRAINING CONTRACT
+
+Each dataset x seed constructs its own carrier.
+
+All arms inside one dataset x seed start from the exact
+same carrier state.
+
+Optimization remains sequential:
+
+semantic action
+then
+native BONE structural consolidation.
+
+
+GT FIREWALL
+
+The training runner cannot accept full GT.
+
+All 12 dataset x seed cells must complete and be sealed
+before any new UCAB GT metrics are read.
+
+Only the independent post-seal evaluator may load GT,
+after seal/provenance/prediction validation.
+
+
+PRIMARY CONFIRMATORY GATE
+
+Using only seeds 140,150,170:
+
+TRUE_BUDGET - CURRENT:
+
+macro mean DeltaACC > 0
+
+positive DeltaACC count >= 4/6
+
+ALOI mean DeltaACC > 0
+
+CCV mean DeltaACC > 0
+
+
+MECHANISM GATE
+
+TRUE_BUDGET - MEAN_BUDGET:
+
+macro mean DeltaACC > 0
+
+positive count >= 4/6
+
+AND
+
+TRUE_BUDGET - SHUFFLE_BUDGET:
+
+macro mean DeltaACC > 0
+
+positive count >= 4/6
+
+
+SECONDARY GATE
+
+TRUE_BUDGET - CURRENT on unseen seeds:
+
+at least 2 of 3 macro improvements across
+ACC, NMI and ARI are positive.
+
+ACC remains mandatory through the primary gate.
+
+
+FINAL PASS
+
+PRIMARY_GATE
+AND
+MECHANISM_GATE
+AND
+SECONDARY_GATE

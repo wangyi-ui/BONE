@@ -1,0 +1,204 @@
+BONE-P3-B0
+Generic Cross-Dataset U/T Carrier
+=================================
+
+STATUS:
+IMPLEMENTATION FROZEN / ENGINEERING GATE PASS
+
+NO NEW CROSS-DATASET TRAINING HAS BEEN RUN.
+
+--------------------------------------------------
+SCIENTIFIC ROLE
+--------------------------------------------------
+
+P3-B0 is portability engineering.
+
+It does NOT introduce a new method.
+
+The authoritative semantic mechanism remains:
+
+T_rel determines WHAT.
+U_cycle determines WHETHER.
+
+--------------------------------------------------
+SAMPLE IDENTITY
+--------------------------------------------------
+
+Canonical identity:
+
+RAW_FILE_ROW_ID
+
+Experiment-layer SampleIdAdapter preserves:
+
+raw row ID
+->
+native preprocessing permutation
+->
+training tensor position
+->
+DataLoader sample
+->
+carrier row
+
+Native RandDatasetMV is not modified.
+
+--------------------------------------------------
+PREPROCESSING / WEAK QUALITY
+--------------------------------------------------
+
+raw load
+->
+native cast/transpose
+->
+native shared shuffle(seed=42)
+with explicit raw-ID tracking
+->
+per-view StandardScaler
+->
+frozen P3-A4 corruption by raw ID
+->
+NO post-corruption re-standardization
+
+--------------------------------------------------
+SPARSE SUPERVISION
+--------------------------------------------------
+
+Frozen P3-A3 split artifacts only.
+
+Training-side carrier receives:
+
+labeled_ids
+labeled_targets
+
+Full GT is forbidden before seal.
+
+--------------------------------------------------
+ACTION SPACE
+--------------------------------------------------
+
+Uses frozen P3-A1 action protocol.
+
+No action sampling.
+No top-k.
+No dataset-specific action exceptions.
+
+--------------------------------------------------
+U_CYCLE
+--------------------------------------------------
+
+For sample i and action s:
+
+U_cycle[i,s]
+=
+closure[i,s]
+*
+sqrt(
+    conf_gen[i,s]
+    *
+    support_ver[i,s]
+)
+
+No temperature.
+No view-count correction.
+No utility threshold.
+No new normalization.
+
+--------------------------------------------------
+T_REL
+--------------------------------------------------
+
+Anchor signature:
+
+a_l =
+(1/S) * sum_s p_gen[l,s]
+
+NO U weighting.
+
+Class signature:
+mean sparse-anchor signatures per class.
+
+Pi / T_rel:
+exact historical P2 definition.
+
+No extra softmax.
+No new temperature.
+No scalar utility correction.
+
+--------------------------------------------------
+CHUNKING
+--------------------------------------------------
+
+query_chunk_size is an execution-only parameter.
+
+Verified:
+
+full mode
+chunk size 1
+non-divisor chunk
+chunk size N
+
+produce exact carrier semantics.
+
+Chunking may NOT change:
+
+sample order
+action order
+p_gen
+p_ver
+U_cycle
+Pi
+T_rel
+
+--------------------------------------------------
+MSRC BACKWARD PARITY
+--------------------------------------------------
+
+Generic P3-B0 reconstruction matches historical
+P2-A0 carrier exactly for available semantic fields.
+
+max_abs_diff = 0.0
+
+Verified parity includes:
+
+sample IDs
+generator/verifier actions
+sparse IDs/targets
+p_gen
+p_ver
+U_cycle
+query U
+Pi
+T_rel
+
+This is a HARD backward-compatibility gate.
+
+--------------------------------------------------
+GT BOUNDARY
+--------------------------------------------------
+
+GT_loaded_before_seal = false
+
+No ACC/NMI/Purity is used by the carrier.
+
+--------------------------------------------------
+READY NEXT STEP
+--------------------------------------------------
+
+P3-B1:
+First non-MSRC cross-dataset engineering smoke.
+
+Recommended first dataset:
+
+Caltech-5V
+
+Reason:
+
+V=5
+S=20
+odd-view directed action protocol
+2/3 corrupted-view split
+14 sparse labels = 1%
+moderate N=1400
+
+This smoke is engineering validation,
+not yet a formal paper result.

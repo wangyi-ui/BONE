@@ -1,0 +1,23 @@
+BONE P3-C0 Caltech-5V Formal Audit Addendum
+============================================
+
+STATUS:
+FROZEN / PASS
+
+PURPOSE:
+
+Preserve seed-specific audit and seal artifacts for:
+
+seed20
+seed30
+seed50
+
+This addendum does NOT modify or replace:
+
+bone_p3_c0_caltech5v_formal_results_20261001
+
+It only supplements per-seed provenance.
+
+No experiment was rerun.
+No metric was changed.
+No result was selected or discarded.

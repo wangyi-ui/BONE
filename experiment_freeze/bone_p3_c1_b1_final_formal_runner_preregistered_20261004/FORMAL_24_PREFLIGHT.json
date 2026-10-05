@@ -1,0 +1,94 @@
+{
+  "STATUS": "PASS",
+  "INTENDED_RUN_COUNT": 24,
+  "RESOLVABLE_RUN_COUNT": 24,
+  "UNRESOLVED_RUN_COUNT": 0,
+  "ALL_24_FORMAL_RUNS_READY": true,
+  "REAL_FORMAL_RUN": false,
+  "FULL_GT_READ": false,
+  "FORMAL_SEEDS": [20, 30, 50],
+  "DATASETS": [
+    "HandWrite", "BDGP", "MSRC", "COIL20", "Caltech-5V",
+    "MNIST-USPS", "ALOI", "CCV"
+  ],
+  "MSRC_ROUTE": "p3_c1_b1_optuna.msrc_adapter._load_frozen_msrc_inputs -> P3-B0 generic carrier -> frozen C0 lower-level training primitives",
+  "parent_source_count": 23,
+  "dataset_dependencies": {
+    "HandWrite": {
+      "adapter_validation": "PASS",
+      "data": "data/HandWrite.mat",
+      "sparse_split": "outputs/bone_p3/sparse_splits/HandWrite_2perclass.npz",
+      "corruption_mask": "outputs/bone_p3/corruptions/HandWrite_mask.npz"
+    },
+    "BDGP": {
+      "adapter_validation": "PASS",
+      "data": "data/BDGP.mat",
+      "sparse_split": "outputs/bone_p3/sparse_splits/BDGP_2perclass.npz",
+      "corruption_mask": "outputs/bone_p3/corruptions/BDGP_mask.npz"
+    },
+    "MSRC": {
+      "adapter_validation": "PASS",
+      "data": "data/MSRC.mat",
+      "sparse_split": "outputs/bone_p3/sparse_splits/MSRC_2perclass.npz",
+      "corruption_mask": "outputs/bone_p3/corruptions/MSRC_mask.npz",
+      "legacy_corruption": "outputs/bone_p1/msrc_snr2p5_exact2of4_seed20/bone_p1_msrc_corruption.npz"
+    },
+    "COIL20": {
+      "adapter_validation": "PASS",
+      "data": "data/COIL20.mat",
+      "sparse_split": "outputs/bone_p3/sparse_splits/COIL20_2perclass.npz",
+      "corruption_mask": "outputs/bone_p3/corruptions/COIL20_mask.npz"
+    },
+    "Caltech-5V": {
+      "adapter_validation": "PASS",
+      "data": "data/Caltech-5V.mat",
+      "sparse_split": "outputs/bone_p3/sparse_splits/Caltech-5V_2perclass.npz",
+      "corruption_mask": "outputs/bone_p3/corruptions/Caltech-5V_mask.npz"
+    },
+    "MNIST-USPS": {
+      "adapter_validation": "PASS",
+      "data": "data/MNIST-USPS.mat",
+      "sparse_split": "outputs/bone_p3/sparse_splits/MNIST-USPS_2perclass.npz",
+      "corruption_mask": "outputs/bone_p3/corruptions/MNIST-USPS_mask.npz"
+    },
+    "ALOI": {
+      "adapter_validation": "PASS",
+      "data": "data/ALOI.mat",
+      "sparse_split": "outputs/bone_p3/sparse_splits/ALOI_2perclass.npz",
+      "corruption_mask": "outputs/bone_p3/corruptions/ALOI_mask.npz"
+    },
+    "CCV": {
+      "adapter_validation": "PASS",
+      "data": "data/CCV.mat",
+      "sparse_split": "outputs/bone_p3/ccv_incremental/CCV_2perclass.npz",
+      "corruption_mask": "outputs/bone_p3/ccv_incremental/CCV_corruption_mask.npz"
+    }
+  },
+  "runs": [
+    {"dataset": "HandWrite", "training_seed": 20, "semantic_lr": 0.00001, "semantic_exposure": 1, "resolvable": true},
+    {"dataset": "HandWrite", "training_seed": 30, "semantic_lr": 0.00001, "semantic_exposure": 1, "resolvable": true},
+    {"dataset": "HandWrite", "training_seed": 50, "semantic_lr": 0.00001, "semantic_exposure": 1, "resolvable": true},
+    {"dataset": "BDGP", "training_seed": 20, "semantic_lr": 0.0003, "semantic_exposure": 5, "resolvable": true},
+    {"dataset": "BDGP", "training_seed": 30, "semantic_lr": 0.0003, "semantic_exposure": 5, "resolvable": true},
+    {"dataset": "BDGP", "training_seed": 50, "semantic_lr": 0.0003, "semantic_exposure": 5, "resolvable": true},
+    {"dataset": "MSRC", "training_seed": 20, "semantic_lr": 0.001, "semantic_exposure": 1, "resolvable": true},
+    {"dataset": "MSRC", "training_seed": 30, "semantic_lr": 0.001, "semantic_exposure": 1, "resolvable": true},
+    {"dataset": "MSRC", "training_seed": 50, "semantic_lr": 0.001, "semantic_exposure": 1, "resolvable": true},
+    {"dataset": "COIL20", "training_seed": 20, "semantic_lr": 0.00001, "semantic_exposure": 5, "resolvable": true},
+    {"dataset": "COIL20", "training_seed": 30, "semantic_lr": 0.00001, "semantic_exposure": 5, "resolvable": true},
+    {"dataset": "COIL20", "training_seed": 50, "semantic_lr": 0.00001, "semantic_exposure": 5, "resolvable": true},
+    {"dataset": "Caltech-5V", "training_seed": 20, "semantic_lr": 0.001, "semantic_exposure": 5, "resolvable": true},
+    {"dataset": "Caltech-5V", "training_seed": 30, "semantic_lr": 0.001, "semantic_exposure": 5, "resolvable": true},
+    {"dataset": "Caltech-5V", "training_seed": 50, "semantic_lr": 0.001, "semantic_exposure": 5, "resolvable": true},
+    {"dataset": "MNIST-USPS", "training_seed": 20, "semantic_lr": 0.0001, "semantic_exposure": 5, "resolvable": true},
+    {"dataset": "MNIST-USPS", "training_seed": 30, "semantic_lr": 0.0001, "semantic_exposure": 5, "resolvable": true},
+    {"dataset": "MNIST-USPS", "training_seed": 50, "semantic_lr": 0.0001, "semantic_exposure": 5, "resolvable": true},
+    {"dataset": "ALOI", "training_seed": 20, "semantic_lr": 0.0001, "semantic_exposure": 1, "resolvable": true},
+    {"dataset": "ALOI", "training_seed": 30, "semantic_lr": 0.0001, "semantic_exposure": 1, "resolvable": true},
+    {"dataset": "ALOI", "training_seed": 50, "semantic_lr": 0.0001, "semantic_exposure": 1, "resolvable": true},
+    {"dataset": "CCV", "training_seed": 20, "semantic_lr": 0.00001, "semantic_exposure": 3, "resolvable": true},
+    {"dataset": "CCV", "training_seed": 30, "semantic_lr": 0.00001, "semantic_exposure": 3, "resolvable": true},
+    {"dataset": "CCV", "training_seed": 50, "semantic_lr": 0.00001, "semantic_exposure": 3, "resolvable": true}
+  ]
+}
+

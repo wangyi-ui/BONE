@@ -1,0 +1,103 @@
+BONE-P3 CCV Incremental Addendum
+================================
+
+STATUS:
+FROZEN / PASS
+
+FINAL_CCV_PORTABILITY_STATUS:
+
+READY_FOR_P3_B0
+
+--------------------------------------------------
+DATA
+--------------------------------------------------
+
+N = 6773
+V = 3
+K = 20
+
+dims:
+
+5000
+5000
+4000
+
+CCV.mat SHA256:
+
+4fc88d5c925f9a6c00bbcafc30349df15a32dac44464eb40ef767ca3569f244a
+
+--------------------------------------------------
+P3-A3
+--------------------------------------------------
+
+PASS
+
+labels per class = 2
+
+L = 40
+
+L/N =
+0.0059058024509080174
+
+Recorded protocol content SHA256:
+
+5bfc9833cb8f8ce142ce34be7adaba022ee280dea1d03295ca59681b64f6da34
+
+Binary NPZ SHA256:
+
+d7fe600d8b27e44ea96467e0f49027ed9e243a3bd9ac6d4b153e1bf0641344e9
+
+--------------------------------------------------
+P3-A4
+--------------------------------------------------
+
+PASS
+
+corruption_seed = 20
+SNR = 2.5 dB
+
+row histogram:
+
+1 -> 3387
+2 -> 3386
+
+total corrupted cells:
+
+10159
+
+per-view counts:
+
+3387
+3386
+3386
+
+Recorded mask-content SHA256:
+
+ee917e2cdc35a4006f11ddcdf4718bb9b8e5c8deef99cdd4536429567bdcd6e5
+
+Binary mask NPZ SHA256:
+
+b2e46f70468f0ce8f2e269ce7a9168ec3e70f8bd8dd4a02bc6fa9ce2d2b53716
+
+--------------------------------------------------
+P3-A1
+--------------------------------------------------
+
+V = 3
+S = 6
+PASS
+
+--------------------------------------------------
+SCIENTIFIC BOUNDARY
+--------------------------------------------------
+
+This is an incremental portability addendum.
+
+No P3-A1/A3/A4 mathematics changed.
+
+No dataset-specific method exception was introduced.
+
+No clustering result is established by this freeze.
+
+CCV is eligible for subsequent generic carrier
+and engineering execution.

@@ -1,0 +1,517 @@
+{
+  "new_count": 45,
+  "records": [
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/ccv/candidates/lr_3.0000000000000001e-06__es_1/candidate_evaluation.json",
+      "dataset": "CCV",
+      "semantic_exposure": 1,
+      "semantic_lr": 3e-06
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "CCV",
+      "semantic_exposure": 2,
+      "semantic_lr": 3e-06
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/ccv/candidates/lr_3.0000000000000001e-06__es_3/candidate_evaluation.json",
+      "dataset": "CCV",
+      "semantic_exposure": 3,
+      "semantic_lr": 3e-06
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "CCV",
+      "semantic_exposure": 4,
+      "semantic_lr": 3e-06
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/ccv/candidates/lr_3.0000000000000001e-06__es_5/candidate_evaluation.json",
+      "dataset": "CCV",
+      "semantic_exposure": 5,
+      "semantic_lr": 3e-06
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "CCV",
+      "semantic_exposure": 1,
+      "semantic_lr": 5e-06
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "CCV",
+      "semantic_exposure": 2,
+      "semantic_lr": 5e-06
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "CCV",
+      "semantic_exposure": 3,
+      "semantic_lr": 5e-06
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "CCV",
+      "semantic_exposure": 4,
+      "semantic_lr": 5e-06
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "CCV",
+      "semantic_exposure": 5,
+      "semantic_lr": 5e-06
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/ccv/candidates/lr_1.0000000000000001e-05__es_1/candidate_evaluation.json",
+      "dataset": "CCV",
+      "semantic_exposure": 1,
+      "semantic_lr": 1e-05
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "CCV",
+      "semantic_exposure": 2,
+      "semantic_lr": 1e-05
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/ccv/candidates/lr_1.0000000000000001e-05__es_3/candidate_evaluation.json",
+      "dataset": "CCV",
+      "semantic_exposure": 3,
+      "semantic_lr": 1e-05
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "CCV",
+      "semantic_exposure": 4,
+      "semantic_lr": 1e-05
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/ccv/candidates/lr_1.0000000000000001e-05__es_5/candidate_evaluation.json",
+      "dataset": "CCV",
+      "semantic_exposure": 5,
+      "semantic_lr": 1e-05
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "CCV",
+      "semantic_exposure": 1,
+      "semantic_lr": 2e-05
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "CCV",
+      "semantic_exposure": 2,
+      "semantic_lr": 2e-05
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "CCV",
+      "semantic_exposure": 3,
+      "semantic_lr": 2e-05
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "CCV",
+      "semantic_exposure": 4,
+      "semantic_lr": 2e-05
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "CCV",
+      "semantic_exposure": 5,
+      "semantic_lr": 2e-05
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/ccv/candidates/lr_3.0000000000000001e-05__es_1/candidate_evaluation.json",
+      "dataset": "CCV",
+      "semantic_exposure": 1,
+      "semantic_lr": 3e-05
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "CCV",
+      "semantic_exposure": 2,
+      "semantic_lr": 3e-05
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/ccv/candidates/lr_3.0000000000000001e-05__es_3/candidate_evaluation.json",
+      "dataset": "CCV",
+      "semantic_exposure": 3,
+      "semantic_lr": 3e-05
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "CCV",
+      "semantic_exposure": 4,
+      "semantic_lr": 3e-05
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/ccv/candidates/lr_3.0000000000000001e-05__es_5/candidate_evaluation.json",
+      "dataset": "CCV",
+      "semantic_exposure": 5,
+      "semantic_lr": 3e-05
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/msrc/candidates/lr_0.00029999999999999997__es_1/candidate_evaluation.json",
+      "dataset": "MSRC",
+      "semantic_exposure": 1,
+      "semantic_lr": 0.0003
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "MSRC",
+      "semantic_exposure": 2,
+      "semantic_lr": 0.0003
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/msrc/candidates/lr_0.00029999999999999997__es_3/candidate_evaluation.json",
+      "dataset": "MSRC",
+      "semantic_exposure": 3,
+      "semantic_lr": 0.0003
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "MSRC",
+      "semantic_exposure": 1,
+      "semantic_lr": 0.0005
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "MSRC",
+      "semantic_exposure": 2,
+      "semantic_lr": 0.0005
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "MSRC",
+      "semantic_exposure": 3,
+      "semantic_lr": 0.0005
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "MSRC",
+      "semantic_exposure": 1,
+      "semantic_lr": 0.0007
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "MSRC",
+      "semantic_exposure": 2,
+      "semantic_lr": 0.0007
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "MSRC",
+      "semantic_exposure": 3,
+      "semantic_lr": 0.0007
+    },
+    {
+      "candidate_origin": "REUSED_BOUNDARY_EXTENSION",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/msrc/boundary_extension_upper_1e3/candidates/lr_0.001__es_1/candidate_evaluation.json",
+      "dataset": "MSRC",
+      "semantic_exposure": 1,
+      "semantic_lr": 0.001
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "MSRC",
+      "semantic_exposure": 2,
+      "semantic_lr": 0.001
+    },
+    {
+      "candidate_origin": "REUSED_BOUNDARY_EXTENSION",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/msrc/boundary_extension_upper_1e3/candidates/lr_0.001__es_3/candidate_evaluation.json",
+      "dataset": "MSRC",
+      "semantic_exposure": 3,
+      "semantic_lr": 0.001
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "MSRC",
+      "semantic_exposure": 1,
+      "semantic_lr": 0.0015
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "MSRC",
+      "semantic_exposure": 2,
+      "semantic_lr": 0.0015
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "MSRC",
+      "semantic_exposure": 3,
+      "semantic_lr": 0.0015
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "MSRC",
+      "semantic_exposure": 1,
+      "semantic_lr": 0.002
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "MSRC",
+      "semantic_exposure": 2,
+      "semantic_lr": 0.002
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "MSRC",
+      "semantic_exposure": 3,
+      "semantic_lr": 0.002
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_3.0000000000000001e-05__es_1/candidate_evaluation.json",
+      "dataset": "ALOI",
+      "semantic_exposure": 1,
+      "semantic_lr": 3e-05
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "ALOI",
+      "semantic_exposure": 2,
+      "semantic_lr": 3e-05
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_3.0000000000000001e-05__es_3/candidate_evaluation.json",
+      "dataset": "ALOI",
+      "semantic_exposure": 3,
+      "semantic_lr": 3e-05
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_3.0000000000000001e-05__es_5/candidate_evaluation.json",
+      "dataset": "ALOI",
+      "semantic_exposure": 5,
+      "semantic_lr": 3e-05
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_3.0000000000000001e-05__es_10/candidate_evaluation.json",
+      "dataset": "ALOI",
+      "semantic_exposure": 10,
+      "semantic_lr": 3e-05
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_3.0000000000000001e-05__es_20/candidate_evaluation.json",
+      "dataset": "ALOI",
+      "semantic_exposure": 20,
+      "semantic_lr": 3e-05
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "ALOI",
+      "semantic_exposure": 1,
+      "semantic_lr": 5e-05
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "ALOI",
+      "semantic_exposure": 2,
+      "semantic_lr": 5e-05
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "ALOI",
+      "semantic_exposure": 3,
+      "semantic_lr": 5e-05
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "ALOI",
+      "semantic_exposure": 5,
+      "semantic_lr": 5e-05
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "ALOI",
+      "semantic_exposure": 10,
+      "semantic_lr": 5e-05
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "ALOI",
+      "semantic_exposure": 20,
+      "semantic_lr": 5e-05
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.0001__es_1/candidate_evaluation.json",
+      "dataset": "ALOI",
+      "semantic_exposure": 1,
+      "semantic_lr": 0.0001
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "ALOI",
+      "semantic_exposure": 2,
+      "semantic_lr": 0.0001
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.0001__es_3/candidate_evaluation.json",
+      "dataset": "ALOI",
+      "semantic_exposure": 3,
+      "semantic_lr": 0.0001
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.0001__es_5/candidate_evaluation.json",
+      "dataset": "ALOI",
+      "semantic_exposure": 5,
+      "semantic_lr": 0.0001
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.0001__es_10/candidate_evaluation.json",
+      "dataset": "ALOI",
+      "semantic_exposure": 10,
+      "semantic_lr": 0.0001
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.0001__es_20/candidate_evaluation.json",
+      "dataset": "ALOI",
+      "semantic_exposure": 20,
+      "semantic_lr": 0.0001
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "ALOI",
+      "semantic_exposure": 1,
+      "semantic_lr": 0.0002
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "ALOI",
+      "semantic_exposure": 2,
+      "semantic_lr": 0.0002
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "ALOI",
+      "semantic_exposure": 3,
+      "semantic_lr": 0.0002
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "ALOI",
+      "semantic_exposure": 5,
+      "semantic_lr": 0.0002
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "ALOI",
+      "semantic_exposure": 10,
+      "semantic_lr": 0.0002
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "ALOI",
+      "semantic_exposure": 20,
+      "semantic_lr": 0.0002
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.00029999999999999997__es_1/candidate_evaluation.json",
+      "dataset": "ALOI",
+      "semantic_exposure": 1,
+      "semantic_lr": 0.0003
+    },
+    {
+      "candidate_origin": "NEW_B2_RUN",
+      "candidate_path": null,
+      "dataset": "ALOI",
+      "semantic_exposure": 2,
+      "semantic_lr": 0.0003
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.00029999999999999997__es_3/candidate_evaluation.json",
+      "dataset": "ALOI",
+      "semantic_exposure": 3,
+      "semantic_lr": 0.0003
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.00029999999999999997__es_5/candidate_evaluation.json",
+      "dataset": "ALOI",
+      "semantic_exposure": 5,
+      "semantic_lr": 0.0003
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.00029999999999999997__es_10/candidate_evaluation.json",
+      "dataset": "ALOI",
+      "semantic_exposure": 10,
+      "semantic_lr": 0.0003
+    },
+    {
+      "candidate_origin": "REUSED_B1",
+      "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.00029999999999999997__es_20/candidate_evaluation.json",
+      "dataset": "ALOI",
+      "semantic_exposure": 20,
+      "semantic_lr": 0.0003
+    }
+  ],
+  "reused_count": 28
+}

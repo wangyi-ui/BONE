@@ -1,0 +1,67 @@
+BONE-P2-B0 Native-Consistency Replacement Diagnostic
+=====================================================
+
+FINAL STATUS:
+P2_B0_REPLACEMENT_FAIL_CLOSED
+
+DATASET:
+MSRC
+
+TRAINING SEED:
+20
+
+NATIVE:
+ACC    = 0.7476190476190476
+NMI    = 0.6986215725375967
+Purity = 0.7761904761904762
+
+ADDON_TRUE_U:
+ACC    = 0.7571428571428571
+NMI    = 0.7026061011820387
+Purity = 0.780952380952381
+
+REG_ONLY:
+ACC    = 0.7000000000000000
+NMI    = 0.6128537577803773
+Purity = 0.7333333333333333
+
+REPLACE_TRUE_U:
+ACC    = 0.6952380952380952
+NMI    = 0.6386193191669284
+Purity = 0.7238095238095238
+
+KEY DELTAS:
+
+REG_ONLY - NATIVE ACC
+= -0.04761904761904767
+
+REPLACE_TRUE_U - ADDON_TRUE_U ACC
+= -0.06190476190476191
+
+REPLACE_TRUE_U - REG_ONLY ACC
+= -0.004761904761904745
+
+Interaction_ACC
+= -0.014285714285714235
+
+SCIENTIFIC CONCLUSION:
+
+Native BONE inter-view consistency cannot be replaced by
+the current U/T semantic action.
+
+Structural consistency and utility-conditioned semantic
+purification are complementary rather than substitutable.
+
+This result does NOT invalidate P2-A1B.
+
+Authoritative successful architecture remains:
+Phase A = T_rel + U_cycle semantic purification
+Phase B = native BONE structural consolidation
+
+NEXT:
+P2-C0 structural-semantic gradient conflict diagnostic.
+
+DO NOT:
+tune replacement
+partially reintroduce L_inter post-hoc
+change replacement gate

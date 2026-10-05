@@ -1,0 +1,116 @@
+BONE P3-C0 HandWrite Formal Results
+===================================
+
+STATUS:
+
+FROZEN / FORMAL RESULTS COMPLETE
+
+DATASET:
+
+HandWrite
+
+N = 2000
+V = 6
+K = 10
+
+TRAINING SEEDS:
+
+20
+30
+50
+
+WEAK QUALITY:
+
+SNR = 2.5 dB
+corruption_seed = 20
+exactly 3/6 views corrupted per sample
+frozen P3-A4 realization
+
+WEAK QUANTITY:
+
+2 labels per class
+L = 20
+frozen P3-A3 split
+
+FORMAL SCHEDULE:
+
+100 native epochs shared carrier
+
+BASE:
+
++20 native BONE epochs
+
+OURS:
+
++20 alternating refinement epochs
+
+Each OURS epoch:
+
+Phase A:
+utility-conditioned semantic purification
+
+Phase B:
+untouched native BONE structural consolidation
+
+SCIENTIFIC PRINCIPLE:
+
+Sparse labels determine WHAT;
+U_cycle determines WHETHER.
+
+GT ISOLATION:
+
+Full GT was not used before pre-GT seal.
+
+Formal evaluator loaded GT only after
+seal verification.
+
+FORMAL METRICS:
+
+ACC
+NMI
+Purity
+ARI
+
+REPORTING RULE:
+
+All three seeds are retained.
+
+Performance is reporting-only.
+
+No seed was selected or discarded according
+to performance.
+
+HANDWRITE OBSERVED THREE-SEED SUMMARY:
+
+ACC:
+BASE mean  = 0.9686666666666667
+OURS mean  = 0.9728333333333333
+mean delta = +0.004166666666666652
+positive seeds = 3/3
+
+NMI:
+BASE mean  = 0.9258674629096868
+OURS mean  = 0.9354513456087169
+mean delta = +0.009583882699030174
+positive seeds = 3/3
+
+Purity:
+BASE mean  = 0.9686666666666667
+OURS mean  = 0.9728333333333333
+mean delta = +0.004166666666666652
+positive seeds = 3/3
+
+ARI:
+BASE mean  = 0.9315578122995053
+OURS mean  = 0.9404067958115129
+mean delta = +0.008848983512007321
+positive seeds = 3/3
+
+PAPER USE:
+
+This frozen three-seed mean/std summary is the
+HandWrite formal paper-result candidate under P3-C0.
+
+NEXT DATASET:
+
+COIL20

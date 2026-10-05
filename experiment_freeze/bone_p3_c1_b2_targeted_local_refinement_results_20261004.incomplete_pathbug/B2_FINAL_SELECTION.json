@@ -1,0 +1,60 @@
+{
+  "formal_metrics_read": false,
+  "full_gt_used": false,
+  "selections": [
+    {
+      "b1_selected_semantic_exposure": 3,
+      "b1_selected_semantic_lr": 1e-05,
+      "b2_selected_semantic_exposure": 3,
+      "b2_selected_semantic_lr": 1e-05,
+      "dataset": "CCV",
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "parameter_changed_from_B1": false,
+      "winner_11A": 0.22417085876863418,
+      "winner_11B": -0.26563430612575956,
+      "winner_37A": -0.10432485080798537,
+      "winner_37B": 0.3057970315335932,
+      "winner_mean_delta_J": 0.04000218334212062,
+      "winner_origin": "REUSED_B1",
+      "winner_positive_count": 2,
+      "winner_worst_delta_J": -0.26563430612575956
+    },
+    {
+      "b1_selected_semantic_exposure": 1,
+      "b1_selected_semantic_lr": 0.001,
+      "b2_selected_semantic_exposure": 1,
+      "b2_selected_semantic_lr": 0.002,
+      "dataset": "MSRC",
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "parameter_changed_from_B1": true,
+      "winner_11A": 0.048171067321766126,
+      "winner_11B": 0.1172399389847616,
+      "winner_37A": 0.0620848645517047,
+      "winner_37B": 0.08223244459016166,
+      "winner_mean_delta_J": 0.07743207886209852,
+      "winner_origin": "NEW_B2_RUN",
+      "winner_positive_count": 4,
+      "winner_worst_delta_J": 0.048171067321766126
+    },
+    {
+      "b1_selected_semantic_exposure": 1,
+      "b1_selected_semantic_lr": 0.0001,
+      "b2_selected_semantic_exposure": 1,
+      "b2_selected_semantic_lr": 0.0001,
+      "dataset": "ALOI",
+      "formal_metrics_read": false,
+      "full_gt_used": false,
+      "parameter_changed_from_B1": false,
+      "winner_11A": -0.08771575028914436,
+      "winner_11B": 0.011877078159037158,
+      "winner_37A": 0.2972514665195989,
+      "winner_37B": 0.027576409414716174,
+      "winner_mean_delta_J": 0.062247300951051965,
+      "winner_origin": "REUSED_B1",
+      "winner_positive_count": 3,
+      "winner_worst_delta_J": -0.08771575028914436
+    }
+  ]
+}

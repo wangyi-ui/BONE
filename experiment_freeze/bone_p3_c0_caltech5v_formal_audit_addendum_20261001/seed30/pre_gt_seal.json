@@ -1,0 +1,20 @@
+{
+  "sha256": {
+    "audit": "da6d1a1609520234a56292b28d15cbb2a531f7466ca263026766d39c0a814aa9",
+    "base_predictions": "194d9262507c7b34d083e2c4c9cf1bd888ce8d6e7cc3fdf7fab61d0c04903449",
+    "base_state": "70ff4a473c1a8781022873630c5a600fee08593279637009b5b6e7b3726406d0",
+    "carrier_npz": "16ae2534e8b0fc18c32b67ce650be5382e2284c45d869dd5a03a8902dc273efd",
+    "carrier_state": "62b0fab380dc22f36adb8b1fa07ae4020d3b41be8d7cbb78bfb72c62796a6451",
+    "ours_predictions": "423c2e3de4c388c660ee9c11398a9a1b2de1c6f459ae8e5b62f825becba51573",
+    "ours_state": "9b32ee99be948e8a5a88b7307af87cd306e54367cb9a7be77e5c368683acef28",
+    "p3_a1_source": "5564354b41f78917b1ad4f98ae8737fe997d3726902e5e2a97e1ec024e20d61a",
+    "p3_a3_source": "07571e80de1917e7358e8d614a3fb8d159b8ee635331f2f4c83e709acc387e7a",
+    "p3_a3_split": "3ba6921e3e0baf8ab6a32669d9a1506e019f22ff781cd23eae13ce1f3495e0af",
+    "p3_a4_mask": "93ea34ac386d39f7e66a8edd232d2c797eb4a000574cabe14aa994fe78d57191",
+    "p3_a4_source": "1865741c1ac3f2f65ffb9c325dc30a7d34978f96adc1be0ad000b45ed899b3c9",
+    "p3_b0_source": "5a9f3c817d0e0ea07e311f0899fdb926cef993d0f3b7edbd65faf7f83dfabc27",
+    "p3_b1_runner": "d686d59a2a7000eecb2626413b0640edb95a4d25de0db2c8834fa402cddef771",
+    "protocol_source": "878162a21ee32e91c0bbf2314a66e336b2ad5ed96dc637e0cb5c3ec2ee592ce4",
+    "runner_source": "330ac8999db35cae64092fcfeb0dc8dc900370996001a82d214a1eca90233f6b"
+  }
+}

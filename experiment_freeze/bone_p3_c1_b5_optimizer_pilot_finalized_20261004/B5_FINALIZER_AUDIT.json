@@ -1,0 +1,21 @@
+{
+  "ALOI_candidate_count": 9,
+  "ALOI_winner": {
+    "dataset": "ALOI",
+    "optimizer_name": "Adam",
+    "semantic_exposure": 1,
+    "semantic_lr": 0.0001
+  },
+  "CCV_candidate_count": 9,
+  "CCV_winner": {
+    "dataset": "CCV",
+    "optimizer_name": "Adam",
+    "semantic_exposure": 3,
+    "semantic_lr": 1e-05
+  },
+  "candidate_count": 18,
+  "errors": [],
+  "formal_metrics_read": false,
+  "full_gt_used": false,
+  "status": "PASS"
+}

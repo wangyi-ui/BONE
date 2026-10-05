@@ -1,0 +1,48 @@
+======================================================================
+BONE-P0 NATIVE HANDWRITE REPRODUCTION
+======================================================================
+seed       = 42
+epoch      = 100
+batch_size = 128
+n_anchor   = 4
+layer      = 3
+lambda     = 0.1
+lr         = 0.01
+device     = cpu
+
+========== DATASET ==========
+m([216, 76, 64, 6, 240, 47]), n(2000), v(6), k(10)
+n = 2000
+v = 6
+k = 10
+m_list = [216, 76, 64, 6, 240, 47]
+
+========== AMV INITIALIZATION ==========
+Using entire dataset (2000 samples) to init
+Inited with 4 iters, time cost: 0.071s
+Init by pre-computed anchors
+Total number of parameters in the model: 55890
+
+========== TRAINING ==========
+Epoch 020, ACC: 0.9725, NMI: 0.9376, Purity: 0.9725
+Epoch 040, ACC: 0.9720, NMI: 0.9347, Purity: 0.9720
+Epoch 060, ACC: 0.9760, NMI: 0.9418, Purity: 0.9760
+Epoch 080, ACC: 0.9775, NMI: 0.9472, Purity: 0.9775
+Epoch 100, ACC: 0.9780, NMI: 0.9476, Purity: 0.9780
+
+======================================================================
+BONE-P0 HANDWRITE FINAL
+======================================================================
+FINAL_ACC=0.978000
+FINAL_NMI=0.947650
+FINAL_PURITY=0.978000
+
+OFFICIAL_REFERENCE
+ACC=0.9770
+NMI=0.9442
+PURITY=0.9770
+
+DELTA
+DELTA_ACC=+0.001000
+DELTA_NMI=+0.003450
+DELTA_PURITY=+0.001000

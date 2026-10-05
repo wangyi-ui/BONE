@@ -1,0 +1,12 @@
+{
+  "GT_loaded_before_seal": false,
+  "carrier_file_sha256": "05570608d2d8ec4f80957bdaf8bd2de93648fa839acad9fd70c0b66fd0ca83e3",
+  "carrier_state_sha256": "641d3af0ab11049aea5a72c904df2bc40ff81c28c223a775f532220e0c93c949",
+  "native_epochs": 100,
+  "parent_hashes": {
+    "p3_a3_split": "e0557ad41e63e1b4b4541c77ea5c8adc078db0123c8df144a52fc717395528eb",
+    "p3_a4_mask": "54bf4a0fab6134cd4795b7fab95ca882f5b80194446c4ba6ad7d2fb96c7dc92e"
+  },
+  "query_chunk_size": 256,
+  "training_seed": 30
+}

@@ -1,0 +1,49 @@
+{
+  "ENGINEERING_ONLY": false,
+  "FORMAL_RESULT": true,
+  "GT_loaded_before_seal": false,
+  "base_native_epochs": 20,
+  "carrier_state_sha256": "3c48ca97dc736fd2788b0a97a7dff9afdbdf00f1c858c0d298ae0f6c0798b9f1",
+  "dataset": "MNIST-USPS",
+  "full_gt_used_for_hyperparameter_selection": false,
+  "full_gt_used_for_model_selection": false,
+  "full_gt_used_for_training": false,
+  "initial_BASE_state_sha256": "3c48ca97dc736fd2788b0a97a7dff9afdbdf00f1c858c0d298ae0f6c0798b9f1",
+  "initial_OURS_state_sha256": "3c48ca97dc736fd2788b0a97a7dff9afdbdf00f1c858c0d298ae0f6c0798b9f1",
+  "native_hashes": {
+    "method/amv.py": "68f3edcd55e32456a5bcdbcbbc48329f19c5652dee1fc27420e2865f7068e5dc",
+    "method/bone.py": "d13ba6ba91362210f9a614f7353e9de688ff1815f075916b457df6c767a14092"
+  },
+  "native_lr": 0.01,
+  "native_order_hashes": [
+    "17a9479fe184ca2b55045aadec4fa09fd69969f2df072faf3225f64e2a37bfde",
+    "087796ea188112796f8f4b7eb5df7d342e51de1bc7df6fd4968f178ceda60519",
+    "912aeba75d02449ec133b0cc8a6549ac166d436b4af66577214c31d81ddfb869",
+    "5e41f02790b0775afc715e8dc43ac077c11644893fc40382787a9c4573fc5b10",
+    "2058c5fa2b89d8e46c68d35eab298b41ae150012219c8135e53830339b2f6b04",
+    "cc55b0a6316ea9a46fd9bcd530562c4d601de825b513075ff575131a84b6bdd0",
+    "2f7d9fd5acc29b29188b604f093dbabb0c49f80c2e8b254e2c6850cb8778e76e",
+    "28fd504684b28c61c131fca4673eec1ca25e66ea5167888869501a81e95be981",
+    "447921de5d51fcce5750bbddc5e4e9db5e68993a9d508ecac05741f07adc8e5e",
+    "5b5c38e112bfae3d827d7abcbf8974b7d92a639be2e5be8d2f9817cd392c10aa",
+    "117201eba7c5346ded263ab495f0f4c4fd3db66becf425b1a1d7f9c2901a017a",
+    "dd153dfa9d03ab3cdba11ca267df0cdecc1d9e0be8c4ef87040893fd10afe857",
+    "debc040971f0133f8fcb7e4f08e604ce8f889d059ce0e6ace70b30aedf4a7d8a",
+    "8c499de20ac91aab21cf48eadaa66de5733d8079a59d5c667df1eac79cc196db",
+    "700fdf7d3d8c1ae33fc286d8d64c0f7693e50fbbf55144cf47426034f93fa293",
+    "de0529c98e3d8941f7bdd5dcaa5790d33fdd03d7a72f691309568b779c7b65a7",
+    "b655f7dd2c53b48cf57384922c46f6d211a25920dfff145090be332495d55de5",
+    "6d6813e22106cdb5de731242b9985ceb264e5314c6c44d8596eec240ae65c069",
+    "0b2fef132d24f76a903ccfb21839a3125c24dd4da03978440f80253d51317ec8",
+    "1f47d85cc4c40b883b592c1f532c218a43ed5e18e243ab5ee4a106b5317e4211"
+  ],
+  "ours_native_phase_b_epochs": 20,
+  "ours_semantic_epochs": 20,
+  "parent_hashes": {
+    "p3_a3_split": "8ab92dda1d4352ef396e6224d21cfc82f62ff7c2b783098d5af19438372434dc",
+    "p3_a4_mask": "409ac676ad247c8e099f404c2bd9d1d474463d50548a1178ec940144b9cc3f88"
+  },
+  "semantic_lr": 0.0001,
+  "semantic_schedule_sha256": "2019fad087af6904c6700d232a4654c3863f4b84ca9c3d1a07b7c7d9d02e5e1c",
+  "training_seed": 20
+}

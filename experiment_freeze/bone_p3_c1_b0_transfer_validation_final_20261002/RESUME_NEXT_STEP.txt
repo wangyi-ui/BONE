@@ -1,0 +1,39 @@
+PROJECT:
+BONE / information-utility-driven multi-view clustering
+
+CURRENT CLOSED STAGE:
+P3-C1-B0 zero-retuning transfer validation
+
+CURRENT STATUS:
+FINALIZED
+
+COMPLETED:
+- ALOI semantic-LR sensitivity
+- ALOI refinement-budget sensitivity
+- candidate semantic_lr=1e-5 / budget=5
+- ALOI exact generic-runner parity
+- Caltech-5V 3 seeds
+- BDGP 3 seeds
+- HandWrite 3 seeds
+- COIL20 3 seeds
+- MNIST-USPS 3 seeds
+- CCV 3 seeds
+- final cross-dataset summary
+- final P3-C1-B0 freeze
+
+NEXT STAGE:
+P3-C1-B1 Dataset-Specific Semantic Exposure Selection
+
+NEXT ACTION:
+DO NOT RUN NEW PARAMETER TRIALS YET.
+
+First:
+1. scientifically define B1 shared search space;
+2. scientifically define one shared pre-GT parameter-selection rule;
+3. preregister B1;
+4. only then execute dataset-specific tuning.
+
+IMPORTANT:
+Do not reopen U_cycle or T_rel formulation.
+Do not revive scalar U correction, direct gating,
+pseudo-label CE, static memory, PCGrad/projection.

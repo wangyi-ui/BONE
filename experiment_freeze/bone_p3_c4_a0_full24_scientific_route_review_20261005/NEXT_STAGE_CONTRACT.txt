@@ -1,0 +1,33 @@
+NEXT_STAGE=P3-C5-A0
+
+NAME=UTILITY_RELIABILITY_DECOMPOSITION
+
+PURPOSE=DIAGNOSIS_ONLY
+
+PRIMARY_QUESTION:
+Which components of the current U_cycle reliability signal predict
+action-level structural compatibility?
+
+FROZEN_COMPONENTS_TO_ANALYZE:
+- closure
+- conf_gen
+- support_ver
+- current U_cycle
+
+PROHIBITED_BEFORE_PREREGISTRATION:
+- gamma sharpening
+- rank sharpening
+- new scalar utility correction
+- absolute utility budget revival
+- optimizer retuning
+- learning-rate retuning
+- exposure retuning
+- pseudo-label expansion
+- static memory write
+- direct feature/fusion gating
+- new additive semantic loss
+- full-GT-based utility design
+
+T_REL_STATUS=RETAINED
+
+U_CYCLE_STATUS=RELIABILITY_REVISIT_REQUIRED

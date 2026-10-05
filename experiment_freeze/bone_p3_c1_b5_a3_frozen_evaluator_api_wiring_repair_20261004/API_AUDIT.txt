@@ -1,0 +1,41 @@
+P3-C1-B5-A3 frozen evaluator API audit
+
+ROOT_CAUSE=INVALID_PRIVATE_HELPER_REFERENCE_ON_R2_WRAPPER
+
+The model construction/loading helper is owned by:
+experiments.utility_relation.p3_c1_b1_optuna.formal_candidate_evaluator._load_model
+
+formal_candidate_evaluator_r2 is a dependency-binding wrapper/delegator. It
+binds trial_runner_a1 into the frozen evaluator and delegates evaluation. It
+does not define _load_model and is not a second complete evaluator.
+
+The frozen B1/B2 initial model path is exactly:
+formal_candidate_evaluator._load_model
+  -> c0._new_model(carrier.views, carrier.k, carrier.spec,
+                   carrier.dev_seed, device)
+  -> c0._load_state(carrier.state_path, device)
+  -> model.load_state_dict(..., strict=True)
+
+B5 now calls that owning frozen module directly. The B5-local parity adapter
+then reads the same checkpoint through frozen c0._load_state for audit only,
+checks identical key sets, dtype, shape, and torch.equal for every tensor, and
+requires the frozen canonical state_dict SHA256 values to match. There is no
+fallback loader, monkeypatch, setattr, copied model construction, or silent
+exception recovery.
+
+The pre-training smoke validates the real carrier marker and hashes, loads the
+real carrier checkpoint and pre-GT payload, and invokes the exact frozen model
+loader. Because the execution environment cannot expand the 724 MB CCV.mat
+inside its process limit, the smoke supplies allocation-free view shape
+proxies using the exact frozen DatasetSpec dimensions. This is safe only for
+the pre-training API smoke: the frozen constructor reads view.shape[1], and no
+training, forward pass, evaluation, optimizer step, artifact write, GT load,
+or formal-metric read occurs.
+
+SCIENTIFIC_PROTOCOL_CHANGED=false
+SEARCH_SPACE_CHANGED=false
+SELECTION_RULE_CHANGED=false
+J_DEFINITION_CHANGED=false
+FROZEN_B1_B2_SOURCE_MODIFIED=false
+FULL_GT_USED=false
+FORMAL_METRICS_READ=false

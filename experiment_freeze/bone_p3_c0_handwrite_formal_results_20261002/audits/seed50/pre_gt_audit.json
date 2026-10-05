@@ -1,0 +1,49 @@
+{
+  "ENGINEERING_ONLY": false,
+  "FORMAL_RESULT": true,
+  "GT_loaded_before_seal": false,
+  "base_native_epochs": 20,
+  "carrier_state_sha256": "cf2044d331680e9e97b2b64894d30c165237ecfef37d3213c303200e66c5f422",
+  "dataset": "HandWrite",
+  "full_gt_used_for_hyperparameter_selection": false,
+  "full_gt_used_for_model_selection": false,
+  "full_gt_used_for_training": false,
+  "initial_BASE_state_sha256": "cf2044d331680e9e97b2b64894d30c165237ecfef37d3213c303200e66c5f422",
+  "initial_OURS_state_sha256": "cf2044d331680e9e97b2b64894d30c165237ecfef37d3213c303200e66c5f422",
+  "native_hashes": {
+    "method/amv.py": "68f3edcd55e32456a5bcdbcbbc48329f19c5652dee1fc27420e2865f7068e5dc",
+    "method/bone.py": "d13ba6ba91362210f9a614f7353e9de688ff1815f075916b457df6c767a14092"
+  },
+  "native_lr": 0.01,
+  "native_order_hashes": [
+    "125b13e9b7098f785b4569d21787f1444ad848f018a36fdb10fb18e53b2630a4",
+    "630a3908216a58f6b358680863115cbd4b28685ccac03773d4c681e5ecf79352",
+    "295a0fd5b0ae56a90ebdd1088f02fd57c988d78d593d07c006551d9000be0a5c",
+    "50f376c4bb695a014b4ac5ca7bd737c796d021f00999d0328395b66a38981e02",
+    "620e46582b5c7b0786b6a7e21e899748002581cdc8c23ac83eb25888abfbb458",
+    "6d6a02b8824204093c63167979fb0e910554de687951486c7511b60f24d14fe0",
+    "76216b32155cf710c0e179e49f30321ca024656bdce86e3fac84a9a4ed775c7e",
+    "be5b7734a53076da822620fd37008dadb84d83856eb9d7c2cd77cb64bbf865a8",
+    "623d7081c004e6b9766682bbe402f3052a93aebf8d92282733b1fafbb0fb1d3d",
+    "433e7e11f3d51ad53fe5eb1653ed5d5c3660f5904db74fa736f52fba2bf8b0e0",
+    "440fdb98632dc8d0843fce647469b99f550ed56d3cde3b72df5b017975f944c1",
+    "d7240621fe1db6afb1e57fbb0323cf298aea4140bc9aea95d7536e894d34d4b0",
+    "816ef0e902d25a648844fea8fe97a754ff8e06ba7a1c5b6e37dbc48be9e83955",
+    "311dd43290077702794c6a450ecd25e9a5eb218e4190253fd7f6302fed0de3d1",
+    "e8ea4ec9ae5f049c13599d9c358fb8485932e6190f77b41efbef6db4f46f9eaa",
+    "d8784e9ebec82197feecdb49d89fdfa1d8633eda2f0dded46a29273c7b5fe72f",
+    "ca300ae2fa89a9ad14b0a4bb92cca68bab9bd055b4c4a2f26b205c9b03321bca",
+    "2fb91c462994f5c3778ebbe5008e7a190259dd2beef6989b401e0474b294ab7f",
+    "e6b4c3e96501ec9d24dc43ab9c2b7d2cc3a6e5819e6e59c9221956c922f4b9a8",
+    "8126f4cbd5913dd35609ce078057543dee8f83bdaebe976a65fd77147c048609"
+  ],
+  "ours_native_phase_b_epochs": 20,
+  "ours_semantic_epochs": 20,
+  "parent_hashes": {
+    "p3_a3_split": "e0557ad41e63e1b4b4541c77ea5c8adc078db0123c8df144a52fc717395528eb",
+    "p3_a4_mask": "54bf4a0fab6134cd4795b7fab95ca882f5b80194446c4ba6ad7d2fb96c7dc92e"
+  },
+  "semantic_lr": 0.0001,
+  "semantic_schedule_sha256": "3d57c5a38043203945efbff090b1bf94857a9bf402a5f0eaf76becc7ea2cf818",
+  "training_seed": 50
+}

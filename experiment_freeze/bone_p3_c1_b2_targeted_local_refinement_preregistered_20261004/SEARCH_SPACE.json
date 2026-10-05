@@ -1,0 +1,58 @@
+{
+  "counts": {
+    "ALOI": 30,
+    "CCV": 25,
+    "MSRC": 18
+  },
+  "grids": {
+    "ALOI": {
+      "semantic_exposure": [
+        1,
+        2,
+        3,
+        5,
+        10,
+        20
+      ],
+      "semantic_lr": [
+        3e-05,
+        5e-05,
+        0.0001,
+        0.0002,
+        0.0003
+      ]
+    },
+    "CCV": {
+      "semantic_exposure": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "semantic_lr": [
+        3e-06,
+        5e-06,
+        1e-05,
+        2e-05,
+        3e-05
+      ]
+    },
+    "MSRC": {
+      "semantic_exposure": [
+        1,
+        2,
+        3
+      ],
+      "semantic_lr": [
+        0.0003,
+        0.0005,
+        0.0007,
+        0.001,
+        0.0015,
+        0.002
+      ]
+    }
+  },
+  "total": 73
+}

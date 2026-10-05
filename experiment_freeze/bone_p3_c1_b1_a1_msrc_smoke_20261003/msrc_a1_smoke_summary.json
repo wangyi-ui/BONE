@@ -1,0 +1,119 @@
+{
+  "DeltaJ_A": 0.01911860352394945,
+  "DeltaJ_B": -0.036525746060000586,
+  "J_BASE_A": 1.3168563078926359,
+  "J_BASE_B": 1.4564056003472727,
+  "J_OURS_A": 1.3359749114165853,
+  "J_OURS_B": 1.4198798542872721,
+  "SMOKE_PARTIAL_OBJECTIVE_ONLY": true,
+  "U_carrier_array_sha256": "0dda02640fabaff2ae23b92bf0f87181204bd2e52d739150f9e3d6147948fc98",
+  "U_carrier_frozen": true,
+  "base_native_epochs": 20,
+  "carrier_epochs_already_completed": 100,
+  "carrier_pre_gt_path": "outputs/bone_p3/p3_c1_b1_optuna/engineering_msrc_adapter_smoke/msrc/dev_seed11/carrier/carrier_pre_gt.npz",
+  "carrier_pre_gt_sha256_after": "b8c042127997f7604c466a435e726d0ac01b4db66f78a8fc3a4867f361b8c921",
+  "carrier_pre_gt_sha256_before": "b8c042127997f7604c466a435e726d0ac01b4db66f78a8fc3a4867f361b8c921",
+  "carrier_reused": true,
+  "carrier_state_path": "outputs/bone_p3/p3_c1_b1_optuna/engineering_msrc_adapter_smoke/msrc/dev_seed11/carrier/carrier_model_state.pt",
+  "carrier_state_sha256_after": "ff98767dc9476609926dfaf45b59463bb83d05386726374eec11e06b255d1a38",
+  "carrier_state_sha256_before": "ff98767dc9476609926dfaf45b59463bb83d05386726374eec11e06b255d1a38",
+  "carrier_training_run": false,
+  "class_feasibility": {
+    "all_classes_feasible": true,
+    "class_count": 7,
+    "per_class": {
+      "0": {
+        "anchor_utility_masses": [
+          5.696530342102051,
+          5.998659133911133
+        ],
+        "feasible": true,
+        "supported_anchor_count": 2
+      },
+      "1": {
+        "anchor_utility_masses": [
+          2.6246438026428223,
+          4.59429407119751
+        ],
+        "feasible": true,
+        "supported_anchor_count": 2
+      },
+      "2": {
+        "anchor_utility_masses": [
+          5.443598747253418,
+          5.592105865478516
+        ],
+        "feasible": true,
+        "supported_anchor_count": 2
+      },
+      "3": {
+        "anchor_utility_masses": [
+          5.965740203857422,
+          5.9839863777160645
+        ],
+        "feasible": true,
+        "supported_anchor_count": 2
+      },
+      "4": {
+        "anchor_utility_masses": [
+          4.245691299438477,
+          5.067976474761963
+        ],
+        "feasible": true,
+        "supported_anchor_count": 2
+      },
+      "5": {
+        "anchor_utility_masses": [
+          5.230135440826416,
+          0.0
+        ],
+        "feasible": true,
+        "supported_anchor_count": 1
+      },
+      "6": {
+        "anchor_utility_masses": [
+          4.251868724822998,
+          5.999362945556641
+        ],
+        "feasible": true,
+        "supported_anchor_count": 2
+      }
+    },
+    "policy": "AT_LEAST_ONE_SUPPORTED_ANCHOR_PER_CLASS_PER_DEV_SEED"
+  },
+  "class_feasibility_pass": true,
+  "dataset": "MSRC",
+  "dev_seed": 11,
+  "fold_A_abstained_anchor_count": 1,
+  "fold_A_coverage": 0.8571428571428571,
+  "fold_A_denominator": 7,
+  "fold_A_supported_anchor_count": 6,
+  "fold_B_abstained_anchor_count": 0,
+  "fold_B_coverage": 1.0,
+  "fold_B_denominator": 7,
+  "fold_B_supported_anchor_count": 7,
+  "formal_tuning_run": false,
+  "full_gt_loaded": false,
+  "full_gt_used_for_selection": false,
+  "full_gt_used_for_training": false,
+  "full_gt_used_for_validation": false,
+  "initial_base_state_sha256": "381e61e6789090055f3809eed29c3f36b4f5bd8b7560befff0c280b61e88cc35",
+  "initial_ours_foldA_state_sha256": "381e61e6789090055f3809eed29c3f36b4f5bd8b7560befff0c280b61e88cc35",
+  "initial_ours_foldB_state_sha256": "381e61e6789090055f3809eed29c3f36b4f5bd8b7560befff0c280b61e88cc35",
+  "initial_state_parity": true,
+  "optuna_study_created": false,
+  "ours_foldA_native_epochs": 20,
+  "ours_foldA_semantic_steps": 5,
+  "ours_foldB_native_epochs": 20,
+  "ours_foldB_semantic_steps": 5,
+  "raw175_fold_A_J_BASE": 0.0,
+  "raw175_fold_A_J_OURS": 0.0,
+  "raw175_fold_A_abstained": true,
+  "raw175_fold_A_role": "validation_anchor",
+  "raw175_fold_A_utility_mass": 0.0,
+  "raw175_fold_B_removed": false,
+  "raw175_fold_B_role": "training_anchor",
+  "refinement_horizon": 20,
+  "semantic_exposure": 5,
+  "semantic_lr": 1e-05
+}

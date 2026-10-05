@@ -1,0 +1,30 @@
+{
+  "FINAL_CCV_PORTABILITY_STATUS": "READY_FOR_P3_B0",
+  "P3_A1_ACTION_STATUS": "PASS",
+  "P3_A2_STATUS": "READY_FOR_P3_B0",
+  "P3_A3_CCV_STATUS": "PASS",
+  "P3_A4_CCV_STATUS": "PASS",
+  "action": {
+    "S": 6,
+    "V": 3,
+    "action_protocol_sha256": "9a7d846e481823d485ef4f584749e1b871c4cb002f6220e82d28ba37d6c83f54",
+    "generator_sizes": [
+      1,
+      2
+    ],
+    "status": "PASS"
+  },
+  "corruption_mask_content_sha256": "ee917e2cdc35a4006f11ddcdf4718bb9b8e5c8deef99cdd4536429567bdcd6e5",
+  "no_carrier": true,
+  "no_gpu": true,
+  "no_noisy_features": true,
+  "no_training": true,
+  "p3_a2_incremental_audit_path": "outputs/bone_p3/p3_a2_ccv_incremental_portability_audit.json",
+  "parent_source_sha256": {
+    "bone_p3_a1_action_space_protocol.py": "5564354b41f78917b1ad4f98ae8737fe997d3726902e5e2a97e1ec024e20d61a",
+    "bone_p3_a3_sparse_label_protocol.py": "07571e80de1917e7358e8d614a3fb8d159b8ee635331f2f4c83e709acc387e7a",
+    "bone_p3_a4_corruption_protocol.py": "1865741c1ac3f2f65ffb9c325dc30a7d34978f96adc1be0ad000b45ed899b3c9"
+  },
+  "source_ccv_mat_sha256": "4fc88d5c925f9a6c00bbcafc30349df15a32dac44464eb40ef767ca3569f244a",
+  "sparse_ids_targets_content_sha256": "5bfc9833cb8f8ce142ce34be7adaba022ee280dea1d03295ca59681b64f6da34"
+}

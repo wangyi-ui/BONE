@@ -1,0 +1,24 @@
+CPU/MOCK FINAL RUNNER TESTS
+Command: PYTHONPATH=. pytest -q experiments/utility_relation/p3_c1_b1_final_formal/test_final_formal.py
+Result: 10 passed in 2.19s
+GPU training: NOT RUN
+Real formal seed20/30/50 experiment: NOT RUN
+
+TARGETED FROZEN-COMPONENT REGRESSION
+Command: PYTHONPATH=. pytest -q tests/test_bone_p3_c0_cross_dataset_formal.py experiments/utility_relation/p3_c1_b1_optuna/test_protocol.py experiments/utility_relation/p3_c1_b1_optuna/test_trial_runner_contract.py experiments/utility_relation/p3_c1_b1_optuna/test_amendment_a2.py experiments/utility_relation/p3_c1_b1_optuna/test_formal_tuning_context_a2.py experiments/utility_relation/p3_c1_b1_optuna/test_canonical_fold_order_r3.py experiments/utility_relation/p3_c1_b1_optuna/test_msrc_adapter_contract.py experiments/utility_relation/p3_c1_b1_optuna/test_formal_msrc_carrier_adapter.py experiments/utility_relation/p3_c1_b1_optuna/test_no_training_side_effects.py
+Result: 57 passed, 1 pre-existing stale assertion failed
+Stale assertion: test_no_training_side_effects.py asserts carrier_adapter.py is absent, although carrier_adapter.py existed before this task and is required by the existing Optuna implementation.
+New/modified historical source files: NONE
+
+READ-ONLY PREFLIGHT
+Result: 24/24 resolvable, 0 unresolved
+Adapter validation: 24/24 PASS
+Full GT read: NO
+Real training: NO
+
+FULL AVAILABLE NON-OPTUNA REGRESSION
+Command: PYTHONPATH=. pytest -q tests experiments/utility_relation/p3_c1_b1_final_formal
+Result: 192 passed in 9.91s
+
+ENVIRONMENT-LIMITED OPTUNA COLLECTION
+The broad Optuna directory cannot be fully collected in this runtime because the pre-existing optional `optuna` package is not installed (19 collection errors). No dependency was installed and no frozen Optuna source was modified. The directly relevant Optuna-independent A2/R3/MSRC/trial-runner tests are covered by the targeted 57-pass regression above.

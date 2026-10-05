@@ -1,0 +1,21 @@
+BONE P3-C0 Cross-Dataset Formal Protocol
+========================================
+
+FROZEN PARENTS:
+
+P3-A1 Action Space
+bone_p3_a1_action_space_protocol_20261001
+
+P3-A3 Sparse-Label Protocol
+bone_p3_a3_sparse_label_protocol_20261001
+
+P3-A4 Weak-Quality Corruption Protocol
+bone_p3_a4_corruption_protocol_20261001
+
+P3-B0 Generic U/T Carrier
+bone_p3_b0_generic_carrier_20261001
+
+P3-B1 Caltech Engineering Smoke
+bone_p3_b1_caltech_engineering_smoke_pass_20261001
+
+No parent freeze was modified by P3-C0.

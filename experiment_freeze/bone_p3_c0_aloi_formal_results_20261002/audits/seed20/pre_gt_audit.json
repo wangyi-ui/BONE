@@ -1,0 +1,49 @@
+{
+  "ENGINEERING_ONLY": false,
+  "FORMAL_RESULT": true,
+  "GT_loaded_before_seal": false,
+  "base_native_epochs": 20,
+  "carrier_state_sha256": "e8a69520ea8dd623b336740814cbd56db9e7e62bc62c1b0ab0a6eaa3377ab52f",
+  "dataset": "ALOI",
+  "full_gt_used_for_hyperparameter_selection": false,
+  "full_gt_used_for_model_selection": false,
+  "full_gt_used_for_training": false,
+  "initial_BASE_state_sha256": "e8a69520ea8dd623b336740814cbd56db9e7e62bc62c1b0ab0a6eaa3377ab52f",
+  "initial_OURS_state_sha256": "e8a69520ea8dd623b336740814cbd56db9e7e62bc62c1b0ab0a6eaa3377ab52f",
+  "native_hashes": {
+    "method/amv.py": "68f3edcd55e32456a5bcdbcbbc48329f19c5652dee1fc27420e2865f7068e5dc",
+    "method/bone.py": "d13ba6ba91362210f9a614f7353e9de688ff1815f075916b457df6c767a14092"
+  },
+  "native_lr": 0.01,
+  "native_order_hashes": [
+    "9eefef7e968516a7a5399adbbd71b24bb30305ab76fcdcab4431001cfe328022",
+    "a8c086934cad3497100c1cf502d749f084786881b7b34648a175654263dc7224",
+    "782ed66bf8a099b78007e673fecc5b60cf1f2340b066600ec1b00a7169d414ed",
+    "e51fcf9ed4760c1e58df56f215066eac18a3808fde1e13e75b41613105f31b5d",
+    "53569fbf6d8bcf1d9cb87190446fdbd08f6a94eddcf74597f145a716d7d2e621",
+    "4c4e0d48c203ece8d48c03872a483010deffddfc7c3675cb6a699868dbc2fad3",
+    "5c4af48ee8af2df179a9e17dba0b24dc513954df6f94e534bfff141923cec77d",
+    "5a6a9bee242d779db122a939f0fdee4b5905997d38478a04fc48758e6f469c82",
+    "34afe16d0ee41e4ba4020c28fdb5056e552e73ad83a77c5d0bc395a76b7f3b3f",
+    "797cc609be0c4ccb2eff49c8c14f30c8a9faf24ed74f00d12c29b9ee221d5f08",
+    "2ece1bf49143c3173282d831ac4f57212f7bf01aebce72097da9fad4eb1c77e0",
+    "dbd8d00d777b2eb84180d84aaf0238feecba4936fe77f92713429273024408b1",
+    "a4765151e04a281845ecca10fb335c66fd9ccebc8ca7bfd4334e0d007982a8ea",
+    "962c5b065c26e88d959e698899d672c7e4dc70cb96d5af0e5fffcd3812a423c2",
+    "d8497737d64ccb485d4dbeeadbb368ef1d0bfa34d10e11287fae127fac6c5b83",
+    "54828c41a7684dc8e4b8bdcd799400c333a96fa06640df98c40f8fc39fe7e588",
+    "7dfe49eb39de32c8ec58f89f1edd15a75e3803aed82ce9bb49f2da6da9c159f9",
+    "27113951eabb39ce669493dd04188cb6e6e7ec7b40aee777a6b1285c7a67e6ce",
+    "4ba008627d0be96bb9285c57a4c09ade7f2a3ce328e4cea686566301c4744c1b",
+    "b37c738a0178012114d8b872812d09ba949cfee2d830b79f760f87e57b967037"
+  ],
+  "ours_native_phase_b_epochs": 20,
+  "ours_semantic_epochs": 20,
+  "parent_hashes": {
+    "p3_a3_split": "5bafa96ebb68a50af98a9e185b5fd78198fca1c4d48db0060016ccfb50259e52",
+    "p3_a4_mask": "b36a9fed9473e1bdd07a99d524c4fd06f65215a4416c4d3f93ec331adce6a276"
+  },
+  "semantic_lr": 0.0001,
+  "semantic_schedule_sha256": "cfc2636daaa25acdd5c16438367e1974d098e4886b5791a4a722ecc85ddaddbf",
+  "training_seed": 20
+}

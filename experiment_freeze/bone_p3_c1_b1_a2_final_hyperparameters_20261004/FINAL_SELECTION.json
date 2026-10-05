@@ -1,0 +1,289 @@
+{
+  "dataset_count": 8,
+  "datasets": [
+    {
+      "dataset": "HandWrite",
+      "extension_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/handwrite/boundary_extension_upper_1e3/candidates/lr_0.001__es_20/candidate_evaluation.json",
+        "mean_delta_j": 0.0705973548344761,
+        "positive_count": 2,
+        "semantic_exposure": 20,
+        "semantic_lr": 0.001,
+        "worst_delta_j": -0.040340719180228746
+      },
+      "extension_candidate_count": 5,
+      "final_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/handwrite/candidates/lr_1.0000000000000001e-05__es_1/candidate_evaluation.json",
+        "mean_delta_j": 0.07686128676769527,
+        "positive_count": 2,
+        "semantic_exposure": 1,
+        "semantic_lr": 1e-05,
+        "source": "MAIN_GRID",
+        "worst_delta_j": -0.09958668416640282
+      },
+      "final_candidate_count": 30,
+      "main_candidate_count": 25,
+      "main_grid_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/handwrite/candidates/lr_1.0000000000000001e-05__es_1/candidate_evaluation.json",
+        "mean_delta_j": 0.07686128676769527,
+        "positive_count": 2,
+        "semantic_exposure": 1,
+        "semantic_lr": 1e-05,
+        "worst_delta_j": -0.09958668416640282
+      },
+      "second_boundary_extension_allowed": false,
+      "slug": "handwrite"
+    },
+    {
+      "dataset": "BDGP",
+      "extension_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/bdgp/boundary_extension_upper_1e3/candidates/lr_0.001__es_5/candidate_evaluation.json",
+        "mean_delta_j": -0.0027206943852449983,
+        "positive_count": 1,
+        "semantic_exposure": 5,
+        "semantic_lr": 0.001,
+        "worst_delta_j": -0.029884420101954356
+      },
+      "extension_candidate_count": 5,
+      "final_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/bdgp/candidates/lr_0.00029999999999999997__es_5/candidate_evaluation.json",
+        "mean_delta_j": 0.009533779138711534,
+        "positive_count": 4,
+        "semantic_exposure": 5,
+        "semantic_lr": 0.0003,
+        "source": "MAIN_GRID",
+        "worst_delta_j": 9.039811343924953e-08
+      },
+      "final_candidate_count": 30,
+      "main_candidate_count": 25,
+      "main_grid_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/bdgp/candidates/lr_0.00029999999999999997__es_5/candidate_evaluation.json",
+        "mean_delta_j": 0.009533779138711534,
+        "positive_count": 4,
+        "semantic_exposure": 5,
+        "semantic_lr": 0.0003,
+        "worst_delta_j": 9.039811343924953e-08
+      },
+      "second_boundary_extension_allowed": false,
+      "slug": "bdgp"
+    },
+    {
+      "dataset": "MSRC",
+      "extension_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/msrc/boundary_extension_upper_1e3/candidates/lr_0.001__es_1/candidate_evaluation.json",
+        "mean_delta_j": 0.055705761915557594,
+        "positive_count": 3,
+        "semantic_exposure": 1,
+        "semantic_lr": 0.001,
+        "worst_delta_j": -0.0019383226363951511
+      },
+      "extension_candidate_count": 5,
+      "final_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/msrc/boundary_extension_upper_1e3/candidates/lr_0.001__es_1/candidate_evaluation.json",
+        "mean_delta_j": 0.055705761915557594,
+        "positive_count": 3,
+        "semantic_exposure": 1,
+        "semantic_lr": 0.001,
+        "source": "UPPER_BOUNDARY_EXTENSION",
+        "worst_delta_j": -0.0019383226363951511
+      },
+      "final_candidate_count": 30,
+      "main_candidate_count": 25,
+      "main_grid_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/msrc/candidates/lr_0.0001__es_1/candidate_evaluation.json",
+        "mean_delta_j": 0.0441033660502444,
+        "positive_count": 4,
+        "semantic_exposure": 1,
+        "semantic_lr": 0.0001,
+        "worst_delta_j": 0.01578353498647389
+      },
+      "second_boundary_extension_allowed": false,
+      "slug": "msrc"
+    },
+    {
+      "dataset": "COIL20",
+      "extension_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/coil20/boundary_extension_upper_1e3/candidates/lr_0.001__es_20/candidate_evaluation.json",
+        "mean_delta_j": 0.17839630681350188,
+        "positive_count": 3,
+        "semantic_exposure": 20,
+        "semantic_lr": 0.001,
+        "worst_delta_j": -0.14491902111183055
+      },
+      "extension_candidate_count": 5,
+      "final_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/coil20/candidates/lr_1.0000000000000001e-05__es_5/candidate_evaluation.json",
+        "mean_delta_j": 0.2499107806680763,
+        "positive_count": 4,
+        "semantic_exposure": 5,
+        "semantic_lr": 1e-05,
+        "source": "MAIN_GRID",
+        "worst_delta_j": 0.07278148210618218
+      },
+      "final_candidate_count": 30,
+      "main_candidate_count": 25,
+      "main_grid_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/coil20/candidates/lr_1.0000000000000001e-05__es_5/candidate_evaluation.json",
+        "mean_delta_j": 0.2499107806680763,
+        "positive_count": 4,
+        "semantic_exposure": 5,
+        "semantic_lr": 1e-05,
+        "worst_delta_j": 0.07278148210618218
+      },
+      "second_boundary_extension_allowed": false,
+      "slug": "coil20"
+    },
+    {
+      "dataset": "Caltech-5V",
+      "extension_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/caltech_5v/boundary_extension_upper_1e3/candidates/lr_0.001__es_5/candidate_evaluation.json",
+        "mean_delta_j": 0.0952722154839632,
+        "positive_count": 4,
+        "semantic_exposure": 5,
+        "semantic_lr": 0.001,
+        "worst_delta_j": 0.01576490133940678
+      },
+      "extension_candidate_count": 5,
+      "final_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/caltech_5v/boundary_extension_upper_1e3/candidates/lr_0.001__es_5/candidate_evaluation.json",
+        "mean_delta_j": 0.0952722154839632,
+        "positive_count": 4,
+        "semantic_exposure": 5,
+        "semantic_lr": 0.001,
+        "source": "UPPER_BOUNDARY_EXTENSION",
+        "worst_delta_j": 0.01576490133940678
+      },
+      "final_candidate_count": 30,
+      "main_candidate_count": 25,
+      "main_grid_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/caltech_5v/candidates/lr_3.0000000000000001e-05__es_10/candidate_evaluation.json",
+        "mean_delta_j": 0.058700705924334295,
+        "positive_count": 2,
+        "semantic_exposure": 10,
+        "semantic_lr": 3e-05,
+        "worst_delta_j": -0.05895645981825859
+      },
+      "second_boundary_extension_allowed": false,
+      "slug": "caltech_5v"
+    },
+    {
+      "dataset": "MNIST-USPS",
+      "extension_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/mnist_usps/boundary_extension_upper_1e3/candidates/lr_0.001__es_20/candidate_evaluation.json",
+        "mean_delta_j": 0.02132341151326128,
+        "positive_count": 3,
+        "semantic_exposure": 20,
+        "semantic_lr": 0.001,
+        "worst_delta_j": -0.002744274946816283
+      },
+      "extension_candidate_count": 5,
+      "final_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/mnist_usps/candidates/lr_0.0001__es_5/candidate_evaluation.json",
+        "mean_delta_j": 0.026437594103880857,
+        "positive_count": 3,
+        "semantic_exposure": 5,
+        "semantic_lr": 0.0001,
+        "source": "MAIN_GRID",
+        "worst_delta_j": -0.007921157486273867
+      },
+      "final_candidate_count": 30,
+      "main_candidate_count": 25,
+      "main_grid_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/mnist_usps/candidates/lr_0.0001__es_5/candidate_evaluation.json",
+        "mean_delta_j": 0.026437594103880857,
+        "positive_count": 3,
+        "semantic_exposure": 5,
+        "semantic_lr": 0.0001,
+        "worst_delta_j": -0.007921157486273867
+      },
+      "second_boundary_extension_allowed": false,
+      "slug": "mnist_usps"
+    },
+    {
+      "dataset": "ALOI",
+      "extension_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/boundary_extension_upper_1e3/candidates/lr_0.001__es_3/candidate_evaluation.json",
+        "mean_delta_j": -0.03622339094756927,
+        "positive_count": 2,
+        "semantic_exposure": 3,
+        "semantic_lr": 0.001,
+        "worst_delta_j": -0.2656052679904475
+      },
+      "extension_candidate_count": 5,
+      "final_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.0001__es_1/candidate_evaluation.json",
+        "mean_delta_j": 0.062247300951051965,
+        "positive_count": 3,
+        "semantic_exposure": 1,
+        "semantic_lr": 0.0001,
+        "source": "MAIN_GRID",
+        "worst_delta_j": -0.08771575028914436
+      },
+      "final_candidate_count": 30,
+      "main_candidate_count": 25,
+      "main_grid_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/aloi/candidates/lr_0.0001__es_1/candidate_evaluation.json",
+        "mean_delta_j": 0.062247300951051965,
+        "positive_count": 3,
+        "semantic_exposure": 1,
+        "semantic_lr": 0.0001,
+        "worst_delta_j": -0.08771575028914436
+      },
+      "second_boundary_extension_allowed": false,
+      "slug": "aloi"
+    },
+    {
+      "dataset": "CCV",
+      "extension_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/ccv/boundary_extension_upper_1e3/candidates/lr_0.001__es_10/candidate_evaluation.json",
+        "mean_delta_j": -0.010847324696601601,
+        "positive_count": 2,
+        "semantic_exposure": 10,
+        "semantic_lr": 0.001,
+        "worst_delta_j": -0.3185427023982548
+      },
+      "extension_candidate_count": 5,
+      "final_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/ccv/candidates/lr_1.0000000000000001e-05__es_3/candidate_evaluation.json",
+        "mean_delta_j": 0.04000218334212062,
+        "positive_count": 2,
+        "semantic_exposure": 3,
+        "semantic_lr": 1e-05,
+        "source": "MAIN_GRID",
+        "worst_delta_j": -0.26563430612575956
+      },
+      "final_candidate_count": 30,
+      "main_candidate_count": 25,
+      "main_grid_best": {
+        "candidate_path": "outputs/bone_p3/p3_c1_b1_optuna/formal_tuning/ccv/candidates/lr_1.0000000000000001e-05__es_3/candidate_evaluation.json",
+        "mean_delta_j": 0.04000218334212062,
+        "positive_count": 2,
+        "semantic_exposure": 3,
+        "semantic_lr": 1e-05,
+        "worst_delta_j": -0.26563430612575956
+      },
+      "second_boundary_extension_allowed": false,
+      "slug": "ccv"
+    }
+  ],
+  "extension_candidates_per_dataset": 5,
+  "extension_lr": 0.001,
+  "extension_winner_datasets": [
+    "MSRC",
+    "Caltech-5V"
+  ],
+  "final_pool_per_dataset": 30,
+  "formal_seed_20_30_50_used": false,
+  "full_gt_used": false,
+  "main_candidates_per_dataset": 25,
+  "second_boundary_extension_allowed": false,
+  "selection_rule": [
+    "maximum round(mean_delta_j,12)",
+    "maximum round(worst_delta_j,12)",
+    "maximum positive_count",
+    "smaller semantic_exposure",
+    "smaller semantic_lr"
+  ],
+  "stage": "P3-C1-B1-A2",
+  "status": "FINAL_30_CANDIDATE_SELECTION_COMPLETE"
+}

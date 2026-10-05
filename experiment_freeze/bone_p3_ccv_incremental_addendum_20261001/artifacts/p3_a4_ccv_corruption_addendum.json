@@ -1,0 +1,38 @@
+{
+  "N": 6773,
+  "V": 3,
+  "corruption_fraction": 0.4999753924897879,
+  "corruption_seed": 20,
+  "dataset": "CCV",
+  "mask_builder_inputs": {
+    "N": 6773,
+    "V": 3,
+    "corruption_seed": 20,
+    "dataset_name": "CCV"
+  },
+  "mask_content_sha256": "ee917e2cdc35a4006f11ddcdf4718bb9b8e5c8deef99cdd4536429567bdcd6e5",
+  "no_GT_or_features_used_for_A4": true,
+  "npz_sha256": "b2e46f70468f0ce8f2e269ce7a9168ec3e70f8bd8dd4a02bc6fa9ce2d2b53716",
+  "parent_protocol_sha256": "1865741c1ac3f2f65ffb9c325dc30a7d34978f96adc1be0ad000b45ed899b3c9",
+  "pattern_counts": {
+    "0": 1129,
+    "0,1": 1129,
+    "0,2": 1129,
+    "1": 1129,
+    "1,2": 1128,
+    "2": 1129
+  },
+  "per_view_counts": [
+    3387,
+    3386,
+    3386
+  ],
+  "row_id_semantics": "RAW_FILE_ROW_ID",
+  "row_sum_histogram": {
+    "1": 3387,
+    "2": 3386
+  },
+  "snr_db": 2.5,
+  "source_ccv_mat_sha256": "4fc88d5c925f9a6c00bbcafc30349df15a32dac44464eb40ef767ca3569f244a",
+  "total_corrupted_cells": 10159
+}

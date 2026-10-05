@@ -1,0 +1,122 @@
+BONE-P2-A1B Multi-Seed Adjudication
+===================================
+
+STATUS:
+PRE-FORMAL FROZEN
+
+DATASET:
+MSRC
+
+TRAINING SEEDS:
+20
+30
+50
+
+CORRUPTION:
+SNR = 2.5 dB
+exactly 2/4 corrupted views per sample
+corruption seed = 20 for all training seeds
+
+IMPORTANT:
+The corruption realization is identical across training seeds.
+Only training randomness changes.
+
+SPARSE LABELS:
+2 labeled samples per class
+14 total labels
+split frozen across all seeds
+
+PER-SEED PIPELINE:
+For each training seed s:
+
+1. train corrupted native BONE carrier
+2. construct seed-specific U_cycle^(s)
+3. construct seed-specific T_rel^(s)
+4. run P2-A0 scientific gate
+5. only if P2-A0 passes, run P2-A1 four-arm action pilot
+
+Do NOT reuse seed20 U_cycle or T_rel for seed30/50.
+
+P2-A0 GATE:
+AUC_U_TRUE >= 0.60
+Delta_AUC_U >= 0.05
+REL_AUC >= 0.60
+REL_GAP > 0
+
+NULL CONTROL:
+NULL_SEED = 20 for every training seed
+
+Frozen derangement SHA256:
+e97d91e550d9c3f2d9c7c85a922b72d47cb3b0223cf2e04dee3e90bc2951a155
+
+The null permutation MUST NOT depend on training seed.
+
+P2-A1 ARMS:
+BASE
+TRUE_UNIFORM
+TRUE_U
+SHUFFLE_REL
+
+TRUE_U:
+true T_rel + true frozen U_cycle
+
+TRUE_UNIFORM:
+true T_rel + U=1
+
+SHUFFLE_REL:
+query-axis deranged T_rel + true frozen U_cycle
+
+TRAINING:
+20 refinement epochs
+Phase A semantic relation action
+then Phase B native BONE consolidation
+
+Semantic Adam lr = 1e-4
+one semantic optimizer.step per epoch
+
+NO:
+hyperparameter tuning
+U thresholding
+top-k U
+U_tilde
+memory
+pseudo-label expansion
+feature gating
+fusion gating
+additive native + semantic loss
+
+MULTI-SEED PASS GATE:
+
+A.
+Delta_ACC(TRUE_U - BASE) > 0
+for 3/3 seeds
+
+B.
+mean Delta_ACC(TRUE_U - BASE) >= 0.01
+
+C.
+mean Delta_ACC(TRUE_U - TRUE_UNIFORM) >= 0.01
+AND positive in >= 2/3 seeds
+
+D.
+mean Delta_ACC(TRUE_U - SHUFFLE_REL) >= 0.01
+AND positive in >= 2/3 seeds
+
+E.
+mean Delta_NMI(TRUE_U - BASE) > 0
+OR
+mean Delta_Purity(TRUE_U - BASE) > 0
+
+If A+B+C+D+E:
+P2_A1B_MULTI_SEED_PASS
+
+If:
+mean Delta_ACC(TRUE_U - BASE) <= 0
+
+then:
+P2_A1B_FAIL_CLOSED
+
+Otherwise:
+P2_A1B_INCONCLUSIVE
+
+NO POST-HOC GATE CHANGE.

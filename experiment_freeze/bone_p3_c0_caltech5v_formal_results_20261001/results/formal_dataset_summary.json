@@ -1,0 +1,75 @@
+{
+  "aggregation": "mean/std population over fixed seeds; no selection gate",
+  "dataset": "Caltech-5V",
+  "metrics": {
+    "ACC": {
+      "BASE": {
+        "mean": 0.8197619047619048,
+        "std": 0.006450579611497207
+      },
+      "OURS": {
+        "mean": 0.8242857142857143,
+        "std": 0.004082482904638602
+      },
+      "delta_OURS_minus_BASE": {
+        "mean": 0.004523809523809523,
+        "out_of": 3,
+        "positive_delta_seed_count": 3,
+        "std": 0.002756151643521525
+      }
+    },
+    "ARI": {
+      "BASE": {
+        "mean": 0.7134575521935358,
+        "std": 0.01699333290254577
+      },
+      "OURS": {
+        "mean": 0.7200407766074398,
+        "std": 0.0168952278215052
+      },
+      "delta_OURS_minus_BASE": {
+        "mean": 0.006583224413904021,
+        "out_of": 3,
+        "positive_delta_seed_count": 3,
+        "std": 0.005019618864363493
+      }
+    },
+    "NMI": {
+      "BASE": {
+        "mean": 0.7568063044057439,
+        "std": 0.017363478492660993
+      },
+      "OURS": {
+        "mean": 0.7619526734989802,
+        "std": 0.015880492165176095
+      },
+      "delta_OURS_minus_BASE": {
+        "mean": 0.0051463690932362915,
+        "out_of": 3,
+        "positive_delta_seed_count": 2,
+        "std": 0.00862104889541709
+      }
+    },
+    "Purity": {
+      "BASE": {
+        "mean": 0.8204761904761906,
+        "std": 0.00663256584627818
+      },
+      "OURS": {
+        "mean": 0.8242857142857143,
+        "std": 0.004082482904638602
+      },
+      "delta_OURS_minus_BASE": {
+        "mean": 0.003809523809523818,
+        "out_of": 3,
+        "positive_delta_seed_count": 3,
+        "std": 0.002629847861235117
+      }
+    }
+  },
+  "seeds": [
+    20,
+    30,
+    50
+  ]
+}

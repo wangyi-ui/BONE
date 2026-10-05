@@ -1,0 +1,55 @@
+{
+  "stage": "BONE-P2-A0",
+  "dataset": "MSRC",
+  "training_seed": 20,
+  "corruption_seed": 20,
+  "status": "SCIENTIFIC_PASS",
+  "carrier_contract": {
+    "N": 210,
+    "V": 4,
+    "K": 7,
+    "L": 14,
+    "Nu": 196,
+    "S": 6,
+    "U_shape": [
+      196,
+      6
+    ],
+    "T_rel_shape": [
+      196,
+      14,
+      6
+    ]
+  },
+  "authoritative_v2": {
+    "AUC_U_TRUE": 0.7343141685205784,
+    "AUC_U_DERANGEMENT": 0.5404094827586208,
+    "Delta_AUC_U": 0.19390468576195763,
+    "REL_AUC": 0.9311624593147917,
+    "REL_GAP": 0.5637902244925499,
+    "REL_MEAN_SAME": 0.6261059045791626,
+    "REL_MEAN_DIFF": 0.0623156800866127,
+    "derangement_same_class_fraction": 0.14795918367346939,
+    "random_same_class_reference": 0.14285714285714285,
+    "permutation_sha256": "e97d91e550d9c3f2d9c7c85a922b72d47cb3b0223cf2e04dee3e90bc2951a155"
+  },
+  "legacy_v1": {
+    "verdict": "INCONCLUSIVE",
+    "authoritative": false,
+    "reason": "Adjacent +1 null invalid under class-block canonical MSRC order; same-class retention = 203/210 = 0.9666666666666667."
+  },
+  "scientific_interpretation": {
+    "T_rel": "WHAT / semantic direction supported",
+    "U_cycle": "WHETHER / action-validity supported",
+    "next_stage": "BONE-P2-A1 causal action pilot"
+  },
+  "frozen_boundaries": [
+    "No U_tilde",
+    "No label recalibration of U_cycle",
+    "No direct feature gating",
+    "No direct fusion gating",
+    "No pseudo-label expansion",
+    "No memory",
+    "No additive native+semantic loss"
+  ]
+}

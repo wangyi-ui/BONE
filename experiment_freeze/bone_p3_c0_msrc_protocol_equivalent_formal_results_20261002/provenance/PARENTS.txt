@@ -1,0 +1,44 @@
+MSRC P3-Compatible Formal Result Provenance
+===========================================
+
+HISTORICAL FORMAL RESULT:
+
+experiment_freeze/
+bone_p2_a1b_multiseed_pass_20261001
+
+P3 SPARSE LABEL PROTOCOL:
+
+experiment_freeze/
+bone_p3_a3_sparse_label_protocol_20261001
+
+P3 CORRUPTION PROTOCOL:
+
+experiment_freeze/
+bone_p3_a4_corruption_protocol_20261001
+
+P3 GENERIC CARRIER / MSRC BACKWARD PARITY:
+
+experiment_freeze/
+bone_p3_b0_generic_carrier_20261001
+
+REFERENCE CROSS-DATASET FORMAL PROTOCOL:
+
+experiment_freeze/
+bone_p3_c0_cross_dataset_formal_protocol_20261001
+
+COMPATIBLE REPORT ROOT:
+
+outputs/bone_p3/p3_c0_compatible/msrc
+
+IMPORTANT:
+
+No MSRC training was rerun to create this
+reporting freeze.
+
+The historical formal predictions are reused
+under exact protocol-equivalence evidence.
+
+ARI is a newly reported post-seal metric computed
+from the frozen historical predictions.
+
+ACC/NMI/Purity remain the historical formal values.

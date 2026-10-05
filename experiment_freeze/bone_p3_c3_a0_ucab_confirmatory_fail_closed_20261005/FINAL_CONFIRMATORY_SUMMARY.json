@@ -1,0 +1,53 @@
+{
+  "MECHANISM_GATE": "FAIL",
+  "P3_C3_A0_UCAB_CONFIRMATORY": "FAIL_CLOSED",
+  "PRIMARY_GATE": "FAIL",
+  "SECONDARY_GATE": "PASS",
+  "all_12_complete": true,
+  "completed_run_count": 12,
+  "historical_affects_confirmatory_decision": false,
+  "historical_matched_evidence": {
+    "ACC": {
+      "macro_mean": -0.00427464351008817,
+      "positive_count": 1
+    },
+    "ARI": {
+      "macro_mean": -0.0020254141517318408,
+      "positive_count": 2
+    },
+    "NMI": {
+      "macro_mean": -0.00023147808143526386,
+      "positive_count": 2
+    }
+  },
+  "mechanism": {
+    "true_minus_mean": {
+      "macro_mean": -0.0049925334434291575,
+      "pass": false,
+      "positive_count": 3
+    },
+    "true_minus_shuffle": {
+      "macro_mean": 0.0017254603882882653,
+      "pass": true,
+      "positive_count": 4
+    }
+  },
+  "primary": {
+    "dataset_mean_delta_acc": {
+      "ALOI": 0.0002777777777777472,
+      "CCV": 0.0030021162458782427
+    },
+    "macro_mean": 0.001639947011827995,
+    "pass": false,
+    "positive_count": 3
+  },
+  "secondary": {
+    "macro_mean_deltas": {
+      "ACC": 0.001639947011827995,
+      "ARI": 9.510581794337318e-05,
+      "NMI": 0.0008179030717670824
+    },
+    "positive_metric_count": 3
+  },
+  "status": "REPORTING_ONLY"
+}

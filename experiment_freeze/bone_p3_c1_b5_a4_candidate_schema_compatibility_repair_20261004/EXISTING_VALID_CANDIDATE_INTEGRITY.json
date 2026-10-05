@@ -1,0 +1,30 @@
+{
+  "existing_valid_real_candidate_count": 3,
+  "artifacts": [
+    {
+      "path": "outputs/bone_p3/p3_c1_b5_optimizer_pilot/ccv/adamw/lr_3e-6.json",
+      "sha256": "5ae178ff2554d6fadaa8db1c9b67a2502be4376b906146a086b1c1243462b6f5",
+      "dataset": "CCV", "optimizer": "AdamW", "semantic_lr": 3e-6,
+      "completion_status": "REAL_CANDIDATE_COMPLETE", "real_training_started": true,
+      "real_training_completed": true, "branch_count": 4,
+      "full_gt_used": false, "formal_metrics_read": false
+    },
+    {
+      "path": "outputs/bone_p3/p3_c1_b5_optimizer_pilot/ccv/adamw/lr_1e-5.json",
+      "sha256": "4c6e415cdf3c7d06319c48620d874747326ba133c8312362259ddc29737de259",
+      "dataset": "CCV", "optimizer": "AdamW", "semantic_lr": 1e-5,
+      "completion_status": "REAL_CANDIDATE_COMPLETE", "real_training_started": true,
+      "real_training_completed": true, "branch_count": 4,
+      "full_gt_used": false, "formal_metrics_read": false
+    },
+    {
+      "path": "outputs/bone_p3/p3_c1_b5_optimizer_pilot/ccv/adamw/lr_3e-5.json",
+      "sha256": "26ca01c7c7bde35cd9195738ef710379c73b299edb4ed95c72f1a66ed197712b",
+      "dataset": "CCV", "optimizer": "AdamW", "semantic_lr": 3e-5,
+      "completion_status": "REAL_CANDIDATE_COMPLETE", "real_training_started": true,
+      "real_training_completed": true, "branch_count": 4,
+      "full_gt_used": false, "formal_metrics_read": false
+    }
+  ],
+  "artifacts_modified_during_a4": false
+}

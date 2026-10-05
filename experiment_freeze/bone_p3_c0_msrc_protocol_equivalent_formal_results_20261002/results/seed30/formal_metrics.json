@@ -1,0 +1,28 @@
+{
+  "dataset": "MSRC",
+  "training_seed": 30,
+  "source_protocol": "BONE_P2_A1B",
+  "reporting_protocol": "P3_C0_COMPATIBLE_PROTOCOL_EQUIVALENT",
+  "arm_alias": {
+    "BASE": "BASE",
+    "OURS": "TRUE_U"
+  },
+  "BASE": {
+    "ACC": 0.7095238095238096,
+    "NMI": 0.6186544645343223,
+    "Purity": 0.7095238095238096,
+    "ARI": 0.5250655748425114
+  },
+  "OURS": {
+    "ACC": 0.7238095238095238,
+    "NMI": 0.6487197254204665,
+    "Purity": 0.7238095238095238,
+    "ARI": 0.5600958049063725
+  },
+  "delta_OURS_minus_BASE": {
+    "ACC": 0.014285714285714235,
+    "NMI": 0.03006526088614425,
+    "Purity": 0.014285714285714235,
+    "ARI": 0.03503023006386108
+  }
+}

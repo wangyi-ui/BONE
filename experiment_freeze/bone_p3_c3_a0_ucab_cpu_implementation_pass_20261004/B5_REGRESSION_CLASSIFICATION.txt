@@ -1,0 +1,26 @@
+CLASSIFICATION=STALE_PRE_EXECUTION_TEST_ASSUMPTION
+
+The protected B5 regression failure is not attributed to UCAB.
+
+Reason:
+
+The historical artifact:
+
+outputs/bone_p3/p3_c1_b5_optimizer_pilot/ccv/sgd_momentum/lr_1e-3.json
+
+exists because B5 real candidate execution was completed.
+
+The finalized B5 candidate-pool audit explicitly records this
+artifact as a valid CCV SGD_MOMENTUM candidate with semantic_lr=0.001.
+
+Therefore an old test that assumes this artifact must not exist
+encodes a pre-real-execution repository-state assumption.
+
+Actions explicitly NOT taken:
+
+- artifact deletion
+- artifact movement
+- legacy test modification
+- historical freeze modification
+
+The stale-state failure does not override UCAB-local CPU validation.

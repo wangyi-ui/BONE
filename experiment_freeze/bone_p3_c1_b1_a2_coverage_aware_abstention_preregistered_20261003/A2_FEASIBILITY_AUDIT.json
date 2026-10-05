@@ -1,0 +1,5176 @@
+{
+  "audit": "COVERAGE_AWARE_UTILITY_ABSTENTION_FEASIBILITY",
+  "coverage_threshold_added": false,
+  "datasets": [
+    {
+      "all_dev_seeds_A2_feasible": true,
+      "cross_seed_coverage": {
+        "coverage_audit_only": true,
+        "coverage_threshold_added": false,
+        "full_gt_used": false,
+        "persistent_abstained_classes": [],
+        "seed_specific_abstained_classes": {
+          "11": [],
+          "37": []
+        },
+        "union_abstained_classes": []
+      },
+      "dataset": "HandWrite",
+      "dev_seeds": {
+        "11": {
+          "A2_FEASIBILITY": "PASS",
+          "abstained_anchor_count": 1,
+          "abstained_class_count": 0,
+          "amendment_id": "P3-C1-B1-A2",
+          "anchor_coverage": 0.95,
+          "class_count": 10,
+          "coverage_audit_only": true,
+          "coverage_threshold_added": false,
+          "full_gt_used": false,
+          "per_class": [
+            {
+              "anchor_raw_ids": [
+                107,
+                189
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                16.01251983642578
+              ],
+              "class_id": 0,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                331,
+                374
+              ],
+              "anchor_utility_masses": [
+                15.17599868774414,
+                16.58849334716797
+              ],
+              "class_id": 1,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                417,
+                449
+              ],
+              "anchor_utility_masses": [
+                16.284116744995117,
+                16.41574478149414
+              ],
+              "class_id": 2,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                606,
+                689
+              ],
+              "anchor_utility_masses": [
+                16.658613204956055,
+                16.31447410583496
+              ],
+              "class_id": 3,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                937,
+                981
+              ],
+              "anchor_utility_masses": [
+                19.292526245117188,
+                18.769704818725586
+              ],
+              "class_id": 4,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1177,
+                1186
+              ],
+              "anchor_utility_masses": [
+                16.48021125793457,
+                16.15399932861328
+              ],
+              "class_id": 5,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1368,
+                1399
+              ],
+              "anchor_utility_masses": [
+                11.711711883544922,
+                10.83864688873291
+              ],
+              "class_id": 6,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1421,
+                1503
+              ],
+              "anchor_utility_masses": [
+                15.583276748657227,
+                16.27239418029785
+              ],
+              "class_id": 7,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1735,
+                1780
+              ],
+              "anchor_utility_masses": [
+                17.692302703857422,
+                19.22266960144043
+              ],
+              "class_id": 8,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1909,
+                1936
+              ],
+              "anchor_utility_masses": [
+                14.418412208557129,
+                6.1514129638671875
+              ],
+              "class_id": 9,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            }
+          ],
+          "policy": "AT_LEAST_ONE_SUPPORTED_SPARSE_ANCHOR_PER_DEV_SEED",
+          "supported_anchor_count": 19,
+          "supported_class_count": 10,
+          "supported_class_coverage": 1.0,
+          "total_anchor_count": 20
+        },
+        "37": {
+          "A2_FEASIBILITY": "PASS",
+          "abstained_anchor_count": 0,
+          "abstained_class_count": 0,
+          "amendment_id": "P3-C1-B1-A2",
+          "anchor_coverage": 1.0,
+          "class_count": 10,
+          "coverage_audit_only": true,
+          "coverage_threshold_added": false,
+          "full_gt_used": false,
+          "per_class": [
+            {
+              "anchor_raw_ids": [
+                107,
+                189
+              ],
+              "anchor_utility_masses": [
+                3.3706703186035156,
+                15.928922653198242
+              ],
+              "class_id": 0,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                331,
+                374
+              ],
+              "anchor_utility_masses": [
+                16.291542053222656,
+                18.224254608154297
+              ],
+              "class_id": 1,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                417,
+                449
+              ],
+              "anchor_utility_masses": [
+                18.934267044067383,
+                19.96319580078125
+              ],
+              "class_id": 2,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                606,
+                689
+              ],
+              "anchor_utility_masses": [
+                18.138811111450195,
+                15.948680877685547
+              ],
+              "class_id": 3,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                937,
+                981
+              ],
+              "anchor_utility_masses": [
+                17.974334716796875,
+                17.027713775634766
+              ],
+              "class_id": 4,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1177,
+                1186
+              ],
+              "anchor_utility_masses": [
+                19.56798553466797,
+                19.640655517578125
+              ],
+              "class_id": 5,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1368,
+                1399
+              ],
+              "anchor_utility_masses": [
+                13.45383358001709,
+                12.425110816955566
+              ],
+              "class_id": 6,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1421,
+                1503
+              ],
+              "anchor_utility_masses": [
+                15.643633842468262,
+                18.23220443725586
+              ],
+              "class_id": 7,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1735,
+                1780
+              ],
+              "anchor_utility_masses": [
+                19.37356948852539,
+                19.98771858215332
+              ],
+              "class_id": 8,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1909,
+                1936
+              ],
+              "anchor_utility_masses": [
+                13.693947792053223,
+                1.8230725526809692
+              ],
+              "class_id": 9,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            }
+          ],
+          "policy": "AT_LEAST_ONE_SUPPORTED_SPARSE_ANCHOR_PER_DEV_SEED",
+          "supported_anchor_count": 20,
+          "supported_class_count": 10,
+          "supported_class_coverage": 1.0,
+          "total_anchor_count": 20
+        }
+      }
+    },
+    {
+      "all_dev_seeds_A2_feasible": true,
+      "cross_seed_coverage": {
+        "coverage_audit_only": true,
+        "coverage_threshold_added": false,
+        "full_gt_used": false,
+        "persistent_abstained_classes": [],
+        "seed_specific_abstained_classes": {
+          "11": [],
+          "37": []
+        },
+        "union_abstained_classes": []
+      },
+      "dataset": "BDGP",
+      "dev_seeds": {
+        "11": {
+          "A2_FEASIBILITY": "PASS",
+          "abstained_anchor_count": 1,
+          "abstained_class_count": 0,
+          "amendment_id": "P3-C1-B1-A2",
+          "anchor_coverage": 0.9,
+          "class_count": 5,
+          "coverage_audit_only": true,
+          "coverage_threshold_added": false,
+          "full_gt_used": false,
+          "per_class": [
+            {
+              "anchor_raw_ids": [
+                1012,
+                2432
+              ],
+              "anchor_utility_masses": [
+                1.99949049949646,
+                1.7208545207977295
+              ],
+              "class_id": 0,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1819,
+                1984
+              ],
+              "anchor_utility_masses": [
+                1.9862909317016602,
+                1.9978671073913574
+              ],
+              "class_id": 1,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1121,
+                2107
+              ],
+              "anchor_utility_masses": [
+                1.3871606588363647,
+                1.9999867677688599
+              ],
+              "class_id": 2,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                274,
+                902
+              ],
+              "anchor_utility_masses": [
+                1.9959429502487183,
+                0.0
+              ],
+              "class_id": 3,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                611,
+                1648
+              ],
+              "anchor_utility_masses": [
+                1.9987874031066895,
+                1.9999972581863403
+              ],
+              "class_id": 4,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            }
+          ],
+          "policy": "AT_LEAST_ONE_SUPPORTED_SPARSE_ANCHOR_PER_DEV_SEED",
+          "supported_anchor_count": 9,
+          "supported_class_count": 5,
+          "supported_class_coverage": 1.0,
+          "total_anchor_count": 10
+        },
+        "37": {
+          "A2_FEASIBILITY": "PASS",
+          "abstained_anchor_count": 2,
+          "abstained_class_count": 0,
+          "amendment_id": "P3-C1-B1-A2",
+          "anchor_coverage": 0.8,
+          "class_count": 5,
+          "coverage_audit_only": true,
+          "coverage_threshold_added": false,
+          "full_gt_used": false,
+          "per_class": [
+            {
+              "anchor_raw_ids": [
+                1012,
+                2432
+              ],
+              "anchor_utility_masses": [
+                1.9933371543884277,
+                0.0
+              ],
+              "class_id": 0,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1819,
+                1984
+              ],
+              "anchor_utility_masses": [
+                1.980941891670227,
+                1.9999138116836548
+              ],
+              "class_id": 1,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1121,
+                2107
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                1.9999973773956299
+              ],
+              "class_id": 2,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                274,
+                902
+              ],
+              "anchor_utility_masses": [
+                1.9999885559082031,
+                1.9998193979263306
+              ],
+              "class_id": 3,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                611,
+                1648
+              ],
+              "anchor_utility_masses": [
+                1.9995715618133545,
+                1.999794602394104
+              ],
+              "class_id": 4,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            }
+          ],
+          "policy": "AT_LEAST_ONE_SUPPORTED_SPARSE_ANCHOR_PER_DEV_SEED",
+          "supported_anchor_count": 8,
+          "supported_class_count": 5,
+          "supported_class_coverage": 1.0,
+          "total_anchor_count": 10
+        }
+      }
+    },
+    {
+      "all_dev_seeds_A2_feasible": true,
+      "cross_seed_coverage": {
+        "coverage_audit_only": true,
+        "coverage_threshold_added": false,
+        "full_gt_used": false,
+        "persistent_abstained_classes": [],
+        "seed_specific_abstained_classes": {
+          "11": [],
+          "37": []
+        },
+        "union_abstained_classes": []
+      },
+      "dataset": "MSRC",
+      "dev_seeds": {
+        "11": {
+          "A2_FEASIBILITY": "PASS",
+          "abstained_anchor_count": 1,
+          "abstained_class_count": 0,
+          "amendment_id": "P3-C1-B1-A2",
+          "anchor_coverage": 0.9285714285714286,
+          "class_count": 7,
+          "coverage_audit_only": true,
+          "coverage_threshold_added": false,
+          "full_gt_used": false,
+          "per_class": [
+            {
+              "anchor_raw_ids": [
+                17,
+                20
+              ],
+              "anchor_utility_masses": [
+                5.696530342102051,
+                5.998659133911133
+              ],
+              "class_id": 0,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                30,
+                42
+              ],
+              "anchor_utility_masses": [
+                2.6246438026428223,
+                4.59429407119751
+              ],
+              "class_id": 1,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                60,
+                81
+              ],
+              "anchor_utility_masses": [
+                5.443598747253418,
+                5.592105865478516
+              ],
+              "class_id": 2,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                96,
+                107
+              ],
+              "anchor_utility_masses": [
+                5.965740203857422,
+                5.9839863777160645
+              ],
+              "class_id": 3,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                139,
+                142
+              ],
+              "anchor_utility_masses": [
+                4.245691299438477,
+                5.067976474761963
+              ],
+              "class_id": 4,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                153,
+                175
+              ],
+              "anchor_utility_masses": [
+                5.230135440826416,
+                0.0
+              ],
+              "class_id": 5,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                182,
+                201
+              ],
+              "anchor_utility_masses": [
+                4.251868724822998,
+                5.999362945556641
+              ],
+              "class_id": 6,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            }
+          ],
+          "policy": "AT_LEAST_ONE_SUPPORTED_SPARSE_ANCHOR_PER_DEV_SEED",
+          "supported_anchor_count": 13,
+          "supported_class_count": 7,
+          "supported_class_coverage": 1.0,
+          "total_anchor_count": 14
+        },
+        "37": {
+          "A2_FEASIBILITY": "PASS",
+          "abstained_anchor_count": 0,
+          "abstained_class_count": 0,
+          "amendment_id": "P3-C1-B1-A2",
+          "anchor_coverage": 1.0,
+          "class_count": 7,
+          "coverage_audit_only": true,
+          "coverage_threshold_added": false,
+          "full_gt_used": false,
+          "per_class": [
+            {
+              "anchor_raw_ids": [
+                17,
+                20
+              ],
+              "anchor_utility_masses": [
+                5.885721683502197,
+                2.4715280532836914
+              ],
+              "class_id": 0,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                30,
+                42
+              ],
+              "anchor_utility_masses": [
+                5.049559593200684,
+                2.5294246673583984
+              ],
+              "class_id": 1,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                60,
+                81
+              ],
+              "anchor_utility_masses": [
+                5.008708953857422,
+                5.3986968994140625
+              ],
+              "class_id": 2,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                96,
+                107
+              ],
+              "anchor_utility_masses": [
+                5.976212024688721,
+                5.971006870269775
+              ],
+              "class_id": 3,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                139,
+                142
+              ],
+              "anchor_utility_masses": [
+                5.456547737121582,
+                5.679931640625
+              ],
+              "class_id": 4,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                153,
+                175
+              ],
+              "anchor_utility_masses": [
+                4.542424201965332,
+                5.782556533813477
+              ],
+              "class_id": 5,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                182,
+                201
+              ],
+              "anchor_utility_masses": [
+                5.144204616546631,
+                5.877796649932861
+              ],
+              "class_id": 6,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            }
+          ],
+          "policy": "AT_LEAST_ONE_SUPPORTED_SPARSE_ANCHOR_PER_DEV_SEED",
+          "supported_anchor_count": 14,
+          "supported_class_count": 7,
+          "supported_class_coverage": 1.0,
+          "total_anchor_count": 14
+        }
+      }
+    },
+    {
+      "all_dev_seeds_A2_feasible": true,
+      "cross_seed_coverage": {
+        "coverage_audit_only": true,
+        "coverage_threshold_added": false,
+        "full_gt_used": false,
+        "persistent_abstained_classes": [],
+        "seed_specific_abstained_classes": {
+          "11": [],
+          "37": []
+        },
+        "union_abstained_classes": []
+      },
+      "dataset": "COIL20",
+      "dev_seeds": {
+        "11": {
+          "A2_FEASIBILITY": "PASS",
+          "abstained_anchor_count": 0,
+          "abstained_class_count": 0,
+          "amendment_id": "P3-C1-B1-A2",
+          "anchor_coverage": 1.0,
+          "class_count": 20,
+          "coverage_audit_only": true,
+          "coverage_threshold_added": false,
+          "full_gt_used": false,
+          "per_class": [
+            {
+              "anchor_raw_ids": [
+                54,
+                68
+              ],
+              "anchor_utility_masses": [
+                5.704333305358887,
+                5.999844074249268
+              ],
+              "class_id": 0,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                101,
+                132
+              ],
+              "anchor_utility_masses": [
+                5.999238967895508,
+                5.131150245666504
+              ],
+              "class_id": 1,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                173,
+                177
+              ],
+              "anchor_utility_masses": [
+                5.888424396514893,
+                5.710914134979248
+              ],
+              "class_id": 2,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                235,
+                281
+              ],
+              "anchor_utility_masses": [
+                5.993618011474609,
+                5.990514755249023
+              ],
+              "class_id": 3,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                319,
+                343
+              ],
+              "anchor_utility_masses": [
+                5.926475524902344,
+                5.751555442810059
+              ],
+              "class_id": 4,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                401,
+                404
+              ],
+              "anchor_utility_masses": [
+                3.1072139739990234,
+                5.99881649017334
+              ],
+              "class_id": 5,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                455,
+                462
+              ],
+              "anchor_utility_masses": [
+                5.988392353057861,
+                5.988629341125488
+              ],
+              "class_id": 6,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                555,
+                566
+              ],
+              "anchor_utility_masses": [
+                5.995341777801514,
+                5.9904937744140625
+              ],
+              "class_id": 7,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                631,
+                647
+              ],
+              "anchor_utility_masses": [
+                5.962010383605957,
+                5.995960712432861
+              ],
+              "class_id": 8,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                667,
+                674
+              ],
+              "anchor_utility_masses": [
+                5.577081680297852,
+                5.999873638153076
+              ],
+              "class_id": 9,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                734,
+                787
+              ],
+              "anchor_utility_masses": [
+                5.992586135864258,
+                5.9999847412109375
+              ],
+              "class_id": 10,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                810,
+                851
+              ],
+              "anchor_utility_masses": [
+                5.97368049621582,
+                5.975930213928223
+              ],
+              "class_id": 11,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                928,
+                931
+              ],
+              "anchor_utility_masses": [
+                5.98996639251709,
+                5.987882614135742
+              ],
+              "class_id": 12,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                936,
+                991
+              ],
+              "anchor_utility_masses": [
+                5.997485637664795,
+                5.995748519897461
+              ],
+              "class_id": 13,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1055,
+                1061
+              ],
+              "anchor_utility_masses": [
+                5.998773574829102,
+                5.999579429626465
+              ],
+              "class_id": 14,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1105,
+                1121
+              ],
+              "anchor_utility_masses": [
+                5.99983024597168,
+                5.999870777130127
+              ],
+              "class_id": 15,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1165,
+                1213
+              ],
+              "anchor_utility_masses": [
+                5.986606121063232,
+                5.989217281341553
+              ],
+              "class_id": 16,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1270,
+                1282
+              ],
+              "anchor_utility_masses": [
+                5.99915885925293,
+                5.998946189880371
+              ],
+              "class_id": 17,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1310,
+                1323
+              ],
+              "anchor_utility_masses": [
+                5.999935626983643,
+                5.883056640625
+              ],
+              "class_id": 18,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1371,
+                1380
+              ],
+              "anchor_utility_masses": [
+                5.987183570861816,
+                5.998647689819336
+              ],
+              "class_id": 19,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            }
+          ],
+          "policy": "AT_LEAST_ONE_SUPPORTED_SPARSE_ANCHOR_PER_DEV_SEED",
+          "supported_anchor_count": 40,
+          "supported_class_count": 20,
+          "supported_class_coverage": 1.0,
+          "total_anchor_count": 40
+        },
+        "37": {
+          "A2_FEASIBILITY": "PASS",
+          "abstained_anchor_count": 0,
+          "abstained_class_count": 0,
+          "amendment_id": "P3-C1-B1-A2",
+          "anchor_coverage": 1.0,
+          "class_count": 20,
+          "coverage_audit_only": true,
+          "coverage_threshold_added": false,
+          "full_gt_used": false,
+          "per_class": [
+            {
+              "anchor_raw_ids": [
+                54,
+                68
+              ],
+              "anchor_utility_masses": [
+                5.568851470947266,
+                5.99433708190918
+              ],
+              "class_id": 0,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                101,
+                132
+              ],
+              "anchor_utility_masses": [
+                5.901588439941406,
+                5.36959171295166
+              ],
+              "class_id": 1,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                173,
+                177
+              ],
+              "anchor_utility_masses": [
+                5.462779521942139,
+                3.221740245819092
+              ],
+              "class_id": 2,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                235,
+                281
+              ],
+              "anchor_utility_masses": [
+                5.9878764152526855,
+                5.799169063568115
+              ],
+              "class_id": 3,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                319,
+                343
+              ],
+              "anchor_utility_masses": [
+                5.98553466796875,
+                2.966536521911621
+              ],
+              "class_id": 4,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                401,
+                404
+              ],
+              "anchor_utility_masses": [
+                5.999103546142578,
+                5.972551345825195
+              ],
+              "class_id": 5,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                455,
+                462
+              ],
+              "anchor_utility_masses": [
+                5.991893768310547,
+                5.955006122589111
+              ],
+              "class_id": 6,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                555,
+                566
+              ],
+              "anchor_utility_masses": [
+                5.995532512664795,
+                5.9332356452941895
+              ],
+              "class_id": 7,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                631,
+                647
+              ],
+              "anchor_utility_masses": [
+                5.91864538192749,
+                5.994901657104492
+              ],
+              "class_id": 8,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                667,
+                674
+              ],
+              "anchor_utility_masses": [
+                5.5425848960876465,
+                5.576656341552734
+              ],
+              "class_id": 9,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                734,
+                787
+              ],
+              "anchor_utility_masses": [
+                5.99085807800293,
+                5.99778938293457
+              ],
+              "class_id": 10,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                810,
+                851
+              ],
+              "anchor_utility_masses": [
+                5.928496360778809,
+                5.987794399261475
+              ],
+              "class_id": 11,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                928,
+                931
+              ],
+              "anchor_utility_masses": [
+                5.982394218444824,
+                5.882983207702637
+              ],
+              "class_id": 12,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                936,
+                991
+              ],
+              "anchor_utility_masses": [
+                5.849225997924805,
+                5.99161434173584
+              ],
+              "class_id": 13,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1055,
+                1061
+              ],
+              "anchor_utility_masses": [
+                5.998012542724609,
+                5.994794845581055
+              ],
+              "class_id": 14,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1105,
+                1121
+              ],
+              "anchor_utility_masses": [
+                5.997089385986328,
+                5.9978437423706055
+              ],
+              "class_id": 15,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1165,
+                1213
+              ],
+              "anchor_utility_masses": [
+                5.927772045135498,
+                5.946893215179443
+              ],
+              "class_id": 16,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1270,
+                1282
+              ],
+              "anchor_utility_masses": [
+                5.998523712158203,
+                5.998412609100342
+              ],
+              "class_id": 17,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1310,
+                1323
+              ],
+              "anchor_utility_masses": [
+                5.998707294464111,
+                5.997467994689941
+              ],
+              "class_id": 18,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1371,
+                1380
+              ],
+              "anchor_utility_masses": [
+                5.993185997009277,
+                5.9989399909973145
+              ],
+              "class_id": 19,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            }
+          ],
+          "policy": "AT_LEAST_ONE_SUPPORTED_SPARSE_ANCHOR_PER_DEV_SEED",
+          "supported_anchor_count": 40,
+          "supported_class_count": 20,
+          "supported_class_coverage": 1.0,
+          "total_anchor_count": 40
+        }
+      }
+    },
+    {
+      "all_dev_seeds_A2_feasible": true,
+      "cross_seed_coverage": {
+        "coverage_audit_only": true,
+        "coverage_threshold_added": false,
+        "full_gt_used": false,
+        "persistent_abstained_classes": [],
+        "seed_specific_abstained_classes": {
+          "11": [],
+          "37": []
+        },
+        "union_abstained_classes": []
+      },
+      "dataset": "Caltech-5V",
+      "dev_seeds": {
+        "11": {
+          "A2_FEASIBILITY": "PASS",
+          "abstained_anchor_count": 0,
+          "abstained_class_count": 0,
+          "amendment_id": "P3-C1-B1-A2",
+          "anchor_coverage": 1.0,
+          "class_count": 7,
+          "coverage_audit_only": true,
+          "coverage_threshold_added": false,
+          "full_gt_used": false,
+          "per_class": [
+            {
+              "anchor_raw_ids": [
+                251,
+                626
+              ],
+              "anchor_utility_masses": [
+                15.143782615661621,
+                2.812199592590332
+              ],
+              "class_id": 0,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                287,
+                636
+              ],
+              "anchor_utility_masses": [
+                19.975175857543945,
+                12.178120613098145
+              ],
+              "class_id": 1,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                470,
+                772
+              ],
+              "anchor_utility_masses": [
+                19.025741577148438,
+                19.85830307006836
+              ],
+              "class_id": 2,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                367,
+                605
+              ],
+              "anchor_utility_masses": [
+                19.996915817260742,
+                19.742216110229492
+              ],
+              "class_id": 3,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1179,
+                1216
+              ],
+              "anchor_utility_masses": [
+                19.387941360473633,
+                18.68543815612793
+              ],
+              "class_id": 4,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                580,
+                799
+              ],
+              "anchor_utility_masses": [
+                17.690107345581055,
+                19.264015197753906
+              ],
+              "class_id": 5,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                35,
+                908
+              ],
+              "anchor_utility_masses": [
+                16.306949615478516,
+                11.210796356201172
+              ],
+              "class_id": 6,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            }
+          ],
+          "policy": "AT_LEAST_ONE_SUPPORTED_SPARSE_ANCHOR_PER_DEV_SEED",
+          "supported_anchor_count": 14,
+          "supported_class_count": 7,
+          "supported_class_coverage": 1.0,
+          "total_anchor_count": 14
+        },
+        "37": {
+          "A2_FEASIBILITY": "PASS",
+          "abstained_anchor_count": 0,
+          "abstained_class_count": 0,
+          "amendment_id": "P3-C1-B1-A2",
+          "anchor_coverage": 1.0,
+          "class_count": 7,
+          "coverage_audit_only": true,
+          "coverage_threshold_added": false,
+          "full_gt_used": false,
+          "per_class": [
+            {
+              "anchor_raw_ids": [
+                251,
+                626
+              ],
+              "anchor_utility_masses": [
+                1.7943497896194458,
+                8.856768608093262
+              ],
+              "class_id": 0,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                287,
+                636
+              ],
+              "anchor_utility_masses": [
+                19.006845474243164,
+                10.929237365722656
+              ],
+              "class_id": 1,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                470,
+                772
+              ],
+              "anchor_utility_masses": [
+                19.100614547729492,
+                19.654294967651367
+              ],
+              "class_id": 2,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                367,
+                605
+              ],
+              "anchor_utility_masses": [
+                19.99003028869629,
+                19.71493148803711
+              ],
+              "class_id": 3,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1179,
+                1216
+              ],
+              "anchor_utility_masses": [
+                17.69306182861328,
+                16.72661590576172
+              ],
+              "class_id": 4,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                580,
+                799
+              ],
+              "anchor_utility_masses": [
+                17.7824764251709,
+                19.99282455444336
+              ],
+              "class_id": 5,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                35,
+                908
+              ],
+              "anchor_utility_masses": [
+                18.873550415039062,
+                14.041838645935059
+              ],
+              "class_id": 6,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            }
+          ],
+          "policy": "AT_LEAST_ONE_SUPPORTED_SPARSE_ANCHOR_PER_DEV_SEED",
+          "supported_anchor_count": 14,
+          "supported_class_count": 7,
+          "supported_class_coverage": 1.0,
+          "total_anchor_count": 14
+        }
+      }
+    },
+    {
+      "all_dev_seeds_A2_feasible": true,
+      "cross_seed_coverage": {
+        "coverage_audit_only": true,
+        "coverage_threshold_added": false,
+        "full_gt_used": false,
+        "persistent_abstained_classes": [],
+        "seed_specific_abstained_classes": {
+          "11": [],
+          "37": []
+        },
+        "union_abstained_classes": []
+      },
+      "dataset": "MNIST-USPS",
+      "dev_seeds": {
+        "11": {
+          "A2_FEASIBILITY": "PASS",
+          "abstained_anchor_count": 2,
+          "abstained_class_count": 0,
+          "amendment_id": "P3-C1-B1-A2",
+          "anchor_coverage": 0.9,
+          "class_count": 10,
+          "coverage_audit_only": true,
+          "coverage_threshold_added": false,
+          "full_gt_used": false,
+          "per_class": [
+            {
+              "anchor_raw_ids": [
+                3325,
+                3539
+              ],
+              "anchor_utility_masses": [
+                2.0,
+                1.9999982118606567
+              ],
+              "class_id": 0,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2327,
+                4571
+              ],
+              "anchor_utility_masses": [
+                1.9804837703704834,
+                1.9998317956924438
+              ],
+              "class_id": 1,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1670,
+                4290
+              ],
+              "anchor_utility_masses": [
+                1.9999974966049194,
+                1.9993393421173096
+              ],
+              "class_id": 2,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1609,
+                3403
+              ],
+              "anchor_utility_masses": [
+                1.9999998807907104,
+                1.9999936819076538
+              ],
+              "class_id": 3,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                4040,
+                4470
+              ],
+              "anchor_utility_masses": [
+                1.9926843643188477,
+                1.9999290704727173
+              ],
+              "class_id": 4,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                189,
+                3211
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                1.9998817443847656
+              ],
+              "class_id": 5,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                220,
+                907
+              ],
+              "anchor_utility_masses": [
+                1.9963698387145996,
+                2.0
+              ],
+              "class_id": 6,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                308,
+                1640
+              ],
+              "anchor_utility_masses": [
+                1.947698950767517,
+                1.760503888130188
+              ],
+              "class_id": 7,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                37,
+                2134
+              ],
+              "anchor_utility_masses": [
+                1.9999974966049194,
+                1.7728297710418701
+              ],
+              "class_id": 8,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2183,
+                4589
+              ],
+              "anchor_utility_masses": [
+                1.999786615371704,
+                0.0
+              ],
+              "class_id": 9,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            }
+          ],
+          "policy": "AT_LEAST_ONE_SUPPORTED_SPARSE_ANCHOR_PER_DEV_SEED",
+          "supported_anchor_count": 18,
+          "supported_class_count": 10,
+          "supported_class_coverage": 1.0,
+          "total_anchor_count": 20
+        },
+        "37": {
+          "A2_FEASIBILITY": "PASS",
+          "abstained_anchor_count": 2,
+          "abstained_class_count": 0,
+          "amendment_id": "P3-C1-B1-A2",
+          "anchor_coverage": 0.9,
+          "class_count": 10,
+          "coverage_audit_only": true,
+          "coverage_threshold_added": false,
+          "full_gt_used": false,
+          "per_class": [
+            {
+              "anchor_raw_ids": [
+                3325,
+                3539
+              ],
+              "anchor_utility_masses": [
+                1.9999998807907104,
+                1.999846339225769
+              ],
+              "class_id": 0,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2327,
+                4571
+              ],
+              "anchor_utility_masses": [
+                1.9350181818008423,
+                1.9999420642852783
+              ],
+              "class_id": 1,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1670,
+                4290
+              ],
+              "anchor_utility_masses": [
+                1.9999991655349731,
+                1.9996180534362793
+              ],
+              "class_id": 2,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1609,
+                3403
+              ],
+              "anchor_utility_masses": [
+                1.999990701675415,
+                1.9999656677246094
+              ],
+              "class_id": 3,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                4040,
+                4470
+              ],
+              "anchor_utility_masses": [
+                1.9798469543457031,
+                1.9999995231628418
+              ],
+              "class_id": 4,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                189,
+                3211
+              ],
+              "anchor_utility_masses": [
+                1.8864097595214844,
+                1.999998688697815
+              ],
+              "class_id": 5,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                220,
+                907
+              ],
+              "anchor_utility_masses": [
+                1.9990665912628174,
+                2.0
+              ],
+              "class_id": 6,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                308,
+                1640
+              ],
+              "anchor_utility_masses": [
+                1.9479060173034668,
+                1.9974595308303833
+              ],
+              "class_id": 7,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                37,
+                2134
+              ],
+              "anchor_utility_masses": [
+                1.9997832775115967,
+                0.0
+              ],
+              "class_id": 8,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2183,
+                4589
+              ],
+              "anchor_utility_masses": [
+                1.9927152395248413,
+                0.0
+              ],
+              "class_id": 9,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            }
+          ],
+          "policy": "AT_LEAST_ONE_SUPPORTED_SPARSE_ANCHOR_PER_DEV_SEED",
+          "supported_anchor_count": 18,
+          "supported_class_count": 10,
+          "supported_class_coverage": 1.0,
+          "total_anchor_count": 20
+        }
+      }
+    },
+    {
+      "all_dev_seeds_A2_feasible": true,
+      "cross_seed_coverage": {
+        "coverage_audit_only": true,
+        "coverage_threshold_added": false,
+        "full_gt_used": false,
+        "persistent_abstained_classes": [
+          1,
+          10,
+          18,
+          20,
+          21,
+          22,
+          27,
+          51,
+          72,
+          82,
+          94
+        ],
+        "seed_specific_abstained_classes": {
+          "11": [
+            23,
+            28,
+            34,
+            38,
+            47,
+            55,
+            64,
+            77,
+            79,
+            85,
+            86,
+            97
+          ],
+          "37": [
+            2,
+            7,
+            12,
+            16,
+            35,
+            37,
+            41,
+            52,
+            71,
+            75,
+            76,
+            84,
+            93,
+            95
+          ]
+        },
+        "union_abstained_classes": [
+          1,
+          2,
+          7,
+          10,
+          12,
+          16,
+          18,
+          20,
+          21,
+          22,
+          23,
+          27,
+          28,
+          34,
+          35,
+          37,
+          38,
+          41,
+          47,
+          51,
+          52,
+          55,
+          64,
+          71,
+          72,
+          75,
+          76,
+          77,
+          79,
+          82,
+          84,
+          85,
+          86,
+          93,
+          94,
+          95,
+          97
+        ]
+      },
+      "dataset": "ALOI",
+      "dev_seeds": {
+        "11": {
+          "A2_FEASIBILITY": "PASS",
+          "abstained_anchor_count": 85,
+          "abstained_class_count": 23,
+          "amendment_id": "P3-C1-B1-A2",
+          "anchor_coverage": 0.575,
+          "class_count": 100,
+          "coverage_audit_only": true,
+          "coverage_threshold_added": false,
+          "full_gt_used": false,
+          "per_class": [
+            {
+              "anchor_raw_ids": [
+                5266,
+                8962
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                4.549387454986572
+              ],
+              "class_id": 0,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                713,
+                10636
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 1,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                2084,
+                5236
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                2.144085645675659
+              ],
+              "class_id": 2,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1637,
+                2771
+              ],
+              "anchor_utility_masses": [
+                5.327963352203369,
+                5.6605401039123535
+              ],
+              "class_id": 3,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2215,
+                6988
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.7877286672592163
+              ],
+              "class_id": 4,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                4263,
+                5597
+              ],
+              "anchor_utility_masses": [
+                3.2879583835601807,
+                0.0
+              ],
+              "class_id": 5,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1359,
+                8986
+              ],
+              "anchor_utility_masses": [
+                5.644819736480713,
+                5.978582382202148
+              ],
+              "class_id": 6,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                867,
+                5769
+              ],
+              "anchor_utility_masses": [
+                5.93942928314209,
+                0.9963333606719971
+              ],
+              "class_id": 7,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                583,
+                2162
+              ],
+              "anchor_utility_masses": [
+                4.242624759674072,
+                0.0
+              ],
+              "class_id": 8,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                4056,
+                8367
+              ],
+              "anchor_utility_masses": [
+                2.5261383056640625,
+                2.002363920211792
+              ],
+              "class_id": 9,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                628,
+                9164
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 10,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                5613,
+                7192
+              ],
+              "anchor_utility_masses": [
+                4.244023323059082,
+                2.2298223972320557
+              ],
+              "class_id": 11,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3323,
+                7942
+              ],
+              "anchor_utility_masses": [
+                1.9795680046081543,
+                0.0
+              ],
+              "class_id": 12,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                5616,
+                9868
+              ],
+              "anchor_utility_masses": [
+                0.8046393990516663,
+                0.0
+              ],
+              "class_id": 13,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                6946,
+                10121
+              ],
+              "anchor_utility_masses": [
+                2.399242877960205,
+                2.5505876541137695
+              ],
+              "class_id": 14,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2455,
+                6975
+              ],
+              "anchor_utility_masses": [
+                2.4464874267578125,
+                4.277912616729736
+              ],
+              "class_id": 15,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2729,
+                9049
+              ],
+              "anchor_utility_masses": [
+                1.9999041557312012,
+                0.0
+              ],
+              "class_id": 16,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                6234,
+                10104
+              ],
+              "anchor_utility_masses": [
+                5.864530563354492,
+                0.0
+              ],
+              "class_id": 17,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                6646,
+                9649
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 18,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                1775,
+                9001
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.6783976554870605
+              ],
+              "class_id": 19,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                5462,
+                7637
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 20,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                4239,
+                8899
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 21,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                6783,
+                10526
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 22,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                1389,
+                6833
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 23,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                801,
+                9711
+              ],
+              "anchor_utility_masses": [
+                2.0281457901000977,
+                4.242748737335205
+              ],
+              "class_id": 24,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                533,
+                2885
+              ],
+              "anchor_utility_masses": [
+                4.171085834503174,
+                0.996645987033844
+              ],
+              "class_id": 25,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1395,
+                5913
+              ],
+              "anchor_utility_masses": [
+                1.9999924898147583,
+                0.0
+              ],
+              "class_id": 26,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1520,
+                3019
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 27,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                1952,
+                5033
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 28,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                3509,
+                10064
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                4.175459384918213
+              ],
+              "class_id": 29,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                201,
+                6082
+              ],
+              "anchor_utility_masses": [
+                4.242607116699219,
+                4.402788162231445
+              ],
+              "class_id": 30,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2797,
+                10148
+              ],
+              "anchor_utility_masses": [
+                2.0,
+                4.335108757019043
+              ],
+              "class_id": 31,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                7396,
+                9657
+              ],
+              "anchor_utility_masses": [
+                4.688685417175293,
+                4.391023635864258
+              ],
+              "class_id": 32,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3543,
+                6235
+              ],
+              "anchor_utility_masses": [
+                2.0092196464538574,
+                0.0
+              ],
+              "class_id": 33,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                655,
+                5920
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 34,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                1220,
+                9296
+              ],
+              "anchor_utility_masses": [
+                5.16733980178833,
+                0.0
+              ],
+              "class_id": 35,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                550,
+                9580
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                2.6770339012145996
+              ],
+              "class_id": 36,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3114,
+                9949
+              ],
+              "anchor_utility_masses": [
+                2.373990297317505,
+                5.1318769454956055
+              ],
+              "class_id": 37,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                5196,
+                6771
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 38,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                8825,
+                9961
+              ],
+              "anchor_utility_masses": [
+                2.0,
+                4.220688343048096
+              ],
+              "class_id": 39,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                5017,
+                7241
+              ],
+              "anchor_utility_masses": [
+                4.315365314483643,
+                4.245720863342285
+              ],
+              "class_id": 40,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                556,
+                1028
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                2.827993392944336
+              ],
+              "class_id": 41,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2252,
+                9373
+              ],
+              "anchor_utility_masses": [
+                2.00667142868042,
+                4.060579299926758
+              ],
+              "class_id": 42,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3719,
+                4170
+              ],
+              "anchor_utility_masses": [
+                4.242520332336426,
+                1.9990019798278809
+              ],
+              "class_id": 43,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                5675,
+                9435
+              ],
+              "anchor_utility_masses": [
+                5.266831398010254,
+                0.0
+              ],
+              "class_id": 44,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                6081,
+                8694
+              ],
+              "anchor_utility_masses": [
+                1.1833631992340088,
+                0.0
+              ],
+              "class_id": 45,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3651,
+                5741
+              ],
+              "anchor_utility_masses": [
+                2.756870985031128,
+                2.718292236328125
+              ],
+              "class_id": 46,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                539,
+                6541
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 47,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                974,
+                1971
+              ],
+              "anchor_utility_masses": [
+                5.766140937805176,
+                2.690272808074951
+              ],
+              "class_id": 48,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2288,
+                10577
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                3.7242374420166016
+              ],
+              "class_id": 49,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2484,
+                6064
+              ],
+              "anchor_utility_masses": [
+                1.9880650043487549,
+                4.0266618728637695
+              ],
+              "class_id": 50,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                4490,
+                5306
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 51,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                5297,
+                7864
+              ],
+              "anchor_utility_masses": [
+                0.9987735748291016,
+                0.0
+              ],
+              "class_id": 52,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2575,
+                5637
+              ],
+              "anchor_utility_masses": [
+                1.9901647567749023,
+                0.9700968265533447
+              ],
+              "class_id": 53,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3485,
+                9520
+              ],
+              "anchor_utility_masses": [
+                5.998044013977051,
+                5.857558250427246
+              ],
+              "class_id": 54,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                10493,
+                10629
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 55,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                8816,
+                9431
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                4.857274055480957
+              ],
+              "class_id": 56,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                501,
+                690
+              ],
+              "anchor_utility_masses": [
+                1.9985401630401611,
+                2.0060343742370605
+              ],
+              "class_id": 57,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                6196,
+                6774
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                2.1773972511291504
+              ],
+              "class_id": 58,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2687,
+                6181
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                4.2415666580200195
+              ],
+              "class_id": 59,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1326,
+                2541
+              ],
+              "anchor_utility_masses": [
+                1.225106954574585,
+                2.798539638519287
+              ],
+              "class_id": 60,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3187,
+                10638
+              ],
+              "anchor_utility_masses": [
+                2.0,
+                2.0
+              ],
+              "class_id": 61,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                470,
+                4080
+              ],
+              "anchor_utility_masses": [
+                4.257059097290039,
+                2.044511556625366
+              ],
+              "class_id": 62,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                381,
+                6078
+              ],
+              "anchor_utility_masses": [
+                4.218334197998047,
+                1.308803677558899
+              ],
+              "class_id": 63,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                465,
+                8151
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 64,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                3186,
+                5481
+              ],
+              "anchor_utility_masses": [
+                0.8162082433700562,
+                0.9200612306594849
+              ],
+              "class_id": 65,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                5408,
+                10506
+              ],
+              "anchor_utility_masses": [
+                0.9999533891677856,
+                1.998976469039917
+              ],
+              "class_id": 66,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2284,
+                8442
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                2.000589370727539
+              ],
+              "class_id": 67,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                10237,
+                10379
+              ],
+              "anchor_utility_masses": [
+                2.2010486125946045,
+                2.1028904914855957
+              ],
+              "class_id": 68,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                8212,
+                9538
+              ],
+              "anchor_utility_masses": [
+                1.4074831008911133,
+                2.046203374862671
+              ],
+              "class_id": 69,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                4960,
+                10244
+              ],
+              "anchor_utility_masses": [
+                1.9999983310699463,
+                1.9999759197235107
+              ],
+              "class_id": 70,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3541,
+                9116
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.690000593662262
+              ],
+              "class_id": 71,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                768,
+                5423
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 72,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                49,
+                7662
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                4.858593940734863
+              ],
+              "class_id": 73,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2561,
+                6751
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                2.652794361114502
+              ],
+              "class_id": 74,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1324,
+                2334
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.9505136609077454
+              ],
+              "class_id": 75,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                7041,
+                9568
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.9477015733718872
+              ],
+              "class_id": 76,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                6911,
+                7440
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 77,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                1975,
+                4812
+              ],
+              "anchor_utility_masses": [
+                4.219752311706543,
+                3.9474878311157227
+              ],
+              "class_id": 78,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                4104,
+                8845
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 79,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                2117,
+                7386
+              ],
+              "anchor_utility_masses": [
+                2.025477170944214,
+                2.4220967292785645
+              ],
+              "class_id": 80,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                683,
+                8283
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                1.2727853059768677
+              ],
+              "class_id": 81,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                531,
+                9451
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 82,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                6910,
+                10717
+              ],
+              "anchor_utility_masses": [
+                1.269115686416626,
+                0.0
+              ],
+              "class_id": 83,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2562,
+                5715
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.9919204711914062
+              ],
+              "class_id": 84,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3702,
+                9421
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 85,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                4776,
+                8570
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 86,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                7529,
+                9698
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                5.894381999969482
+              ],
+              "class_id": 87,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                5746,
+                8476
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                1.195143699645996
+              ],
+              "class_id": 88,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3815,
+                6727
+              ],
+              "anchor_utility_masses": [
+                2.272362232208252,
+                1.9953405857086182
+              ],
+              "class_id": 89,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3821,
+                9287
+              ],
+              "anchor_utility_masses": [
+                0.8461734652519226,
+                3.4150493144989014
+              ],
+              "class_id": 90,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2358,
+                7371
+              ],
+              "anchor_utility_masses": [
+                1.0447865724563599,
+                4.84652042388916
+              ],
+              "class_id": 91,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                823,
+                3354
+              ],
+              "anchor_utility_masses": [
+                0.8838492631912231,
+                0.0
+              ],
+              "class_id": 92,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                4930,
+                9283
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                1.6847686767578125
+              ],
+              "class_id": 93,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3859,
+                5868
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 94,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                6410,
+                9118
+              ],
+              "anchor_utility_masses": [
+                1.5707653760910034,
+                0.9435735940933228
+              ],
+              "class_id": 95,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                7363,
+                9838
+              ],
+              "anchor_utility_masses": [
+                2.492295026779175,
+                0.0
+              ],
+              "class_id": 96,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                9090,
+                10290
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 97,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                4038,
+                5727
+              ],
+              "anchor_utility_masses": [
+                2.091451644897461,
+                0.0
+              ],
+              "class_id": 98,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                7342,
+                8516
+              ],
+              "anchor_utility_masses": [
+                0.864744246006012,
+                0.0
+              ],
+              "class_id": 99,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            }
+          ],
+          "policy": "AT_LEAST_ONE_SUPPORTED_SPARSE_ANCHOR_PER_DEV_SEED",
+          "supported_anchor_count": 115,
+          "supported_class_count": 77,
+          "supported_class_coverage": 0.77,
+          "total_anchor_count": 200
+        },
+        "37": {
+          "A2_FEASIBILITY": "PASS",
+          "abstained_anchor_count": 82,
+          "abstained_class_count": 25,
+          "amendment_id": "P3-C1-B1-A2",
+          "anchor_coverage": 0.59,
+          "class_count": 100,
+          "coverage_audit_only": true,
+          "coverage_threshold_added": false,
+          "full_gt_used": false,
+          "per_class": [
+            {
+              "anchor_raw_ids": [
+                5266,
+                8962
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                4.9410200119018555
+              ],
+              "class_id": 0,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                713,
+                10636
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 1,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                2084,
+                5236
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 2,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                1637,
+                2771
+              ],
+              "anchor_utility_masses": [
+                5.522341251373291,
+                5.673316478729248
+              ],
+              "class_id": 3,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2215,
+                6988
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                3.550816059112549
+              ],
+              "class_id": 4,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                4263,
+                5597
+              ],
+              "anchor_utility_masses": [
+                0.9174214005470276,
+                0.0
+              ],
+              "class_id": 5,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1359,
+                8986
+              ],
+              "anchor_utility_masses": [
+                2.455876350402832,
+                5.858231067657471
+              ],
+              "class_id": 6,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                867,
+                5769
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 7,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                583,
+                2162
+              ],
+              "anchor_utility_masses": [
+                4.2450761795043945,
+                0.0
+              ],
+              "class_id": 8,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                4056,
+                8367
+              ],
+              "anchor_utility_masses": [
+                2.384568452835083,
+                2.0001041889190674
+              ],
+              "class_id": 9,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                628,
+                9164
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 10,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                5613,
+                7192
+              ],
+              "anchor_utility_masses": [
+                2.757058620452881,
+                2.062533378601074
+              ],
+              "class_id": 11,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3323,
+                7942
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 12,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                5616,
+                9868
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                1.921125054359436
+              ],
+              "class_id": 13,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                6946,
+                10121
+              ],
+              "anchor_utility_masses": [
+                2.0,
+                2.0
+              ],
+              "class_id": 14,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2455,
+                6975
+              ],
+              "anchor_utility_masses": [
+                1.9999948740005493,
+                1.9999998807907104
+              ],
+              "class_id": 15,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2729,
+                9049
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 16,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                6234,
+                10104
+              ],
+              "anchor_utility_masses": [
+                5.964377403259277,
+                2.4423470497131348
+              ],
+              "class_id": 17,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                6646,
+                9649
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 18,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                1775,
+                9001
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                2.1411068439483643
+              ],
+              "class_id": 19,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                5462,
+                7637
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 20,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                4239,
+                8899
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 21,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                6783,
+                10526
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 22,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                1389,
+                6833
+              ],
+              "anchor_utility_masses": [
+                4.242467403411865,
+                5.850886344909668
+              ],
+              "class_id": 23,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                801,
+                9711
+              ],
+              "anchor_utility_masses": [
+                2.0004305839538574,
+                2.8131191730499268
+              ],
+              "class_id": 24,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                533,
+                2885
+              ],
+              "anchor_utility_masses": [
+                4.242439270019531,
+                1.9999980926513672
+              ],
+              "class_id": 25,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1395,
+                5913
+              ],
+              "anchor_utility_masses": [
+                0.9877743124961853,
+                0.0
+              ],
+              "class_id": 26,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1520,
+                3019
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 27,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                1952,
+                5033
+              ],
+              "anchor_utility_masses": [
+                3.783017158508301,
+                2.3347127437591553
+              ],
+              "class_id": 28,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3509,
+                10064
+              ],
+              "anchor_utility_masses": [
+                4.126123905181885,
+                0.0
+              ],
+              "class_id": 29,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                201,
+                6082
+              ],
+              "anchor_utility_masses": [
+                4.242640495300293,
+                2.6669974327087402
+              ],
+              "class_id": 30,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2797,
+                10148
+              ],
+              "anchor_utility_masses": [
+                2.0,
+                5.973667144775391
+              ],
+              "class_id": 31,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                7396,
+                9657
+              ],
+              "anchor_utility_masses": [
+                4.035327911376953,
+                4.11431884765625
+              ],
+              "class_id": 32,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3543,
+                6235
+              ],
+              "anchor_utility_masses": [
+                2.0073771476745605,
+                2.0051321983337402
+              ],
+              "class_id": 33,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                655,
+                5920
+              ],
+              "anchor_utility_masses": [
+                1.9987258911132812,
+                1.9921208620071411
+              ],
+              "class_id": 34,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1220,
+                9296
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 35,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                550,
+                9580
+              ],
+              "anchor_utility_masses": [
+                1.1538050174713135,
+                2.539646625518799
+              ],
+              "class_id": 36,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3114,
+                9949
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 37,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                5196,
+                6771
+              ],
+              "anchor_utility_masses": [
+                0.9573163390159607,
+                0.0
+              ],
+              "class_id": 38,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                8825,
+                9961
+              ],
+              "anchor_utility_masses": [
+                2.5062432289123535,
+                2.0000083446502686
+              ],
+              "class_id": 39,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                5017,
+                7241
+              ],
+              "anchor_utility_masses": [
+                1.0615653991699219,
+                0.0
+              ],
+              "class_id": 40,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                556,
+                1028
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 41,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                2252,
+                9373
+              ],
+              "anchor_utility_masses": [
+                2.0587000846862793,
+                4.619469165802002
+              ],
+              "class_id": 42,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3719,
+                4170
+              ],
+              "anchor_utility_masses": [
+                4.035442352294922,
+                4.241856098175049
+              ],
+              "class_id": 43,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                5675,
+                9435
+              ],
+              "anchor_utility_masses": [
+                5.31085205078125,
+                0.0
+              ],
+              "class_id": 44,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                6081,
+                8694
+              ],
+              "anchor_utility_masses": [
+                2.1850967407226562,
+                1.3240858316421509
+              ],
+              "class_id": 45,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3651,
+                5741
+              ],
+              "anchor_utility_masses": [
+                5.908658027648926,
+                4.247399806976318
+              ],
+              "class_id": 46,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                539,
+                6541
+              ],
+              "anchor_utility_masses": [
+                1.014636754989624,
+                2.028013229370117
+              ],
+              "class_id": 47,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                974,
+                1971
+              ],
+              "anchor_utility_masses": [
+                4.357668876647949,
+                4.667238235473633
+              ],
+              "class_id": 48,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2288,
+                10577
+              ],
+              "anchor_utility_masses": [
+                2.319417953491211,
+                0.0
+              ],
+              "class_id": 49,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2484,
+                6064
+              ],
+              "anchor_utility_masses": [
+                2.00382399559021,
+                2.2476229667663574
+              ],
+              "class_id": 50,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                4490,
+                5306
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 51,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                5297,
+                7864
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 52,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                2575,
+                5637
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                1.9635651111602783
+              ],
+              "class_id": 53,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3485,
+                9520
+              ],
+              "anchor_utility_masses": [
+                5.098743915557861,
+                5.999816417694092
+              ],
+              "class_id": 54,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                10493,
+                10629
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                1.7057900428771973
+              ],
+              "class_id": 55,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                8816,
+                9431
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                5.84743070602417
+              ],
+              "class_id": 56,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                501,
+                690
+              ],
+              "anchor_utility_masses": [
+                4.2407965660095215,
+                2.000962972640991
+              ],
+              "class_id": 57,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                6196,
+                6774
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.8433094024658203
+              ],
+              "class_id": 58,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2687,
+                6181
+              ],
+              "anchor_utility_masses": [
+                2.0174789428710938,
+                2.0007574558258057
+              ],
+              "class_id": 59,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1326,
+                2541
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                5.8874640464782715
+              ],
+              "class_id": 60,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3187,
+                10638
+              ],
+              "anchor_utility_masses": [
+                2.0000011920928955,
+                5.927495956420898
+              ],
+              "class_id": 61,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                470,
+                4080
+              ],
+              "anchor_utility_masses": [
+                5.993996620178223,
+                2.0
+              ],
+              "class_id": 62,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                381,
+                6078
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                2.795703887939453
+              ],
+              "class_id": 63,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                465,
+                8151
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.9731255173683167
+              ],
+              "class_id": 64,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3186,
+                5481
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                2.077613115310669
+              ],
+              "class_id": 65,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                5408,
+                10506
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                1.7571187019348145
+              ],
+              "class_id": 66,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2284,
+                8442
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                4.038974285125732
+              ],
+              "class_id": 67,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                10237,
+                10379
+              ],
+              "anchor_utility_masses": [
+                4.31275749206543,
+                4.153860569000244
+              ],
+              "class_id": 68,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                8212,
+                9538
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                4.108300685882568
+              ],
+              "class_id": 69,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                4960,
+                10244
+              ],
+              "anchor_utility_masses": [
+                2.0000016689300537,
+                2.510861873626709
+              ],
+              "class_id": 70,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3541,
+                9116
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 71,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                768,
+                5423
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 72,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                49,
+                7662
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                2.0000226497650146
+              ],
+              "class_id": 73,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2561,
+                6751
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                3.0029592514038086
+              ],
+              "class_id": 74,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1324,
+                2334
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 75,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                7041,
+                9568
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 76,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                6911,
+                7440
+              ],
+              "anchor_utility_masses": [
+                2.7425966262817383,
+                0.0
+              ],
+              "class_id": 77,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1975,
+                4812
+              ],
+              "anchor_utility_masses": [
+                3.622279644012451,
+                2.094160556793213
+              ],
+              "class_id": 78,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                4104,
+                8845
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                2.6692957878112793
+              ],
+              "class_id": 79,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2117,
+                7386
+              ],
+              "anchor_utility_masses": [
+                5.665537357330322,
+                2.1847734451293945
+              ],
+              "class_id": 80,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                683,
+                8283
+              ],
+              "anchor_utility_masses": [
+                2.6459062099456787,
+                5.383293151855469
+              ],
+              "class_id": 81,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                531,
+                9451
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 82,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                6910,
+                10717
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                4.334605693817139
+              ],
+              "class_id": 83,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2562,
+                5715
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 84,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                3702,
+                9421
+              ],
+              "anchor_utility_masses": [
+                1.9304203987121582,
+                2.000298023223877
+              ],
+              "class_id": 85,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                4776,
+                8570
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                2.613607406616211
+              ],
+              "class_id": 86,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                7529,
+                9698
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                4.560859680175781
+              ],
+              "class_id": 87,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                5746,
+                8476
+              ],
+              "anchor_utility_masses": [
+                3.9420881271362305,
+                5.669453144073486
+              ],
+              "class_id": 88,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3815,
+                6727
+              ],
+              "anchor_utility_masses": [
+                4.91994571685791,
+                1.010422706604004
+              ],
+              "class_id": 89,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3821,
+                9287
+              ],
+              "anchor_utility_masses": [
+                2.775261878967285,
+                3.5171055793762207
+              ],
+              "class_id": 90,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2358,
+                7371
+              ],
+              "anchor_utility_masses": [
+                4.899045944213867,
+                5.379161834716797
+              ],
+              "class_id": 91,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                823,
+                3354
+              ],
+              "anchor_utility_masses": [
+                1.9917576313018799,
+                0.0
+              ],
+              "class_id": 92,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                4930,
+                9283
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 93,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                3859,
+                5868
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 94,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                6410,
+                9118
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 95,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                7363,
+                9838
+              ],
+              "anchor_utility_masses": [
+                2.3536741733551025,
+                1.9999970197677612
+              ],
+              "class_id": 96,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                9090,
+                10290
+              ],
+              "anchor_utility_masses": [
+                1.9930388927459717,
+                0.8440084457397461
+              ],
+              "class_id": 97,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                4038,
+                5727
+              ],
+              "anchor_utility_masses": [
+                2.775994300842285,
+                4.055075645446777
+              ],
+              "class_id": 98,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                7342,
+                8516
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.9382794499397278
+              ],
+              "class_id": 99,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            }
+          ],
+          "policy": "AT_LEAST_ONE_SUPPORTED_SPARSE_ANCHOR_PER_DEV_SEED",
+          "supported_anchor_count": 118,
+          "supported_class_count": 75,
+          "supported_class_coverage": 0.75,
+          "total_anchor_count": 200
+        }
+      }
+    },
+    {
+      "all_dev_seeds_A2_feasible": true,
+      "cross_seed_coverage": {
+        "coverage_audit_only": true,
+        "coverage_threshold_added": false,
+        "full_gt_used": false,
+        "persistent_abstained_classes": [
+          1
+        ],
+        "seed_specific_abstained_classes": {
+          "11": [
+            10
+          ],
+          "37": [
+            15
+          ]
+        },
+        "union_abstained_classes": [
+          1,
+          10,
+          15
+        ]
+      },
+      "dataset": "CCV",
+      "dev_seeds": {
+        "11": {
+          "A2_FEASIBILITY": "PASS",
+          "abstained_anchor_count": 11,
+          "abstained_class_count": 2,
+          "amendment_id": "P3-C1-B1-A2",
+          "anchor_coverage": 0.725,
+          "class_count": 20,
+          "coverage_audit_only": true,
+          "coverage_threshold_added": false,
+          "full_gt_used": false,
+          "per_class": [
+            {
+              "anchor_raw_ids": [
+                36,
+                3679
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                1.2275587320327759
+              ],
+              "class_id": 0,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3527,
+                4327
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 1,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                4348,
+                4400
+              ],
+              "anchor_utility_masses": [
+                3.0229592323303223,
+                2.7530479431152344
+              ],
+              "class_id": 2,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                486,
+                4471
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                2.902925968170166
+              ],
+              "class_id": 3,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                746,
+                4600
+              ],
+              "anchor_utility_masses": [
+                5.054684638977051,
+                3.2563672065734863
+              ],
+              "class_id": 4,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3573,
+                4852
+              ],
+              "anchor_utility_masses": [
+                0.6577616333961487,
+                5.997990608215332
+              ],
+              "class_id": 5,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1063,
+                1084
+              ],
+              "anchor_utility_masses": [
+                1.084857702255249,
+                0.7218024134635925
+              ],
+              "class_id": 6,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                4984,
+                5073
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                3.6524200439453125
+              ],
+              "class_id": 7,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1327,
+                5230
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                2.698078155517578
+              ],
+              "class_id": 8,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1608,
+                3379
+              ],
+              "anchor_utility_masses": [
+                2.991666316986084,
+                2.826507329940796
+              ],
+              "class_id": 9,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1787,
+                5450
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 10,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                1875,
+                3821
+              ],
+              "anchor_utility_masses": [
+                5.833106994628906,
+                5.437346458435059
+              ],
+              "class_id": 11,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2054,
+                3685
+              ],
+              "anchor_utility_masses": [
+                2.1688106060028076,
+                5.742762088775635
+              ],
+              "class_id": 12,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2099,
+                4030
+              ],
+              "anchor_utility_masses": [
+                3.0546422004699707,
+                0.0
+              ],
+              "class_id": 13,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2175,
+                5785
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                5.01942253112793
+              ],
+              "class_id": 14,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                5900,
+                6094
+              ],
+              "anchor_utility_masses": [
+                0.93343186378479,
+                2.825742721557617
+              ],
+              "class_id": 15,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                6151,
+                6167
+              ],
+              "anchor_utility_masses": [
+                5.862722873687744,
+                2.6339163780212402
+              ],
+              "class_id": 16,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                4014,
+                6437
+              ],
+              "anchor_utility_masses": [
+                5.670012474060059,
+                2.881011486053467
+              ],
+              "class_id": 17,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3199,
+                4076
+              ],
+              "anchor_utility_masses": [
+                4.689404487609863,
+                3.2133305072784424
+              ],
+              "class_id": 18,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3260,
+                3355
+              ],
+              "anchor_utility_masses": [
+                5.462791442871094,
+                0.0
+              ],
+              "class_id": 19,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            }
+          ],
+          "policy": "AT_LEAST_ONE_SUPPORTED_SPARSE_ANCHOR_PER_DEV_SEED",
+          "supported_anchor_count": 29,
+          "supported_class_count": 18,
+          "supported_class_coverage": 0.9,
+          "total_anchor_count": 40
+        },
+        "37": {
+          "A2_FEASIBILITY": "PASS",
+          "abstained_anchor_count": 15,
+          "abstained_class_count": 2,
+          "amendment_id": "P3-C1-B1-A2",
+          "anchor_coverage": 0.625,
+          "class_count": 20,
+          "coverage_audit_only": true,
+          "coverage_threshold_added": false,
+          "full_gt_used": false,
+          "per_class": [
+            {
+              "anchor_raw_ids": [
+                36,
+                3679
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                1.3023457527160645
+              ],
+              "class_id": 0,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3527,
+                4327
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 1,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                4348,
+                4400
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                5.45473575592041
+              ],
+              "class_id": 2,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                486,
+                4471
+              ],
+              "anchor_utility_masses": [
+                2.4061942100524902,
+                4.920990467071533
+              ],
+              "class_id": 3,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                746,
+                4600
+              ],
+              "anchor_utility_masses": [
+                2.2837448120117188,
+                5.999725818634033
+              ],
+              "class_id": 4,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3573,
+                4852
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                3.329766273498535
+              ],
+              "class_id": 5,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1063,
+                1084
+              ],
+              "anchor_utility_masses": [
+                5.899392127990723,
+                0.0
+              ],
+              "class_id": 6,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                4984,
+                5073
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                1.3108481168746948
+              ],
+              "class_id": 7,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1327,
+                5230
+              ],
+              "anchor_utility_masses": [
+                5.317521572113037,
+                4.56997013092041
+              ],
+              "class_id": 8,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1608,
+                3379
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                2.82839035987854
+              ],
+              "class_id": 9,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1787,
+                5450
+              ],
+              "anchor_utility_masses": [
+                2.487374782562256,
+                0.0
+              ],
+              "class_id": 10,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                1875,
+                3821
+              ],
+              "anchor_utility_masses": [
+                5.980291843414307,
+                3.2040481567382812
+              ],
+              "class_id": 11,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2054,
+                3685
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                5.995038986206055
+              ],
+              "class_id": 12,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2099,
+                4030
+              ],
+              "anchor_utility_masses": [
+                2.9375874996185303,
+                0.0
+              ],
+              "class_id": 13,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                2175,
+                5785
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                5.787069320678711
+              ],
+              "class_id": 14,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                5900,
+                6094
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                0.0
+              ],
+              "class_id": 15,
+              "supported_anchor_count": 0,
+              "utility_abstained_class": true
+            },
+            {
+              "anchor_raw_ids": [
+                6151,
+                6167
+              ],
+              "anchor_utility_masses": [
+                0.0,
+                5.986622333526611
+              ],
+              "class_id": 16,
+              "supported_anchor_count": 1,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                4014,
+                6437
+              ],
+              "anchor_utility_masses": [
+                3.0442771911621094,
+                2.865173816680908
+              ],
+              "class_id": 17,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3199,
+                4076
+              ],
+              "anchor_utility_masses": [
+                0.8919063806533813,
+                5.673708915710449
+              ],
+              "class_id": 18,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            },
+            {
+              "anchor_raw_ids": [
+                3260,
+                3355
+              ],
+              "anchor_utility_masses": [
+                2.553821325302124,
+                2.631678819656372
+              ],
+              "class_id": 19,
+              "supported_anchor_count": 2,
+              "utility_abstained_class": false
+            }
+          ],
+          "policy": "AT_LEAST_ONE_SUPPORTED_SPARSE_ANCHOR_PER_DEV_SEED",
+          "supported_anchor_count": 25,
+          "supported_class_count": 18,
+          "supported_class_coverage": 0.9,
+          "total_anchor_count": 40
+        }
+      }
+    }
+  ],
+  "feasibility_protocol_changed": true,
+  "full_gt_used": false,
+  "scientific_protocol_changed": true,
+  "stage": "P3-C1-B1-A2"
+}

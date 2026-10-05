@@ -1,0 +1,11 @@
+{
+  "b1_exposures": {
+    "ALOI": 1,
+    "CCV": 3
+  },
+  "b4_conclusion": "NOT_CONFIRMED",
+  "b4_result_freeze": "PASS",
+  "method_amv_sha256": "68f3edcd55e32456a5bcdbcbbc48329f19c5652dee1fc27420e2865f7068e5dc",
+  "method_bone_sha256": "d13ba6ba91362210f9a614f7353e9de688ff1815f075916b457df6c767a14092",
+  "verified": true
+}

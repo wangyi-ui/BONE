@@ -1,0 +1,260 @@
+{
+  "entries": [
+    {
+      "candidate": {
+        "dataset": "CCV",
+        "optimizer_name": "Adam",
+        "semantic_exposure": 3,
+        "semantic_lr": 3e-06
+      },
+      "optimizer_provenance": {
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "name": "Adam",
+        "verified_from_frozen_B1_default_Adam_runner": true,
+        "weight_decay": 0.0
+      },
+      "reason": "EXACT_ADAM_B1_B2_PRE_GT_PROVENANCE",
+      "reusable": true,
+      "source_path": "outputs/bone_p3/p3_c1_b2_targeted_local_refinement/ccv/lr_3.0000000000000001e-06__es_3.json",
+      "source_sha256": "e9c2826c9411b46bf466a21d180c041f483f7f640b048583c87c2ef89da0edf2"
+    },
+    {
+      "candidate": {
+        "dataset": "CCV",
+        "optimizer_name": "Adam",
+        "semantic_exposure": 3,
+        "semantic_lr": 1e-05
+      },
+      "optimizer_provenance": {
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "name": "Adam",
+        "verified_from_frozen_B1_default_Adam_runner": true,
+        "weight_decay": 0.0
+      },
+      "reason": "EXACT_ADAM_B1_B2_PRE_GT_PROVENANCE",
+      "reusable": true,
+      "source_path": "outputs/bone_p3/p3_c1_b2_targeted_local_refinement/ccv/lr_1.0000000000000001e-05__es_3.json",
+      "source_sha256": "2f5d167c2cee91703efe1d91e7ee276e473cd9dd7f47986870844a15abbf1abc"
+    },
+    {
+      "candidate": {
+        "dataset": "CCV",
+        "optimizer_name": "Adam",
+        "semantic_exposure": 3,
+        "semantic_lr": 3e-05
+      },
+      "optimizer_provenance": {
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "name": "Adam",
+        "verified_from_frozen_B1_default_Adam_runner": true,
+        "weight_decay": 0.0
+      },
+      "reason": "EXACT_ADAM_B1_B2_PRE_GT_PROVENANCE",
+      "reusable": true,
+      "source_path": "outputs/bone_p3/p3_c1_b2_targeted_local_refinement/ccv/lr_3.0000000000000001e-05__es_3.json",
+      "source_sha256": "49201d448147ed5893685c014629280fe2e329a36cdf18cf31cbee8b4ba3ec4a"
+    },
+    {
+      "candidate": {
+        "dataset": "CCV",
+        "optimizer_name": "AdamW",
+        "semantic_exposure": 3,
+        "semantic_lr": 3e-06
+      },
+      "reason": "NON_ADAM_REUSE_FORBIDDEN",
+      "reusable": false
+    },
+    {
+      "candidate": {
+        "dataset": "CCV",
+        "optimizer_name": "AdamW",
+        "semantic_exposure": 3,
+        "semantic_lr": 1e-05
+      },
+      "reason": "NON_ADAM_REUSE_FORBIDDEN",
+      "reusable": false
+    },
+    {
+      "candidate": {
+        "dataset": "CCV",
+        "optimizer_name": "AdamW",
+        "semantic_exposure": 3,
+        "semantic_lr": 3e-05
+      },
+      "reason": "NON_ADAM_REUSE_FORBIDDEN",
+      "reusable": false
+    },
+    {
+      "candidate": {
+        "dataset": "CCV",
+        "optimizer_name": "SGD_MOMENTUM",
+        "semantic_exposure": 3,
+        "semantic_lr": 0.001
+      },
+      "reason": "NON_ADAM_REUSE_FORBIDDEN",
+      "reusable": false
+    },
+    {
+      "candidate": {
+        "dataset": "CCV",
+        "optimizer_name": "SGD_MOMENTUM",
+        "semantic_exposure": 3,
+        "semantic_lr": 0.003
+      },
+      "reason": "NON_ADAM_REUSE_FORBIDDEN",
+      "reusable": false
+    },
+    {
+      "candidate": {
+        "dataset": "CCV",
+        "optimizer_name": "SGD_MOMENTUM",
+        "semantic_exposure": 3,
+        "semantic_lr": 0.01
+      },
+      "reason": "NON_ADAM_REUSE_FORBIDDEN",
+      "reusable": false
+    },
+    {
+      "candidate": {
+        "dataset": "ALOI",
+        "optimizer_name": "Adam",
+        "semantic_exposure": 1,
+        "semantic_lr": 3e-05
+      },
+      "optimizer_provenance": {
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "name": "Adam",
+        "verified_from_frozen_B1_default_Adam_runner": true,
+        "weight_decay": 0.0
+      },
+      "reason": "EXACT_ADAM_B1_B2_PRE_GT_PROVENANCE",
+      "reusable": true,
+      "source_path": "outputs/bone_p3/p3_c1_b2_targeted_local_refinement/aloi/lr_3.0000000000000001e-05__es_1.json",
+      "source_sha256": "62be0e76a44b65d3586ceb4d8e91133165b4861c21032b0cf2780a906da205b5"
+    },
+    {
+      "candidate": {
+        "dataset": "ALOI",
+        "optimizer_name": "Adam",
+        "semantic_exposure": 1,
+        "semantic_lr": 0.0001
+      },
+      "optimizer_provenance": {
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "name": "Adam",
+        "verified_from_frozen_B1_default_Adam_runner": true,
+        "weight_decay": 0.0
+      },
+      "reason": "EXACT_ADAM_B1_B2_PRE_GT_PROVENANCE",
+      "reusable": true,
+      "source_path": "outputs/bone_p3/p3_c1_b2_targeted_local_refinement/aloi/lr_0.0001__es_1.json",
+      "source_sha256": "ad85a389e188677f0de1f00eace2afbedb966de05f793d50d6a5cac6dd6bfcae"
+    },
+    {
+      "candidate": {
+        "dataset": "ALOI",
+        "optimizer_name": "Adam",
+        "semantic_exposure": 1,
+        "semantic_lr": 0.0003
+      },
+      "optimizer_provenance": {
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "name": "Adam",
+        "verified_from_frozen_B1_default_Adam_runner": true,
+        "weight_decay": 0.0
+      },
+      "reason": "EXACT_ADAM_B1_B2_PRE_GT_PROVENANCE",
+      "reusable": true,
+      "source_path": "outputs/bone_p3/p3_c1_b2_targeted_local_refinement/aloi/lr_0.00029999999999999997__es_1.json",
+      "source_sha256": "0e6aa240b1526bc1b753387a180c826a09b002462962b1a41d5e0154f151ca1d"
+    },
+    {
+      "candidate": {
+        "dataset": "ALOI",
+        "optimizer_name": "AdamW",
+        "semantic_exposure": 1,
+        "semantic_lr": 3e-05
+      },
+      "reason": "NON_ADAM_REUSE_FORBIDDEN",
+      "reusable": false
+    },
+    {
+      "candidate": {
+        "dataset": "ALOI",
+        "optimizer_name": "AdamW",
+        "semantic_exposure": 1,
+        "semantic_lr": 0.0001
+      },
+      "reason": "NON_ADAM_REUSE_FORBIDDEN",
+      "reusable": false
+    },
+    {
+      "candidate": {
+        "dataset": "ALOI",
+        "optimizer_name": "AdamW",
+        "semantic_exposure": 1,
+        "semantic_lr": 0.0003
+      },
+      "reason": "NON_ADAM_REUSE_FORBIDDEN",
+      "reusable": false
+    },
+    {
+      "candidate": {
+        "dataset": "ALOI",
+        "optimizer_name": "SGD_MOMENTUM",
+        "semantic_exposure": 1,
+        "semantic_lr": 0.001
+      },
+      "reason": "NON_ADAM_REUSE_FORBIDDEN",
+      "reusable": false
+    },
+    {
+      "candidate": {
+        "dataset": "ALOI",
+        "optimizer_name": "SGD_MOMENTUM",
+        "semantic_exposure": 1,
+        "semantic_lr": 0.003
+      },
+      "reason": "NON_ADAM_REUSE_FORBIDDEN",
+      "reusable": false
+    },
+    {
+      "candidate": {
+        "dataset": "ALOI",
+        "optimizer_name": "SGD_MOMENTUM",
+        "semantic_exposure": 1,
+        "semantic_lr": 0.01
+      },
+      "reason": "NON_ADAM_REUSE_FORBIDDEN",
+      "reusable": false
+    }
+  ],
+  "formal_metrics_read": false,
+  "full_gt_used": false,
+  "new_count": 12,
+  "reusable_count": 6
+}

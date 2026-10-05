@@ -1,0 +1,77 @@
+P3-C3-A0 UCAB FINAL CONFIRMATORY CONCLUSION
+
+The complete preregistered evaluation executed successfully.
+
+The scientific hypothesis did not satisfy the preregistered
+confirmatory gates and is therefore closed fail-closed.
+
+Final verdict:
+
+P3_C3_A0_UCAB_CONFIRMATORY = FAIL_CLOSED
+
+
+PRIMARY EFFECT
+
+The unseen confirmatory macro mean TRUE_BUDGET - CURRENT ACC
+is positive.
+
+Both ALOI and CCV have positive dataset-level mean delta ACC.
+
+However, only 3 of the 6 unseen dataset x seed pairs have
+positive delta ACC.
+
+The preregistered primary requirement is at least 4 of 6.
+
+Therefore:
+
+PRIMARY_GATE = FAIL
+
+
+MECHANISM
+
+TRUE_BUDGET - MEAN_BUDGET has a negative unseen macro mean
+delta ACC and only 3 of 6 positive pairs.
+
+Therefore the current nonlinear sample-specific absolute
+utility budget is not confirmed to outperform the supported-set
+mean-budget control.
+
+TRUE_MINUS_MEAN_GATE = FAIL
+
+
+TRUE_BUDGET - SHUFFLE_BUDGET has a positive unseen macro mean
+delta ACC and 4 of 6 positive pairs.
+
+This supports the existence of sample-budget correspondence
+information, but it is insufficient to rescue the full UCAB
+hypothesis because TRUE_BUDGET does not outperform the
+MEAN_BUDGET control.
+
+TRUE_MINUS_SHUFFLE_GATE = PASS
+
+
+SECONDARY METRICS
+
+Unseen macro mean deltas for ACC, NMI and ARI are all positive.
+
+SECONDARY_GATE = PASS
+
+
+SCIENTIFIC INTERPRETATION
+
+This result does NOT reject the previously established
+semantic-direction role of T_rel.
+
+It also does NOT by itself reject relative utility-conditioned
+action weighting alpha(U).
+
+It specifically fails to validate the current nonlinear
+sample-specific absolute action-budget formulation B(U) as a
+stable improvement over the mean-budget control.
+
+The current P3-C3-A0 nonlinear absolute UCAB formulation is
+therefore CLOSED.
+
+No result-driven LR, exposure, optimizer, seed, threshold,
+budget-function or loss retuning is permitted for this
+confirmatory experiment.

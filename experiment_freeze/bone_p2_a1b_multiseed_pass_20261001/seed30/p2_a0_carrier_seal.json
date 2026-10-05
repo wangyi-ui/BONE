@@ -1,0 +1,15 @@
+{
+  "paths": {
+    "parent_corruption_artifact": "outputs/bone_p1/msrc_snr2p5_exact2of4_seed20/bone_p1_msrc_corruption.npz"
+  },
+  "sha256": {
+    "audit": "e43ffa70e4da5ca24d41f5673748a390ccc91d78e637347ac82ad64091692efd",
+    "carrier_model_state": "978aa207d5a014c636c81fa713ef55836f89563163236dbd6c992179dfb257a3",
+    "carrier_npz": "65dbc90670609364f005f9377d6d8c889cf3fa43036dd4cf043521eaa9ec3eab",
+    "materializer_source": "70583ad56eba43da26adbf95e50ed287a69c3b13c259474e1cf81eeada1fb04f",
+    "method_amv": "68f3edcd55e32456a5bcdbcbbc48329f19c5652dee1fc27420e2865f7068e5dc",
+    "method_bone": "d13ba6ba91362210f9a614f7353e9de688ff1815f075916b457df6c767a14092",
+    "parent_corruption_artifact": "2b05b7b5adfe872c60475fe8d3d9f4959229a57ffb1eb50ff29adb015f38db87",
+    "protocol_source": "600a7f61eb71b75c5d262f397faf0add14f7e4cc410e6be4ee7692b1df5c93d7"
+  }
+}

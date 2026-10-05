@@ -1,0 +1,41 @@
+BONE P3-B1 Caltech-5V Engineering Smoke
+========================================
+
+STATUS:
+
+ENGINEERING PASS ONLY
+
+Parents:
+
+P3-A1
+bone_p3_a1_action_space_protocol_20261001
+
+P3-A3
+bone_p3_a3_sparse_label_protocol_20261001
+
+P3-A4
+bone_p3_a4_corruption_protocol_20261001
+
+P3-B0
+bone_p3_b0_generic_carrier_20261001
+
+Dataset:
+
+Caltech-5V
+
+N = 1400
+V = 5
+K = 7
+
+Training seed:
+
+20
+
+Engineering native epochs:
+
+2
+
+This freeze proves pipeline portability only.
+
+It is NOT a formal clustering result and must not
+be used as an ACC/NMI/Purity result in the paper.

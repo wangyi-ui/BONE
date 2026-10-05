@@ -1,0 +1,17 @@
+{
+  "final_hyperparameters_sha256": "1e296aa4ea8cd562857044c1dca8432f854d32dc67868002f240af2c0d53b9d0",
+  "hyperparameter_cli_override_allowed": false,
+  "parameter_retuning_allowed": false,
+  "source": "experiment_freeze/bone_p3_c1_b1_a2_final_hyperparameters_20261004/FINAL_HYPERPARAMETERS.json",
+  "bindings": [
+    {"dataset": "HandWrite", "semantic_lr": 0.00001, "semantic_exposure": 1},
+    {"dataset": "BDGP", "semantic_lr": 0.0003, "semantic_exposure": 5},
+    {"dataset": "MSRC", "semantic_lr": 0.001, "semantic_exposure": 1},
+    {"dataset": "COIL20", "semantic_lr": 0.00001, "semantic_exposure": 5},
+    {"dataset": "Caltech-5V", "semantic_lr": 0.001, "semantic_exposure": 5},
+    {"dataset": "MNIST-USPS", "semantic_lr": 0.0001, "semantic_exposure": 5},
+    {"dataset": "ALOI", "semantic_lr": 0.0001, "semantic_exposure": 1},
+    {"dataset": "CCV", "semantic_lr": 0.00001, "semantic_exposure": 3}
+  ]
+}
+

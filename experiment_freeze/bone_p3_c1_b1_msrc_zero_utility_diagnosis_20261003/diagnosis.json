@@ -1,0 +1,150 @@
+{
+  "action_complement_pass": true,
+  "action_count": 6,
+  "class_feasibility": {
+    "all_classes_feasible": true,
+    "class_count": 7,
+    "per_class": {
+      "0": {
+        "anchor_utility_masses": [
+          5.696530342102051,
+          5.998659133911133
+        ],
+        "feasible": true,
+        "supported_anchor_count": 2
+      },
+      "1": {
+        "anchor_utility_masses": [
+          2.6246438026428223,
+          4.59429407119751
+        ],
+        "feasible": true,
+        "supported_anchor_count": 2
+      },
+      "2": {
+        "anchor_utility_masses": [
+          5.443598747253418,
+          5.592105865478516
+        ],
+        "feasible": true,
+        "supported_anchor_count": 2
+      },
+      "3": {
+        "anchor_utility_masses": [
+          5.965740203857422,
+          5.9839863777160645
+        ],
+        "feasible": true,
+        "supported_anchor_count": 2
+      },
+      "4": {
+        "anchor_utility_masses": [
+          4.245691299438477,
+          5.067976474761963
+        ],
+        "feasible": true,
+        "supported_anchor_count": 2
+      },
+      "5": {
+        "anchor_utility_masses": [
+          5.230135440826416,
+          0.0
+        ],
+        "feasible": true,
+        "supported_anchor_count": 1
+      },
+      "6": {
+        "anchor_utility_masses": [
+          4.251868724822998,
+          5.999362945556641
+        ],
+        "feasible": true,
+        "supported_anchor_count": 2
+      }
+    },
+    "policy": "AT_LEAST_ONE_SUPPORTED_ANCHOR_PER_CLASS_PER_DEV_SEED"
+  },
+  "cluster_count": 7,
+  "dataset": "MSRC",
+  "dev_seed": 11,
+  "full_gt_loaded": false,
+  "input_path": "outputs/bone_p3/p3_c1_b1_optuna/engineering_msrc_adapter_smoke/msrc/dev_seed11/carrier/carrier_pre_gt.npz",
+  "input_sha256": "b8c042127997f7604c466a435e726d0ac01b4db66f78a8fc3a4867f361b8c921",
+  "labeled_anchor_count": 14,
+  "positive_sample_action_count": 1170,
+  "raw175": {
+    "array_position": 175,
+    "closure_count": 0,
+    "closure_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "conf_gen": [
+      0.4998953938484192,
+      0.4999920129776001,
+      0.5001041889190674,
+      0.6120352149009705,
+      0.6118863224983215,
+      0.999623715877533
+    ],
+    "generator_predictions": [
+      4,
+      4,
+      4,
+      5,
+      5,
+      5
+    ],
+    "sparse_target": 5,
+    "support_ver": [
+      0.0003359813126735389,
+      0.00023936161596793681,
+      0.0001271885703317821,
+      0.4997375011444092,
+      0.4998863935470581,
+      0.11214902251958847
+    ],
+    "u_vector": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "utility_mass": 0.0,
+    "verifier_predictions": [
+      5,
+      5,
+      5,
+      4,
+      4,
+      4
+    ]
+  },
+  "sample_count": 210,
+  "sample_id_unique_pass": true,
+  "u_formula_parity": true,
+  "u_max_abs_diff": 0.0,
+  "view_count": 4,
+  "zero_mass_labeled_count": 1,
+  "zero_mass_labeled_records": [
+    {
+      "array_position": 175,
+      "class": 5,
+      "raw_id": 175
+    }
+  ],
+  "zero_mass_raw_ids": [
+    15,
+    47,
+    114,
+    175
+  ],
+  "zero_mass_sample_count": 4,
+  "zero_sample_action_count": 90
+}

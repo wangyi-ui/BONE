@@ -1,0 +1,44 @@
+======================================================================
+BONE-P0 NATIVE MSRC REPRODUCTION
+======================================================================
+seed       = 42
+epoch      = 100
+batch_size = 128
+n_anchor   = 3
+layer      = 5
+lambda     = 0.1
+lr         = 0.01
+device     = cpu
+
+========== DATASET ==========
+m([24, 512, 256, 254]), n(210), v(4), k(7)
+
+========== AMV INITIALIZATION ==========
+Using entire dataset (210 samples) to init
+Inited with 68 iters, time cost: 0.189s
+Init by pre-computed anchors
+Total number of parameters in the model: 31360
+
+========== TRAINING ==========
+Epoch 020, ACC: 0.8905, NMI: 0.7982, Purity: 0.8905
+Epoch 040, ACC: 0.9095, NMI: 0.8273, Purity: 0.9095
+Epoch 060, ACC: 0.9381, NMI: 0.8809, Purity: 0.9381
+Epoch 080, ACC: 0.9381, NMI: 0.8809, Purity: 0.9381
+Epoch 100, ACC: 0.9429, NMI: 0.8820, Purity: 0.9429
+
+======================================================================
+BONE-P0 FINAL
+======================================================================
+FINAL_ACC=0.942857
+FINAL_NMI=0.881955
+FINAL_PURITY=0.942857
+
+OFFICIAL_REFERENCE
+ACC=0.9381
+NMI=0.8809
+PURITY=0.9381
+
+DELTA
+DELTA_ACC=+0.004757
+DELTA_NMI=+0.001055
+DELTA_PURITY=+0.004757

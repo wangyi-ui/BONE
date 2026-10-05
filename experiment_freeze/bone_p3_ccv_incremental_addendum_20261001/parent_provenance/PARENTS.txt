@@ -1,0 +1,31 @@
+BONE P3 CCV Incremental Addendum
+================================
+
+CCV source:
+
+data/CCV.mat
+
+CCV SHA256:
+
+4fc88d5c925f9a6c00bbcafc30349df15a32dac44464eb40ef767ca3569f244a
+
+Parent freezes:
+
+P3-A1:
+experiment_freeze/bone_p3_a1_action_space_protocol_20261001
+
+P3-A3:
+experiment_freeze/bone_p3_a3_sparse_label_protocol_20261001
+
+P3-A4:
+experiment_freeze/bone_p3_a4_corruption_protocol_20261001
+
+Historical P3-A2:
+
+CCV = BLOCKED_MISSING_DATA
+
+Incremental P3-A2:
+
+CCV = READY_FOR_P3_B0
+
+Historical freezes were not rewritten.

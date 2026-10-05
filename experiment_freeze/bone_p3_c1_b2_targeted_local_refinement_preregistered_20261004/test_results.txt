@@ -1,0 +1,1 @@
+pytest tests/test_p3_c1_b2_local_refinement.py: 3 passed

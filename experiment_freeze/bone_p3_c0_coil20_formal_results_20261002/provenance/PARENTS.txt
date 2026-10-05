@@ -1,0 +1,34 @@
+BONE P3-C0 COIL20 Formal Result Provenance
+==========================================
+
+PARENT FORMAL PROTOCOL:
+
+experiment_freeze/
+bone_p3_c0_cross_dataset_formal_protocol_20261001
+
+FORMAL RESULT ROOT:
+
+outputs/bone_p3/p3_c0_formal/coil20
+
+SEEDS:
+
+20
+30
+50
+
+All seed-specific:
+
+carrier audits
+pre-GT audits
+pre-GT seals
+formal metrics
+
+are preserved separately.
+
+No seed was selected or discarded according
+to performance.
+
+No formal hyperparameter was changed after
+observing COIL20 results.
+
+Mixed and negative results are retained.

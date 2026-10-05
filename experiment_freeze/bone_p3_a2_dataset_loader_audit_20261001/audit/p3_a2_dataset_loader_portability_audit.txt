@@ -1,0 +1,28 @@
+P3-A2 Dataset/Loader Portability Audit
+=======================================
+Read-only static/data-integrity audit. No training, GPU, optimizer, clustering, metrics, or loader/data mutation.
+
+dataset         status                     actual N/V/K       actual dims                         S  sample-id adapter  chunking
+MNIST-USPS      READY_FOR_P3_B0            5000/2/10          [784, 784]                          2  True               False
+BDGP            READY_FOR_P3_B0            2500/2/5           [1750, 79]                          2  True               False
+CCV             BLOCKED_MISSING_DATA       NOT_FOUND/NOT_FOUND/NOT_FOUND NOT_FOUND                           6  True               False
+Caltech-5V      READY_FOR_P3_B0            1400/5/7           [40, 254, 1984, 512, 928]           20 True               False
+HandWrite       READY_FOR_P3_B0            2000/6/10          [216, 76, 64, 6, 240, 47]           20 True               False
+COIL20          READY_FOR_P3_B0            1440/3/20          [1024, 3304, 6750]                  6  True               False
+MSRC            READY_FOR_P3_B0            210/4/7            [24, 512, 256, 254]                 6  True               False
+YouTubeFace50   BLOCKED_MISSING_DATA       NOT_FOUND/NOT_FOUND/NOT_FOUND NOT_FOUND                           6  True               True
+ALOI            READY_FOR_P3_B0            10800/4/100        [77, 13, 64, 125]                   6  True               False
+
+Caltech-5V status: METADATA_ONLY_MISMATCH
+Caltech raw X1..X5 map directly to loader positions/BONE indices/P3 indices 0..4; only dataset_info dimension order differs.
+CCV and YouTubeFace50 files are MISSING; their actual shape/label claims are NOT_FOUND.
+All native RandDatasetMV paths return views and labels, never an explicit sample_id; every dataset requires an experiment-layer sample-id adapter.
+Native preprocessing: raw cast/conditional transpose -> shared deterministic shuffle -> per-view full-dataset StandardScaler -> BONE batch transpose.
+Recommended corruption insertion point: after native preprocessing, before BONE input, with no post-corruption re-standardization.
+Label leakage boundary: native forward/loss does not use ground-truth; labels are used by periodic evaluation only.
+Ready datasets: MNIST-USPS, BDGP, Caltech-5V, HandWrite, COIL20, MSRC, ALOI
+Blocked datasets: CCV, YouTubeFace50
+
+Native hashes:
+method/bone.py d13ba6ba91362210f9a614f7353e9de688ff1815f075916b457df6c767a14092
+method/amv.py  68f3edcd55e32456a5bcdbcbbc48329f19c5652dee1fc27420e2865f7068e5dc

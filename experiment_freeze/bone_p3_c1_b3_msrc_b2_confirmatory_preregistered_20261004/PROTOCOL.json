@@ -1,0 +1,37 @@
+{
+  "arm_parameters": {
+    "BASE": {
+      "semantic_exposure": 0,
+      "semantic_lr": null
+    },
+    "OURS_B1": {
+      "semantic_exposure": 1,
+      "semantic_lr": 0.001
+    },
+    "OURS_B2": {
+      "semantic_exposure": 1,
+      "semantic_lr": 0.002
+    }
+  },
+  "arms": [
+    "BASE",
+    "OURS_B1",
+    "OURS_B2"
+  ],
+  "carrier_epochs": 100,
+  "dataset": "MSRC",
+  "forbidden_selection_seeds": [
+    20,
+    30,
+    50
+  ],
+  "full_gt_used": false,
+  "real_confirmatory_run": false,
+  "refinement_epochs": 20,
+  "seeds": [
+    60,
+    70,
+    90
+  ],
+  "stage": "P3-C1-B3"
+}
