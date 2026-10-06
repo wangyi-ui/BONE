@@ -1,0 +1,121 @@
+{
+  "GT_read": false,
+  "arm_cell_count": 48,
+  "arms": [
+    "BASE",
+    "OURS"
+  ],
+  "base_definition": "same fresh carrier and native structural consolidation without semantic relation action",
+  "carrier_epochs": 100,
+  "closure_rule": "This is the final GPU validation round for the current paper cycle. No further parameter search after held-out results are observed.",
+  "config_source": "P4-A0 GT-guided exploratory upper-bound configuration frozen before held-out seeds 149/163/179 are trained",
+  "configs": {
+    "ALOI": {
+      "refinement_horizon": 50,
+      "semantic_exposure": 10,
+      "semantic_lr": 0.0003
+    },
+    "BDGP": {
+      "refinement_horizon": 15,
+      "semantic_exposure": 1,
+      "semantic_lr": 0.002
+    },
+    "CCV": {
+      "refinement_horizon": 65,
+      "semantic_exposure": 5,
+      "semantic_lr": 0.0001
+    },
+    "COIL20": {
+      "refinement_horizon": 40,
+      "semantic_exposure": 1,
+      "semantic_lr": 3e-05
+    },
+    "Caltech-5V": {
+      "refinement_horizon": 30,
+      "semantic_exposure": 10,
+      "semantic_lr": 0.001
+    },
+    "HandWrite": {
+      "refinement_horizon": 20,
+      "semantic_exposure": 1,
+      "semantic_lr": 5e-06
+    },
+    "MNIST-USPS": {
+      "refinement_horizon": 40,
+      "semantic_exposure": 5,
+      "semantic_lr": 0.0002
+    },
+    "MSRC": {
+      "refinement_horizon": 5,
+      "semantic_exposure": 1,
+      "semantic_lr": 0.0005
+    }
+  },
+  "dataset_count": 8,
+  "dataset_seed_cell_count": 24,
+  "datasets": [
+    "MSRC",
+    "BDGP",
+    "HandWrite",
+    "Caltech-5V",
+    "MNIST-USPS",
+    "COIL20",
+    "ALOI",
+    "CCV"
+  ],
+  "derived_metric": "Mean3=(ACC+NMI+ARI)/3",
+  "forbidden_after_preregistration": [
+    "changing training seeds",
+    "dropping any registered dataset",
+    "changing semantic_lr",
+    "changing semantic_exposure",
+    "changing refinement_horizon",
+    "changing U_cycle",
+    "changing T_rel",
+    "changing semantic loss",
+    "changing native objective",
+    "changing corruption realization",
+    "looking at GT before global pre-GT seal",
+    "replacing an unfavorable seed",
+    "launching a second hyperparameter search"
+  ],
+  "gt_firewall": {
+    "GT_used_for_hyperparameter_selection_on_heldout_seeds": false,
+    "GT_used_for_model_selection_on_heldout_seeds": false,
+    "GT_used_for_training": false,
+    "required_before_GT_read": "all 24 dataset-seed cells complete, all 48 BASE/OURS prediction artifacts frozen, global pre-GT seal verified"
+  },
+  "hyperparameter_search": false,
+  "name": "Final Fixed-Configuration Held-Out Seed Validation",
+  "next_stage": "P5-A2_FIXED_CONFIG_HELDOUT_RUNNER_IMPLEMENTATION",
+  "ours_definition": "frozen U_cycle reliability + sparse-label T_rel semantic direction + utility-conditioned semantic relation action + native structural consolidation",
+  "primary_metrics": [
+    "ACC",
+    "NMI",
+    "ARI"
+  ],
+  "primary_reporting": [
+    "per-seed BASE and OURS metrics",
+    "per-dataset three-seed mean/std",
+    "per-dataset OURS-BASE delta",
+    "macro eight-dataset delta",
+    "positive-dataset count",
+    "positive-seed-cell count"
+  ],
+  "replication_interpretation": {
+    "failed": "macro DeltaMean3 <= 0",
+    "partial": "macro DeltaMean3 > 0 but strong criterion is not fully satisfied",
+    "strong": "macro DeltaMean3 > 0 AND at least 6/8 dataset mean DeltaMean3 > 0 AND macro DeltaACC/NMI/ARI are all > 0"
+  },
+  "role": "PAPER_CLEAN_HELD_OUT_SEED_CONFIRMATORY",
+  "scientific_comparison": "paired BASE versus OURS from identical fresh carrier state, identical native minibatch order, same dataset corruption realization, and same fixed refinement horizon",
+  "seed_count": 3,
+  "seed_selection_rule": "next three still-unused seeds from the previously frozen unseen candidate ordering after 113/127/139 were consumed by P4-B2",
+  "stage": "P5-A1",
+  "training_run": false,
+  "training_seeds": [
+    149,
+    163,
+    179
+  ]
+}

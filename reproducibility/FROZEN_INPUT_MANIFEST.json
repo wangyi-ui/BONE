@@ -1,0 +1,88 @@
+{
+  "ALOI_2perclass.npz": {
+    "sha256": "5bafa96ebb68a50af98a9e185b5fd78198fca1c4d48db0060016ccfb50259e52",
+    "size_bytes": 1172,
+    "source_path": "outputs/bone_p3/sparse_splits/ALOI_2perclass.npz"
+  },
+  "ALOI_mask.npz": {
+    "sha256": "b36a9fed9473e1bdd07a99d524c4fd06f65215a4416c4d3f93ec331adce6a276",
+    "size_bytes": 22363,
+    "source_path": "outputs/bone_p3/corruptions/ALOI_mask.npz"
+  },
+  "BDGP_2perclass.npz": {
+    "sha256": "c17e4e699f4244356b601b850328b8a01c1443d77a08ce8646e81f990a981756",
+    "size_bytes": 430,
+    "source_path": "outputs/bone_p3/sparse_splits/BDGP_2perclass.npz"
+  },
+  "BDGP_mask.npz": {
+    "sha256": "b552d27d0f79547edbd53622d80d476bf781ea253b1d23649f2964949345a580",
+    "size_bytes": 4777,
+    "source_path": "outputs/bone_p3/corruptions/BDGP_mask.npz"
+  },
+  "CCV_2perclass.npz": {
+    "sha256": "d7fe600d8b27e44ea96467e0f49027ed9e243a3bd9ac6d4b153e1bf0641344e9",
+    "size_bytes": 567,
+    "source_path": "outputs/bone_p3/ccv_incremental/CCV_2perclass.npz"
+  },
+  "CCV_mask.npz": {
+    "sha256": "b2e46f70468f0ce8f2e269ce7a9168ec3e70f8bd8dd4a02bc6fa9ce2d2b53716",
+    "size_bytes": 13824,
+    "source_path": "outputs/bone_p3/ccv_incremental/CCV_corruption_mask.npz"
+  },
+  "COIL20_2perclass.npz": {
+    "sha256": "bb040f601b6485900a60b61b6e5e1e8c6ea9e7c3b957945aae40c7111b01c844",
+    "size_bytes": 548,
+    "source_path": "outputs/bone_p3/sparse_splits/COIL20_2perclass.npz"
+  },
+  "COIL20_mask.npz": {
+    "sha256": "f48566765c63d6613b3a8fb37174274bed17ae147cade27fa42178726b6e074d",
+    "size_bytes": 3372,
+    "source_path": "outputs/bone_p3/corruptions/COIL20_mask.npz"
+  },
+  "Caltech-5V_2perclass.npz": {
+    "sha256": "3ba6921e3e0baf8ab6a32669d9a1506e019f22ff781cd23eae13ce1f3495e0af",
+    "size_bytes": 442,
+    "source_path": "outputs/bone_p3/sparse_splits/Caltech-5V_2perclass.npz"
+  },
+  "Caltech-5V_mask.npz": {
+    "sha256": "93ea34ac386d39f7e66a8edd232d2c797eb4a000574cabe14aa994fe78d57191",
+    "size_bytes": 3758,
+    "source_path": "outputs/bone_p3/corruptions/Caltech-5V_mask.npz"
+  },
+  "HandWrite_2perclass.npz": {
+    "sha256": "e0557ad41e63e1b4b4541c77ea5c8adc078db0123c8df144a52fc717395528eb",
+    "size_bytes": 470,
+    "source_path": "outputs/bone_p3/sparse_splits/HandWrite_2perclass.npz"
+  },
+  "HandWrite_mask.npz": {
+    "sha256": "54bf4a0fab6134cd4795b7fab95ca882f5b80194446c4ba6ad7d2fb96c7dc92e",
+    "size_bytes": 5342,
+    "source_path": "outputs/bone_p3/corruptions/HandWrite_mask.npz"
+  },
+  "MNIST-USPS_2perclass.npz": {
+    "sha256": "8ab92dda1d4352ef396e6224d21cfc82f62ff7c2b783098d5af19438372434dc",
+    "size_bytes": 475,
+    "source_path": "outputs/bone_p3/sparse_splits/MNIST-USPS_2perclass.npz"
+  },
+  "MNIST-USPS_mask.npz": {
+    "sha256": "409ac676ad247c8e099f404c2bd9d1d474463d50548a1178ec940144b9cc3f88",
+    "size_bytes": 9009,
+    "source_path": "outputs/bone_p3/corruptions/MNIST-USPS_mask.npz"
+  },
+  "MSRC_2perclass.npz": {
+    "sha256": "720d6d238b6f068ef78efbb97e87d91cc4ff4bb5fad48ce67734a4f04a98d144",
+    "size_bytes": 437,
+    "source_path": "outputs/bone_p3/sparse_splits/MSRC_2perclass.npz"
+  },
+  "MSRC_P1_ARTIFACT": {
+    "expected_path": "outputs/bone_p1/msrc_snr2p5_exact2of4_seed20/bone_p1_msrc_corruption.npz",
+    "expected_sha256": "2b05b7b5adfe872c60475fe8d3d9f4959229a57ffb1eb50ff29adb015f38db87",
+    "regeneration_script": "experiments/weak_quality/materialize_bone_p1_msrc_corruption.py",
+    "repository_copy": false
+  },
+  "MSRC_mask.npz": {
+    "sha256": "9dfb39b82b94bb6dbd56159b59d0a07b71315b26ca1e0443066dc664f64a7f66",
+    "size_bytes": 919,
+    "source_path": "outputs/bone_p3/corruptions/MSRC_mask.npz"
+  }
+}

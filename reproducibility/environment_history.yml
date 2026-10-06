@@ -1,0 +1,6 @@
+name: /root/autodl-tmp/conda_envs/bone
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+prefix: /root/autodl-tmp/conda_envs/bone
