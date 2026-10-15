@@ -1,0 +1,27 @@
+{
+  "cache_key": {
+    "inputs": {
+      "q_views.npy": "fb5d3017e9d92e23519475494dee04ca1c8a2f46be1f6a193606f5e903fe3f5a",
+      "sample_ids.npy": "653b1ace2feec8c27849524d03ecd6edb93234fbda47699b5503f3550d90d9af",
+      "BASE/predictions.npy": "3e744a9e9a404f774f490330adec6d3760a40e75b811627f9d5eb007d51dbe6f",
+      "UNIFORM_U/predictions.npy": "144e356919945dd4194b78b8e058842081361cebbe5fe5d85949c29397355ae0",
+      "SHUFFLED_U/predictions.npy": "83199acd27052398b1495dfa5cc17cf5bed97e786dcb3f06a12ae3b590478e48",
+      "SHUFFLED_T/predictions.npy": "1c4e80174d1cee961d3c1f9db30bc3d5fb8183fbdd808a1c5f89322895f072d8",
+      "OURS/predictions.npy": "f6319bf2ab36370d7fc14429a03a58002c36de5d62d7bfad07aab17ebabeb056"
+    },
+    "parameters": {
+      "n_components": 2,
+      "perplexity": 30.0,
+      "learning_rate": "auto",
+      "init": "pca",
+      "random_state": 20,
+      "max_iter": 1000,
+      "method": "barnes_hut",
+      "angle": 0.5,
+      "n_jobs": 4,
+      "verbose": 1
+    }
+  },
+  "kl_divergence": 1.1598334312438965,
+  "iterations": 999
+}
